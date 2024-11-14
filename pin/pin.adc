@@ -215,3 +215,4 @@ set_pin_assignment	{ tmds_data_p[2] }	{ LOCATION = P1; IOSTANDARD = LVDS33; }
 
 
 
+

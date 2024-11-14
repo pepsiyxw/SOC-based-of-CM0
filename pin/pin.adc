@@ -1,0 +1,217 @@
+set_pin_assignment	{ FPGAtwo_rst_n }	{ LOCATION = E3; PULLTYPE = PULLUP; }
+set_pin_assignment	{ PORTIO_GPIO0[0] }	{ LOCATION = L8; }
+set_pin_assignment	{ PORTIO_GPIO0[1] }	{ LOCATION = P8; }
+set_pin_assignment	{ PORTIO_GPIO0[2] }	{ LOCATION = N9; }
+set_pin_assignment	{ PORTIO_GPIO0[3] }	{ LOCATION = L10; }
+set_pin_assignment	{ PORTIO_GPIO0[4] }	{ LOCATION = P11; }
+set_pin_assignment	{ PORTIO_GPIO1[10] }	{ LOCATION = P9; }
+set_pin_assignment	{ PORTIO_GPIO1[11] }	{ LOCATION = M10; }
+set_pin_assignment	{ PORTIO_GPIO1[8] }	{ LOCATION = N8; }
+set_pin_assignment	{ PORTIO_GPIO1[9] }	{ LOCATION = M9; }
+set_pin_assignment	{ RSTn }	{ LOCATION = T14; }
+set_pin_assignment	{ RXD_UART1 }	{ LOCATION = P7; }
+set_pin_assignment	{ RXD_UART2 }	{ LOCATION = L12; }
+set_pin_assignment	{ SG90_PWM_out }	{ LOCATION = F5; }
+set_pin_assignment	{ SWCLK }	{ LOCATION = R2; }
+set_pin_assignment	{ SWDIO }	{ LOCATION = P2; }
+set_pin_assignment	{ Servo_down }	{ LOCATION = B1; PULLTYPE = PULLDOWN; }
+set_pin_assignment	{ Servo_left }	{ LOCATION = A2; PULLTYPE = PULLDOWN; }
+set_pin_assignment	{ Servo_right }	{ LOCATION = B2; PULLTYPE = PULLDOWN; }
+set_pin_assignment	{ Servo_rst }	{ LOCATION = C1; PULLTYPE = PULLDOWN; }
+set_pin_assignment	{ Servo_track_en }	{ LOCATION = F6; PULLTYPE = PULLDOWN; }
+set_pin_assignment	{ Servo_up }	{ LOCATION = C3; PULLTYPE = PULLDOWN; }
+set_pin_assignment	{ TXD_UART1 }	{ LOCATION = T15; }
+set_pin_assignment	{ TXD_UART2 }	{ LOCATION = M11; }
+set_pin_assignment	{ cam_data[0] }	{ LOCATION = T8; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_data[1] }	{ LOCATION = T9; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_data[2] }	{ LOCATION = R9; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_data[3] }	{ LOCATION = T12; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_data[4] }	{ LOCATION = R12; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_data[5] }	{ LOCATION = T13; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_data[6] }	{ LOCATION = N5; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_data[7] }	{ LOCATION = P5; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_href }	{ LOCATION = T5; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_pclk }	{ LOCATION = M6; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_pwdn }	{ LOCATION = P6; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_rst_n }	{ LOCATION = T7; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_scl }	{ LOCATION = R5; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_sda }	{ LOCATION = T6; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_vsync }	{ LOCATION = T4; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ exit_game_button }	{ LOCATION = F1; }
+set_pin_assignment	{ exit_interrupt0 }	{ LOCATION = L3; PULLTYPE = PULLDOWN; }
+set_pin_assignment	{ exit_interrupt1 }	{ LOCATION = M2; PULLTYPE = PULLDOWN; }
+set_pin_assignment	{ exit_interrupt2 }	{ LOCATION = M5; PULLTYPE = PULLDOWN; }
+set_pin_assignment	{ exit_interrupt3 }	{ LOCATION = E2; PULLTYPE = PULLDOWN; }
+set_pin_assignment	{ exit_interrupt4 }	{ LOCATION = F2; PULLTYPE = PULLDOWN; }
+set_pin_assignment	{ exit_interrupt5 }	{ LOCATION = K1; PULLTYPE = PULLDOWN; }
+set_pin_assignment	{ exit_interrupt6 }	{ LOCATION = L1; PULLTYPE = PULLDOWN; }
+set_pin_assignment	{ exit_interrupt7 }	{ LOCATION = N3; PULLTYPE = PULLDOWN; }
+set_pin_assignment	{ exit_interrupt8 }	{ LOCATION = E1; PULLTYPE = PULLDOWN; }
+set_pin_assignment	{ first_camera_bit }	{ LOCATION = C2; }
+set_pin_assignment	{ first_camera_clk }	{ LOCATION = D3; PULLTYPE = PULLUP; SLEWRATE = FAST; }
+set_pin_assignment	{ first_custom_button }	{ LOCATION = M4; }
+set_pin_assignment	{ first_rden }	{ LOCATION = E4; PULLTYPE = PULLDOWN; SLEWRATE = FAST; }
+set_pin_assignment	{ fourth_left }	{ LOCATION = L4; PULLTYPE = PULLDOWN; }
+set_pin_assignment	{ fourth_right }	{ LOCATION = K5; PULLTYPE = PULLDOWN; }
+set_pin_assignment	{ fourth_rstn }	{ LOCATION = D1; PULLTYPE = PULLUP; }
+set_pin_assignment	{ fourth_up }	{ LOCATION = M3; PULLTYPE = PULLDOWN; }
+set_pin_assignment	{ microphone_down }	{ LOCATION = N12; }
+set_pin_assignment	{ microphone_left }	{ LOCATION = P12; }
+set_pin_assignment	{ microphone_right }	{ LOCATION = M12; }
+set_pin_assignment	{ microphone_up }	{ LOCATION = R16; }
+set_pin_assignment	{ sd_clk }	{ LOCATION = J1; }
+set_pin_assignment	{ sd_cs }	{ LOCATION = K2; }
+set_pin_assignment	{ sd_miso }	{ LOCATION = G1; }
+set_pin_assignment	{ sd_mosi }	{ LOCATION = H1; }
+set_pin_assignment	{ sdram_addr[0] }	{ LOCATION = K14; }
+set_pin_assignment	{ sdram_addr[10] }	{ LOCATION = J16; }
+set_pin_assignment	{ sdram_addr[11] }	{ LOCATION = M14; }
+set_pin_assignment	{ sdram_addr[1] }	{ LOCATION = J13; }
+set_pin_assignment	{ sdram_addr[2] }	{ LOCATION = L14; }
+set_pin_assignment	{ sdram_addr[3] }	{ LOCATION = J12; }
+set_pin_assignment	{ sdram_addr[4] }	{ LOCATION = M16; }
+set_pin_assignment	{ sdram_addr[5] }	{ LOCATION = P15; }
+set_pin_assignment	{ sdram_addr[6] }	{ LOCATION = L16; }
+set_pin_assignment	{ sdram_addr[7] }	{ LOCATION = P16; }
+set_pin_assignment	{ sdram_addr[8] }	{ LOCATION = P14; }
+set_pin_assignment	{ sdram_addr[9] }	{ LOCATION = N14; }
+set_pin_assignment	{ sdram_ba[0] }	{ LOCATION = K16; }
+set_pin_assignment	{ sdram_ba[1] }	{ LOCATION = J14; }
+set_pin_assignment	{ sdram_cas_n }	{ LOCATION = M13; }
+set_pin_assignment	{ sdram_cke }	{ LOCATION = N16; }
+set_pin_assignment	{ sdram_clk }	{ LOCATION = L13; }
+set_pin_assignment	{ sdram_cs_n }	{ LOCATION = K11; }
+set_pin_assignment	{ sdram_data[0] }	{ LOCATION = G11; }
+set_pin_assignment	{ sdram_data[10] }	{ LOCATION = F13; }
+set_pin_assignment	{ sdram_data[11] }	{ LOCATION = F14; }
+set_pin_assignment	{ sdram_data[12] }	{ LOCATION = F15; }
+set_pin_assignment	{ sdram_data[13] }	{ LOCATION = D14; }
+set_pin_assignment	{ sdram_data[14] }	{ LOCATION = D16; }
+set_pin_assignment	{ sdram_data[15] }	{ LOCATION = E15; }
+set_pin_assignment	{ sdram_data[1] }	{ LOCATION = K15; }
+set_pin_assignment	{ sdram_data[2] }	{ LOCATION = J11; }
+set_pin_assignment	{ sdram_data[3] }	{ LOCATION = G16; }
+set_pin_assignment	{ sdram_data[4] }	{ LOCATION = H15; }
+set_pin_assignment	{ sdram_data[5] }	{ LOCATION = H16; }
+set_pin_assignment	{ sdram_data[6] }	{ LOCATION = H13; }
+set_pin_assignment	{ sdram_data[7] }	{ LOCATION = H14; }
+set_pin_assignment	{ sdram_data[8] }	{ LOCATION = G12; }
+set_pin_assignment	{ sdram_data[9] }	{ LOCATION = G14; }
+set_pin_assignment	{ sdram_ras_n }	{ LOCATION = K12; }
+set_pin_assignment	{ sdram_we_n }	{ LOCATION = M15; }
+set_pin_assignment	{ second_custom_button }	{ LOCATION = L5; }
+set_pin_assignment	{ sys_clk }	{ LOCATION = R7; }
+set_pin_assignment	{ third_custom_button }	{ LOCATION = H2; }
+set_pin_assignment	{ tmds_clk_p }	{ LOCATION = P4; IOSTANDARD = LVDS33; }
+set_pin_assignment	{ tmds_data_p[0] }	{ LOCATION = J3; IOSTANDARD = LVDS33; }
+set_pin_assignment	{ tmds_data_p[1] }	{ LOCATION = N1; IOSTANDARD = LVDS33; }
+set_pin_assignment	{ tmds_data_p[2] }	{ LOCATION = P1; IOSTANDARD = LVDS33; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

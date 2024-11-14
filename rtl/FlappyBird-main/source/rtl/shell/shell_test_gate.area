@@ -1,0 +1,38 @@
+standard
+***Report Model: shell_go***
+
+IO Statistics
+#IO                        45
+  #input                   37
+  #output                   8
+  #inout                    0
+
+LUT Statistics
+#Total_luts               475
+  #lut4                   268
+  #lut5                    22
+  #lut6                     0
+  #lut5_mx41                0
+  #lut4_alu1b             185
+
+Utilization Statistics
+#lut                      475   out of  19600    2.42%
+#reg                      184   out of  19600    0.94%
+#le                         0
+#dsp                        0   out of     29    0.00%
+#bram                       0   out of     64    0.00%
+  #bram9k                   0
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#pad                       45   out of    188   23.94%
+  #ireg                     0
+  #oreg                     0
+  #treg                     0
+#pll                        0   out of      4    0.00%
+
+Report Hierarchy Area:
++-----------------------------------------------------------+
+|Instance |Module   |lut    |ripple |seq    |bram   |dsp    |
++-----------------------------------------------------------+
+|top      |shell_go |290    |185    |184    |0      |0      |
++-----------------------------------------------------------+

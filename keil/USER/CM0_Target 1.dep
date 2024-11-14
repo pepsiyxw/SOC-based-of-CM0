@@ -1,0 +1,206 @@
+Dependencies for Project 'CM0', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\CORE\startup_CMSDK_CM0.s)(0x64B66380)(--cpu Cortex-M0 -g --apcs=interwork -IE:\Keil5\Keil\V2M-MPS2_CMx_BSP\1.8.1\Device\CMSDK_CM0\Include--pd "__UVISION_VERSION SETA 538" --pd "CMSDK_CM0 SETA 1"--list .\listings\startup_cmsdk_cm0.lst --xref -o .\startup_cmsdk_cm0.o --depend .\startup_cmsdk_cm0.d)
+F (..\FWLIB\src\CMSDK_driver.c)(0x56014B1A)(--gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\FWLIB\inc -I ..\FWLIB -I ..\System -I ..\USER -I ..\Games -I ..\HARDWARE-IE:\Keil5\Keil\V2M-MPS2_CMx_BSP\1.8.1\Device\CMSDK_CM0\Include-D__UVISION_VERSION="538" -DCMSDK_CM0-o .\cmsdk_driver.o --omf_browse .\cmsdk_driver.crf --depend .\cmsdk_driver.d)
+I (..\FWLIB\inc\CMSDK_CM0.h)(0x655C9054)
+I (..\CORE\core_cm0.h)(0x56014B1A)
+I (E:\Keil5\ARM\ARMCC\include\stdint.h)(0x655C8F47)
+I (..\CORE\core_cmInstr.h)(0x56014B1A)
+I (..\CORE\core_cmFunc.h)(0x56014B1A)
+I (..\FWLIB\inc\system_CMSDK_CM0.h)(0x620A34CC)
+F (..\FWLIB\src\system_CMSDK_CM0.c)(0x620A34CC)(--gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\FWLIB\inc -I ..\FWLIB -I ..\System -I ..\USER -I ..\Games -I ..\HARDWARE-IE:\Keil5\Keil\V2M-MPS2_CMx_BSP\1.8.1\Device\CMSDK_CM0\Include-D__UVISION_VERSION="538" -DCMSDK_CM0-o .\system_cmsdk_cm0.o --omf_browse .\system_cmsdk_cm0.crf --depend .\system_cmsdk_cm0.d)
+I (E:\Keil5\ARM\ARMCC\include\stdint.h)(0x655C8F47)
+I (..\FWLIB\inc\CMSDK_CM0.h)(0x655C9054)
+I (..\CORE\core_cm0.h)(0x56014B1A)
+I (..\CORE\core_cmInstr.h)(0x56014B1A)
+I (..\CORE\core_cmFunc.h)(0x56014B1A)
+I (..\FWLIB\inc\system_CMSDK_CM0.h)(0x620A34CC)
+F (..\FWLIB\cm0_gpio.c)(0x6405A9EC)(--gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\FWLIB\inc -I ..\FWLIB -I ..\System -I ..\USER -I ..\Games -I ..\HARDWARE-IE:\Keil5\Keil\V2M-MPS2_CMx_BSP\1.8.1\Device\CMSDK_CM0\Include-D__UVISION_VERSION="538" -DCMSDK_CM0-o .\cm0_gpio.o --omf_browse .\cm0_gpio.crf --depend .\cm0_gpio.d)
+I (..\FWLIB\cm0_gpio.h)(0x641EF29A)
+I (..\FWLIB\inc\CMSDK_CM0.h)(0x655C9054)
+I (..\CORE\core_cm0.h)(0x56014B1A)
+I (E:\Keil5\ARM\ARMCC\include\stdint.h)(0x655C8F47)
+I (..\CORE\core_cmInstr.h)(0x56014B1A)
+I (..\CORE\core_cmFunc.h)(0x56014B1A)
+I (..\FWLIB\inc\system_CMSDK_CM0.h)(0x620A34CC)
+F (..\FWLIB\cm0_timer.c)(0x64087198)(--gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\FWLIB\inc -I ..\FWLIB -I ..\System -I ..\USER -I ..\Games -I ..\HARDWARE-IE:\Keil5\Keil\V2M-MPS2_CMx_BSP\1.8.1\Device\CMSDK_CM0\Include-D__UVISION_VERSION="538" -DCMSDK_CM0-o .\cm0_timer.o --omf_browse .\cm0_timer.crf --depend .\cm0_timer.d)
+I (..\FWLIB\cm0_timer.h)(0x641EDEAC)
+I (..\FWLIB\inc\CMSDK_CM0.h)(0x655C9054)
+I (..\CORE\core_cm0.h)(0x56014B1A)
+I (E:\Keil5\ARM\ARMCC\include\stdint.h)(0x655C8F47)
+I (..\CORE\core_cmInstr.h)(0x56014B1A)
+I (..\CORE\core_cmFunc.h)(0x56014B1A)
+I (..\FWLIB\inc\system_CMSDK_CM0.h)(0x620A34CC)
+F (..\FWLIB\simple_timer.c)(0x649939F8)(--gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\FWLIB\inc -I ..\FWLIB -I ..\System -I ..\USER -I ..\Games -I ..\HARDWARE-IE:\Keil5\Keil\V2M-MPS2_CMx_BSP\1.8.1\Device\CMSDK_CM0\Include-D__UVISION_VERSION="538" -DCMSDK_CM0-o .\simple_timer.o --omf_browse .\simple_timer.crf --depend .\simple_timer.d)
+I (..\FWLIB\simple_timer.h)(0x6499473E)
+I (..\FWLIB\inc\CMSDK_CM0.h)(0x655C9054)
+I (..\CORE\core_cm0.h)(0x56014B1A)
+I (E:\Keil5\ARM\ARMCC\include\stdint.h)(0x655C8F47)
+I (..\CORE\core_cmInstr.h)(0x56014B1A)
+I (..\CORE\core_cmFunc.h)(0x56014B1A)
+I (..\FWLIB\inc\system_CMSDK_CM0.h)(0x620A34CC)
+F (..\FWLIB\cm0_uart.c)(0x64B671B4)(--gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\FWLIB\inc -I ..\FWLIB -I ..\System -I ..\USER -I ..\Games -I ..\HARDWARE-IE:\Keil5\Keil\V2M-MPS2_CMx_BSP\1.8.1\Device\CMSDK_CM0\Include-D__UVISION_VERSION="538" -DCMSDK_CM0-o .\cm0_uart.o --omf_browse .\cm0_uart.crf --depend .\cm0_uart.d)
+I (..\FWLIB\cm0_uart.h)(0x6492BB2E)
+I (..\FWLIB\inc\CMSDK_CM0.h)(0x655C9054)
+I (..\CORE\core_cm0.h)(0x56014B1A)
+I (E:\Keil5\ARM\ARMCC\include\stdint.h)(0x655C8F47)
+I (..\CORE\core_cmInstr.h)(0x56014B1A)
+I (..\CORE\core_cmFunc.h)(0x56014B1A)
+I (..\FWLIB\inc\system_CMSDK_CM0.h)(0x620A34CC)
+F (..\HARDWARE\Handcontroller.c)(0x645FA010)(--gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\FWLIB\inc -I ..\FWLIB -I ..\System -I ..\USER -I ..\Games -I ..\HARDWARE-IE:\Keil5\Keil\V2M-MPS2_CMx_BSP\1.8.1\Device\CMSDK_CM0\Include-D__UVISION_VERSION="538" -DCMSDK_CM0-o .\handcontroller.o --omf_browse .\handcontroller.crf --depend .\handcontroller.d)
+I (..\HARDWARE\Handcontroller.h)(0x6492B7C6)
+I (..\FWLIB\inc\CMSDK_CM0.h)(0x655C9054)
+I (..\CORE\core_cm0.h)(0x56014B1A)
+I (E:\Keil5\ARM\ARMCC\include\stdint.h)(0x655C8F47)
+I (..\CORE\core_cmInstr.h)(0x56014B1A)
+I (..\CORE\core_cmFunc.h)(0x56014B1A)
+I (..\FWLIB\inc\system_CMSDK_CM0.h)(0x620A34CC)
+I (..\FWLIB\cm0_gpio.h)(0x641EF29A)
+I (..\System\Systick.h)(0x648F25B6)
+F (..\HARDWARE\Handcontroller.h)(0x6492B7C6)()
+F (..\HARDWARE\oled.c)(0x64A772EA)(--gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\FWLIB\inc -I ..\FWLIB -I ..\System -I ..\USER -I ..\Games -I ..\HARDWARE-IE:\Keil5\Keil\V2M-MPS2_CMx_BSP\1.8.1\Device\CMSDK_CM0\Include-D__UVISION_VERSION="538" -DCMSDK_CM0-o .\oled.o --omf_browse .\oled.crf --depend .\oled.d)
+I (..\FWLIB\inc\CMSDK_CM0.h)(0x655C9054)
+I (..\CORE\core_cm0.h)(0x56014B1A)
+I (E:\Keil5\ARM\ARMCC\include\stdint.h)(0x655C8F47)
+I (..\CORE\core_cmInstr.h)(0x56014B1A)
+I (..\CORE\core_cmFunc.h)(0x56014B1A)
+I (..\FWLIB\inc\system_CMSDK_CM0.h)(0x620A34CC)
+I (..\HARDWARE\oledfont.h)(0x64A772EA)
+I (..\FWLIB\cm0_gpio.h)(0x641EF29A)
+I (..\HARDWARE\oled.h)(0x64959792)
+I (..\System\Systick.h)(0x648F25B6)
+F (..\HARDWARE\seg.c)(0x6463604C)(--gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\FWLIB\inc -I ..\FWLIB -I ..\System -I ..\USER -I ..\Games -I ..\HARDWARE-IE:\Keil5\Keil\V2M-MPS2_CMx_BSP\1.8.1\Device\CMSDK_CM0\Include-D__UVISION_VERSION="538" -DCMSDK_CM0-o .\seg.o --omf_browse .\seg.crf --depend .\seg.d)
+I (..\HARDWARE\seg.h)(0x648F25A2)
+I (..\FWLIB\inc\CMSDK_CM0.h)(0x655C9054)
+I (..\CORE\core_cm0.h)(0x56014B1A)
+I (E:\Keil5\ARM\ARMCC\include\stdint.h)(0x655C8F47)
+I (..\CORE\core_cmInstr.h)(0x56014B1A)
+I (..\CORE\core_cmFunc.h)(0x56014B1A)
+I (..\FWLIB\inc\system_CMSDK_CM0.h)(0x620A34CC)
+F (..\HARDWARE\seg.h)(0x648F25A2)()
+F (..\HARDWARE\music.c)(0x64E17CC0)(--gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\FWLIB\inc -I ..\FWLIB -I ..\System -I ..\USER -I ..\Games -I ..\HARDWARE-IE:\Keil5\Keil\V2M-MPS2_CMx_BSP\1.8.1\Device\CMSDK_CM0\Include-D__UVISION_VERSION="538" -DCMSDK_CM0-o .\music.o --omf_browse .\music.crf --depend .\music.d)
+I (..\HARDWARE\music.h)(0x64B00ABA)
+I (..\FWLIB\inc\CMSDK_CM0.h)(0x655C9054)
+I (..\CORE\core_cm0.h)(0x56014B1A)
+I (E:\Keil5\ARM\ARMCC\include\stdint.h)(0x655C8F47)
+I (..\CORE\core_cmInstr.h)(0x56014B1A)
+I (..\CORE\core_cmFunc.h)(0x56014B1A)
+I (..\FWLIB\inc\system_CMSDK_CM0.h)(0x620A34CC)
+I (..\FWLIB\cm0_uart.h)(0x6492BB2E)
+I (..\Games\flybird.h)(0x65659CE6)
+I (..\System\Systick.h)(0x648F25B6)
+I (..\HARDWARE\Handcontroller.h)(0x6492B7C6)
+I (..\FWLIB\cm0_gpio.h)(0x641EF29A)
+I (..\HARDWARE\IMU.h)(0x649EAF34)
+I (..\HARDWARE\microphone.h)(0x64B12C42)
+F (..\HARDWARE\IMU.c)(0x64D0A248)(--gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\FWLIB\inc -I ..\FWLIB -I ..\System -I ..\USER -I ..\Games -I ..\HARDWARE-IE:\Keil5\Keil\V2M-MPS2_CMx_BSP\1.8.1\Device\CMSDK_CM0\Include-D__UVISION_VERSION="538" -DCMSDK_CM0-o .\imu.o --omf_browse .\imu.crf --depend .\imu.d)
+I (..\HARDWARE\IMU.h)(0x649EAF34)
+I (..\FWLIB\cm0_uart.h)(0x6492BB2E)
+I (..\FWLIB\inc\CMSDK_CM0.h)(0x655C9054)
+I (..\CORE\core_cm0.h)(0x56014B1A)
+I (E:\Keil5\ARM\ARMCC\include\stdint.h)(0x655C8F47)
+I (..\CORE\core_cmInstr.h)(0x56014B1A)
+I (..\CORE\core_cmFunc.h)(0x56014B1A)
+I (..\FWLIB\inc\system_CMSDK_CM0.h)(0x620A34CC)
+I (..\Games\flybird.h)(0x65659CE6)
+I (..\System\Systick.h)(0x648F25B6)
+I (..\HARDWARE\Handcontroller.h)(0x6492B7C6)
+I (..\FWLIB\cm0_gpio.h)(0x641EF29A)
+I (..\HARDWARE\microphone.h)(0x64B12C42)
+I (..\HARDWARE\music.h)(0x64B00ABA)
+F (..\HARDWARE\IMU.h)(0x649EAF34)()
+F (..\HARDWARE\microphone.c)(0x64B1583E)(--gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\FWLIB\inc -I ..\FWLIB -I ..\System -I ..\USER -I ..\Games -I ..\HARDWARE-IE:\Keil5\Keil\V2M-MPS2_CMx_BSP\1.8.1\Device\CMSDK_CM0\Include-D__UVISION_VERSION="538" -DCMSDK_CM0-o .\microphone.o --omf_browse .\microphone.crf --depend .\microphone.d)
+I (..\HARDWARE\microphone.h)(0x64B12C42)
+I (..\FWLIB\inc\CMSDK_CM0.h)(0x655C9054)
+I (..\CORE\core_cm0.h)(0x56014B1A)
+I (E:\Keil5\ARM\ARMCC\include\stdint.h)(0x655C8F47)
+I (..\CORE\core_cmInstr.h)(0x56014B1A)
+I (..\CORE\core_cmFunc.h)(0x56014B1A)
+I (..\FWLIB\inc\system_CMSDK_CM0.h)(0x620A34CC)
+I (..\Games\flybird.h)(0x65659CE6)
+I (..\System\Systick.h)(0x648F25B6)
+I (..\HARDWARE\Handcontroller.h)(0x6492B7C6)
+I (..\FWLIB\cm0_gpio.h)(0x641EF29A)
+I (..\HARDWARE\IMU.h)(0x649EAF34)
+I (..\FWLIB\cm0_uart.h)(0x6492BB2E)
+I (..\HARDWARE\music.h)(0x64B00ABA)
+F (..\HARDWARE\microphone.h)(0x64B12C42)()
+F (..\HARDWARE\SG90.c)(0x64DF157D)(--gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\FWLIB\inc -I ..\FWLIB -I ..\System -I ..\USER -I ..\Games -I ..\HARDWARE-IE:\Keil5\Keil\V2M-MPS2_CMx_BSP\1.8.1\Device\CMSDK_CM0\Include-D__UVISION_VERSION="538" -DCMSDK_CM0-o .\sg90.o --omf_browse .\sg90.crf --depend .\sg90.d)
+I (..\HARDWARE\SG90.h)(0x64AE9E5C)
+I (..\FWLIB\inc\CMSDK_CM0.h)(0x655C9054)
+I (..\CORE\core_cm0.h)(0x56014B1A)
+I (E:\Keil5\ARM\ARMCC\include\stdint.h)(0x655C8F47)
+I (..\CORE\core_cmInstr.h)(0x56014B1A)
+I (..\CORE\core_cmFunc.h)(0x56014B1A)
+I (..\FWLIB\inc\system_CMSDK_CM0.h)(0x620A34CC)
+I (..\Games\flybird.h)(0x65659CE6)
+I (..\System\Systick.h)(0x648F25B6)
+I (..\HARDWARE\Handcontroller.h)(0x6492B7C6)
+I (..\FWLIB\cm0_gpio.h)(0x641EF29A)
+I (..\HARDWARE\IMU.h)(0x649EAF34)
+I (..\FWLIB\cm0_uart.h)(0x6492BB2E)
+I (..\HARDWARE\microphone.h)(0x64B12C42)
+I (..\HARDWARE\music.h)(0x64B00ABA)
+F (..\HARDWARE\SG90.h)(0x64AE9E5C)()
+F (..\HARDWARE\speech.c)(0x64DA1762)(--gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\FWLIB\inc -I ..\FWLIB -I ..\System -I ..\USER -I ..\Games -I ..\HARDWARE-IE:\Keil5\Keil\V2M-MPS2_CMx_BSP\1.8.1\Device\CMSDK_CM0\Include-D__UVISION_VERSION="538" -DCMSDK_CM0-o .\speech.o --omf_browse .\speech.crf --depend .\speech.d)
+I (..\HARDWARE\speech.h)(0x64AFE86C)
+I (..\FWLIB\inc\CMSDK_CM0.h)(0x655C9054)
+I (..\CORE\core_cm0.h)(0x56014B1A)
+I (E:\Keil5\ARM\ARMCC\include\stdint.h)(0x655C8F47)
+I (..\CORE\core_cmInstr.h)(0x56014B1A)
+I (..\CORE\core_cmFunc.h)(0x56014B1A)
+I (..\FWLIB\inc\system_CMSDK_CM0.h)(0x620A34CC)
+I (..\Games\flybird.h)(0x65659CE6)
+I (..\System\Systick.h)(0x648F25B6)
+I (..\HARDWARE\Handcontroller.h)(0x6492B7C6)
+I (..\FWLIB\cm0_gpio.h)(0x641EF29A)
+I (..\HARDWARE\IMU.h)(0x649EAF34)
+I (..\FWLIB\cm0_uart.h)(0x6492BB2E)
+I (..\HARDWARE\microphone.h)(0x64B12C42)
+I (..\HARDWARE\music.h)(0x64B00ABA)
+F (..\HARDWARE\speech.h)(0x64AFE86C)()
+F (.\main.c)(0x64DF680D)(--gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\FWLIB\inc -I ..\FWLIB -I ..\System -I ..\USER -I ..\Games -I ..\HARDWARE-IE:\Keil5\Keil\V2M-MPS2_CMx_BSP\1.8.1\Device\CMSDK_CM0\Include-D__UVISION_VERSION="538" -DCMSDK_CM0-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (..\FWLIB\inc\CMSDK_CM0.h)(0x655C9054)
+I (..\CORE\core_cm0.h)(0x56014B1A)
+I (E:\Keil5\ARM\ARMCC\include\stdint.h)(0x655C8F47)
+I (..\CORE\core_cmInstr.h)(0x56014B1A)
+I (..\CORE\core_cmFunc.h)(0x56014B1A)
+I (..\FWLIB\inc\system_CMSDK_CM0.h)(0x620A34CC)
+I (..\FWLIB\simple_timer.h)(0x6499473E)
+I (..\System\Systick.h)(0x648F25B6)
+I (..\HARDWARE\Handcontroller.h)(0x6492B7C6)
+I (..\FWLIB\cm0_gpio.h)(0x641EF29A)
+I (..\HARDWARE\oled.h)(0x64959792)
+I (..\Games\flybird.h)(0x65659CE6)
+I (..\HARDWARE\IMU.h)(0x649EAF34)
+I (..\FWLIB\cm0_uart.h)(0x6492BB2E)
+I (..\HARDWARE\microphone.h)(0x64B12C42)
+I (..\HARDWARE\music.h)(0x64B00ABA)
+I (..\HARDWARE\seg.h)(0x648F25A2)
+I (..\HARDWARE\SG90.h)(0x64AE9E5C)
+I (..\HARDWARE\speech.h)(0x64AFE86C)
+F (..\System\handler.c)(0x64AFD384)(--gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\FWLIB\inc -I ..\FWLIB -I ..\System -I ..\USER -I ..\Games -I ..\HARDWARE-IE:\Keil5\Keil\V2M-MPS2_CMx_BSP\1.8.1\Device\CMSDK_CM0\Include-D__UVISION_VERSION="538" -DCMSDK_CM0-o .\handler.o --omf_browse .\handler.crf --depend .\handler.d)
+F (..\System\Systick.c)(0x6502A14F)(--gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\FWLIB\inc -I ..\FWLIB -I ..\System -I ..\USER -I ..\Games -I ..\HARDWARE-IE:\Keil5\Keil\V2M-MPS2_CMx_BSP\1.8.1\Device\CMSDK_CM0\Include-D__UVISION_VERSION="538" -DCMSDK_CM0-o .\systick.o --omf_browse .\systick.crf --depend .\systick.d)
+I (..\System\systick.h)(0x648F25B6)
+I (..\FWLIB\inc\CMSDK_CM0.h)(0x655C9054)
+I (..\CORE\core_cm0.h)(0x56014B1A)
+I (E:\Keil5\ARM\ARMCC\include\stdint.h)(0x655C8F47)
+I (..\CORE\core_cmInstr.h)(0x56014B1A)
+I (..\CORE\core_cmFunc.h)(0x56014B1A)
+I (..\FWLIB\inc\system_CMSDK_CM0.h)(0x620A34CC)
+F (..\Games\flybird.c)(0x65659D04)(--gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\FWLIB\inc -I ..\FWLIB -I ..\System -I ..\USER -I ..\Games -I ..\HARDWARE-IE:\Keil5\Keil\V2M-MPS2_CMx_BSP\1.8.1\Device\CMSDK_CM0\Include-D__UVISION_VERSION="538" -DCMSDK_CM0-o .\flybird.o --omf_browse .\flybird.crf --depend .\flybird.d)
+I (..\Games\flybird.h)(0x65659CE6)
+I (..\FWLIB\inc\CMSDK_CM0.h)(0x655C9054)
+I (..\CORE\core_cm0.h)(0x56014B1A)
+I (E:\Keil5\ARM\ARMCC\include\stdint.h)(0x655C8F47)
+I (..\CORE\core_cmInstr.h)(0x56014B1A)
+I (..\CORE\core_cmFunc.h)(0x56014B1A)
+I (..\FWLIB\inc\system_CMSDK_CM0.h)(0x620A34CC)
+I (..\System\Systick.h)(0x648F25B6)
+I (..\HARDWARE\Handcontroller.h)(0x6492B7C6)
+I (..\FWLIB\cm0_gpio.h)(0x641EF29A)
+I (..\HARDWARE\IMU.h)(0x649EAF34)
+I (..\FWLIB\cm0_uart.h)(0x6492BB2E)
+I (..\HARDWARE\microphone.h)(0x64B12C42)
+I (..\HARDWARE\music.h)(0x64B00ABA)
+F (..\Games\flybird.h)(0x65659CE6)()

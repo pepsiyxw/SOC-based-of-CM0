@@ -1,0 +1,73 @@
+============================================================
+   Tang Dynasty, V5.0.30786
+   Copyright:   Shanghai Anlogic Infotech Co., Ltd.
+                2011 - 2021
+   Executable = E:/fpgadream/Anlogic_TD/bin/td.exe
+   Run by =     86132
+   Run Date =   Sun Jun 11 21:44:37 2023
+
+   Run on =     THE-END-OF-THE-
+============================================================
+RUN-1002 : start command "import_device eagle_s20.db -package BG256"
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+HDL-1007 : analyze verilog file ../source/rtl/AngryBird_Demo.v
+HDL-1007 : analyze verilog file ../source/rtl/Display.v
+HDL-5007 WARNING: parameter 'RED' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(48)
+HDL-5007 WARNING: parameter 'GREEN' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(49)
+HDL-5007 WARNING: parameter 'BLUE' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(50)
+HDL-5007 WARNING: parameter 'WHITE' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(51)
+HDL-5007 WARNING: parameter 'BLACK' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(52)
+HDL-5007 WARNING: parameter 'YELLOW' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(53)
+HDL-5007 WARNING: parameter 'CYAN' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(54)
+HDL-5007 WARNING: parameter 'ROYAL' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(55)
+HDL-5007 WARNING: parameter 'start_scene' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(57)
+HDL-5007 WARNING: parameter 'gameplay_scene' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(58)
+HDL-5007 WARNING: parameter 'pause_scene' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(59)
+HDL-5007 WARNING: parameter 'gameover_scene' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(60)
+HDL-5007 WARNING: parameter 'start_button_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(112)
+HDL-5007 WARNING: parameter 'start_button_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(113)
+HDL-5007 WARNING: parameter 'cam_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(116)
+HDL-5007 WARNING: parameter 'cam_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(117)
+HDL-5007 WARNING: parameter 'grass_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(118)
+HDL-5007 WARNING: parameter 'grass_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(119)
+HDL-5007 WARNING: parameter 'star_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(120)
+HDL-5007 WARNING: parameter 'star_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(121)
+HDL-5007 WARNING: parameter 'moon_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(122)
+HDL-5007 WARNING: parameter 'moon_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(123)
+HDL-5007 WARNING: parameter 'Bird_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(124)
+HDL-5007 WARNING: parameter 'Bird_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(125)
+HDL-5007 WARNING: parameter 'Obstacle_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(128)
+HDL-5007 WARNING: identifier 'Bird1_dead_en' is used before its declaration in ../source/rtl/Display.v(301)
+HDL-5007 WARNING: identifier 'Bird2_dead_en' is used before its declaration in ../source/rtl/Display.v(308)
+Oops! 'Signal Segmentation Violation' raised. The backtrace:
+[bt] (4)_chkstk
+[bt] (5)RtlRestoreContext
+[bt] (6)KiUserExceptionDispatcher
+[bt] (9)QObject::event
+[bt] (10)QWidget::event
+[bt] (11)QFrame::event
+[bt] (12)QAbstractScrollArea::event
+[bt] (13)QApplicationPrivate::notify_helper
+[bt] (14)QApplication::notify
+[bt] (15)QCoreApplication::notifyInternal2
+[bt] (16)QCoreApplicationPrivate::sendPostedEvents
+[bt] (17)qt_plugin_query_metadata
+[bt] (18)QEventDispatcherWin32::processEvents
+[bt] (19)CallWindowProcW
+[bt] (20)DispatchMessageW
+[bt] (21)QEventDispatcherWin32::processEvents
+[bt] (22)qt_plugin_query_metadata
+[bt] (23)QEventLoop::exec
+[bt] (24)QCoreApplication::exec
+[bt] (28)BaseThreadInitThunk
+[bt] (29)RtlUserThreadStart
+

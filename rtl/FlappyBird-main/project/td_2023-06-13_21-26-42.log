@@ -1,0 +1,728 @@
+============================================================
+   Tang Dynasty, V5.0.30786
+   Copyright:   Shanghai Anlogic Infotech Co., Ltd.
+                2011 - 2021
+   Executable = E:/fpgadream/Anlogic_TD/bin/td.exe
+   Run by =     86132
+   Run Date =   Tue Jun 13 21:26:42 2023
+
+   Run on =     THE-END-OF-THE-
+============================================================
+RUN-1002 : start command "import_device eagle_s20.db -package BG256"
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        
+RUN-1001 :        syn_ip_flow       |    off     |       off        
+RUN-1001 :          thread          |    auto    |       auto       
+RUN-1001 : -------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 :      infer_shifter      |    off     |       off        
+RUN-1001 :         map_dram        |    auto    |       auto       
+RUN-1001 : ------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      
+RUN-1001 :        elf_sload        |    off     |       off        
+RUN-1001 :       fix_undriven      |     0      |        0         
+RUN-1001 :         flatten         |    off     |       off        
+RUN-1001 :       gate_sharing      |     on     |        on        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        
+RUN-1001 :      impl_set_reset     |     on     |        on        
+RUN-1001 :        infer_gsr        |    off     |       off        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       
+RUN-1001 :        max_fanout       |    9999    |       9999       
+RUN-1001 :      max_oh2bin_len     |     10     |        10        
+RUN-1001 :       merge_equal       |     on     |        on        
+RUN-1001 :       merge_equiv       |     on     |        on        
+RUN-1001 :        merge_mux        |    off     |       off        
+RUN-1001 :      min_ce_fanout      |     16     |        16        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       
+RUN-1001 :     opt_adder_fanout    |     on     |        on        
+RUN-1001 :        opt_arith        |     on     |        on        
+RUN-1001 :       opt_big_gate      |    off     |       off        
+RUN-1001 :        opt_const        |     on     |        on        
+RUN-1001 :      opt_const_mult     |     on     |        on        
+RUN-1001 :       opt_lessthan      |     on     |        on        
+RUN-1001 :         opt_mux         |    off     |       off        
+RUN-1001 :         opt_ram         |    high    |       high       
+RUN-1001 :      rtl_sim_model      |    off     |       off        
+RUN-1001 :         seq_syn         |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+HDL-1007 : analyze verilog file ../source/rtl/sdram/fifo_ctrl.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram/sdram_a_ref.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram/sdram_arbit.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram/sdram_ctrl.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram/sdram_init.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram/sdram_read.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram/sdram_top.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram/sdram_write.v
+HDL-1007 : analyze verilog file ../source/rtl/AngryBird_Demo.v
+HDL-5007 WARNING: 'sobel_data' is already implicitly declared on line 170 in ../source/rtl/AngryBird_Demo.v(292)
+HDL-5007 WARNING: 'data_gray' is already implicitly declared on line 168 in ../source/rtl/AngryBird_Demo.v(346)
+HDL-5007 WARNING: identifier 'locked' is used before its declaration in ../source/rtl/AngryBird_Demo.v(72)
+HDL-5007 WARNING: identifier 'hdmi_locked' is used before its declaration in ../source/rtl/AngryBird_Demo.v(72)
+HDL-1007 : analyze verilog file ../source/rtl/Display.v
+HDL-5007 WARNING: parameter 'RED' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(55)
+HDL-5007 WARNING: parameter 'GREEN' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(56)
+HDL-5007 WARNING: parameter 'BLUE' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(57)
+HDL-5007 WARNING: parameter 'WHITE' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(58)
+HDL-5007 WARNING: parameter 'BLACK' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(59)
+HDL-5007 WARNING: parameter 'YELLOW' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(60)
+HDL-5007 WARNING: parameter 'CYAN' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(61)
+HDL-5007 WARNING: parameter 'ROYAL' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(62)
+HDL-5007 WARNING: parameter 'start_scene' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(64)
+HDL-5007 WARNING: parameter 'gameplay_scene' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(65)
+HDL-5007 WARNING: parameter 'pause_scene' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(66)
+HDL-5007 WARNING: parameter 'gameover_scene' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(67)
+HDL-5007 WARNING: parameter 'second_scene' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(68)
+HDL-5007 WARNING: parameter 'start_button_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(119)
+HDL-5007 WARNING: parameter 'start_button_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(120)
+HDL-5007 WARNING: parameter 'cam_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(123)
+HDL-5007 WARNING: parameter 'cam_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(124)
+HDL-5007 WARNING: parameter 'sobel_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(125)
+HDL-5007 WARNING: parameter 'sobel_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(126)
+HDL-5007 WARNING: parameter 'grass_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(127)
+HDL-5007 WARNING: parameter 'grass_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(128)
+HDL-5007 WARNING: parameter 'star_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(129)
+HDL-5007 WARNING: parameter 'star_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(130)
+HDL-5007 WARNING: parameter 'moon_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(131)
+HDL-5007 WARNING: parameter 'moon_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(132)
+HDL-5007 WARNING: parameter 'Bird_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(133)
+HDL-5007 WARNING: parameter 'Bird_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(134)
+HDL-5007 WARNING: parameter 'Obstacle_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(137)
+HDL-5007 WARNING: identifier 'Bird1_dead_en' is used before its declaration in ../source/rtl/Display.v(312)
+HDL-5007 WARNING: identifier 'Bird2_dead_en' is used before its declaration in ../source/rtl/Display.v(319)
+HDL-5007 WARNING: parameter 'speed0' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(474)
+HDL-5007 WARNING: parameter 'speed1' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(475)
+HDL-5007 WARNING: parameter 'speed2' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(476)
+HDL-5007 WARNING: parameter 'speed3' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(477)
+HDL-5007 WARNING: parameter 'speed4' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(478)
+HDL-5007 WARNING: parameter 'speed5' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(479)
+HDL-5007 WARNING: parameter 'score0' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(481)
+HDL-5007 WARNING: parameter 'score1' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(482)
+HDL-5007 WARNING: parameter 'score2' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(483)
+HDL-5007 WARNING: parameter 'score3' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(484)
+HDL-5007 WARNING: parameter 'score4' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(485)
+HDL-5007 WARNING: parameter 'second_score' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(487)
+HDL-5007 WARNING: parameter 'Obstacle_width0' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(491)
+HDL-5007 WARNING: parameter 'Obstacle_width1' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(492)
+HDL-5007 WARNING: parameter 'Obstacle_width2' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(493)
+HDL-5007 WARNING: parameter 'Obstacle_width3' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(494)
+HDL-5007 WARNING: parameter 'Obstacle_width4' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(495)
+HDL-5007 WARNING: parameter 'Obstacle_width5' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(496)
+HDL-5007 WARNING: parameter 'DEAD_THRESHOLD' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(876)
+HDL-1007 : analyze verilog file ../source/rtl/Driver.v
+HDL-1007 : analyze verilog file ../source/rtl/I2C_init.v
+HDL-1007 : analyze verilog file ../source/rtl/ov2640_init.v
+HDL-1007 : analyze verilog file ../source/rtl/ov2640_read.v
+HDL-1007 : analyze verilog file ../source/rtl/process.v
+HDL-1007 : analyze verilog file ../source/rtl/rgb2ycbcr.v
+HDL-1007 : analyze verilog file ../source/rtl/top.v
+HDL-1007 : analyze verilog file ../source/rtl/Top_Logic.v
+HDL-1007 : analyze verilog file ../source/rtl/ycbcr2gray2gray.v
+HDL-1007 : analyze verilog file ../al_ip/gameoverbutton.v
+HDL-1007 : analyze verilog file ../al_ip/grass.v
+HDL-1007 : analyze verilog file ../al_ip/moon.v
+HDL-1007 : analyze verilog file ../al_ip/pausebutton.v
+HDL-1007 : analyze verilog file ../al_ip/PLL.v
+HDL-1007 : analyze verilog file ../al_ip/sdram.v
+HDL-1007 : analyze verilog file ../al_ip/star.v
+HDL-1007 : analyze verilog file ../al_ip/Startbutton.v
+HDL-1007 : analyze verilog file ../al_ip/fifo/ramfifo.v
+HDL-1007 : analyze verilog file ../source/rtl/bcd_8421.v
+HDL-1007 : analyze verilog file ../source/rtl/seg_dynamic.v
+HDL-1007 : analyze verilog file ../al_ip/bird1.v
+HDL-1007 : analyze verilog file ../al_ip/bird2.v
+HDL-1007 : analyze verilog file ../source/rtl/BGMPlayer.v
+HDL-5007 WARNING: identifier 'high' is used before its declaration in ../source/rtl/BGMPlayer.v(71)
+HDL-5007 WARNING: identifier 'med' is used before its declaration in ../source/rtl/BGMPlayer.v(71)
+HDL-5007 WARNING: identifier 'low' is used before its declaration in ../source/rtl/BGMPlayer.v(71)
+HDL-1007 : analyze verilog file ../al_ip/clk6Mhz.v
+HDL-1007 : analyze verilog file ../source/rtl/Sdram_Control_4Port/command.v
+HDL-1007 : analyze included file ../source/rtl/Sdram_Control_4Port/Sdram_Params.h in ../source/rtl/Sdram_Control_4Port/command.v(27)
+HDL-1007 : back to file '../source/rtl/Sdram_Control_4Port/command.v' in ../source/rtl/Sdram_Control_4Port/command.v(27)
+HDL-1007 : analyze verilog file ../source/rtl/Sdram_Control_4Port/control_interface.v
+HDL-1007 : analyze included file ../source/rtl/Sdram_Control_4Port/Sdram_Params.h in ../source/rtl/Sdram_Control_4Port/control_interface.v(21)
+HDL-1007 : back to file '../source/rtl/Sdram_Control_4Port/control_interface.v' in ../source/rtl/Sdram_Control_4Port/control_interface.v(21)
+HDL-1007 : analyze verilog file ../source/rtl/Sdram_Control_4Port/sdr_data_path.v
+HDL-1007 : analyze included file ../source/rtl/Sdram_Control_4Port/Sdram_Params.h in ../source/rtl/Sdram_Control_4Port/sdr_data_path.v(10)
+HDL-1007 : back to file '../source/rtl/Sdram_Control_4Port/sdr_data_path.v' in ../source/rtl/Sdram_Control_4Port/sdr_data_path.v(10)
+HDL-1007 : analyze verilog file ../source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v
+HDL-1007 : analyze included file ../source/rtl/Sdram_Control_4Port/Sdram_Params.h in ../source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v(49)
+HDL-1007 : back to file '../source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v' in ../source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v(49)
+HDL-1007 : analyze verilog file ../source/rtl/Sdram_Control_4Port/Sdram_RD_FIFO.v
+HDL-1007 : analyze verilog file ../source/rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip/line_shift_ram_1bit.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip/line_shift_ram_8bit.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip/SQRT_CSDN.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip/vip.v
+HDL-5007 WARNING: redeclaration of ansi port 'sobel' is not allowed in ../source/rtl/Sobel_edge/vip/vip.v(67)
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip/VIP_Bit_Dilation_Detector.v
+HDL-5007 WARNING: identifier 'en' is used before its declaration in ../source/rtl/Sobel_edge/vip/VIP_Bit_Dilation_Detector.v(117)
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip/VIP_Bit_Erosion_Detector.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip/vip_matrix_generate_3x3_1bit.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip/vip_matrix_generate_3x3_8bit.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip/VIP_RGB888_YCbCr444.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip/vip_sobel_edge_detector.v
+HDL-1007 : analyze verilog file ../al_ip/bram_256_1bit.v
+HDL-1007 : analyze verilog file ../al_ip/bram_256_8bit.v
+HDL-1007 : analyze verilog file ../al_ip/hdmi_pll.v
+RUN-1002 : start command "elaborate -top top"
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 :      infer_shifter      |    off     |       off        
+RUN-1001 :         map_dram        |    auto    |       auto       
+RUN-1001 : ------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      
+RUN-1001 :        elf_sload        |    off     |       off        
+RUN-1001 :       fix_undriven      |     0      |        0         
+RUN-1001 :         flatten         |    off     |       off        
+RUN-1001 :       gate_sharing      |     on     |        on        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        
+RUN-1001 :      impl_set_reset     |     on     |        on        
+RUN-1001 :        infer_gsr        |    off     |       off        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       
+RUN-1001 :        max_fanout       |    9999    |       9999       
+RUN-1001 :      max_oh2bin_len     |     10     |        10        
+RUN-1001 :       merge_equal       |     on     |        on        
+RUN-1001 :       merge_equiv       |     on     |        on        
+RUN-1001 :        merge_mux        |    off     |       off        
+RUN-1001 :      min_ce_fanout      |     16     |        16        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       
+RUN-1001 :     opt_adder_fanout    |     on     |        on        
+RUN-1001 :        opt_arith        |     on     |        on        
+RUN-1001 :       opt_big_gate      |    off     |       off        
+RUN-1001 :        opt_const        |     on     |        on        
+RUN-1001 :      opt_const_mult     |     on     |        on        
+RUN-1001 :       opt_lessthan      |     on     |        on        
+RUN-1001 :         opt_mux         |    off     |       off        
+RUN-1001 :         opt_ram         |    high    |       high       
+RUN-1001 :      rtl_sim_model      |    off     |       off        
+RUN-1001 :         seq_syn         |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        
+RUN-1001 :        syn_ip_flow       |    off     |       off        
+RUN-1001 :          thread          |    auto    |       auto       
+RUN-1001 : -------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 :      infer_shifter      |    off     |       off        
+RUN-1001 :         map_dram        |    auto    |       auto       
+RUN-1001 : ------------------------------------------------------
+HDL-5007 WARNING: port 'state_number' remains unconnected for this instance in ../source/rtl/top.v(35)
+HDL-1007 : elaborate module top in ../source/rtl/top.v(1)
+HDL-1007 : elaborate module AngryBird_Demo in ../source/rtl/AngryBird_Demo.v(1)
+HDL-1007 : elaborate module pll in ../al_ip/PLL.v(25)
+HDL-1007 : elaborate module EG_LOGIC_BUFG in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(8)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000",REFCLK_DIV=4,CLKC0_DIV=40,CLKC1_DIV=125,CLKC2_DIV=5,CLKC3_DIV=5,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",CLKC3_ENABLE="ENABLE",FEEDBK_PATH="CLKC0_EXT",STDBY_ENABLE="DISABLE",CLKC0_CPHASE=39,CLKC1_CPHASE=124,CLKC2_CPHASE=4,CLKC3_CPHASE=3,GMC_GAIN=0,ICP_CURRENT=9,KVCO=2,LPF_CAPACITOR=2,LPF_RESISTOR=8,SYNC_ENABLE="DISABLE") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(930)
+HDL-1007 : elaborate module BGMPlayer in ../source/rtl/BGMPlayer.v(2)
+HDL-1007 : elaborate module clk6Mhz in ../al_ip/clk6Mhz.v(22)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000",REFCLK_DIV=5,CLKC0_DIV=100,CLKC0_ENABLE="ENABLE",FEEDBK_PATH="CLKC0_EXT",STDBY_ENABLE="DISABLE",CLKC0_CPHASE=99,GMC_GAIN=0,ICP_CURRENT=9,KVCO=2,LPF_CAPACITOR=2,LPF_RESISTOR=8,SYNC_ENABLE="DISABLE") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(930)
+HDL-5007 WARNING: 'high' should be on the sensitivity list in ../source/rtl/BGMPlayer.v(71)
+HDL-5007 WARNING: 'med' should be on the sensitivity list in ../source/rtl/BGMPlayer.v(71)
+HDL-5007 WARNING: 'low' should be on the sensitivity list in ../source/rtl/BGMPlayer.v(71)
+HDL-1007 : elaborate module Driver in ../source/rtl/Driver.v(2)
+HDL-5007 WARNING: instantiate unknown module dvi_transmitter_top in ../source/rtl/AngryBird_Demo.v(139)
+HDL-1007 : elaborate module Display in ../source/rtl/Display.v(26)
+HDL-5007 WARNING: using initial value of 'cam_x0' since it is never assigned in ../source/rtl/Display.v(191)
+HDL-5007 WARNING: using initial value of 'cam_y0' since it is never assigned in ../source/rtl/Display.v(191)
+HDL-5007 WARNING: using initial value of 'sobel_x0' since it is never assigned in ../source/rtl/Display.v(192)
+HDL-5007 WARNING: using initial value of 'sobel_y0' since it is never assigned in ../source/rtl/Display.v(192)
+HDL-5007 WARNING: using initial value of 'Startbutton_x0' since it is never assigned in ../source/rtl/Display.v(438)
+HDL-5007 WARNING: using initial value of 'backgroundcolor1' since it is never assigned in ../source/rtl/Display.v(648)
+HDL-5007 WARNING: using initial value of 'backgroundcolor2' since it is never assigned in ../source/rtl/Display.v(649)
+HDL-5007 WARNING: using initial value of 'backgroundcolor3' since it is never assigned in ../source/rtl/Display.v(650)
+HDL-1007 : elaborate module gameoverbutton in ../al_ip/gameoverbutton.v(3)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=8,DATA_WIDTH_B=8,ADDR_WIDTH_A=14,ADDR_WIDTH_B=14,DATA_DEPTH_A=10000,DATA_DEPTH_B=10000,MODE="SP",INIT_FILE="../mif/gameoverbutton.mif",IMPLEMENT="32K") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(1032)
+HDL-5007 WARNING: actual bit length 13 differs from formal bit length 14 for port 'addrb' in ../al_ip/gameoverbutton.v(31)
+HDL-1007 : elaborate module grass in ../al_ip/grass.v(14)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=8,DATA_WIDTH_B=8,ADDR_WIDTH_A=13,ADDR_WIDTH_B=13,DATA_DEPTH_A=5000,DATA_DEPTH_B=5000,MODE="SP",INIT_FILE="../mif/grass.mif",IMPLEMENT="32K") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(1032)
+HDL-1007 : elaborate module star in ../al_ip/star.v(14)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=8,DATA_WIDTH_B=8,ADDR_WIDTH_A=9,ADDR_WIDTH_B=9,DATA_DEPTH_A=400,DATA_DEPTH_B=400,MODE="SP",INIT_FILE="../mif/star1.mif",IMPLEMENT="32K") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(1032)
+HDL-1007 : elaborate module Bird1 in ../al_ip/bird1.v(14)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=8,DATA_WIDTH_B=8,ADDR_WIDTH_A=12,ADDR_WIDTH_B=12,DATA_DEPTH_A=3600,DATA_DEPTH_B=3600,MODE="SP",INIT_FILE="../mif/bird1.mif",IMPLEMENT="9K(FAST)") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(1032)
+HDL-1007 : elaborate module Bird2 in ../al_ip/bird2.v(3)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=8,DATA_WIDTH_B=8,ADDR_WIDTH_A=12,ADDR_WIDTH_B=12,DATA_DEPTH_A=3600,DATA_DEPTH_B=3600,MODE="SP",INIT_FILE="../mif/bird2.mif",IMPLEMENT="9K(FAST)") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(1032)
+HDL-1007 : elaborate module moon in ../al_ip/moon.v(14)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=8,DATA_WIDTH_B=8,ADDR_WIDTH_A=14,ADDR_WIDTH_B=14,DATA_DEPTH_A=10000,DATA_DEPTH_B=10000,MODE="SP",INIT_FILE="../mif/moon.mif",IMPLEMENT="32K") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(1032)
+HDL-1007 : elaborate module Startbutton in ../al_ip/Startbutton.v(14)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=8,DATA_WIDTH_B=8,ADDR_WIDTH_A=14,ADDR_WIDTH_B=14,DATA_DEPTH_A=10000,DATA_DEPTH_B=10000,MODE="SP",INIT_FILE="../mif/startbutton.mif",IMPLEMENT="32K") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(1032)
+HDL-1007 : elaborate module pausebutton in ../al_ip/pausebutton.v(3)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=8,DATA_WIDTH_B=8,ADDR_WIDTH_A=14,ADDR_WIDTH_B=14,DATA_DEPTH_A=10000,DATA_DEPTH_B=10000,MODE="SP",INIT_FILE="../mif/pausebutton.mif",IMPLEMENT="32K") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(1032)
+HDL-5007 WARNING: 'state_number' should be on the sensitivity list in ../source/rtl/Display.v(933)
+HDL-5007 WARNING: 'Startbutton_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(936)
+HDL-5007 WARNING: 'Startbutton_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(937)
+HDL-5007 WARNING: 'Startbutton_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(937)
+HDL-5007 WARNING: 'Startbutton_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(937)
+HDL-5007 WARNING: 'Moon_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(939)
+HDL-5007 WARNING: 'Moon_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(940)
+HDL-5007 WARNING: 'Moon_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(940)
+HDL-5007 WARNING: 'Moon_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(940)
+HDL-5007 WARNING: 'Star_00_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(942)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(943)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(943)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(943)
+HDL-5007 WARNING: 'Star_01_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(945)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(946)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(946)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(946)
+HDL-5007 WARNING: 'Star_02_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(948)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(949)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(949)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(949)
+HDL-5007 WARNING: 'Star_03_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(951)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(952)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(952)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(952)
+HDL-5007 WARNING: 'Star_04_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(954)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(955)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(955)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(955)
+HDL-5007 WARNING: 'grass_00_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(957)
+HDL-5007 WARNING: 'Grass_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(958)
+HDL-5007 WARNING: 'Grass_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(958)
+HDL-5007 WARNING: 'Grass_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(958)
+HDL-5007 WARNING: 'grass_01_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(960)
+HDL-5007 WARNING: 'Grass_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(961)
+HDL-5007 WARNING: 'Grass_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(961)
+HDL-5007 WARNING: 'Grass_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(961)
+HDL-5007 WARNING: 'Bird2_Fly_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(967)
+HDL-5007 WARNING: 'Bird2_Fly_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(969)
+HDL-5007 WARNING: 'Bird2_Fly_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(969)
+HDL-5007 WARNING: 'Bird2_Fly_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(969)
+HDL-5007 WARNING: 'Obstacle_01_en' should be on the sensitivity list in ../source/rtl/Display.v(971)
+HDL-5007 WARNING: 'Obstacle_02_en' should be on the sensitivity list in ../source/rtl/Display.v(973)
+HDL-5007 WARNING: 'Obstacle_03_en' should be on the sensitivity list in ../source/rtl/Display.v(975)
+HDL-5007 WARNING: 'Moon_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(977)
+HDL-5007 WARNING: 'Moon_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(978)
+HDL-5007 WARNING: 'Moon_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(978)
+HDL-5007 WARNING: 'Moon_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(978)
+HDL-5007 WARNING: 'Star_00_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(980)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(981)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(981)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(981)
+HDL-5007 WARNING: 'Star_01_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(983)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(984)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(984)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(984)
+HDL-5007 WARNING: 'Star_02_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(986)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(987)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(987)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(987)
+HDL-5007 WARNING: 'Star_03_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(989)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(990)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(990)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(990)
+HDL-5007 WARNING: 'Star_04_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(992)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(993)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(993)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(993)
+HDL-5007 WARNING: 'grass_00_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(995)
+HDL-5007 WARNING: 'Grass_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(996)
+HDL-5007 WARNING: 'Grass_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(996)
+HDL-5007 WARNING: 'Grass_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(996)
+HDL-5007 WARNING: 'grass_01_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(998)
+HDL-5007 WARNING: 'Grass_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(999)
+HDL-5007 WARNING: 'Grass_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(999)
+HDL-5007 WARNING: 'Grass_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(999)
+HDL-5007 WARNING: 'Bird2_Fly_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1005)
+HDL-5007 WARNING: 'Bird2_Fly_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1007)
+HDL-5007 WARNING: 'Bird2_Fly_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1007)
+HDL-5007 WARNING: 'Bird2_Fly_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1007)
+HDL-5007 WARNING: 'sobel_en' should be on the sensitivity list in ../source/rtl/Display.v(1009)
+HDL-5007 WARNING: 'sobel_data' should be on the sensitivity list in ../source/rtl/Display.v(1010)
+HDL-5007 WARNING: 'sobel_data' should be on the sensitivity list in ../source/rtl/Display.v(1010)
+HDL-5007 WARNING: 'sobel_data' should be on the sensitivity list in ../source/rtl/Display.v(1010)
+HDL-5007 WARNING: 'Moon_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1012)
+HDL-5007 WARNING: 'Moon_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1013)
+HDL-5007 WARNING: 'Moon_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1013)
+HDL-5007 WARNING: 'Moon_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1013)
+HDL-5007 WARNING: 'Star_00_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1015)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1016)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1016)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1016)
+HDL-5007 WARNING: 'Star_01_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1018)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1019)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1019)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1019)
+HDL-5007 WARNING: 'Star_02_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1021)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1022)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1022)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1022)
+HDL-5007 WARNING: 'Star_03_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1024)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1025)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1025)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1025)
+HDL-5007 WARNING: 'Star_04_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1027)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1028)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1028)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1028)
+HDL-5007 WARNING: 'grass_00_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1030)
+HDL-5007 WARNING: 'Grass_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1031)
+HDL-5007 WARNING: 'Grass_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1031)
+HDL-5007 WARNING: 'Grass_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1031)
+HDL-5007 WARNING: 'grass_01_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1033)
+HDL-5007 WARNING: 'Grass_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1034)
+HDL-5007 WARNING: 'Grass_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1034)
+HDL-5007 WARNING: 'Grass_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1034)
+HDL-5007 WARNING: 'pausebutton_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1040)
+HDL-5007 WARNING: 'pausebutton_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1041)
+HDL-5007 WARNING: 'pausebutton_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1041)
+HDL-5007 WARNING: 'pausebutton_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1041)
+HDL-5007 WARNING: 'Moon_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1043)
+HDL-5007 WARNING: 'Moon_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1044)
+HDL-5007 WARNING: 'Moon_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1044)
+HDL-5007 WARNING: 'Moon_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1044)
+HDL-5007 WARNING: 'Star_00_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1046)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1047)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1047)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1047)
+HDL-5007 WARNING: 'Star_01_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1049)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1050)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1050)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1050)
+HDL-5007 WARNING: 'Star_02_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1052)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1053)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1053)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1053)
+HDL-5007 WARNING: 'Star_03_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1055)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1056)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1056)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1056)
+HDL-5007 WARNING: 'Star_04_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1058)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1059)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1059)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1059)
+HDL-5007 WARNING: 'grass_00_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1061)
+HDL-5007 WARNING: 'Grass_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1062)
+HDL-5007 WARNING: 'Grass_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1062)
+HDL-5007 WARNING: 'Grass_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1062)
+HDL-5007 WARNING: 'grass_01_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1064)
+HDL-5007 WARNING: 'Grass_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1065)
+HDL-5007 WARNING: 'Grass_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1065)
+HDL-5007 WARNING: 'Grass_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1065)
+HDL-5007 WARNING: 'Gameoverbutton_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1071)
+HDL-5007 WARNING: 'Gameoverbutton_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1072)
+HDL-5007 WARNING: 'Gameoverbutton_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1072)
+HDL-5007 WARNING: 'Gameoverbutton_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1072)
+HDL-5007 WARNING: 'Moon_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1074)
+HDL-5007 WARNING: 'Moon_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1075)
+HDL-5007 WARNING: 'Moon_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1075)
+HDL-5007 WARNING: 'Moon_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1075)
+HDL-5007 WARNING: 'Star_00_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1077)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1078)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1078)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1078)
+HDL-5007 WARNING: 'Star_01_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1080)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1081)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1081)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1081)
+HDL-5007 WARNING: 'Star_02_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1083)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1084)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1084)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1084)
+HDL-5007 WARNING: 'Star_03_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1086)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1087)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1087)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1087)
+HDL-5007 WARNING: 'Star_04_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1089)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1090)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1090)
+HDL-5007 WARNING: 'Star_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1090)
+HDL-5007 WARNING: 'grass_00_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1092)
+HDL-5007 WARNING: 'Grass_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1093)
+HDL-5007 WARNING: 'Grass_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1093)
+HDL-5007 WARNING: 'Grass_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1093)
+HDL-5007 WARNING: 'grass_01_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1095)
+HDL-5007 WARNING: 'Grass_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1096)
+HDL-5007 WARNING: 'Grass_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1096)
+HDL-5007 WARNING: 'Grass_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1096)
+HDL-1007 : elaborate module seg_dynamic in ../source/rtl/seg_dynamic.v(20)
+HDL-1007 : elaborate module bcd_8421 in ../source/rtl/bcd_8421.v(20)
+HDL-5007 WARNING: actual bit length 8 differs from formal bit length 20 for port 'data' in ../source/rtl/AngryBird_Demo.v(183)
+HDL-1007 : elaborate module Top_logic in ../source/rtl/Top_Logic.v(3)
+HDL-1007 : elaborate module camera_init in ../source/rtl/ov2640_init.v(14)
+HDL-1007 : elaborate module i2c_module in ../source/rtl/I2C_init.v(2)
+HDL-1007 : elaborate module camera_reader in ../source/rtl/ov2640_read.v(14)
+HDL-1007 : elaborate module vip in ../source/rtl/Sobel_edge/vip/vip.v(1)
+HDL-1007 : elaborate module VIP_RGB888_YCbCr444 in ../source/rtl/Sobel_edge/vip/VIP_RGB888_YCbCr444.v(2)
+HDL-1007 : elaborate module vip_sobel_edge_detector in ../source/rtl/Sobel_edge/vip/vip_sobel_edge_detector.v(1)
+HDL-1007 : elaborate module vip_matrix_generate_3x3_8bit in ../source/rtl/Sobel_edge/vip/vip_matrix_generate_3x3_8bit.v(1)
+HDL-1007 : elaborate module line_shift_ram_8bit in ../source/rtl/Sobel_edge/vip/line_shift_ram_8bit.v(1)
+HDL-1007 : elaborate module bram_256_8bit in ../al_ip/bram_256_8bit.v(14)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=8,DATA_WIDTH_B=8,ADDR_WIDTH_B=10,DATA_DEPTH_A=1024,DATA_DEPTH_B=1024,MODE="PDPW") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(1032)
+HDL-1007 : elaborate module VIP_Bit_Erosion_Detector in ../source/rtl/Sobel_edge/vip/VIP_Bit_Erosion_Detector.v(2)
+HDL-1007 : elaborate module vip_matrix_generate_3x3_1bit in ../source/rtl/Sobel_edge/vip/vip_matrix_generate_3x3_1bit.v(1)
+HDL-1007 : elaborate module line_shift_ram_1bit in ../source/rtl/Sobel_edge/vip/line_shift_ram_1bit.v(1)
+HDL-1007 : elaborate module bram_256_1bit in ../al_ip/bram_256_1bit.v(14)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=1,DATA_WIDTH_B=1,ADDR_WIDTH_B=10,DATA_DEPTH_A=1024,DATA_DEPTH_B=1024,MODE="PDPW") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(1032)
+HDL-1007 : elaborate module VIP_Bit_Dilation_Detector in ../source/rtl/Sobel_edge/vip/VIP_Bit_Dilation_Detector.v(2)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 16 for port 'post_rgb' in ../source/rtl/AngryBird_Demo.v(289)
+HDL-5007 WARNING: port 'INIT_ACK' is not connected on this instance in ../source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v(163)
+HDL-1007 : elaborate module Sdram_Control_4Port in ../source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v(1)
+HDL-1007 : elaborate module control_interface in ../source/rtl/Sdram_Control_4Port/control_interface.v(1)
+HDL-5007 WARNING: actual bit length 2 differs from formal bit length 3 for port 'CMD' in ../source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v(166)
+HDL-1007 : elaborate module command in ../source/rtl/Sdram_Control_4Port/command.v(1)
+HDL-1007 : elaborate module sdr_data_path in ../source/rtl/Sdram_Control_4Port/sdr_data_path.v(1)
+HDL-1007 : elaborate module Sdram_WR_FIFO in ../source/rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v(39)
+HDL-1007 : elaborate module ramfifo in ../al_ip/fifo/ramfifo.v(14)
+HDL-1007 : elaborate module EG_LOGIC_RAMFIFO(DATA_WIDTH=16,ADDR_WIDTH=10) in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(792)
+HDL-5007 WARNING: actual bit length 16 differs from formal bit length 11 for port 'wrusedw' in ../source/rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v(90)
+HDL-5007 WARNING: actual bit length 16 differs from formal bit length 11 for port 'rdusedw' in ../source/rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v(95)
+HDL-1007 : elaborate module Sdram_RD_FIFO in ../source/rtl/Sdram_Control_4Port/Sdram_RD_FIFO.v(39)
+HDL-5007 WARNING: actual bit length 16 differs from formal bit length 11 for port 'wrusedw' in ../source/rtl/Sdram_Control_4Port/Sdram_RD_FIFO.v(90)
+HDL-5007 WARNING: actual bit length 16 differs from formal bit length 11 for port 'rdusedw' in ../source/rtl/Sdram_Control_4Port/Sdram_RD_FIFO.v(95)
+HDL-1007 : elaborate module sdram in ../al_ip/sdram.v(14)
+HDL-1007 : elaborate module EG_PHY_SDRAM_2M_32 in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(720)
+HDL-5007 WARNING: input port 'INIT_ACK' is not connected on this instance in ../source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v(163)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 21 for port 'WR1_ADDR' in ../source/rtl/AngryBird_Demo.v(303)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 21 for port 'WR1_MAX_ADDR' in ../source/rtl/AngryBird_Demo.v(304)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 21 for port 'RD1_ADDR' in ../source/rtl/AngryBird_Demo.v(323)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 21 for port 'RD1_MAX_ADDR' in ../source/rtl/AngryBird_Demo.v(324)
+HDL-1007 : elaborate module rgb2ycbcr in ../source/rtl/rgb2ycbcr.v(1)
+HDL-1007 : elaborate module ycbcr2gray2binary in ../source/rtl/ycbcr2gray2gray.v(1)
+HDL-1007 : elaborate module process in ../source/rtl/process.v(2)
+HDL-5007 WARNING: actual bit length 12 differs from formal bit length 11 for port 'x_pos' in ../source/rtl/AngryBird_Demo.v(372)
+HDL-5007 WARNING: actual bit length 12 differs from formal bit length 11 for port 'y_pos' in ../source/rtl/AngryBird_Demo.v(373)
+HDL-5007 WARNING: net 'vga_rddat[15]' does not have a driver in ../source/rtl/AngryBird_Demo.v(118)
+HDL-5007 WARNING: input port 'point[5]' remains unconnected for this instance in ../source/rtl/AngryBird_Demo.v(179)
+HDL-5007 WARNING: input port 'WR2_DATA[15]' remains unconnected for this instance in ../source/rtl/AngryBird_Demo.v(294)
+HDL-8007 ERROR: dvi_transmitter_top is a black box
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        
+RUN-1001 :        syn_ip_flow       |    off     |       off        
+RUN-1001 :          thread          |    auto    |       auto       
+RUN-1001 : -------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 :      infer_shifter      |    off     |       off        
+RUN-1001 :         map_dram        |    auto    |       auto       
+RUN-1001 : ------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      
+RUN-1001 :        elf_sload        |    off     |       off        
+RUN-1001 :       fix_undriven      |     0      |        0         
+RUN-1001 :         flatten         |    off     |       off        
+RUN-1001 :       gate_sharing      |     on     |        on        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        
+RUN-1001 :      impl_set_reset     |     on     |        on        
+RUN-1001 :        infer_gsr        |    off     |       off        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       
+RUN-1001 :        max_fanout       |    9999    |       9999       
+RUN-1001 :      max_oh2bin_len     |     10     |        10        
+RUN-1001 :       merge_equal       |     on     |        on        
+RUN-1001 :       merge_equiv       |     on     |        on        
+RUN-1001 :        merge_mux        |    off     |       off        
+RUN-1001 :      min_ce_fanout      |     16     |        16        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       
+RUN-1001 :     opt_adder_fanout    |     on     |        on        
+RUN-1001 :        opt_arith        |     on     |        on        
+RUN-1001 :       opt_big_gate      |    off     |       off        
+RUN-1001 :        opt_const        |     on     |        on        
+RUN-1001 :      opt_const_mult     |     on     |        on        
+RUN-1001 :       opt_lessthan      |     on     |        on        
+RUN-1001 :         opt_mux         |    off     |       off        
+RUN-1001 :         opt_ram         |    high    |       high       
+RUN-1001 :      rtl_sim_model      |    off     |       off        
+RUN-1001 :         seq_syn         |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+HDL-1007 : analyze verilog file ../source/rtl/sdram/fifo_ctrl.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram/sdram_a_ref.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram/sdram_arbit.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram/sdram_ctrl.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram/sdram_init.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram/sdram_read.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram/sdram_top.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram/sdram_write.v
+HDL-1007 : analyze verilog file ../source/rtl/AngryBird_Demo.v
+HDL-5007 WARNING: 'sobel_data' is already implicitly declared on line 146 in ../source/rtl/AngryBird_Demo.v(268)
+HDL-5007 WARNING: 'data_gray' is already implicitly declared on line 144 in ../source/rtl/AngryBird_Demo.v(322)
+HDL-5007 WARNING: identifier 'locked' is used before its declaration in ../source/rtl/AngryBird_Demo.v(72)
+HDL-5007 WARNING: identifier 'hdmi_locked' is used before its declaration in ../source/rtl/AngryBird_Demo.v(72)
+HDL-1007 : analyze verilog file ../source/rtl/Display.v
+HDL-5007 WARNING: parameter 'RED' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(55)
+HDL-5007 WARNING: parameter 'GREEN' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(56)
+HDL-5007 WARNING: parameter 'BLUE' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(57)
+HDL-5007 WARNING: parameter 'WHITE' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(58)
+HDL-5007 WARNING: parameter 'BLACK' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(59)
+HDL-5007 WARNING: parameter 'YELLOW' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(60)
+HDL-5007 WARNING: parameter 'CYAN' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(61)
+HDL-5007 WARNING: parameter 'ROYAL' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(62)
+HDL-5007 WARNING: parameter 'start_scene' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(64)
+HDL-5007 WARNING: parameter 'gameplay_scene' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(65)
+HDL-5007 WARNING: parameter 'pause_scene' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(66)
+HDL-5007 WARNING: parameter 'gameover_scene' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(67)
+HDL-5007 WARNING: parameter 'second_scene' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(68)
+HDL-5007 WARNING: parameter 'start_button_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(119)
+HDL-5007 WARNING: parameter 'start_button_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(120)
+HDL-5007 WARNING: parameter 'cam_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(123)
+HDL-5007 WARNING: parameter 'cam_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(124)
+HDL-5007 WARNING: parameter 'sobel_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(125)
+HDL-5007 WARNING: parameter 'sobel_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(126)
+HDL-5007 WARNING: parameter 'grass_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(127)
+HDL-5007 WARNING: parameter 'grass_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(128)
+HDL-5007 WARNING: parameter 'star_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(129)
+HDL-5007 WARNING: parameter 'star_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(130)
+HDL-5007 WARNING: parameter 'moon_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(131)
+HDL-5007 WARNING: parameter 'moon_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(132)
+HDL-5007 WARNING: parameter 'Bird_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(133)
+HDL-5007 WARNING: parameter 'Bird_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(134)
+HDL-5007 WARNING: parameter 'Obstacle_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(137)
+HDL-5007 WARNING: identifier 'Bird1_dead_en' is used before its declaration in ../source/rtl/Display.v(312)
+HDL-5007 WARNING: identifier 'Bird2_dead_en' is used before its declaration in ../source/rtl/Display.v(319)
+HDL-5007 WARNING: parameter 'speed0' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(474)
+HDL-5007 WARNING: parameter 'speed1' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(475)
+HDL-5007 WARNING: parameter 'speed2' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(476)
+HDL-5007 WARNING: parameter 'speed3' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(477)
+HDL-5007 WARNING: parameter 'speed4' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(478)
+HDL-5007 WARNING: parameter 'speed5' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(479)
+HDL-5007 WARNING: parameter 'score0' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(481)
+HDL-5007 WARNING: parameter 'score1' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(482)
+HDL-5007 WARNING: parameter 'score2' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(483)
+HDL-5007 WARNING: parameter 'score3' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(484)
+HDL-5007 WARNING: parameter 'score4' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(485)
+HDL-5007 WARNING: parameter 'second_score' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(487)
+HDL-5007 WARNING: parameter 'Obstacle_width0' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(491)
+HDL-5007 WARNING: parameter 'Obstacle_width1' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(492)
+HDL-5007 WARNING: parameter 'Obstacle_width2' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(493)
+HDL-5007 WARNING: parameter 'Obstacle_width3' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(494)
+HDL-5007 WARNING: parameter 'Obstacle_width4' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(495)
+HDL-5007 WARNING: parameter 'Obstacle_width5' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(496)
+HDL-5007 WARNING: parameter 'DEAD_THRESHOLD' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(876)
+HDL-1007 : analyze verilog file ../source/rtl/Driver.v
+HDL-1007 : analyze verilog file ../source/rtl/I2C_init.v
+HDL-1007 : analyze verilog file ../source/rtl/ov2640_init.v
+HDL-1007 : analyze verilog file ../source/rtl/ov2640_read.v
+HDL-1007 : analyze verilog file ../source/rtl/process.v
+HDL-1007 : analyze verilog file ../source/rtl/rgb2ycbcr.v
+HDL-1007 : analyze verilog file ../source/rtl/top.v
+HDL-1007 : analyze verilog file ../source/rtl/Top_Logic.v
+HDL-1007 : analyze verilog file ../source/rtl/ycbcr2gray2gray.v
+HDL-1007 : analyze verilog file ../al_ip/gameoverbutton.v
+HDL-1007 : analyze verilog file ../al_ip/grass.v
+HDL-1007 : analyze verilog file ../al_ip/moon.v
+HDL-1007 : analyze verilog file ../al_ip/pausebutton.v
+HDL-1007 : analyze verilog file ../al_ip/PLL.v
+HDL-1007 : analyze verilog file ../al_ip/sdram.v
+HDL-1007 : analyze verilog file ../al_ip/star.v
+HDL-1007 : analyze verilog file ../al_ip/Startbutton.v
+HDL-1007 : analyze verilog file ../al_ip/fifo/ramfifo.v
+HDL-1007 : analyze verilog file ../source/rtl/bcd_8421.v
+HDL-1007 : analyze verilog file ../source/rtl/seg_dynamic.v
+HDL-1007 : analyze verilog file ../al_ip/bird1.v
+HDL-1007 : analyze verilog file ../al_ip/bird2.v
+HDL-1007 : analyze verilog file ../source/rtl/BGMPlayer.v
+HDL-5007 WARNING: identifier 'high' is used before its declaration in ../source/rtl/BGMPlayer.v(71)
+HDL-5007 WARNING: identifier 'med' is used before its declaration in ../source/rtl/BGMPlayer.v(71)
+HDL-5007 WARNING: identifier 'low' is used before its declaration in ../source/rtl/BGMPlayer.v(71)
+HDL-1007 : analyze verilog file ../al_ip/clk6Mhz.v
+HDL-1007 : analyze verilog file ../source/rtl/Sdram_Control_4Port/command.v
+HDL-1007 : analyze included file ../source/rtl/Sdram_Control_4Port/Sdram_Params.h in ../source/rtl/Sdram_Control_4Port/command.v(27)
+HDL-1007 : back to file '../source/rtl/Sdram_Control_4Port/command.v' in ../source/rtl/Sdram_Control_4Port/command.v(27)
+HDL-1007 : analyze verilog file ../source/rtl/Sdram_Control_4Port/control_interface.v
+HDL-1007 : analyze included file ../source/rtl/Sdram_Control_4Port/Sdram_Params.h in ../source/rtl/Sdram_Control_4Port/control_interface.v(21)
+HDL-1007 : back to file '../source/rtl/Sdram_Control_4Port/control_interface.v' in ../source/rtl/Sdram_Control_4Port/control_interface.v(21)
+HDL-1007 : analyze verilog file ../source/rtl/Sdram_Control_4Port/sdr_data_path.v
+HDL-1007 : analyze included file ../source/rtl/Sdram_Control_4Port/Sdram_Params.h in ../source/rtl/Sdram_Control_4Port/sdr_data_path.v(10)
+HDL-1007 : back to file '../source/rtl/Sdram_Control_4Port/sdr_data_path.v' in ../source/rtl/Sdram_Control_4Port/sdr_data_path.v(10)
+HDL-1007 : analyze verilog file ../source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v
+HDL-1007 : analyze included file ../source/rtl/Sdram_Control_4Port/Sdram_Params.h in ../source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v(49)
+HDL-1007 : back to file '../source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v' in ../source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v(49)
+HDL-1007 : analyze verilog file ../source/rtl/Sdram_Control_4Port/Sdram_RD_FIFO.v
+HDL-1007 : analyze verilog file ../source/rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip/line_shift_ram_1bit.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip/line_shift_ram_8bit.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip/SQRT_CSDN.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip/vip.v
+HDL-5007 WARNING: redeclaration of ansi port 'sobel' is not allowed in ../source/rtl/Sobel_edge/vip/vip.v(67)
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip/VIP_Bit_Dilation_Detector.v
+HDL-5007 WARNING: identifier 'en' is used before its declaration in ../source/rtl/Sobel_edge/vip/VIP_Bit_Dilation_Detector.v(117)
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip/VIP_Bit_Erosion_Detector.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip/vip_matrix_generate_3x3_1bit.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip/vip_matrix_generate_3x3_8bit.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip/VIP_RGB888_YCbCr444.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip/vip_sobel_edge_detector.v
+HDL-1007 : analyze verilog file ../al_ip/bram_256_1bit.v
+HDL-1007 : analyze verilog file ../al_ip/bram_256_8bit.v
+HDL-1007 : analyze verilog file ../al_ip/hdmi_pll.v
+HDL-1007 : analyze verilog file ../source/rtl/Driver.v
+Oops! 'Signal Segmentation Violation' raised. The backtrace:
+[bt] (4)_chkstk
+[bt] (5)RtlRestoreContext
+[bt] (6)KiUserExceptionDispatcher
+[bt] (7)QListData::size
+

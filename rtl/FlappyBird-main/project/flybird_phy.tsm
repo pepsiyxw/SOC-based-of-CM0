@@ -1,0 +1,1227 @@
+eagle_s20
+12 22 603 5770 85313290 36 0
+-8.532 0.110 top eagle_s20 BG256 Detail 13 6
+clock: AngryBird_Demo_inst/u_hdmi_pll/pll_inst.clkc[0]
+12 85246052 1774 4
+Setup check
+22 3
+Endpoint: AngryBird_Demo_inst/u2_Display/shell/inst_1600x16_sub_000000_000
+22 -8.532000 36836430 3
+Timing path: AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b5|AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b0.clk->AngryBird_Demo_inst/u2_Display/shell/inst_1600x16_sub_000000_000
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b5|AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b0.clk
+AngryBird_Demo_inst/u2_Display/shell/inst_1600x16_sub_000000_000
+24 -8.532000 15.173000 23.705000 14 20
+AngryBird_Demo_inst/hcnt[0] AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_0|u_hdmi_top/u1_Driver/lt7_cin.b[1]
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c1 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_2|u_hdmi_top/u1_Driver/lt7_1.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c3 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_4|u_hdmi_top/u1_Driver/lt7_3.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c5 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_6|u_hdmi_top/u1_Driver/lt7_5.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c7 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_8|u_hdmi_top/u1_Driver/lt7_7.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c9 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_10|u_hdmi_top/u1_Driver/lt7_9.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c11 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_cout|u_hdmi_top/u1_Driver/lt7_11.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/n18 AngryBird_Demo_inst/_al_u455|AngryBird_Demo_inst/sobel_edge/VIP_RGB888_YCbCr444_inst/reg16_b0.b[1]
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/n21 AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b3|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b4.d[0]
+AngryBird_Demo_inst/lcd_ypos[4] AngryBird_Demo_inst/u2_Display/sub41/u4|sub41/u3.a[1]
+AngryBird_Demo_inst/u2_Display/sub41/c5 AngryBird_Demo_inst/u2_Display/sub41/u6|sub41/u5.fci
+AngryBird_Demo_inst/u2_Display/n393[6] AngryBird_Demo_inst/u2_Display/mult16_mult21_.a[15]
+AngryBird_Demo_inst/u2_Display/n394[3] AngryBird_Demo_inst/u2_Display/u149/u3_al_u1673.a[0]
+AngryBird_Demo_inst/u2_Display/n395[6] AngryBird_Demo_inst/u2_Display/_al_u856|AngryBird_Demo_inst/u2_Display/_al_u859.c[1]
+AngryBird_Demo_inst/u2_Display/angle6_shell2_rom_add[6] AngryBird_Demo_inst/u2_Display/u14/u3_al_u1661.e[1]
+AngryBird_Demo_inst/u2_Display/u14/c7 AngryBird_Demo_inst/u2_Display/u14/u7_al_u1662.fci
+AngryBird_Demo_inst/u2_Display/n14[8] AngryBird_Demo_inst/u2_Display/u89/u7_al_u1692.b[0]
+AngryBird_Demo_inst/u2_Display/n19[8] AngryBird_Demo_inst/u2_Display/u93/u7_al_u1701.b[0]
+AngryBird_Demo_inst/u2_Display/n22[10] AngryBird_Demo_inst/u2_Display/u94/u7_al_u1704.e[1]
+AngryBird_Demo_inst/u2_Display/all_shell_rom_add[10] AngryBird_Demo_inst/u2_Display/shell/inst_1600x16_sub_000000_000.addra[10]
+
+Timing path: AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b5|AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b0.clk->AngryBird_Demo_inst/u2_Display/shell/inst_1600x16_sub_000000_000
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b5|AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b0.clk
+AngryBird_Demo_inst/u2_Display/shell/inst_1600x16_sub_000000_000
+97 -8.532000 15.173000 23.705000 14 20
+AngryBird_Demo_inst/hcnt[0] AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_0|u_hdmi_top/u1_Driver/lt7_cin.b[1]
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c1 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_2|u_hdmi_top/u1_Driver/lt7_1.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c3 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_4|u_hdmi_top/u1_Driver/lt7_3.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c5 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_6|u_hdmi_top/u1_Driver/lt7_5.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c7 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_8|u_hdmi_top/u1_Driver/lt7_7.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c9 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_10|u_hdmi_top/u1_Driver/lt7_9.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c11 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_cout|u_hdmi_top/u1_Driver/lt7_11.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/n18 AngryBird_Demo_inst/_al_u455|AngryBird_Demo_inst/sobel_edge/VIP_RGB888_YCbCr444_inst/reg16_b0.b[1]
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/n21 AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b3|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b4.d[0]
+AngryBird_Demo_inst/lcd_ypos[4] AngryBird_Demo_inst/u2_Display/sub41/u4|sub41/u3.a[1]
+AngryBird_Demo_inst/u2_Display/sub41/c5 AngryBird_Demo_inst/u2_Display/sub41/u6|sub41/u5.fci
+AngryBird_Demo_inst/u2_Display/n393[6] AngryBird_Demo_inst/u2_Display/mult16_mult21_.a[15]
+AngryBird_Demo_inst/u2_Display/n394[3] AngryBird_Demo_inst/u2_Display/u149/u3_al_u1673.a[0]
+AngryBird_Demo_inst/u2_Display/n395[6] AngryBird_Demo_inst/u2_Display/_al_u856|AngryBird_Demo_inst/u2_Display/_al_u859.c[1]
+AngryBird_Demo_inst/u2_Display/angle6_shell2_rom_add[6] AngryBird_Demo_inst/u2_Display/u14/u3_al_u1661.e[1]
+AngryBird_Demo_inst/u2_Display/n14[6] AngryBird_Demo_inst/u2_Display/u89/u3_al_u1691.b[1]
+AngryBird_Demo_inst/u2_Display/u89/c7 AngryBird_Demo_inst/u2_Display/u89/u7_al_u1692.fci
+AngryBird_Demo_inst/u2_Display/n19[8] AngryBird_Demo_inst/u2_Display/u93/u7_al_u1701.b[0]
+AngryBird_Demo_inst/u2_Display/n22[10] AngryBird_Demo_inst/u2_Display/u94/u7_al_u1704.e[1]
+AngryBird_Demo_inst/u2_Display/all_shell_rom_add[10] AngryBird_Demo_inst/u2_Display/shell/inst_1600x16_sub_000000_000.addra[10]
+
+Timing path: AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b5|AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b0.clk->AngryBird_Demo_inst/u2_Display/shell/inst_1600x16_sub_000000_000
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b5|AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b0.clk
+AngryBird_Demo_inst/u2_Display/shell/inst_1600x16_sub_000000_000
+170 -8.518000 15.173000 23.691000 14 20
+AngryBird_Demo_inst/hcnt[0] AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_0|u_hdmi_top/u1_Driver/lt7_cin.b[1]
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c1 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_2|u_hdmi_top/u1_Driver/lt7_1.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c3 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_4|u_hdmi_top/u1_Driver/lt7_3.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c5 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_6|u_hdmi_top/u1_Driver/lt7_5.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c7 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_8|u_hdmi_top/u1_Driver/lt7_7.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c9 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_10|u_hdmi_top/u1_Driver/lt7_9.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c11 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_cout|u_hdmi_top/u1_Driver/lt7_11.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/n18 AngryBird_Demo_inst/_al_u455|AngryBird_Demo_inst/sobel_edge/VIP_RGB888_YCbCr444_inst/reg16_b0.b[1]
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/n21 AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b3|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b4.d[0]
+AngryBird_Demo_inst/lcd_ypos[4] AngryBird_Demo_inst/u2_Display/sub41/u4|sub41/u3.a[1]
+AngryBird_Demo_inst/u2_Display/sub41/c5 AngryBird_Demo_inst/u2_Display/sub41/u6|sub41/u5.fci
+AngryBird_Demo_inst/u2_Display/n393[6] AngryBird_Demo_inst/u2_Display/mult16_mult21_.a[15]
+AngryBird_Demo_inst/u2_Display/n394[3] AngryBird_Demo_inst/u2_Display/u149/u3_al_u1673.a[0]
+AngryBird_Demo_inst/u2_Display/n395[6] AngryBird_Demo_inst/u2_Display/_al_u856|AngryBird_Demo_inst/u2_Display/_al_u859.c[1]
+AngryBird_Demo_inst/u2_Display/angle6_shell2_rom_add[6] AngryBird_Demo_inst/u2_Display/u14/u3_al_u1661.e[1]
+AngryBird_Demo_inst/u2_Display/u14/c7 AngryBird_Demo_inst/u2_Display/u14/u7_al_u1662.fci
+AngryBird_Demo_inst/u2_Display/n14[8] AngryBird_Demo_inst/u2_Display/u89/u7_al_u1692.b[0]
+AngryBird_Demo_inst/u2_Display/n19[7] AngryBird_Demo_inst/u2_Display/u93/u7_al_u1701.a[0]
+AngryBird_Demo_inst/u2_Display/n22[10] AngryBird_Demo_inst/u2_Display/u94/u7_al_u1704.e[1]
+AngryBird_Demo_inst/u2_Display/all_shell_rom_add[10] AngryBird_Demo_inst/u2_Display/shell/inst_1600x16_sub_000000_000.addra[10]
+
+
+Endpoint: AngryBird_Demo_inst/u2_Display/singlebutton/inst_8100x16_sub_004096_000
+243 -4.075000 108857 3
+Timing path: AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b5|AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b0.clk->AngryBird_Demo_inst/u2_Display/singlebutton/inst_8100x16_sub_004096_000
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b5|AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b0.clk
+AngryBird_Demo_inst/u2_Display/singlebutton/inst_8100x16_sub_004096_000
+245 -4.075000 15.173000 19.248000 8 14
+AngryBird_Demo_inst/hcnt[0] AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_0|u_hdmi_top/u1_Driver/lt7_cin.b[1]
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c1 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_2|u_hdmi_top/u1_Driver/lt7_1.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c3 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_4|u_hdmi_top/u1_Driver/lt7_3.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c5 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_6|u_hdmi_top/u1_Driver/lt7_5.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c7 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_8|u_hdmi_top/u1_Driver/lt7_7.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c9 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_10|u_hdmi_top/u1_Driver/lt7_9.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c11 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_cout|u_hdmi_top/u1_Driver/lt7_11.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/n18 AngryBird_Demo_inst/_al_u455|AngryBird_Demo_inst/sobel_edge/VIP_RGB888_YCbCr444_inst/reg16_b0.b[1]
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/n21 AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b3|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b4.d[0]
+AngryBird_Demo_inst/lcd_ypos[4] AngryBird_Demo_inst/u2_Display/sub13/u3_al_u1569.b[0]
+AngryBird_Demo_inst/u2_Display/n335[6] AngryBird_Demo_inst/u2_Display/mult6_.a[6]
+AngryBird_Demo_inst/u2_Display/n336[8] AngryBird_Demo_inst/u2_Display/u107/u7_al_u1574.a[0]
+AngryBird_Demo_inst/u2_Display/n41[10] AngryBird_Demo_inst/u2_Display/_al_u830|AngryBird_Demo_inst/u2_Display/_al_u831.c[1]
+AngryBird_Demo_inst/u2_Display/singlebutton_rom_add[11] AngryBird_Demo_inst/u2_Display/singlebutton/inst_8100x16_sub_004096_000.addra[10]
+
+Timing path: AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b1|AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b3.clk->AngryBird_Demo_inst/u2_Display/singlebutton/inst_8100x16_sub_004096_000
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b1|AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b3.clk
+AngryBird_Demo_inst/u2_Display/singlebutton/inst_8100x16_sub_004096_000
+306 -3.969000 15.173000 19.142000 8 13
+AngryBird_Demo_inst/hcnt[1] AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_2|u_hdmi_top/u1_Driver/lt7_1.b[0]
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c3 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_4|u_hdmi_top/u1_Driver/lt7_3.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c5 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_6|u_hdmi_top/u1_Driver/lt7_5.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c7 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_8|u_hdmi_top/u1_Driver/lt7_7.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c9 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_10|u_hdmi_top/u1_Driver/lt7_9.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c11 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_cout|u_hdmi_top/u1_Driver/lt7_11.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/n18 AngryBird_Demo_inst/_al_u455|AngryBird_Demo_inst/sobel_edge/VIP_RGB888_YCbCr444_inst/reg16_b0.b[1]
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/n21 AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b3|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b4.d[0]
+AngryBird_Demo_inst/lcd_ypos[4] AngryBird_Demo_inst/u2_Display/sub13/u3_al_u1569.b[0]
+AngryBird_Demo_inst/u2_Display/n335[6] AngryBird_Demo_inst/u2_Display/mult6_.a[6]
+AngryBird_Demo_inst/u2_Display/n336[8] AngryBird_Demo_inst/u2_Display/u107/u7_al_u1574.a[0]
+AngryBird_Demo_inst/u2_Display/n41[10] AngryBird_Demo_inst/u2_Display/_al_u830|AngryBird_Demo_inst/u2_Display/_al_u831.c[1]
+AngryBird_Demo_inst/u2_Display/singlebutton_rom_add[11] AngryBird_Demo_inst/u2_Display/singlebutton/inst_8100x16_sub_004096_000.addra[10]
+
+Timing path: AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b4|AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b6.clk->AngryBird_Demo_inst/u2_Display/singlebutton/inst_8100x16_sub_004096_000
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b4|AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b6.clk
+AngryBird_Demo_inst/u2_Display/singlebutton/inst_8100x16_sub_004096_000
+365 -3.960000 15.173000 19.133000 8 12
+AngryBird_Demo_inst/hcnt[4] AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_4|u_hdmi_top/u1_Driver/lt7_3.b[1]
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c5 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_6|u_hdmi_top/u1_Driver/lt7_5.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c7 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_8|u_hdmi_top/u1_Driver/lt7_7.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c9 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_10|u_hdmi_top/u1_Driver/lt7_9.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c11 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_cout|u_hdmi_top/u1_Driver/lt7_11.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/n18 AngryBird_Demo_inst/_al_u455|AngryBird_Demo_inst/sobel_edge/VIP_RGB888_YCbCr444_inst/reg16_b0.b[1]
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/n21 AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b3|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b4.d[0]
+AngryBird_Demo_inst/lcd_ypos[4] AngryBird_Demo_inst/u2_Display/sub13/u3_al_u1569.b[0]
+AngryBird_Demo_inst/u2_Display/n335[6] AngryBird_Demo_inst/u2_Display/mult6_.a[6]
+AngryBird_Demo_inst/u2_Display/n336[8] AngryBird_Demo_inst/u2_Display/u107/u7_al_u1574.a[0]
+AngryBird_Demo_inst/u2_Display/n41[10] AngryBird_Demo_inst/u2_Display/_al_u830|AngryBird_Demo_inst/u2_Display/_al_u831.c[1]
+AngryBird_Demo_inst/u2_Display/singlebutton_rom_add[11] AngryBird_Demo_inst/u2_Display/singlebutton/inst_8100x16_sub_004096_000.addra[10]
+
+
+Endpoint: AngryBird_Demo_inst/u2_Display/singlebutton/inst_8100x16_sub_004096_008
+422 -3.838000 108857 3
+Timing path: AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b5|AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b0.clk->AngryBird_Demo_inst/u2_Display/singlebutton/inst_8100x16_sub_004096_008
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b5|AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b0.clk
+AngryBird_Demo_inst/u2_Display/singlebutton/inst_8100x16_sub_004096_008
+424 -3.838000 15.173000 19.011000 8 14
+AngryBird_Demo_inst/hcnt[0] AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_0|u_hdmi_top/u1_Driver/lt7_cin.b[1]
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c1 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_2|u_hdmi_top/u1_Driver/lt7_1.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c3 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_4|u_hdmi_top/u1_Driver/lt7_3.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c5 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_6|u_hdmi_top/u1_Driver/lt7_5.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c7 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_8|u_hdmi_top/u1_Driver/lt7_7.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c9 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_10|u_hdmi_top/u1_Driver/lt7_9.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c11 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_cout|u_hdmi_top/u1_Driver/lt7_11.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/n18 AngryBird_Demo_inst/_al_u455|AngryBird_Demo_inst/sobel_edge/VIP_RGB888_YCbCr444_inst/reg16_b0.b[1]
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/n21 AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b3|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b4.d[0]
+AngryBird_Demo_inst/lcd_ypos[4] AngryBird_Demo_inst/u2_Display/sub13/u3_al_u1569.b[0]
+AngryBird_Demo_inst/u2_Display/n335[6] AngryBird_Demo_inst/u2_Display/mult6_.a[6]
+AngryBird_Demo_inst/u2_Display/n336[8] AngryBird_Demo_inst/u2_Display/u107/u7_al_u1574.a[0]
+AngryBird_Demo_inst/u2_Display/n41[10] AngryBird_Demo_inst/u2_Display/_al_u830|AngryBird_Demo_inst/u2_Display/_al_u831.c[1]
+AngryBird_Demo_inst/u2_Display/singlebutton_rom_add[11] AngryBird_Demo_inst/u2_Display/singlebutton/inst_8100x16_sub_004096_008.addra[10]
+
+Timing path: AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b1|AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b3.clk->AngryBird_Demo_inst/u2_Display/singlebutton/inst_8100x16_sub_004096_008
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b1|AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b3.clk
+AngryBird_Demo_inst/u2_Display/singlebutton/inst_8100x16_sub_004096_008
+485 -3.732000 15.173000 18.905000 8 13
+AngryBird_Demo_inst/hcnt[1] AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_2|u_hdmi_top/u1_Driver/lt7_1.b[0]
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c3 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_4|u_hdmi_top/u1_Driver/lt7_3.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c5 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_6|u_hdmi_top/u1_Driver/lt7_5.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c7 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_8|u_hdmi_top/u1_Driver/lt7_7.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c9 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_10|u_hdmi_top/u1_Driver/lt7_9.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c11 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_cout|u_hdmi_top/u1_Driver/lt7_11.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/n18 AngryBird_Demo_inst/_al_u455|AngryBird_Demo_inst/sobel_edge/VIP_RGB888_YCbCr444_inst/reg16_b0.b[1]
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/n21 AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b3|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b4.d[0]
+AngryBird_Demo_inst/lcd_ypos[4] AngryBird_Demo_inst/u2_Display/sub13/u3_al_u1569.b[0]
+AngryBird_Demo_inst/u2_Display/n335[6] AngryBird_Demo_inst/u2_Display/mult6_.a[6]
+AngryBird_Demo_inst/u2_Display/n336[8] AngryBird_Demo_inst/u2_Display/u107/u7_al_u1574.a[0]
+AngryBird_Demo_inst/u2_Display/n41[10] AngryBird_Demo_inst/u2_Display/_al_u830|AngryBird_Demo_inst/u2_Display/_al_u831.c[1]
+AngryBird_Demo_inst/u2_Display/singlebutton_rom_add[11] AngryBird_Demo_inst/u2_Display/singlebutton/inst_8100x16_sub_004096_008.addra[10]
+
+Timing path: AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b4|AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b6.clk->AngryBird_Demo_inst/u2_Display/singlebutton/inst_8100x16_sub_004096_008
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b4|AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b6.clk
+AngryBird_Demo_inst/u2_Display/singlebutton/inst_8100x16_sub_004096_008
+544 -3.723000 15.173000 18.896000 8 12
+AngryBird_Demo_inst/hcnt[4] AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_4|u_hdmi_top/u1_Driver/lt7_3.b[1]
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c5 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_6|u_hdmi_top/u1_Driver/lt7_5.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c7 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_8|u_hdmi_top/u1_Driver/lt7_7.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c9 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_10|u_hdmi_top/u1_Driver/lt7_9.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_c11 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt7_cout|u_hdmi_top/u1_Driver/lt7_11.fci
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/n18 AngryBird_Demo_inst/_al_u455|AngryBird_Demo_inst/sobel_edge/VIP_RGB888_YCbCr444_inst/reg16_b0.b[1]
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/n21 AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b3|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b4.d[0]
+AngryBird_Demo_inst/lcd_ypos[4] AngryBird_Demo_inst/u2_Display/sub13/u3_al_u1569.b[0]
+AngryBird_Demo_inst/u2_Display/n335[6] AngryBird_Demo_inst/u2_Display/mult6_.a[6]
+AngryBird_Demo_inst/u2_Display/n336[8] AngryBird_Demo_inst/u2_Display/u107/u7_al_u1574.a[0]
+AngryBird_Demo_inst/u2_Display/n41[10] AngryBird_Demo_inst/u2_Display/_al_u830|AngryBird_Demo_inst/u2_Display/_al_u831.c[1]
+AngryBird_Demo_inst/u2_Display/singlebutton_rom_add[11] AngryBird_Demo_inst/u2_Display/singlebutton/inst_8100x16_sub_004096_008.addra[10]
+
+
+
+Hold check
+601 3
+Endpoint: AngryBird_Demo_inst/Sdram_Control_4Port_inst/fifo_bram_1024x16_sub_000000_009
+603 0.110000 11 3
+Timing path: AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg_rdptr_b7|AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg_rdptr_b6.clk->AngryBird_Demo_inst/Sdram_Control_4Port_inst/fifo_bram_1024x16_sub_000000_009
+AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg_rdptr_b7|AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg_rdptr_b6.clk
+AngryBird_Demo_inst/Sdram_Control_4Port_inst/fifo_bram_1024x16_sub_000000_009
+605 0.110000 2.304000 2.414000 0 1
+AngryBird_Demo_inst/Sdram_Control_4Port_inst/rdptr_g6 AngryBird_Demo_inst/Sdram_Control_4Port_inst/fifo_bram_1024x16_sub_000000_009.addrb[9]
+
+Timing path: AngryBird_Demo_inst/Sdram_Control_4Port_inst/_al_u792|AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg_rdptr_b0.clk->AngryBird_Demo_inst/Sdram_Control_4Port_inst/fifo_bram_1024x16_sub_000000_009
+AngryBird_Demo_inst/Sdram_Control_4Port_inst/_al_u792|AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg_rdptr_b0.clk
+AngryBird_Demo_inst/Sdram_Control_4Port_inst/fifo_bram_1024x16_sub_000000_009
+640 0.243000 2.304000 2.547000 0 1
+AngryBird_Demo_inst/Sdram_Control_4Port_inst/rdptr_g0 AngryBird_Demo_inst/Sdram_Control_4Port_inst/fifo_bram_1024x16_sub_000000_009.addrb[3]
+
+Timing path: AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg_rdptr_b2|AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg_rdptr_b8.clk->AngryBird_Demo_inst/Sdram_Control_4Port_inst/fifo_bram_1024x16_sub_000000_009
+AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg_rdptr_b2|AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg_rdptr_b8.clk
+AngryBird_Demo_inst/Sdram_Control_4Port_inst/fifo_bram_1024x16_sub_000000_009
+675 0.243000 2.304000 2.547000 0 1
+AngryBird_Demo_inst/Sdram_Control_4Port_inst/rdptr_g2 AngryBird_Demo_inst/Sdram_Control_4Port_inst/fifo_bram_1024x16_sub_000000_009.addrb[5]
+
+
+Endpoint: AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u65_b7|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u65_b2
+710 0.153000 1 1
+Timing path: AngryBird_Demo_inst/u_sdram_top/reg_deleay_wrptr_b7|AngryBird_Demo_inst/u_sdram_top/reg_deleay_wrptr_b2.clk->AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u65_b7|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u65_b2
+AngryBird_Demo_inst/u_sdram_top/reg_deleay_wrptr_b7|AngryBird_Demo_inst/u_sdram_top/reg_deleay_wrptr_b2.clk
+AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u65_b7|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u65_b2
+712 0.153000 2.350000 2.503000 0 1
+AngryBird_Demo_inst/u_sdram_top/delayed_wrptr_g7 AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u65_b7|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u65_b2.mi[1]
+
+
+Endpoint: AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u65_b0
+745 0.153000 1 1
+Timing path: AngryBird_Demo_inst/u_sdram_top/_al_u264|AngryBird_Demo_inst/u_sdram_top/reg_deleay_wrptr_b0.clk->AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u65_b0
+AngryBird_Demo_inst/u_sdram_top/_al_u264|AngryBird_Demo_inst/u_sdram_top/reg_deleay_wrptr_b0.clk
+AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u65_b0
+747 0.153000 2.350000 2.503000 0 1
+AngryBird_Demo_inst/u_sdram_top/delayed_wrptr_g0 AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u65_b0.mi[0]
+
+
+
+Recovery check
+780 3
+Endpoint: AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b4|AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b6
+782 -0.917000 1 1
+Timing path: AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_0|fifo_ctrl_inst/lt3_cin.clk->AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b4|AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b6
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_0|fifo_ctrl_inst/lt3_cin.clk
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b4|AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b6
+784 -0.917000 4.466000 5.383000 1 2
+AngryBird_Demo_inst/photo_wr_done AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_g/reg1_b4|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_clk/reg0_b4.c[0]
+AngryBird_Demo_inst/n2 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b4|AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b6.sr
+
+
+Endpoint: AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b1|AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b3
+819 -0.915000 1 1
+Timing path: AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_0|fifo_ctrl_inst/lt3_cin.clk->AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b1|AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b3
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_0|fifo_ctrl_inst/lt3_cin.clk
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b1|AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b3
+821 -0.915000 4.466000 5.381000 1 2
+AngryBird_Demo_inst/photo_wr_done AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_g/reg1_b4|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_clk/reg0_b4.c[0]
+AngryBird_Demo_inst/n2 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b1|AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b3.sr
+
+
+Endpoint: AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b2
+856 -0.753000 1 1
+Timing path: AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_0|fifo_ctrl_inst/lt3_cin.clk->AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b2
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_0|fifo_ctrl_inst/lt3_cin.clk
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b2
+858 -0.753000 4.466000 5.219000 1 2
+AngryBird_Demo_inst/photo_wr_done AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_g/reg1_b4|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_clk/reg0_b4.c[0]
+AngryBird_Demo_inst/n2 AngryBird_Demo_inst/u_hdmi_top/u1_Driver/reg1_b2.sr
+
+
+
+Removal check
+893 3
+Endpoint: AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_r/reg5_b3|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_r/reg5_b4
+895 0.419000 1 1
+Timing path: AngryBird_Demo_inst/sobel_edge/u_threshold_binary/lt3_0|sobel_edge/u_threshold_binary/lt3_cin.clk->AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_r/reg5_b3|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_r/reg5_b4
+AngryBird_Demo_inst/sobel_edge/u_threshold_binary/lt3_0|sobel_edge/u_threshold_binary/lt3_cin.clk
+AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_r/reg5_b3|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_r/reg5_b4
+897 0.419000 2.404000 2.823000 0 1
+AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/reset AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_r/reg5_b3|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_r/reg5_b4.sr
+
+
+Endpoint: AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_b/reg5_b3|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_b/reg5_b4
+932 0.647000 1 1
+Timing path: AngryBird_Demo_inst/sobel_edge/u_threshold_binary/lt3_0|sobel_edge/u_threshold_binary/lt3_cin.clk->AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_b/reg5_b3|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_b/reg5_b4
+AngryBird_Demo_inst/sobel_edge/u_threshold_binary/lt3_0|sobel_edge/u_threshold_binary/lt3_cin.clk
+AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_b/reg5_b3|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_b/reg5_b4
+934 0.647000 2.404000 3.051000 0 1
+AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/reset AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_b/reg5_b3|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_b/reg5_b4.sr
+
+
+Endpoint: AngryBird_Demo_inst/rd_synchro_inst/three_state_reg|AngryBird_Demo_inst/rd_synchro_inst/two_flag_reg
+969 0.789000 1 1
+Timing path: AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_0|fifo_ctrl_inst/lt3_cin.clk->AngryBird_Demo_inst/rd_synchro_inst/three_state_reg|AngryBird_Demo_inst/rd_synchro_inst/two_flag_reg
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_0|fifo_ctrl_inst/lt3_cin.clk
+AngryBird_Demo_inst/rd_synchro_inst/three_state_reg|AngryBird_Demo_inst/rd_synchro_inst/two_flag_reg
+971 0.789000 2.576000 3.365000 1 2
+AngryBird_Demo_inst/photo_wr_done AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_g/reg1_b4|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_clk/reg0_b4.c[0]
+AngryBird_Demo_inst/n2 AngryBird_Demo_inst/rd_synchro_inst/three_state_reg|AngryBird_Demo_inst/rd_synchro_inst/two_flag_reg.sr
+
+
+
+
+clock: AngryBird_Demo_inst/u_hdmi_pll/pll_inst.clkc[1]
+1006 366 164 2
+Setup check
+1016 3
+Endpoint: AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_g/reg0_b3|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_r/reg1_b0
+1016 -1.679000 1 1
+Timing path: AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_g/reg4_b6|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_g/reg4_b7.clk->AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_g/reg0_b3|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_r/reg1_b0
+AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_g/reg4_b6|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_g/reg4_b7.clk
+AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_g/reg0_b3|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_r/reg1_b0
+1018 -1.679000 1.863000 3.542000 1 1
+AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/green_10bit[6] AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_g/reg0_b3|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_r/reg1_b0.d[1]
+
+
+Endpoint: AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_b/reg1_b1|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_b/reg1_b0
+1051 -1.627000 1 1
+Timing path: AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_b/reg4_b0|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_b/reg4_b1.clk->AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_b/reg1_b1|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_b/reg1_b0
+AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_b/reg4_b0|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_b/reg4_b1.clk
+AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_b/reg1_b1|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_b/reg1_b0
+1053 -1.627000 1.863000 3.490000 1 1
+AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/blue_10bit[1] AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_b/reg1_b1|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_b/reg1_b0.c[0]
+
+
+Endpoint: AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_b/reg0_b2|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_b/reg0_b3
+1086 -1.556000 1 1
+Timing path: AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_b/reg4_b2|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_b/reg4_b6.clk->AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_b/reg0_b2|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_b/reg0_b3
+AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_b/reg4_b2|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_b/reg4_b6.clk
+AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_b/reg0_b2|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_b/reg0_b3
+1088 -1.556000 1.863000 3.419000 1 1
+AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/blue_10bit[6] AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_b/reg0_b2|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_b/reg0_b3.d[0]
+
+
+
+Hold check
+1121 3
+Endpoint: AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_g/reg0_b4|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_r/reg1_b4
+1123 0.153000 1 1
+Timing path: AngryBird_Demo_inst/_al_u737|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_g/reg4_b8.clk->AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_g/reg0_b4|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_r/reg1_b4
+AngryBird_Demo_inst/_al_u737|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_g/reg4_b8.clk
+AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_g/reg0_b4|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_r/reg1_b4
+1125 0.153000 2.350000 2.503000 0 1
+AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/green_10bit[8] AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_g/reg0_b4|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_r/reg1_b4.mi[1]
+
+
+Endpoint: AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_g/reg0_b1|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_g/reg1_b2
+1158 0.204000 1 1
+Timing path: AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_g/reg4_b3|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_g/reg4_b5.clk->AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_g/reg0_b1|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_g/reg1_b2
+AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_g/reg4_b3|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_g/reg4_b5.clk
+AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_g/reg0_b1|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_g/reg1_b2
+1160 0.204000 2.350000 2.554000 1 1
+AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/green_10bit[5] AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_g/reg0_b1|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_g/reg1_b2.c[0]
+
+
+Endpoint: AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_b/reg0_b4|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_b/reg1_b4
+1193 0.299000 1 1
+Timing path: AngryBird_Demo_inst/_al_u784|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_b/reg4_b8.clk->AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_b/reg0_b4|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_b/reg1_b4
+AngryBird_Demo_inst/_al_u784|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_b/reg4_b8.clk
+AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_b/reg0_b4|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_b/reg1_b4
+1195 0.299000 2.350000 2.649000 0 1
+AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/blue_10bit[8] AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_b/reg0_b4|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_b/reg1_b4.mi[1]
+
+
+
+
+clock: AngryBird_Demo_inst/u_pll/pll_inst.clkc[0]
+1228 352 36 4
+Setup check
+1238 3
+Endpoint: AngryBird_Demo_inst/u_i2c_dr/reg0_b4|AngryBird_Demo_inst/u_i2c_dr/reg0_b5
+1238 16.337000 15 3
+Timing path: AngryBird_Demo_inst/u_i2c_dr/reg0_b0|AngryBird_Demo_inst/u_i2c_dr/reg0_b1.clk->AngryBird_Demo_inst/u_i2c_dr/reg0_b4|AngryBird_Demo_inst/u_i2c_dr/reg0_b5
+AngryBird_Demo_inst/u_i2c_dr/reg0_b0|AngryBird_Demo_inst/u_i2c_dr/reg0_b1.clk
+AngryBird_Demo_inst/u_i2c_dr/reg0_b4|AngryBird_Demo_inst/u_i2c_dr/reg0_b5
+1240 16.337000 22.166000 5.829000 3 3
+AngryBird_Demo_inst/u_i2c_dr/clk_cnt[0] AngryBird_Demo_inst/u_i2c_dr/add0/ucin_al_u204.b[0]
+AngryBird_Demo_inst/u_i2c_dr/add0/c3 AngryBird_Demo_inst/u_i2c_dr/add0/u3_al_u205.fci
+AngryBird_Demo_inst/u_i2c_dr/n21[4] AngryBird_Demo_inst/u_i2c_dr/reg0_b4|AngryBird_Demo_inst/u_i2c_dr/reg0_b5.c[1]
+
+Timing path: AngryBird_Demo_inst/u_i2c_dr/reg0_b2|AngryBird_Demo_inst/u_i2c_dr/reg0_b3.clk->AngryBird_Demo_inst/u_i2c_dr/reg0_b4|AngryBird_Demo_inst/u_i2c_dr/reg0_b5
+AngryBird_Demo_inst/u_i2c_dr/reg0_b2|AngryBird_Demo_inst/u_i2c_dr/reg0_b3.clk
+AngryBird_Demo_inst/u_i2c_dr/reg0_b4|AngryBird_Demo_inst/u_i2c_dr/reg0_b5
+1279 16.529000 22.166000 5.637000 3 3
+AngryBird_Demo_inst/u_i2c_dr/clk_cnt[2] AngryBird_Demo_inst/u_i2c_dr/add0/ucin_al_u204.b[1]
+AngryBird_Demo_inst/u_i2c_dr/add0/c3 AngryBird_Demo_inst/u_i2c_dr/add0/u3_al_u205.fci
+AngryBird_Demo_inst/u_i2c_dr/n21[4] AngryBird_Demo_inst/u_i2c_dr/reg0_b4|AngryBird_Demo_inst/u_i2c_dr/reg0_b5.c[1]
+
+Timing path: AngryBird_Demo_inst/u_i2c_dr/reg0_b0|AngryBird_Demo_inst/u_i2c_dr/reg0_b1.clk->AngryBird_Demo_inst/u_i2c_dr/reg0_b4|AngryBird_Demo_inst/u_i2c_dr/reg0_b5
+AngryBird_Demo_inst/u_i2c_dr/reg0_b0|AngryBird_Demo_inst/u_i2c_dr/reg0_b1.clk
+AngryBird_Demo_inst/u_i2c_dr/reg0_b4|AngryBird_Demo_inst/u_i2c_dr/reg0_b5
+1318 16.564000 22.166000 5.602000 3 3
+AngryBird_Demo_inst/u_i2c_dr/clk_cnt[1] AngryBird_Demo_inst/u_i2c_dr/add0/ucin_al_u204.a[1]
+AngryBird_Demo_inst/u_i2c_dr/add0/c3 AngryBird_Demo_inst/u_i2c_dr/add0/u3_al_u205.fci
+AngryBird_Demo_inst/u_i2c_dr/n21[4] AngryBird_Demo_inst/u_i2c_dr/reg0_b4|AngryBird_Demo_inst/u_i2c_dr/reg0_b5.c[1]
+
+
+Endpoint: AngryBird_Demo_inst/u_i2c_dr/dri_clk_reg
+1357 16.684000 10 3
+Timing path: AngryBird_Demo_inst/u_i2c_dr/reg0_b6|AngryBird_Demo_inst/u_i2c_dr/reg0_b7.clk->AngryBird_Demo_inst/u_i2c_dr/dri_clk_reg
+AngryBird_Demo_inst/u_i2c_dr/reg0_b6|AngryBird_Demo_inst/u_i2c_dr/reg0_b7.clk
+AngryBird_Demo_inst/u_i2c_dr/dri_clk_reg
+1359 16.684000 22.166000 5.482000 2 3
+AngryBird_Demo_inst/u_i2c_dr/clk_cnt[6] AngryBird_Demo_inst/_al_u679|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_clk/reg0_b1.a[0]
+AngryBird_Demo_inst/u_i2c_dr/_al_u77_o AngryBird_Demo_inst/u_i2c_dr/_al_u79|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_clk/reg0_b2.b[1]
+AngryBird_Demo_inst/u_i2c_dr/n18 AngryBird_Demo_inst/u_i2c_dr/dri_clk_reg.ce
+
+Timing path: AngryBird_Demo_inst/u_i2c_dr/reg0_b8|AngryBird_Demo_inst/u_i2c_dr/reg0_b9.clk->AngryBird_Demo_inst/u_i2c_dr/dri_clk_reg
+AngryBird_Demo_inst/u_i2c_dr/reg0_b8|AngryBird_Demo_inst/u_i2c_dr/reg0_b9.clk
+AngryBird_Demo_inst/u_i2c_dr/dri_clk_reg
+1398 16.930000 22.166000 5.236000 2 3
+AngryBird_Demo_inst/u_i2c_dr/clk_cnt[8] AngryBird_Demo_inst/_al_u679|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_clk/reg0_b1.c[0]
+AngryBird_Demo_inst/u_i2c_dr/_al_u77_o AngryBird_Demo_inst/u_i2c_dr/_al_u79|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_clk/reg0_b2.b[1]
+AngryBird_Demo_inst/u_i2c_dr/n18 AngryBird_Demo_inst/u_i2c_dr/dri_clk_reg.ce
+
+Timing path: AngryBird_Demo_inst/u_i2c_dr/reg0_b6|AngryBird_Demo_inst/u_i2c_dr/reg0_b7.clk->AngryBird_Demo_inst/u_i2c_dr/dri_clk_reg
+AngryBird_Demo_inst/u_i2c_dr/reg0_b6|AngryBird_Demo_inst/u_i2c_dr/reg0_b7.clk
+AngryBird_Demo_inst/u_i2c_dr/dri_clk_reg
+1437 16.967000 22.166000 5.199000 2 3
+AngryBird_Demo_inst/u_i2c_dr/clk_cnt[7] AngryBird_Demo_inst/_al_u679|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_clk/reg0_b1.b[0]
+AngryBird_Demo_inst/u_i2c_dr/_al_u77_o AngryBird_Demo_inst/u_i2c_dr/_al_u79|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_clk/reg0_b2.b[1]
+AngryBird_Demo_inst/u_i2c_dr/n18 AngryBird_Demo_inst/u_i2c_dr/dri_clk_reg.ce
+
+
+Endpoint: AngryBird_Demo_inst/u_i2c_dr/reg0_b8|AngryBird_Demo_inst/u_i2c_dr/reg0_b9
+1476 16.709000 19 3
+Timing path: AngryBird_Demo_inst/u_i2c_dr/reg0_b4|AngryBird_Demo_inst/u_i2c_dr/reg0_b5.clk->AngryBird_Demo_inst/u_i2c_dr/reg0_b8|AngryBird_Demo_inst/u_i2c_dr/reg0_b9
+AngryBird_Demo_inst/u_i2c_dr/reg0_b4|AngryBird_Demo_inst/u_i2c_dr/reg0_b5.clk
+AngryBird_Demo_inst/u_i2c_dr/reg0_b8|AngryBird_Demo_inst/u_i2c_dr/reg0_b9
+1478 16.709000 22.166000 5.457000 3 3
+AngryBird_Demo_inst/u_i2c_dr/clk_cnt[4] AngryBird_Demo_inst/u_i2c_dr/add0/u3_al_u205.b[0]
+AngryBird_Demo_inst/u_i2c_dr/add0/c7 AngryBird_Demo_inst/u_i2c_dr/add0/u7_al_u206.fci
+AngryBird_Demo_inst/u_i2c_dr/n21[8] AngryBird_Demo_inst/u_i2c_dr/reg0_b8|AngryBird_Demo_inst/u_i2c_dr/reg0_b9.c[1]
+
+Timing path: AngryBird_Demo_inst/u_i2c_dr/reg0_b0|AngryBird_Demo_inst/u_i2c_dr/reg0_b1.clk->AngryBird_Demo_inst/u_i2c_dr/reg0_b8|AngryBird_Demo_inst/u_i2c_dr/reg0_b9
+AngryBird_Demo_inst/u_i2c_dr/reg0_b0|AngryBird_Demo_inst/u_i2c_dr/reg0_b1.clk
+AngryBird_Demo_inst/u_i2c_dr/reg0_b8|AngryBird_Demo_inst/u_i2c_dr/reg0_b9
+1517 16.724000 22.166000 5.442000 3 4
+AngryBird_Demo_inst/u_i2c_dr/clk_cnt[0] AngryBird_Demo_inst/u_i2c_dr/add0/ucin_al_u204.b[0]
+AngryBird_Demo_inst/u_i2c_dr/add0/c3 AngryBird_Demo_inst/u_i2c_dr/add0/u3_al_u205.fci
+AngryBird_Demo_inst/u_i2c_dr/add0/c7 AngryBird_Demo_inst/u_i2c_dr/add0/u7_al_u206.fci
+AngryBird_Demo_inst/u_i2c_dr/n21[8] AngryBird_Demo_inst/u_i2c_dr/reg0_b8|AngryBird_Demo_inst/u_i2c_dr/reg0_b9.c[1]
+
+Timing path: AngryBird_Demo_inst/u_i2c_dr/reg0_b6|AngryBird_Demo_inst/u_i2c_dr/reg0_b7.clk->AngryBird_Demo_inst/u_i2c_dr/reg0_b8|AngryBird_Demo_inst/u_i2c_dr/reg0_b9
+AngryBird_Demo_inst/u_i2c_dr/reg0_b6|AngryBird_Demo_inst/u_i2c_dr/reg0_b7.clk
+AngryBird_Demo_inst/u_i2c_dr/reg0_b8|AngryBird_Demo_inst/u_i2c_dr/reg0_b9
+1558 16.746000 22.166000 5.420000 3 3
+AngryBird_Demo_inst/u_i2c_dr/clk_cnt[6] AngryBird_Demo_inst/_al_u679|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_clk/reg0_b1.a[0]
+AngryBird_Demo_inst/u_i2c_dr/_al_u77_o AngryBird_Demo_inst/u_i2c_dr/_al_u79|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_clk/reg0_b2.b[1]
+AngryBird_Demo_inst/u_i2c_dr/n18 AngryBird_Demo_inst/u_i2c_dr/reg0_b8|AngryBird_Demo_inst/u_i2c_dr/reg0_b9.d[1]
+
+
+
+Hold check
+1597 3
+Endpoint: AngryBird_Demo_inst/u_i2c_dr/dri_clk_reg
+1599 0.702000 1 1
+Timing path: AngryBird_Demo_inst/u_i2c_dr/dri_clk_reg.clk->AngryBird_Demo_inst/u_i2c_dr/dri_clk_reg
+AngryBird_Demo_inst/u_i2c_dr/dri_clk_reg.clk
+AngryBird_Demo_inst/u_i2c_dr/dri_clk_reg
+1601 0.702000 2.141000 2.843000 1 1
+AngryBird_Demo_inst/i2c_dri_clk AngryBird_Demo_inst/u_i2c_dr/dri_clk_reg.a[0]
+
+
+Endpoint: AngryBird_Demo_inst/u_i2c_dr/reg0_b2|AngryBird_Demo_inst/u_i2c_dr/reg0_b3
+1636 0.932000 13 3
+Timing path: AngryBird_Demo_inst/u_i2c_dr/reg0_b0|AngryBird_Demo_inst/u_i2c_dr/reg0_b1.clk->AngryBird_Demo_inst/u_i2c_dr/reg0_b2|AngryBird_Demo_inst/u_i2c_dr/reg0_b3
+AngryBird_Demo_inst/u_i2c_dr/reg0_b0|AngryBird_Demo_inst/u_i2c_dr/reg0_b1.clk
+AngryBird_Demo_inst/u_i2c_dr/reg0_b2|AngryBird_Demo_inst/u_i2c_dr/reg0_b3
+1638 0.932000 2.269000 3.201000 2 2
+AngryBird_Demo_inst/u_i2c_dr/clk_cnt[1] AngryBird_Demo_inst/u_i2c_dr/_al_u79|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_clk/reg0_b2.d[1]
+AngryBird_Demo_inst/u_i2c_dr/n18 AngryBird_Demo_inst/u_i2c_dr/reg0_b2|AngryBird_Demo_inst/u_i2c_dr/reg0_b3.d[1]
+
+Timing path: AngryBird_Demo_inst/u_i2c_dr/reg0_b0|AngryBird_Demo_inst/u_i2c_dr/reg0_b1.clk->AngryBird_Demo_inst/u_i2c_dr/reg0_b2|AngryBird_Demo_inst/u_i2c_dr/reg0_b3
+AngryBird_Demo_inst/u_i2c_dr/reg0_b0|AngryBird_Demo_inst/u_i2c_dr/reg0_b1.clk
+AngryBird_Demo_inst/u_i2c_dr/reg0_b2|AngryBird_Demo_inst/u_i2c_dr/reg0_b3
+1675 1.511000 2.269000 3.780000 2 2
+AngryBird_Demo_inst/u_i2c_dr/clk_cnt[0] AngryBird_Demo_inst/u_i2c_dr/_al_u79|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_clk/reg0_b2.c[1]
+AngryBird_Demo_inst/u_i2c_dr/n18 AngryBird_Demo_inst/u_i2c_dr/reg0_b2|AngryBird_Demo_inst/u_i2c_dr/reg0_b3.d[1]
+
+Timing path: AngryBird_Demo_inst/u_i2c_dr/reg0_b4|AngryBird_Demo_inst/u_i2c_dr/reg0_b5.clk->AngryBird_Demo_inst/u_i2c_dr/reg0_b2|AngryBird_Demo_inst/u_i2c_dr/reg0_b3
+AngryBird_Demo_inst/u_i2c_dr/reg0_b4|AngryBird_Demo_inst/u_i2c_dr/reg0_b5.clk
+AngryBird_Demo_inst/u_i2c_dr/reg0_b2|AngryBird_Demo_inst/u_i2c_dr/reg0_b3
+1712 1.548000 2.269000 3.817000 3 3
+AngryBird_Demo_inst/u_i2c_dr/clk_cnt[5] AngryBird_Demo_inst/u_i2c_dr/_al_u79|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_clk/reg0_b2.d[0]
+AngryBird_Demo_inst/u_i2c_dr/_al_u78_o AngryBird_Demo_inst/u_i2c_dr/_al_u79|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_clk/reg0_b2.a[1]
+AngryBird_Demo_inst/u_i2c_dr/n18 AngryBird_Demo_inst/u_i2c_dr/reg0_b2|AngryBird_Demo_inst/u_i2c_dr/reg0_b3.d[1]
+
+
+Endpoint: AngryBird_Demo_inst/u_i2c_dr/reg0_b2|AngryBird_Demo_inst/u_i2c_dr/reg0_b3
+1751 0.932000 15 3
+Timing path: AngryBird_Demo_inst/u_i2c_dr/reg0_b0|AngryBird_Demo_inst/u_i2c_dr/reg0_b1.clk->AngryBird_Demo_inst/u_i2c_dr/reg0_b2|AngryBird_Demo_inst/u_i2c_dr/reg0_b3
+AngryBird_Demo_inst/u_i2c_dr/reg0_b0|AngryBird_Demo_inst/u_i2c_dr/reg0_b1.clk
+AngryBird_Demo_inst/u_i2c_dr/reg0_b2|AngryBird_Demo_inst/u_i2c_dr/reg0_b3
+1753 0.932000 2.269000 3.201000 2 2
+AngryBird_Demo_inst/u_i2c_dr/clk_cnt[1] AngryBird_Demo_inst/u_i2c_dr/_al_u79|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_clk/reg0_b2.d[1]
+AngryBird_Demo_inst/u_i2c_dr/n18 AngryBird_Demo_inst/u_i2c_dr/reg0_b2|AngryBird_Demo_inst/u_i2c_dr/reg0_b3.d[0]
+
+Timing path: AngryBird_Demo_inst/u_i2c_dr/reg0_b0|AngryBird_Demo_inst/u_i2c_dr/reg0_b1.clk->AngryBird_Demo_inst/u_i2c_dr/reg0_b2|AngryBird_Demo_inst/u_i2c_dr/reg0_b3
+AngryBird_Demo_inst/u_i2c_dr/reg0_b0|AngryBird_Demo_inst/u_i2c_dr/reg0_b1.clk
+AngryBird_Demo_inst/u_i2c_dr/reg0_b2|AngryBird_Demo_inst/u_i2c_dr/reg0_b3
+1790 1.511000 2.269000 3.780000 2 2
+AngryBird_Demo_inst/u_i2c_dr/clk_cnt[0] AngryBird_Demo_inst/u_i2c_dr/_al_u79|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_clk/reg0_b2.c[1]
+AngryBird_Demo_inst/u_i2c_dr/n18 AngryBird_Demo_inst/u_i2c_dr/reg0_b2|AngryBird_Demo_inst/u_i2c_dr/reg0_b3.d[0]
+
+Timing path: AngryBird_Demo_inst/u_i2c_dr/reg0_b4|AngryBird_Demo_inst/u_i2c_dr/reg0_b5.clk->AngryBird_Demo_inst/u_i2c_dr/reg0_b2|AngryBird_Demo_inst/u_i2c_dr/reg0_b3
+AngryBird_Demo_inst/u_i2c_dr/reg0_b4|AngryBird_Demo_inst/u_i2c_dr/reg0_b5.clk
+AngryBird_Demo_inst/u_i2c_dr/reg0_b2|AngryBird_Demo_inst/u_i2c_dr/reg0_b3
+1827 1.548000 2.269000 3.817000 3 3
+AngryBird_Demo_inst/u_i2c_dr/clk_cnt[5] AngryBird_Demo_inst/u_i2c_dr/_al_u79|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_clk/reg0_b2.d[0]
+AngryBird_Demo_inst/u_i2c_dr/_al_u78_o AngryBird_Demo_inst/u_i2c_dr/_al_u79|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/serializer_clk/reg0_b2.a[1]
+AngryBird_Demo_inst/u_i2c_dr/n18 AngryBird_Demo_inst/u_i2c_dr/reg0_b2|AngryBird_Demo_inst/u_i2c_dr/reg0_b3.d[0]
+
+
+
+Recovery check
+1866 3
+Endpoint: AngryBird_Demo_inst/u_i2c_dr/reg0_b2|AngryBird_Demo_inst/u_i2c_dr/reg0_b3
+1868 -4.013000 1 1
+Timing path: AngryBird_Demo_inst/camera_rd_synchro_inst/first_state_reg|AngryBird_Demo_inst/u_camera_init_control/camera_rstn_reg.clk->AngryBird_Demo_inst/u_i2c_dr/reg0_b2|AngryBird_Demo_inst/u_i2c_dr/reg0_b3
+AngryBird_Demo_inst/camera_rd_synchro_inst/first_state_reg|AngryBird_Demo_inst/u_camera_init_control/camera_rstn_reg.clk
+AngryBird_Demo_inst/u_i2c_dr/reg0_b2|AngryBird_Demo_inst/u_i2c_dr/reg0_b3
+1870 -4.013000 1.772000 5.785000 1 2
+AngryBird_Demo_inst/camera_rstn AngryBird_Demo_inst/_al_u677|AngryBird_Demo_inst/u_cmos_capture_data/cam_href_d1_reg.c[0]
+AngryBird_Demo_inst/cam_rst_n_pad_hfnopt2_14 AngryBird_Demo_inst/u_i2c_dr/reg0_b2|AngryBird_Demo_inst/u_i2c_dr/reg0_b3.sr
+
+
+Endpoint: AngryBird_Demo_inst/u_i2c_dr/dri_clk_reg
+1907 -3.930000 1 1
+Timing path: AngryBird_Demo_inst/camera_rd_synchro_inst/first_state_reg|AngryBird_Demo_inst/u_camera_init_control/camera_rstn_reg.clk->AngryBird_Demo_inst/u_i2c_dr/dri_clk_reg
+AngryBird_Demo_inst/camera_rd_synchro_inst/first_state_reg|AngryBird_Demo_inst/u_camera_init_control/camera_rstn_reg.clk
+AngryBird_Demo_inst/u_i2c_dr/dri_clk_reg
+1909 -3.930000 1.772000 5.702000 1 2
+AngryBird_Demo_inst/camera_rstn AngryBird_Demo_inst/_al_u677|AngryBird_Demo_inst/u_cmos_capture_data/cam_href_d1_reg.c[0]
+AngryBird_Demo_inst/cam_rst_n_pad_hfnopt2_14 AngryBird_Demo_inst/u_i2c_dr/dri_clk_reg.sr
+
+
+Endpoint: AngryBird_Demo_inst/u_i2c_dr/reg0_b4|AngryBird_Demo_inst/u_i2c_dr/reg0_b5
+1946 -3.838000 1 1
+Timing path: AngryBird_Demo_inst/camera_rd_synchro_inst/first_state_reg|AngryBird_Demo_inst/u_camera_init_control/camera_rstn_reg.clk->AngryBird_Demo_inst/u_i2c_dr/reg0_b4|AngryBird_Demo_inst/u_i2c_dr/reg0_b5
+AngryBird_Demo_inst/camera_rd_synchro_inst/first_state_reg|AngryBird_Demo_inst/u_camera_init_control/camera_rstn_reg.clk
+AngryBird_Demo_inst/u_i2c_dr/reg0_b4|AngryBird_Demo_inst/u_i2c_dr/reg0_b5
+1948 -3.838000 1.772000 5.610000 1 2
+AngryBird_Demo_inst/camera_rstn AngryBird_Demo_inst/_al_u677|AngryBird_Demo_inst/u_cmos_capture_data/cam_href_d1_reg.c[0]
+AngryBird_Demo_inst/cam_rst_n_pad_hfnopt2_14 AngryBird_Demo_inst/u_i2c_dr/reg0_b4|AngryBird_Demo_inst/u_i2c_dr/reg0_b5.sr
+
+
+
+Removal check
+1985 3
+Endpoint: AngryBird_Demo_inst/u_i2c_dr/reg0_b8|AngryBird_Demo_inst/u_i2c_dr/reg0_b9
+1987 2.096000 1 1
+Timing path: AngryBird_Demo_inst/camera_rd_synchro_inst/first_state_reg|AngryBird_Demo_inst/u_camera_init_control/camera_rstn_reg.clk->AngryBird_Demo_inst/u_i2c_dr/reg0_b8|AngryBird_Demo_inst/u_i2c_dr/reg0_b9
+AngryBird_Demo_inst/camera_rd_synchro_inst/first_state_reg|AngryBird_Demo_inst/u_camera_init_control/camera_rstn_reg.clk
+AngryBird_Demo_inst/u_i2c_dr/reg0_b8|AngryBird_Demo_inst/u_i2c_dr/reg0_b9
+1989 2.096000 2.710000 4.806000 1 2
+AngryBird_Demo_inst/camera_rstn AngryBird_Demo_inst/_al_u677|AngryBird_Demo_inst/u_cmos_capture_data/cam_href_d1_reg.c[0]
+AngryBird_Demo_inst/cam_rst_n_pad_hfnopt2_14 AngryBird_Demo_inst/u_i2c_dr/reg0_b8|AngryBird_Demo_inst/u_i2c_dr/reg0_b9.sr
+
+
+Endpoint: AngryBird_Demo_inst/u_i2c_dr/reg0_b0|AngryBird_Demo_inst/u_i2c_dr/reg0_b1
+2026 2.107000 1 1
+Timing path: AngryBird_Demo_inst/camera_rd_synchro_inst/first_state_reg|AngryBird_Demo_inst/u_camera_init_control/camera_rstn_reg.clk->AngryBird_Demo_inst/u_i2c_dr/reg0_b0|AngryBird_Demo_inst/u_i2c_dr/reg0_b1
+AngryBird_Demo_inst/camera_rd_synchro_inst/first_state_reg|AngryBird_Demo_inst/u_camera_init_control/camera_rstn_reg.clk
+AngryBird_Demo_inst/u_i2c_dr/reg0_b0|AngryBird_Demo_inst/u_i2c_dr/reg0_b1
+2028 2.107000 2.710000 4.817000 1 2
+AngryBird_Demo_inst/camera_rstn AngryBird_Demo_inst/_al_u677|AngryBird_Demo_inst/u_cmos_capture_data/cam_href_d1_reg.c[0]
+AngryBird_Demo_inst/cam_rst_n_pad_hfnopt2_14 AngryBird_Demo_inst/u_i2c_dr/reg0_b0|AngryBird_Demo_inst/u_i2c_dr/reg0_b1.sr
+
+
+Endpoint: AngryBird_Demo_inst/u_i2c_dr/reg0_b6|AngryBird_Demo_inst/u_i2c_dr/reg0_b7
+2065 2.142000 1 1
+Timing path: AngryBird_Demo_inst/camera_rd_synchro_inst/first_state_reg|AngryBird_Demo_inst/u_camera_init_control/camera_rstn_reg.clk->AngryBird_Demo_inst/u_i2c_dr/reg0_b6|AngryBird_Demo_inst/u_i2c_dr/reg0_b7
+AngryBird_Demo_inst/camera_rd_synchro_inst/first_state_reg|AngryBird_Demo_inst/u_camera_init_control/camera_rstn_reg.clk
+AngryBird_Demo_inst/u_i2c_dr/reg0_b6|AngryBird_Demo_inst/u_i2c_dr/reg0_b7
+2067 2.142000 2.710000 4.852000 1 2
+AngryBird_Demo_inst/camera_rstn AngryBird_Demo_inst/_al_u677|AngryBird_Demo_inst/u_cmos_capture_data/cam_href_d1_reg.c[0]
+AngryBird_Demo_inst/cam_rst_n_pad_hfnopt2_14 AngryBird_Demo_inst/u_i2c_dr/reg0_b6|AngryBird_Demo_inst/u_i2c_dr/reg0_b7.sr
+
+
+
+
+clock: AngryBird_Demo_inst/u_pll/pll_inst.clkc[1]
+2104 53796 2516 4
+Setup check
+2114 3
+Endpoint: AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/reg1_b20|AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/reg1_b21
+2114 -7.710000 197 3
+Timing path: AngryBird_Demo_inst/_al_u549|AngryBird_Demo_inst/u3_Top_Logic/reg2_b3.clk->AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/reg1_b20|AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/reg1_b21
+AngryBird_Demo_inst/_al_u549|AngryBird_Demo_inst/u3_Top_Logic/reg2_b3.clk
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/reg1_b20|AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/reg1_b21
+2116 -7.710000 1.865000 9.575000 9 11
+AngryBird_Demo_inst/u3_Top_Logic/state[3] AngryBird_Demo_inst/u3_Top_Logic/reg2_b0|AngryBird_Demo_inst/u3_Top_Logic/reg2_b4.a[1]
+AngryBird_Demo_inst/_al_u551_o AngryBird_Demo_inst/u3_Top_Logic/reg2_b0|AngryBird_Demo_inst/u3_Top_Logic/reg2_b4.d[0]
+AngryBird_Demo_inst/state_number[4] AngryBird_Demo_inst/_al_u625|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_g/reg3_b3.d[1]
+AngryBird_Demo_inst/rd_synchro_inst/n55 AngryBird_Demo_inst/_al_u677|AngryBird_Demo_inst/u_cmos_capture_data/cam_href_d1_reg.d[1]
+AngryBird_Demo_inst/rd_synchro_inst/n67[20] AngryBird_Demo_inst/_al_u903|AngryBird_Demo_inst/_al_u959.d[0]
+AngryBird_Demo_inst/rd_synchro_inst/n67[18] AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_18|fifo_ctrl_inst/lt3_17.b[1]
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_c19 AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_20|fifo_ctrl_inst/lt3_19.fci
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_c21 AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_22|fifo_ctrl_inst/lt3_21.fci
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_c23 AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_cout_al_u990.fci
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/n24 AngryBird_Demo_inst/u_sdram_top/_al_u642.c[0]
+AngryBird_Demo_inst/u_sdram_top/_al_u642_o AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/reg1_b20|AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/reg1_b21.d[0]
+
+Timing path: AngryBird_Demo_inst/_al_u549|AngryBird_Demo_inst/u3_Top_Logic/reg2_b3.clk->AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/reg1_b20|AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/reg1_b21
+AngryBird_Demo_inst/_al_u549|AngryBird_Demo_inst/u3_Top_Logic/reg2_b3.clk
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/reg1_b20|AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/reg1_b21
+2169 -7.537000 1.865000 9.402000 9 11
+AngryBird_Demo_inst/u3_Top_Logic/state[3] AngryBird_Demo_inst/u3_Top_Logic/reg2_b0|AngryBird_Demo_inst/u3_Top_Logic/reg2_b4.a[1]
+AngryBird_Demo_inst/_al_u551_o AngryBird_Demo_inst/u3_Top_Logic/reg2_b0|AngryBird_Demo_inst/u3_Top_Logic/reg2_b4.d[0]
+AngryBird_Demo_inst/state_number[4] AngryBird_Demo_inst/_al_u625|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_g/reg3_b3.d[1]
+AngryBird_Demo_inst/rd_synchro_inst/n55 AngryBird_Demo_inst/_al_u677|AngryBird_Demo_inst/u_cmos_capture_data/cam_href_d1_reg.d[1]
+AngryBird_Demo_inst/rd_synchro_inst/n67[20] AngryBird_Demo_inst/_al_u903|AngryBird_Demo_inst/_al_u959.d[0]
+AngryBird_Demo_inst/rd_synchro_inst/n67[18] AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_18|fifo_ctrl_inst/lt3_17.b[1]
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_c19 AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_20|fifo_ctrl_inst/lt3_19.fci
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_c21 AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_22|fifo_ctrl_inst/lt3_21.fci
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_c23 AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_cout_al_u990.fci
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/n24 AngryBird_Demo_inst/u_sdram_top/_al_u646|AngryBird_Demo_inst/u_sdram_top/_al_u640.c[0]
+AngryBird_Demo_inst/u_sdram_top/_al_u640_o AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/reg1_b20|AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/reg1_b21.c[0]
+
+Timing path: AngryBird_Demo_inst/u3_Top_Logic/reg2_b2|AngryBird_Demo_inst/u3_Top_Logic/reg2_b5.clk->AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/reg1_b20|AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/reg1_b21
+AngryBird_Demo_inst/u3_Top_Logic/reg2_b2|AngryBird_Demo_inst/u3_Top_Logic/reg2_b5.clk
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/reg1_b20|AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/reg1_b21
+2222 -7.447000 1.865000 9.312000 9 11
+AngryBird_Demo_inst/u3_Top_Logic/state[2] AngryBird_Demo_inst/u3_Top_Logic/reg2_b0|AngryBird_Demo_inst/u3_Top_Logic/reg2_b4.b[1]
+AngryBird_Demo_inst/_al_u551_o AngryBird_Demo_inst/u3_Top_Logic/reg2_b0|AngryBird_Demo_inst/u3_Top_Logic/reg2_b4.d[0]
+AngryBird_Demo_inst/state_number[4] AngryBird_Demo_inst/_al_u625|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_g/reg3_b3.d[1]
+AngryBird_Demo_inst/rd_synchro_inst/n55 AngryBird_Demo_inst/_al_u677|AngryBird_Demo_inst/u_cmos_capture_data/cam_href_d1_reg.d[1]
+AngryBird_Demo_inst/rd_synchro_inst/n67[20] AngryBird_Demo_inst/_al_u903|AngryBird_Demo_inst/_al_u959.d[0]
+AngryBird_Demo_inst/rd_synchro_inst/n67[18] AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_18|fifo_ctrl_inst/lt3_17.b[1]
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_c19 AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_20|fifo_ctrl_inst/lt3_19.fci
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_c21 AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_22|fifo_ctrl_inst/lt3_21.fci
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_c23 AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_cout_al_u990.fci
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/n24 AngryBird_Demo_inst/u_sdram_top/_al_u642.c[0]
+AngryBird_Demo_inst/u_sdram_top/_al_u642_o AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/reg1_b20|AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/reg1_b21.d[0]
+
+
+Endpoint: AngryBird_Demo_inst/u_sdram_top/_al_u639|AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/reg1_b19
+2275 -7.653000 204 3
+Timing path: AngryBird_Demo_inst/_al_u549|AngryBird_Demo_inst/u3_Top_Logic/reg2_b3.clk->AngryBird_Demo_inst/u_sdram_top/_al_u639|AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/reg1_b19
+AngryBird_Demo_inst/_al_u549|AngryBird_Demo_inst/u3_Top_Logic/reg2_b3.clk
+AngryBird_Demo_inst/u_sdram_top/_al_u639|AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/reg1_b19
+2277 -7.653000 1.865000 9.518000 9 11
+AngryBird_Demo_inst/u3_Top_Logic/state[3] AngryBird_Demo_inst/u3_Top_Logic/reg2_b0|AngryBird_Demo_inst/u3_Top_Logic/reg2_b4.a[1]
+AngryBird_Demo_inst/_al_u551_o AngryBird_Demo_inst/u3_Top_Logic/reg2_b0|AngryBird_Demo_inst/u3_Top_Logic/reg2_b4.d[0]
+AngryBird_Demo_inst/state_number[4] AngryBird_Demo_inst/_al_u625|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_g/reg3_b3.d[1]
+AngryBird_Demo_inst/rd_synchro_inst/n55 AngryBird_Demo_inst/_al_u677|AngryBird_Demo_inst/u_cmos_capture_data/cam_href_d1_reg.d[1]
+AngryBird_Demo_inst/rd_synchro_inst/n67[20] AngryBird_Demo_inst/_al_u903|AngryBird_Demo_inst/_al_u959.d[0]
+AngryBird_Demo_inst/rd_synchro_inst/n67[18] AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_18|fifo_ctrl_inst/lt3_17.b[1]
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_c19 AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_20|fifo_ctrl_inst/lt3_19.fci
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_c21 AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_22|fifo_ctrl_inst/lt3_21.fci
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_c23 AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_cout_al_u990.fci
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/n24 AngryBird_Demo_inst/u_sdram_top/_al_u646|AngryBird_Demo_inst/u_sdram_top/_al_u640.c[0]
+AngryBird_Demo_inst/u_sdram_top/_al_u640_o AngryBird_Demo_inst/u_sdram_top/_al_u639|AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/reg1_b19.b[0]
+
+Timing path: AngryBird_Demo_inst/_al_u549|AngryBird_Demo_inst/u3_Top_Logic/reg2_b3.clk->AngryBird_Demo_inst/u_sdram_top/_al_u639|AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/reg1_b19
+AngryBird_Demo_inst/_al_u549|AngryBird_Demo_inst/u3_Top_Logic/reg2_b3.clk
+AngryBird_Demo_inst/u_sdram_top/_al_u639|AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/reg1_b19
+2330 -7.509000 1.865000 9.374000 9 11
+AngryBird_Demo_inst/u3_Top_Logic/state[3] AngryBird_Demo_inst/u3_Top_Logic/reg2_b0|AngryBird_Demo_inst/u3_Top_Logic/reg2_b4.a[1]
+AngryBird_Demo_inst/_al_u551_o AngryBird_Demo_inst/u3_Top_Logic/reg2_b0|AngryBird_Demo_inst/u3_Top_Logic/reg2_b4.d[0]
+AngryBird_Demo_inst/state_number[4] AngryBird_Demo_inst/_al_u625|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_g/reg3_b3.d[1]
+AngryBird_Demo_inst/rd_synchro_inst/n55 AngryBird_Demo_inst/_al_u677|AngryBird_Demo_inst/u_cmos_capture_data/cam_href_d1_reg.d[1]
+AngryBird_Demo_inst/rd_synchro_inst/n67[20] AngryBird_Demo_inst/_al_u903|AngryBird_Demo_inst/_al_u959.d[0]
+AngryBird_Demo_inst/rd_synchro_inst/n67[18] AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_18|fifo_ctrl_inst/lt3_17.b[1]
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_c19 AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_20|fifo_ctrl_inst/lt3_19.fci
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_c21 AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_22|fifo_ctrl_inst/lt3_21.fci
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_c23 AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_cout_al_u990.fci
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/n24 AngryBird_Demo_inst/u_sdram_top/_al_u646|AngryBird_Demo_inst/u_sdram_top/_al_u640.c[1]
+AngryBird_Demo_inst/u_sdram_top/_al_u646_o AngryBird_Demo_inst/u_sdram_top/_al_u639|AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/reg1_b19.d[0]
+
+Timing path: AngryBird_Demo_inst/u3_Top_Logic/reg2_b2|AngryBird_Demo_inst/u3_Top_Logic/reg2_b5.clk->AngryBird_Demo_inst/u_sdram_top/_al_u639|AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/reg1_b19
+AngryBird_Demo_inst/u3_Top_Logic/reg2_b2|AngryBird_Demo_inst/u3_Top_Logic/reg2_b5.clk
+AngryBird_Demo_inst/u_sdram_top/_al_u639|AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/reg1_b19
+2383 -7.390000 1.865000 9.255000 9 11
+AngryBird_Demo_inst/u3_Top_Logic/state[2] AngryBird_Demo_inst/u3_Top_Logic/reg2_b0|AngryBird_Demo_inst/u3_Top_Logic/reg2_b4.b[1]
+AngryBird_Demo_inst/_al_u551_o AngryBird_Demo_inst/u3_Top_Logic/reg2_b0|AngryBird_Demo_inst/u3_Top_Logic/reg2_b4.d[0]
+AngryBird_Demo_inst/state_number[4] AngryBird_Demo_inst/_al_u625|AngryBird_Demo_inst/u_hdmi_top/u_rgb2dvi_0/encoder_g/reg3_b3.d[1]
+AngryBird_Demo_inst/rd_synchro_inst/n55 AngryBird_Demo_inst/_al_u677|AngryBird_Demo_inst/u_cmos_capture_data/cam_href_d1_reg.d[1]
+AngryBird_Demo_inst/rd_synchro_inst/n67[20] AngryBird_Demo_inst/_al_u903|AngryBird_Demo_inst/_al_u959.d[0]
+AngryBird_Demo_inst/rd_synchro_inst/n67[18] AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_18|fifo_ctrl_inst/lt3_17.b[1]
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_c19 AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_20|fifo_ctrl_inst/lt3_19.fci
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_c21 AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_22|fifo_ctrl_inst/lt3_21.fci
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_c23 AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/lt3_cout_al_u990.fci
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/n24 AngryBird_Demo_inst/u_sdram_top/_al_u646|AngryBird_Demo_inst/u_sdram_top/_al_u640.c[0]
+AngryBird_Demo_inst/u_sdram_top/_al_u640_o AngryBird_Demo_inst/u_sdram_top/_al_u639|AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/reg1_b19.b[0]
+
+
+Endpoint: AngryBird_Demo_inst/Sdram_Control_4Port_inst/control1/reg2_b18|AngryBird_Demo_inst/Sdram_Control_4Port_inst/mWR_reg
+2436 -7.650000 28 3
+Timing path: AngryBird_Demo_inst/u2_Display/reg3_b2|AngryBird_Demo_inst/u2_Display/reg3_b3.clk->AngryBird_Demo_inst/Sdram_Control_4Port_inst/control1/reg2_b18|AngryBird_Demo_inst/Sdram_Control_4Port_inst/mWR_reg
+AngryBird_Demo_inst/u2_Display/reg3_b2|AngryBird_Demo_inst/u2_Display/reg3_b3.clk
+AngryBird_Demo_inst/Sdram_Control_4Port_inst/control1/reg2_b18|AngryBird_Demo_inst/Sdram_Control_4Port_inst/mWR_reg
+2438 -7.650000 1.865000 9.515000 7 8
+AngryBird_Demo_inst/u2_Display/score[3] AngryBird_Demo_inst/u2_Display/lt128_4|lt128_3.b[0]
+AngryBird_Demo_inst/u2_Display/lt128_c5 AngryBird_Demo_inst/u2_Display/lt128_6|lt128_5.fci
+AngryBird_Demo_inst/u2_Display/lt128_c7 AngryBird_Demo_inst/u2_Display/second_custom_reg1_reg|lt128_7.fci
+AngryBird_Demo_inst/u2_Display/second_custom AngryBird_Demo_inst/u2_Display/second_custom_reg3_reg|AngryBird_Demo_inst/u_camera_init_control/two_flag_reg_reg.d[0]
+AngryBird_Demo_inst/second_flag AngryBird_Demo_inst/Sdram_Control_4Port_inst/_al_u1054|AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg_deleay_wrptr_al_u436_b7.e[0]
+AngryBird_Demo_inst/n10 AngryBird_Demo_inst/Sdram_Control_4Port_inst/control1/reg2_b18|AngryBird_Demo_inst/Sdram_Control_4Port_inst/mWR_reg.c[1]
+AngryBird_Demo_inst/Sdram_Control_4Port_inst/n204 AngryBird_Demo_inst/Sdram_Control_4Port_inst/_al_u1216|AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg9_b0.d[1]
+AngryBird_Demo_inst/Sdram_Control_4Port_inst/_al_u1216_o AngryBird_Demo_inst/Sdram_Control_4Port_inst/control1/reg2_b18|AngryBird_Demo_inst/Sdram_Control_4Port_inst/mWR_reg.d[0]
+
+Timing path: AngryBird_Demo_inst/u2_Display/reg3_b0|AngryBird_Demo_inst/u2_Display/reg3_b1.clk->AngryBird_Demo_inst/Sdram_Control_4Port_inst/control1/reg2_b18|AngryBird_Demo_inst/Sdram_Control_4Port_inst/mWR_reg
+AngryBird_Demo_inst/u2_Display/reg3_b0|AngryBird_Demo_inst/u2_Display/reg3_b1.clk
+AngryBird_Demo_inst/Sdram_Control_4Port_inst/control1/reg2_b18|AngryBird_Demo_inst/Sdram_Control_4Port_inst/mWR_reg
+2485 -7.617000 1.865000 9.482000 7 9
+AngryBird_Demo_inst/u2_Display/score[1] AngryBird_Demo_inst/u2_Display/lt128_2|lt128_1.b[0]
+AngryBird_Demo_inst/u2_Display/lt128_c3 AngryBird_Demo_inst/u2_Display/lt128_4|lt128_3.fci
+AngryBird_Demo_inst/u2_Display/lt128_c5 AngryBird_Demo_inst/u2_Display/lt128_6|lt128_5.fci
+AngryBird_Demo_inst/u2_Display/lt128_c7 AngryBird_Demo_inst/u2_Display/second_custom_reg1_reg|lt128_7.fci
+AngryBird_Demo_inst/u2_Display/second_custom AngryBird_Demo_inst/u2_Display/second_custom_reg3_reg|AngryBird_Demo_inst/u_camera_init_control/two_flag_reg_reg.d[0]
+AngryBird_Demo_inst/second_flag AngryBird_Demo_inst/Sdram_Control_4Port_inst/_al_u1054|AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg_deleay_wrptr_al_u436_b7.e[0]
+AngryBird_Demo_inst/n10 AngryBird_Demo_inst/Sdram_Control_4Port_inst/control1/reg2_b18|AngryBird_Demo_inst/Sdram_Control_4Port_inst/mWR_reg.c[1]
+AngryBird_Demo_inst/Sdram_Control_4Port_inst/n204 AngryBird_Demo_inst/Sdram_Control_4Port_inst/_al_u1216|AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg9_b0.d[1]
+AngryBird_Demo_inst/Sdram_Control_4Port_inst/_al_u1216_o AngryBird_Demo_inst/Sdram_Control_4Port_inst/control1/reg2_b18|AngryBird_Demo_inst/Sdram_Control_4Port_inst/mWR_reg.d[0]
+
+Timing path: AngryBird_Demo_inst/u2_Display/reg3_b0|AngryBird_Demo_inst/u2_Display/reg3_b1.clk->AngryBird_Demo_inst/Sdram_Control_4Port_inst/control1/reg2_b18|AngryBird_Demo_inst/Sdram_Control_4Port_inst/mWR_reg
+AngryBird_Demo_inst/u2_Display/reg3_b0|AngryBird_Demo_inst/u2_Display/reg3_b1.clk
+AngryBird_Demo_inst/Sdram_Control_4Port_inst/control1/reg2_b18|AngryBird_Demo_inst/Sdram_Control_4Port_inst/mWR_reg
+2534 -7.602000 1.865000 9.467000 7 10
+AngryBird_Demo_inst/u2_Display/score[0] AngryBird_Demo_inst/u2_Display/lt128_0|lt128_cin.b[1]
+AngryBird_Demo_inst/u2_Display/lt128_c1 AngryBird_Demo_inst/u2_Display/lt128_2|lt128_1.fci
+AngryBird_Demo_inst/u2_Display/lt128_c3 AngryBird_Demo_inst/u2_Display/lt128_4|lt128_3.fci
+AngryBird_Demo_inst/u2_Display/lt128_c5 AngryBird_Demo_inst/u2_Display/lt128_6|lt128_5.fci
+AngryBird_Demo_inst/u2_Display/lt128_c7 AngryBird_Demo_inst/u2_Display/second_custom_reg1_reg|lt128_7.fci
+AngryBird_Demo_inst/u2_Display/second_custom AngryBird_Demo_inst/u2_Display/second_custom_reg3_reg|AngryBird_Demo_inst/u_camera_init_control/two_flag_reg_reg.d[0]
+AngryBird_Demo_inst/second_flag AngryBird_Demo_inst/Sdram_Control_4Port_inst/_al_u1054|AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg_deleay_wrptr_al_u436_b7.e[0]
+AngryBird_Demo_inst/n10 AngryBird_Demo_inst/Sdram_Control_4Port_inst/control1/reg2_b18|AngryBird_Demo_inst/Sdram_Control_4Port_inst/mWR_reg.c[1]
+AngryBird_Demo_inst/Sdram_Control_4Port_inst/n204 AngryBird_Demo_inst/Sdram_Control_4Port_inst/_al_u1216|AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg9_b0.d[1]
+AngryBird_Demo_inst/Sdram_Control_4Port_inst/_al_u1216_o AngryBird_Demo_inst/Sdram_Control_4Port_inst/control1/reg2_b18|AngryBird_Demo_inst/Sdram_Control_4Port_inst/mWR_reg.d[0]
+
+
+
+Hold check
+2585 3
+Endpoint: AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u190_b0|AngryBird_Demo_inst/u_sdram_top/show_ahead_buffer_dff_al_u138
+2587 0.153000 1 1
+Timing path: AngryBird_Demo_inst/u_sdram_top/s_state_mux_al_u116_rom0|AngryBird_Demo_inst/u_sdram_top/reg_deleay_wrptr_al_u98_b0.clk->AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u190_b0|AngryBird_Demo_inst/u_sdram_top/show_ahead_buffer_dff_al_u138
+AngryBird_Demo_inst/u_sdram_top/s_state_mux_al_u116_rom0|AngryBird_Demo_inst/u_sdram_top/reg_deleay_wrptr_al_u98_b0.clk
+AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u190_b0|AngryBird_Demo_inst/u_sdram_top/show_ahead_buffer_dff_al_u138
+2589 0.153000 2.350000 2.503000 0 1
+AngryBird_Demo_inst/u_sdram_top/delayed_wrptr_g0_al_n152 AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u190_b0|AngryBird_Demo_inst/u_sdram_top/show_ahead_buffer_dff_al_u138.mi[1]
+
+
+Endpoint: AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u190_b1|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u190_b5
+2620 0.153000 1 1
+Timing path: AngryBird_Demo_inst/u_sdram_top/i1_mux_al_u105_b1_rom0|AngryBird_Demo_inst/u_sdram_top/reg_deleay_wrptr_al_u98_b1.clk->AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u190_b1|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u190_b5
+AngryBird_Demo_inst/u_sdram_top/i1_mux_al_u105_b1_rom0|AngryBird_Demo_inst/u_sdram_top/reg_deleay_wrptr_al_u98_b1.clk
+AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u190_b1|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u190_b5
+2622 0.153000 2.350000 2.503000 0 1
+AngryBird_Demo_inst/u_sdram_top/delayed_wrptr_g1_al_n153 AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u190_b1|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u190_b5.mi[1]
+
+
+Endpoint: AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg_rdptr_al_u262_b1
+2653 0.163000 1 1
+Timing path: AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg_rdptr_b1|AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg_rdptr_b3.clk->AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg_rdptr_al_u262_b1
+AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg_rdptr_b1|AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg_rdptr_b3.clk
+AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg_rdptr_al_u262_b1
+2655 0.163000 2.350000 2.513000 0 1
+AngryBird_Demo_inst/Sdram_Control_4Port_inst/rdptr_g1 AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg_rdptr_al_u262_b1.mi[0]
+
+
+
+Recovery check
+2688 3
+Endpoint: AngryBird_Demo_inst/u_sdram_top/fifo_bram_1024x16_sub_000000_000
+2690 -4.825000 2 2
+Timing path: AngryBird_Demo_inst/rd_synchro_inst/change_flag_reg.clk->AngryBird_Demo_inst/u_sdram_top/fifo_bram_1024x16_sub_000000_000
+AngryBird_Demo_inst/rd_synchro_inst/change_flag_reg.clk
+AngryBird_Demo_inst/u_sdram_top/fifo_bram_1024x16_sub_000000_000
+2692 -4.825000 1.731000 6.556000 3 4
+AngryBird_Demo_inst/rd_synchro_inst/change_flag AngryBird_Demo_inst/_al_u488_hfnopt2_0|AngryBird_Demo_inst/u_sdram_top/show_ahead_buffer_dff.c[1]
+AngryBird_Demo_inst/sdram_all_rst_n_hfnopt2_0 AngryBird_Demo_inst/u_sdram_top/_al_u823|AngryBird_Demo_inst/_al_u1144.a[0]
+AngryBird_Demo_inst/sdram_rd_rst AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u51_b1|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u65_b1.d[0]
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/n36_hfnopt2_2 AngryBird_Demo_inst/u_sdram_top/fifo_bram_1024x16_sub_000000_000.rsta
+
+Timing path: AngryBird_Demo_inst/rd_synchro_inst/change_flag_reg.clk->AngryBird_Demo_inst/u_sdram_top/fifo_bram_1024x16_sub_000000_000
+AngryBird_Demo_inst/rd_synchro_inst/change_flag_reg.clk
+AngryBird_Demo_inst/u_sdram_top/fifo_bram_1024x16_sub_000000_000
+2731 -4.232000 1.731000 5.963000 2 3
+AngryBird_Demo_inst/rd_synchro_inst/change_flag AngryBird_Demo_inst/_al_u488_hfnopt2_0|AngryBird_Demo_inst/u_sdram_top/show_ahead_buffer_dff.c[1]
+AngryBird_Demo_inst/sdram_all_rst_n_hfnopt2_0 AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u51_b1|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u65_b1.c[0]
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/n36_hfnopt2_2 AngryBird_Demo_inst/u_sdram_top/fifo_bram_1024x16_sub_000000_000.rsta
+
+
+Endpoint: AngryBird_Demo_inst/u_sdram_top/reg_wrptr_d1_b0
+2768 -4.768000 2 2
+Timing path: AngryBird_Demo_inst/rd_synchro_inst/change_flag_reg.clk->AngryBird_Demo_inst/u_sdram_top/reg_wrptr_d1_b0
+AngryBird_Demo_inst/rd_synchro_inst/change_flag_reg.clk
+AngryBird_Demo_inst/u_sdram_top/reg_wrptr_d1_b0
+2770 -4.768000 1.681000 6.449000 3 4
+AngryBird_Demo_inst/rd_synchro_inst/change_flag AngryBird_Demo_inst/_al_u488_hfnopt2_0|AngryBird_Demo_inst/u_sdram_top/show_ahead_buffer_dff.c[1]
+AngryBird_Demo_inst/sdram_all_rst_n_hfnopt2_0 AngryBird_Demo_inst/u_sdram_top/_al_u823|AngryBird_Demo_inst/_al_u1144.a[0]
+AngryBird_Demo_inst/sdram_rd_rst AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u52_b6|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u52_b9.d[0]
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/n36_hfnopt2_1 AngryBird_Demo_inst/u_sdram_top/reg_wrptr_d1_b0.sr
+
+Timing path: AngryBird_Demo_inst/rd_synchro_inst/change_flag_reg.clk->AngryBird_Demo_inst/u_sdram_top/reg_wrptr_d1_b0
+AngryBird_Demo_inst/rd_synchro_inst/change_flag_reg.clk
+AngryBird_Demo_inst/u_sdram_top/reg_wrptr_d1_b0
+2809 -4.172000 1.681000 5.853000 2 3
+AngryBird_Demo_inst/rd_synchro_inst/change_flag AngryBird_Demo_inst/_al_u488_hfnopt2_0|AngryBird_Demo_inst/u_sdram_top/show_ahead_buffer_dff.c[1]
+AngryBird_Demo_inst/sdram_all_rst_n_hfnopt2_0 AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u52_b6|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u52_b9.c[0]
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/n36_hfnopt2_1 AngryBird_Demo_inst/u_sdram_top/reg_wrptr_d1_b0.sr
+
+
+Endpoint: AngryBird_Demo_inst/u_sdram_top/reg_wrptr_b10|AngryBird_Demo_inst/u_sdram_top/reg_wrptr_b9
+2846 -4.732000 2 2
+Timing path: AngryBird_Demo_inst/rd_synchro_inst/change_flag_reg.clk->AngryBird_Demo_inst/u_sdram_top/reg_wrptr_b10|AngryBird_Demo_inst/u_sdram_top/reg_wrptr_b9
+AngryBird_Demo_inst/rd_synchro_inst/change_flag_reg.clk
+AngryBird_Demo_inst/u_sdram_top/reg_wrptr_b10|AngryBird_Demo_inst/u_sdram_top/reg_wrptr_b9
+2848 -4.732000 1.681000 6.413000 3 4
+AngryBird_Demo_inst/rd_synchro_inst/change_flag AngryBird_Demo_inst/_al_u488_hfnopt2_0|AngryBird_Demo_inst/u_sdram_top/show_ahead_buffer_dff.c[1]
+AngryBird_Demo_inst/sdram_all_rst_n_hfnopt2_0 AngryBird_Demo_inst/u_sdram_top/_al_u823|AngryBird_Demo_inst/_al_u1144.a[0]
+AngryBird_Demo_inst/sdram_rd_rst AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u52_b6|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u52_b9.d[0]
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/n36_hfnopt2_1 AngryBird_Demo_inst/u_sdram_top/reg_wrptr_b10|AngryBird_Demo_inst/u_sdram_top/reg_wrptr_b9.sr
+
+Timing path: AngryBird_Demo_inst/rd_synchro_inst/change_flag_reg.clk->AngryBird_Demo_inst/u_sdram_top/reg_wrptr_b10|AngryBird_Demo_inst/u_sdram_top/reg_wrptr_b9
+AngryBird_Demo_inst/rd_synchro_inst/change_flag_reg.clk
+AngryBird_Demo_inst/u_sdram_top/reg_wrptr_b10|AngryBird_Demo_inst/u_sdram_top/reg_wrptr_b9
+2887 -4.136000 1.681000 5.817000 2 3
+AngryBird_Demo_inst/rd_synchro_inst/change_flag AngryBird_Demo_inst/_al_u488_hfnopt2_0|AngryBird_Demo_inst/u_sdram_top/show_ahead_buffer_dff.c[1]
+AngryBird_Demo_inst/sdram_all_rst_n_hfnopt2_0 AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u52_b6|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u52_b9.c[0]
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/n36_hfnopt2_1 AngryBird_Demo_inst/u_sdram_top/reg_wrptr_b10|AngryBird_Demo_inst/u_sdram_top/reg_wrptr_b9.sr
+
+
+
+Removal check
+2924 3
+Endpoint: AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg11_b17|AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg11_b18
+2926 1.034000 1 1
+Timing path: AngryBird_Demo_inst/camera_rd_synchro_inst/first_state_reg|AngryBird_Demo_inst/u_camera_init_control/camera_rstn_reg.clk->AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg11_b17|AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg11_b18
+AngryBird_Demo_inst/camera_rd_synchro_inst/first_state_reg|AngryBird_Demo_inst/u_camera_init_control/camera_rstn_reg.clk
+AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg11_b17|AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg11_b18
+2928 1.034000 2.576000 3.610000 1 2
+AngryBird_Demo_inst/camera_rstn AngryBird_Demo_inst/_al_u1141|AngryBird_Demo_inst/_al_u487_hfnopt2_2.c[0]
+AngryBird_Demo_inst/cam_rst_n_pad_hfnopt2_2 AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg11_b17|AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg11_b18.sr
+
+
+Endpoint: AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg11_b19|AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg11_b20
+2963 1.034000 1 1
+Timing path: AngryBird_Demo_inst/camera_rd_synchro_inst/first_state_reg|AngryBird_Demo_inst/u_camera_init_control/camera_rstn_reg.clk->AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg11_b19|AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg11_b20
+AngryBird_Demo_inst/camera_rd_synchro_inst/first_state_reg|AngryBird_Demo_inst/u_camera_init_control/camera_rstn_reg.clk
+AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg11_b19|AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg11_b20
+2965 1.034000 2.576000 3.610000 1 2
+AngryBird_Demo_inst/camera_rstn AngryBird_Demo_inst/_al_u1141|AngryBird_Demo_inst/_al_u487_hfnopt2_2.c[0]
+AngryBird_Demo_inst/cam_rst_n_pad_hfnopt2_2 AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg11_b19|AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg11_b20.sr
+
+
+Endpoint: AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg13_b8|AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg13_b9
+3000 1.094000 1 1
+Timing path: AngryBird_Demo_inst/camera_rd_synchro_inst/first_state_reg|AngryBird_Demo_inst/u_camera_init_control/camera_rstn_reg.clk->AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg13_b8|AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg13_b9
+AngryBird_Demo_inst/camera_rd_synchro_inst/first_state_reg|AngryBird_Demo_inst/u_camera_init_control/camera_rstn_reg.clk
+AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg13_b8|AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg13_b9
+3002 1.094000 2.576000 3.670000 1 2
+AngryBird_Demo_inst/camera_rstn AngryBird_Demo_inst/_al_u1141|AngryBird_Demo_inst/_al_u487_hfnopt2_2.c[0]
+AngryBird_Demo_inst/cam_rst_n_pad_hfnopt2_2 AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg13_b8|AngryBird_Demo_inst/Sdram_Control_4Port_inst/reg13_b9.sr
+
+
+
+
+clock: AngryBird_Demo_inst/u_pll/pll_inst.clkc[3]
+3037 10884 964 4
+Setup check
+3047 3
+Endpoint: AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b1|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b3
+3047 3.667000 40 3
+Timing path: AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b0|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b2.clk->AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b1|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b3
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b0|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b2.clk
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b1|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b3
+3049 3.667000 11.860000 8.193000 5 5
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/cnt_ack_bit[2] AngryBird_Demo_inst/_al_u798|AngryBird_Demo_inst/_al_u794.c[1]
+AngryBird_Demo_inst/_al_u798_o AngryBird_Demo_inst/sobel_edge/u_vip_sobel_edge_detector/reg2_b6|AngryBird_Demo_inst/sobel_edge/u_vip_sobel_edge_detector/reg2_b5.a[1]
+AngryBird_Demo_inst/_al_u1020_o AngryBird_Demo_inst/_al_u1028|AngryBird_Demo_inst/sobel_edge/u_vip_sobel_edge_detector/u_vip_matrix_generate_3x3_8bit/reg4_b2.a[0]
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/mux4_b0/B0_1 AngryBird_Demo_inst/_al_u1037|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b0.a[1]
+AngryBird_Demo_inst/_al_u1037_o AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b1|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b3.b[1]
+
+Timing path: AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b7|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b1.clk->AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b1|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b3
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b7|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b1.clk
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b1|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b3
+3088 4.031000 11.860000 7.829000 5 5
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/cnt_ack_bit[7] AngryBird_Demo_inst/_al_u795|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/ack_en_reg.c[1]
+AngryBird_Demo_inst/_al_u795_o AngryBird_Demo_inst/sobel_edge/u_vip_sobel_edge_detector/reg2_b6|AngryBird_Demo_inst/sobel_edge/u_vip_sobel_edge_detector/reg2_b5.b[1]
+AngryBird_Demo_inst/_al_u1020_o AngryBird_Demo_inst/_al_u1028|AngryBird_Demo_inst/sobel_edge/u_vip_sobel_edge_detector/u_vip_matrix_generate_3x3_8bit/reg4_b2.a[0]
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/mux4_b0/B0_1 AngryBird_Demo_inst/_al_u1037|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b0.a[1]
+AngryBird_Demo_inst/_al_u1037_o AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b1|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b3.b[1]
+
+Timing path: AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b0|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b2.clk->AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b1|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b3
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b0|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b2.clk
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b1|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b3
+3127 4.151000 11.860000 7.709000 5 5
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/cnt_ack_bit[0] AngryBird_Demo_inst/_al_u798|AngryBird_Demo_inst/_al_u794.a[1]
+AngryBird_Demo_inst/_al_u798_o AngryBird_Demo_inst/sobel_edge/u_vip_sobel_edge_detector/reg2_b6|AngryBird_Demo_inst/sobel_edge/u_vip_sobel_edge_detector/reg2_b5.a[1]
+AngryBird_Demo_inst/_al_u1020_o AngryBird_Demo_inst/_al_u1028|AngryBird_Demo_inst/sobel_edge/u_vip_sobel_edge_detector/u_vip_matrix_generate_3x3_8bit/reg4_b2.a[0]
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/mux4_b0/B0_1 AngryBird_Demo_inst/_al_u1037|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b0.a[1]
+AngryBird_Demo_inst/_al_u1037_o AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b1|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b3.b[1]
+
+
+Endpoint: AngryBird_Demo_inst/_al_u1037|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b0
+3166 3.815000 36 3
+Timing path: AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b0|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b2.clk->AngryBird_Demo_inst/_al_u1037|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b0
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b0|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b2.clk
+AngryBird_Demo_inst/_al_u1037|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b0
+3168 3.815000 11.860000 8.045000 5 5
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/cnt_ack_bit[2] AngryBird_Demo_inst/_al_u798|AngryBird_Demo_inst/_al_u794.c[1]
+AngryBird_Demo_inst/_al_u798_o AngryBird_Demo_inst/sobel_edge/u_vip_sobel_edge_detector/reg2_b6|AngryBird_Demo_inst/sobel_edge/u_vip_sobel_edge_detector/reg2_b5.a[1]
+AngryBird_Demo_inst/_al_u1020_o AngryBird_Demo_inst/_al_u1028|AngryBird_Demo_inst/sobel_edge/u_vip_sobel_edge_detector/u_vip_matrix_generate_3x3_8bit/reg4_b2.a[0]
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/mux4_b0/B0_1 AngryBird_Demo_inst/_al_u1024|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b2.a[1]
+AngryBird_Demo_inst/_al_u1024_o AngryBird_Demo_inst/_al_u1037|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b0.e[0]
+
+Timing path: AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b7|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b1.clk->AngryBird_Demo_inst/_al_u1037|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b0
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b7|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b1.clk
+AngryBird_Demo_inst/_al_u1037|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b0
+3207 4.179000 11.860000 7.681000 5 5
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/cnt_ack_bit[7] AngryBird_Demo_inst/_al_u795|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/ack_en_reg.c[1]
+AngryBird_Demo_inst/_al_u795_o AngryBird_Demo_inst/sobel_edge/u_vip_sobel_edge_detector/reg2_b6|AngryBird_Demo_inst/sobel_edge/u_vip_sobel_edge_detector/reg2_b5.b[1]
+AngryBird_Demo_inst/_al_u1020_o AngryBird_Demo_inst/_al_u1028|AngryBird_Demo_inst/sobel_edge/u_vip_sobel_edge_detector/u_vip_matrix_generate_3x3_8bit/reg4_b2.a[0]
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/mux4_b0/B0_1 AngryBird_Demo_inst/_al_u1024|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b2.a[1]
+AngryBird_Demo_inst/_al_u1024_o AngryBird_Demo_inst/_al_u1037|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b0.e[0]
+
+Timing path: AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b0|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b2.clk->AngryBird_Demo_inst/_al_u1037|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b0
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b0|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b2.clk
+AngryBird_Demo_inst/_al_u1037|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b0
+3246 4.249000 11.860000 7.611000 4 4
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/cnt_ack_bit[2] AngryBird_Demo_inst/_al_u798|AngryBird_Demo_inst/_al_u794.c[1]
+AngryBird_Demo_inst/_al_u798_o AngryBird_Demo_inst/sobel_edge/u_vip_sobel_edge_detector/reg2_b6|AngryBird_Demo_inst/sobel_edge/u_vip_sobel_edge_detector/reg2_b5.a[1]
+AngryBird_Demo_inst/_al_u1020_o AngryBird_Demo_inst/_al_u1028|AngryBird_Demo_inst/sobel_edge/u_vip_sobel_edge_detector/u_vip_matrix_generate_3x3_8bit/reg4_b2.a[1]
+AngryBird_Demo_inst/_al_u1028_o AngryBird_Demo_inst/_al_u1037|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b0.b[0]
+
+
+Endpoint: AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b1|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b3
+3283 4.455000 16 3
+Timing path: AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b0|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b2.clk->AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b1|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b3
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b0|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b2.clk
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b1|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b3
+3285 4.455000 11.860000 7.405000 4 4
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/cnt_ack_bit[2] AngryBird_Demo_inst/_al_u798|AngryBird_Demo_inst/_al_u794.c[1]
+AngryBird_Demo_inst/_al_u798_o AngryBird_Demo_inst/sobel_edge/u_vip_sobel_edge_detector/reg2_b6|AngryBird_Demo_inst/sobel_edge/u_vip_sobel_edge_detector/reg2_b5.a[1]
+AngryBird_Demo_inst/_al_u1020_o AngryBird_Demo_inst/_al_u1004|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b35.a[0]
+AngryBird_Demo_inst/_al_u1031_o AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b1|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b3.a[0]
+
+Timing path: AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b7|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b1.clk->AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b1|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b3
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b7|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b1.clk
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b1|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b3
+3322 4.819000 11.860000 7.041000 4 4
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/cnt_ack_bit[7] AngryBird_Demo_inst/_al_u795|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/ack_en_reg.c[1]
+AngryBird_Demo_inst/_al_u795_o AngryBird_Demo_inst/sobel_edge/u_vip_sobel_edge_detector/reg2_b6|AngryBird_Demo_inst/sobel_edge/u_vip_sobel_edge_detector/reg2_b5.b[1]
+AngryBird_Demo_inst/_al_u1020_o AngryBird_Demo_inst/_al_u1004|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b35.a[0]
+AngryBird_Demo_inst/_al_u1031_o AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b1|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b3.a[0]
+
+Timing path: AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b0|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b2.clk->AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b1|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b3
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b0|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg3_b2.clk
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b1|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b3
+3359 4.939000 11.860000 6.921000 4 4
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/cnt_ack_bit[0] AngryBird_Demo_inst/_al_u798|AngryBird_Demo_inst/_al_u794.a[1]
+AngryBird_Demo_inst/_al_u798_o AngryBird_Demo_inst/sobel_edge/u_vip_sobel_edge_detector/reg2_b6|AngryBird_Demo_inst/sobel_edge/u_vip_sobel_edge_detector/reg2_b5.a[1]
+AngryBird_Demo_inst/_al_u1020_o AngryBird_Demo_inst/_al_u1004|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b35.a[0]
+AngryBird_Demo_inst/_al_u1031_o AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b1|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg0_b3.a[0]
+
+
+
+Hold check
+3396 3
+Endpoint: AngryBird_Demo_inst/u_sdram_top/_al_u282_hfnopt2_6|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u169_b5
+3398 0.163000 1 1
+Timing path: AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u153_b3|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u153_b5.clk->AngryBird_Demo_inst/u_sdram_top/_al_u282_hfnopt2_6|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u169_b5
+AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u153_b3|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u153_b5.clk
+AngryBird_Demo_inst/u_sdram_top/_al_u282_hfnopt2_6|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u169_b5
+3400 0.163000 2.350000 2.513000 0 1
+AngryBird_Demo_inst/u_sdram_top/rdptr_g5_al_n168 AngryBird_Demo_inst/u_sdram_top/_al_u282_hfnopt2_6|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u169_b5.mi[0]
+
+
+Endpoint: AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u169_b2|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u169_b3
+3431 0.174000 1 1
+Timing path: AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u153_b2|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u153_b4.clk->AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u169_b2|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u169_b3
+AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u153_b2|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u153_b4.clk
+AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u169_b2|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u169_b3
+3433 0.174000 2.350000 2.524000 0 1
+AngryBird_Demo_inst/u_sdram_top/rdptr_g2_al_n165 AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u169_b2|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u169_b3.mi[1]
+
+
+Endpoint: AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u169_b10|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u169_b6
+3464 0.174000 1 1
+Timing path: AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u153_b7|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u153_b6.clk->AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u169_b10|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u169_b6
+AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u153_b7|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u153_b6.clk
+AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u169_b10|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u169_b6
+3466 0.174000 2.350000 2.524000 0 1
+AngryBird_Demo_inst/u_sdram_top/rdptr_g6_al_n169 AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u169_b10|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u169_b6.mi[0]
+
+
+
+Recovery check
+3497 3
+Endpoint: AngryBird_Demo_inst/u_sdram_top/_al_u465|AngryBird_Demo_inst/u_sdram_top/gray_counter_reg_al_u95_b0
+3499 -4.632000 1 1
+Timing path: AngryBird_Demo_inst/rd_synchro_inst/change_flag_reg.clk->AngryBird_Demo_inst/u_sdram_top/_al_u465|AngryBird_Demo_inst/u_sdram_top/gray_counter_reg_al_u95_b0
+AngryBird_Demo_inst/rd_synchro_inst/change_flag_reg.clk
+AngryBird_Demo_inst/u_sdram_top/_al_u465|AngryBird_Demo_inst/u_sdram_top/gray_counter_reg_al_u95_b0
+3501 -4.632000 1.681000 6.313000 2 3
+AngryBird_Demo_inst/rd_synchro_inst/change_flag AngryBird_Demo_inst/_al_u488|AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/sdram_wr_req_reg.c[1]
+AngryBird_Demo_inst/sdram_all_rst_n AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u169_b8|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u169_b9.d[0]
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/n35_hfnopt2_5 AngryBird_Demo_inst/u_sdram_top/_al_u465|AngryBird_Demo_inst/u_sdram_top/gray_counter_reg_al_u95_b0.sr
+
+
+Endpoint: AngryBird_Demo_inst/u_sdram_top/gray_counter_reg_al_u95_b6|AngryBird_Demo_inst/u_sdram_top/gray_counter_reg_al_u95_b4
+3538 -4.555000 1 1
+Timing path: AngryBird_Demo_inst/rd_synchro_inst/change_flag_reg.clk->AngryBird_Demo_inst/u_sdram_top/gray_counter_reg_al_u95_b6|AngryBird_Demo_inst/u_sdram_top/gray_counter_reg_al_u95_b4
+AngryBird_Demo_inst/rd_synchro_inst/change_flag_reg.clk
+AngryBird_Demo_inst/u_sdram_top/gray_counter_reg_al_u95_b6|AngryBird_Demo_inst/u_sdram_top/gray_counter_reg_al_u95_b4
+3540 -4.555000 1.681000 6.236000 2 3
+AngryBird_Demo_inst/rd_synchro_inst/change_flag AngryBird_Demo_inst/_al_u488|AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/sdram_wr_req_reg.c[1]
+AngryBird_Demo_inst/sdram_all_rst_n AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u169_b8|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u169_b9.d[0]
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/n35_hfnopt2_5 AngryBird_Demo_inst/u_sdram_top/gray_counter_reg_al_u95_b6|AngryBird_Demo_inst/u_sdram_top/gray_counter_reg_al_u95_b4.sr
+
+
+Endpoint: AngryBird_Demo_inst/u_sdram_top/reg_wrptr_al_u97_b0
+3577 -4.555000 1 1
+Timing path: AngryBird_Demo_inst/rd_synchro_inst/change_flag_reg.clk->AngryBird_Demo_inst/u_sdram_top/reg_wrptr_al_u97_b0
+AngryBird_Demo_inst/rd_synchro_inst/change_flag_reg.clk
+AngryBird_Demo_inst/u_sdram_top/reg_wrptr_al_u97_b0
+3579 -4.555000 1.681000 6.236000 2 3
+AngryBird_Demo_inst/rd_synchro_inst/change_flag AngryBird_Demo_inst/_al_u488|AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/sdram_wr_req_reg.c[1]
+AngryBird_Demo_inst/sdram_all_rst_n AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u169_b8|AngryBird_Demo_inst/u_sdram_top/reg_rdptr_al_u169_b9.d[0]
+AngryBird_Demo_inst/u_sdram_top/fifo_ctrl_inst/n35_hfnopt2_5 AngryBird_Demo_inst/u_sdram_top/reg_wrptr_al_u97_b0.sr
+
+
+
+Removal check
+3616 3
+Endpoint: AngryBird_Demo_inst/u_sd_read_photo/reg2_b0|AngryBird_Demo_inst/u_sd_read_photo/reg2_b2
+3618 1.554000 1 1
+Timing path: AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/init_end_reg.clk->AngryBird_Demo_inst/u_sd_read_photo/reg2_b0|AngryBird_Demo_inst/u_sd_read_photo/reg2_b2
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/init_end_reg.clk
+AngryBird_Demo_inst/u_sd_read_photo/reg2_b0|AngryBird_Demo_inst/u_sd_read_photo/reg2_b2
+3620 1.554000 2.404000 3.958000 1 2
+AngryBird_Demo_inst/sd_init_done AngryBird_Demo_inst/u_sd_read_photo/reg10_b22|AngryBird_Demo_inst/_al_u485_hfnopt2_0.c[0]
+AngryBird_Demo_inst/n3_hfnopt2_0 AngryBird_Demo_inst/u_sd_read_photo/reg2_b0|AngryBird_Demo_inst/u_sd_read_photo/reg2_b2.sr
+
+
+Endpoint: AngryBird_Demo_inst/u_sd_read_photo/reg2_b14|AngryBird_Demo_inst/u_sd_read_photo/reg2_b15
+3653 1.554000 1 1
+Timing path: AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/init_end_reg.clk->AngryBird_Demo_inst/u_sd_read_photo/reg2_b14|AngryBird_Demo_inst/u_sd_read_photo/reg2_b15
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/init_end_reg.clk
+AngryBird_Demo_inst/u_sd_read_photo/reg2_b14|AngryBird_Demo_inst/u_sd_read_photo/reg2_b15
+3655 1.554000 2.404000 3.958000 1 2
+AngryBird_Demo_inst/sd_init_done AngryBird_Demo_inst/u_sd_read_photo/reg10_b22|AngryBird_Demo_inst/_al_u485_hfnopt2_0.c[0]
+AngryBird_Demo_inst/n3_hfnopt2_0 AngryBird_Demo_inst/u_sd_read_photo/reg2_b14|AngryBird_Demo_inst/u_sd_read_photo/reg2_b15.sr
+
+
+Endpoint: AngryBird_Demo_inst/u_sd_read_photo/reg2_b10|AngryBird_Demo_inst/u_sd_read_photo/reg2_b7
+3688 1.566000 1 1
+Timing path: AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/init_end_reg.clk->AngryBird_Demo_inst/u_sd_read_photo/reg2_b10|AngryBird_Demo_inst/u_sd_read_photo/reg2_b7
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/init_end_reg.clk
+AngryBird_Demo_inst/u_sd_read_photo/reg2_b10|AngryBird_Demo_inst/u_sd_read_photo/reg2_b7
+3690 1.566000 2.404000 3.970000 1 2
+AngryBird_Demo_inst/sd_init_done AngryBird_Demo_inst/u_sd_read_photo/reg10_b22|AngryBird_Demo_inst/_al_u485_hfnopt2_0.c[0]
+AngryBird_Demo_inst/n3_hfnopt2_0 AngryBird_Demo_inst/u_sd_read_photo/reg2_b10|AngryBird_Demo_inst/u_sd_read_photo/reg2_b7.sr
+
+
+
+
+clock: AngryBird_Demo_inst/u_pll/pll_inst.clkc[4]
+3723 1840 316 2
+Setup check
+3733 3
+Endpoint: AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b5|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b6
+3733 5.040000 27 3
+Timing path: AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b7|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b8.clk->AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b5|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b6
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b7|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b8.clk
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b5|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b6
+3735 5.040000 11.860000 6.820000 3 4
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/cnt_data_num[8] AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt2_8|u_sd_ctrl/sd_read_inst/lt2_7.a[1]
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt2_c9 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt2_10|u_sd_ctrl/sd_read_inst/lt2_9.fci
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt2_c11 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt2_cout|u_sd_ctrl/sd_read_inst/lt2_11.fci
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/n55 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b5|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b6.b[1]
+
+Timing path: AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b3|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b0.clk->AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b5|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b6
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b3|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b0.clk
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b5|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b6
+3772 5.251000 11.860000 6.609000 4 9
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/cnt_data_num[0] AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_0|u_sd_ctrl/sd_read_inst/lt1_cin.b[1]
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_c1 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_2|u_sd_ctrl/sd_read_inst/lt1_1.fci
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_c3 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_4|u_sd_ctrl/sd_read_inst/lt1_3.fci
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_c5 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_6|u_sd_ctrl/sd_read_inst/lt1_5.fci
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_c7 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_8|u_sd_ctrl/sd_read_inst/lt1_7.fci
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_c9 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_10|u_sd_ctrl/sd_read_inst/lt1_9.fci
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_c11 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_cout|u_sd_ctrl/sd_read_inst/lt1_11.fci
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/n47 AngryBird_Demo_inst/_al_u655|AngryBird_Demo_inst/_al_u649.c[0]
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/n48 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b5|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b6.d[1]
+
+Timing path: AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b4|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b6.clk->AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b5|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b6
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b4|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b6.clk
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b5|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b6
+3819 5.256000 11.860000 6.604000 4 6
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/cnt_data_num[6] AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_6|u_sd_ctrl/sd_read_inst/lt1_5.b[1]
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_c7 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_8|u_sd_ctrl/sd_read_inst/lt1_7.fci
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_c9 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_10|u_sd_ctrl/sd_read_inst/lt1_9.fci
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_c11 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_cout|u_sd_ctrl/sd_read_inst/lt1_11.fci
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/n47 AngryBird_Demo_inst/_al_u655|AngryBird_Demo_inst/_al_u649.c[0]
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/n48 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b5|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b6.d[1]
+
+
+Endpoint: AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b10|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b3
+3860 5.040000 27 3
+Timing path: AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b7|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b8.clk->AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b10|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b3
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b7|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b8.clk
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b10|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b3
+3862 5.040000 11.860000 6.820000 3 4
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/cnt_data_num[8] AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt2_8|u_sd_ctrl/sd_read_inst/lt2_7.a[1]
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt2_c9 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt2_10|u_sd_ctrl/sd_read_inst/lt2_9.fci
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt2_c11 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt2_cout|u_sd_ctrl/sd_read_inst/lt2_11.fci
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/n55 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b10|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b3.b[1]
+
+Timing path: AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b4|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b6.clk->AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b10|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b3
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b4|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b6.clk
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b10|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b3
+3899 5.405000 11.860000 6.455000 3 5
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/cnt_data_num[6] AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt2_6|u_sd_ctrl/sd_read_inst/lt2_5.a[1]
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt2_c7 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt2_8|u_sd_ctrl/sd_read_inst/lt2_7.fci
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt2_c9 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt2_10|u_sd_ctrl/sd_read_inst/lt2_9.fci
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt2_c11 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt2_cout|u_sd_ctrl/sd_read_inst/lt2_11.fci
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/n55 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b10|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b3.b[1]
+
+Timing path: AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b3|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b0.clk->AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b10|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b3
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b3|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b0.clk
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b10|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b3
+3938 5.417000 11.860000 6.443000 4 9
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/cnt_data_num[0] AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_0|u_sd_ctrl/sd_read_inst/lt1_cin.b[1]
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_c1 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_2|u_sd_ctrl/sd_read_inst/lt1_1.fci
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_c3 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_4|u_sd_ctrl/sd_read_inst/lt1_3.fci
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_c5 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_6|u_sd_ctrl/sd_read_inst/lt1_5.fci
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_c7 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_8|u_sd_ctrl/sd_read_inst/lt1_7.fci
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_c9 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_10|u_sd_ctrl/sd_read_inst/lt1_9.fci
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_c11 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_cout|u_sd_ctrl/sd_read_inst/lt1_11.fci
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/n47 AngryBird_Demo_inst/_al_u655|AngryBird_Demo_inst/_al_u649.c[0]
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/n48 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b10|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b3.d[1]
+
+
+Endpoint: AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b10|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b3
+3985 5.040000 27 3
+Timing path: AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b7|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b8.clk->AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b10|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b3
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b7|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b8.clk
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b10|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b3
+3987 5.040000 11.860000 6.820000 3 4
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/cnt_data_num[8] AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt2_8|u_sd_ctrl/sd_read_inst/lt2_7.a[1]
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt2_c9 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt2_10|u_sd_ctrl/sd_read_inst/lt2_9.fci
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt2_c11 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt2_cout|u_sd_ctrl/sd_read_inst/lt2_11.fci
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/n55 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b10|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b3.b[0]
+
+Timing path: AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b4|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b6.clk->AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b10|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b3
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b4|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b6.clk
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b10|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b3
+4024 5.405000 11.860000 6.455000 3 5
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/cnt_data_num[6] AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt2_6|u_sd_ctrl/sd_read_inst/lt2_5.a[1]
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt2_c7 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt2_8|u_sd_ctrl/sd_read_inst/lt2_7.fci
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt2_c9 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt2_10|u_sd_ctrl/sd_read_inst/lt2_9.fci
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt2_c11 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt2_cout|u_sd_ctrl/sd_read_inst/lt2_11.fci
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/n55 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b10|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b3.b[0]
+
+Timing path: AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b3|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b0.clk->AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b10|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b3
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b3|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg6_b0.clk
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b10|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b3
+4063 5.417000 11.860000 6.443000 4 9
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/cnt_data_num[0] AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_0|u_sd_ctrl/sd_read_inst/lt1_cin.b[1]
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_c1 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_2|u_sd_ctrl/sd_read_inst/lt1_1.fci
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_c3 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_4|u_sd_ctrl/sd_read_inst/lt1_3.fci
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_c5 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_6|u_sd_ctrl/sd_read_inst/lt1_5.fci
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_c7 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_8|u_sd_ctrl/sd_read_inst/lt1_7.fci
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_c9 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_10|u_sd_ctrl/sd_read_inst/lt1_9.fci
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_c11 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/lt1_cout|u_sd_ctrl/sd_read_inst/lt1_11.fci
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/n47 AngryBird_Demo_inst/_al_u655|AngryBird_Demo_inst/_al_u649.c[0]
+AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/n48 AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b10|AngryBird_Demo_inst/u_sd_ctrl/sd_read_inst/reg7_b3.d[0]
+
+
+
+Hold check
+4110 3
+Endpoint: AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt6_0|u_hdmi_top/u1_Driver/lt6_cin
+4112 0.325000 1 1
+Timing path: AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b9.clk->AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt6_0|u_hdmi_top/u1_Driver/lt6_cin
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b9.clk
+AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt6_0|u_hdmi_top/u1_Driver/lt6_cin
+4114 0.325000 2.178000 2.503000 0 1
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/ack_data[9] AngryBird_Demo_inst/u_hdmi_top/u1_Driver/lt6_0|u_hdmi_top/u1_Driver/lt6_cin.mi[0]
+
+
+Endpoint: AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b22|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b24
+4145 0.325000 1 1
+Timing path: AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b20|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b23.clk->AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b22|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b24
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b20|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b23.clk
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b22|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b24
+4147 0.325000 2.178000 2.503000 0 1
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/ack_data[23] AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b22|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b24.mi[0]
+
+
+Endpoint: AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b2|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b5
+4178 0.432000 1 1
+Timing path: AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b1.clk->AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b2|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b5
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b1.clk
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b2|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b5
+4180 0.432000 2.071000 2.503000 0 1
+AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/ack_data[1] AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b2|AngryBird_Demo_inst/u_sd_ctrl/sd_init_inst/reg2_b5.mi[1]
+
+
+
+
+
+Timing group statistics: 
+	Clock constraints: 
+	  Clock Name                                  Min Period     Max Freq           Skew      Fanout            TNS
+	  AngryBird_Demo_inst/u_pll/pll_inst.clkc[1] (100.000MHz)       17.710ns      56.465MHz        0.571ns       443    -1869.454ns
+	  AngryBird_Demo_inst/u_hdmi_pll/pll_inst.clkc[0] (70.000MHz)       22.817ns      43.827MHz        0.399ns       390      -82.501ns
+	  AngryBird_Demo_inst/u_pll/pll_inst.clkc[3] (50.000MHz)       24.632ns      40.598MHz        0.211ns       149     -130.886ns
+	  AngryBird_Demo_inst/u_pll/pll_inst.clkc[4] (50.000MHz)       14.960ns      66.845MHz        0.316ns        59        0.000ns
+	  AngryBird_Demo_inst/u_hdmi_pll/pll_inst.clkc[1] (326.691MHz)        4.740ns     210.970MHz        0.487ns        32      -43.081ns
+	  AngryBird_Demo_inst/u_pll/pll_inst.clkc[0] (50.000MHz)       24.013ns      41.644MHz        0.128ns         6      -22.998ns
+	Minimum input arrival time before clock: no constraint path
+	Maximum output required time after clock: no constraint path
+	Maximum combinational path delay: no constraint path
+Warning: No clock constraint on 2 clock net(s): 
+	AngryBird_Demo_inst/cam_pclk_pad
+	AngryBird_Demo_inst/i2c_dri_clk
+

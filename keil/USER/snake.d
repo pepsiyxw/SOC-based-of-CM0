@@ -1,0 +1,13 @@
+.\snake.o: ..\Games\snake.c
+.\snake.o: ..\Games\snake.h
+.\snake.o: ..\FWLIB\inc\CMSDK_CM0.h
+.\snake.o: ..\CORE\core_cm0.h
+.\snake.o: E:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\snake.o: ..\CORE\core_cmInstr.h
+.\snake.o: ..\CORE\core_cmFunc.h
+.\snake.o: ..\FWLIB\inc\system_CMSDK_CM0.h
+.\snake.o: ..\HARDWARE\oled.h
+.\snake.o: ..\FWLIB\cm0_Timer.h
+.\snake.o: ..\FWLIB\cm0_uart.h
+.\snake.o: ..\FWLIB\cm0_gpio.h
+.\snake.o: ..\HARDWARE\Key_Scan.h

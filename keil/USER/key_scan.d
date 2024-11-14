@@ -1,0 +1,10 @@
+.\key_scan.o: ..\HARDWARE\Key_Scan.c
+.\key_scan.o: ..\HARDWARE\Key_Scan.h
+.\key_scan.o: ..\FWLIB\inc\CMSDK_CM0.h
+.\key_scan.o: ..\CORE\core_cm0.h
+.\key_scan.o: E:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\key_scan.o: ..\CORE\core_cmInstr.h
+.\key_scan.o: ..\CORE\core_cmFunc.h
+.\key_scan.o: ..\FWLIB\inc\system_CMSDK_CM0.h
+.\key_scan.o: ..\FWLIB\cm0_gpio.h
+.\key_scan.o: ..\System\Systick.h

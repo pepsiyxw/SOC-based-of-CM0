@@ -1,0 +1,17 @@
+.\microphone.o: ..\HARDWARE\microphone.c
+.\microphone.o: ..\HARDWARE\microphone.h
+.\microphone.o: ..\FWLIB\inc\CMSDK_CM0.h
+.\microphone.o: ..\CORE\core_cm0.h
+.\microphone.o: E:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\microphone.o: ..\CORE\core_cmInstr.h
+.\microphone.o: ..\CORE\core_cmFunc.h
+.\microphone.o: ..\FWLIB\inc\system_CMSDK_CM0.h
+.\microphone.o: ..\Games\flybird.h
+.\microphone.o: ..\System\Systick.h
+.\microphone.o: ..\HARDWARE\Handcontroller.h
+.\microphone.o: ..\FWLIB\cm0_gpio.h
+.\microphone.o: ..\HARDWARE\IMU.h
+.\microphone.o: ..\FWLIB\cm0_uart.h
+.\microphone.o: ..\Games\flybird.h
+.\microphone.o: ..\HARDWARE\microphone.h
+.\microphone.o: ..\HARDWARE\music.h

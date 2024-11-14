@@ -1,0 +1,8 @@
+E:/_CM0_Soc/Cortex-M0/rtl/FlappyBird-main/source/rtl/test/tongbu_test/synchro_test.v {1 {vlog -work work -vopt -stats=none {E:\_CM0_Soc\Cortex-M0\rtl\FlappyBird-main\source\rtl\test\tongbu_test\synchro_test.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module synchro_test
+
+Top level modules:
+	synchro_test
+
+} {} {}}

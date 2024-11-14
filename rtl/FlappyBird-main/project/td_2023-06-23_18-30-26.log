@@ -1,0 +1,1662 @@
+============================================================
+   Tang Dynasty, V5.0.30786
+   Copyright:   Shanghai Anlogic Infotech Co., Ltd.
+                2011 - 2021
+   Executable = E:/fpgadream/Anlogic_TD/bin/td.exe
+   Run by =     86132
+   Run Date =   Fri Jun 23 18:30:26 2023
+
+   Run on =     THE-END-OF-THE-
+============================================================
+RUN-1002 : start command "import_device eagle_s20.db -package BG256"
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        
+RUN-1001 :        syn_ip_flow       |    off     |       off        
+RUN-1001 :          thread          |    auto    |       auto       
+RUN-1001 : -------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 :      infer_shifter      |    off     |       off        
+RUN-1001 :         map_dram        |    auto    |       auto       
+RUN-1001 : ------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      
+RUN-1001 :        elf_sload        |    off     |       off        
+RUN-1001 :       fix_undriven      |     0      |        0         
+RUN-1001 :         flatten         |    off     |       off        
+RUN-1001 :       gate_sharing      |     on     |        on        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        
+RUN-1001 :      impl_set_reset     |     on     |        on        
+RUN-1001 :        infer_gsr        |    off     |       off        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       
+RUN-1001 :        max_fanout       |    9999    |       9999       
+RUN-1001 :      max_oh2bin_len     |     10     |        10        
+RUN-1001 :       merge_equal       |     on     |        on        
+RUN-1001 :       merge_equiv       |     on     |        on        
+RUN-1001 :        merge_mux        |    off     |       off        
+RUN-1001 :      min_ce_fanout      |     16     |        16        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       
+RUN-1001 :     opt_adder_fanout    |     on     |        on        
+RUN-1001 :        opt_arith        |     on     |        on        
+RUN-1001 :       opt_big_gate      |    off     |       off        
+RUN-1001 :        opt_const        |     on     |        on        
+RUN-1001 :      opt_const_mult     |     on     |        on        
+RUN-1001 :       opt_lessthan      |     on     |        on        
+RUN-1001 :         opt_mux         |    off     |       off        
+RUN-1001 :         opt_ram         |    high    |       high       
+RUN-1001 :      rtl_sim_model      |    off     |       off        
+RUN-1001 :         seq_syn         |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+HDL-1007 : analyze verilog file ../source/rtl/AngryBird_Demo.v
+HDL-5007 WARNING: 'sdram_rd_b_addr' is already implicitly declared on line 272 in ../source/rtl/AngryBird_Demo.v(295)
+HDL-5007 WARNING: 'sdram_rd_e_addr' is already implicitly declared on line 273 in ../source/rtl/AngryBird_Demo.v(296)
+HDL-5007 WARNING: 'sdram_rden' is already implicitly declared on line 271 in ../source/rtl/AngryBird_Demo.v(297)
+HDL-5007 WARNING: 'camera_rstn' is already implicitly declared on line 389 in ../source/rtl/AngryBird_Demo.v(472)
+HDL-5007 WARNING: 'custom' is already implicitly declared on line 396 in ../source/rtl/AngryBird_Demo.v(473)
+HDL-5007 WARNING: 'camera_sdram_rd_data' is already implicitly declared on line 332 in ../source/rtl/AngryBird_Demo.v(502)
+HDL-5007 WARNING: 'int_sdram_rst_n' is already implicitly declared on line 536 in ../source/rtl/AngryBird_Demo.v(552)
+HDL-5007 WARNING: 'int_sdram_rden' is already implicitly declared on line 532 in ../source/rtl/AngryBird_Demo.v(553)
+HDL-5007 WARNING: 'color_binary_clken' is already implicitly declared on line 487 in ../source/rtl/AngryBird_Demo.v(580)
+HDL-5007 WARNING: identifier 'sys_rst_n' is used before its declaration in ../source/rtl/AngryBird_Demo.v(103)
+HDL-5007 WARNING: identifier 'camera_rstn' is used before its declaration in ../source/rtl/AngryBird_Demo.v(103)
+HDL-5007 WARNING: identifier 'locked' is used before its declaration in ../source/rtl/AngryBird_Demo.v(106)
+HDL-5007 WARNING: identifier 'hdmi_locked' is used before its declaration in ../source/rtl/AngryBird_Demo.v(106)
+HDL-5007 WARNING: identifier 'sdram_init_done' is used before its declaration in ../source/rtl/AngryBird_Demo.v(187)
+HDL-5007 WARNING: identifier 'sdram_rst_n' is used before its declaration in ../source/rtl/AngryBird_Demo.v(248)
+HDL-5007 WARNING: identifier 'sdram_rst_n' is used before its declaration in ../source/rtl/AngryBird_Demo.v(249)
+HDL-1007 : analyze verilog file ../source/rtl/Display.v
+HDL-5007 WARNING: parameter 'RED' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(66)
+HDL-5007 WARNING: parameter 'GREEN' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(67)
+HDL-5007 WARNING: parameter 'BLUE' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(68)
+HDL-5007 WARNING: parameter 'WHITE' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(69)
+HDL-5007 WARNING: parameter 'BLACK' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(70)
+HDL-5007 WARNING: parameter 'YELLOW' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(71)
+HDL-5007 WARNING: parameter 'CYAN' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(72)
+HDL-5007 WARNING: parameter 'ROYAL' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(73)
+HDL-5007 WARNING: parameter 'start_scene' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(76)
+HDL-5007 WARNING: parameter 'custom1_scene' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(77)
+HDL-5007 WARNING: parameter 'custom2_scene' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(78)
+HDL-5007 WARNING: parameter 'pause_scene' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(79)
+HDL-5007 WARNING: parameter 'gameover_scene' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(80)
+HDL-5007 WARNING: parameter 'method_scene' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(81)
+HDL-5007 WARNING: parameter 'siglebird' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(84)
+HDL-5007 WARNING: parameter 'doublebird' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(85)
+HDL-5007 WARNING: parameter 'method' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(86)
+HDL-5007 WARNING: parameter 'cam_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(184)
+HDL-5007 WARNING: parameter 'cam_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(185)
+HDL-5007 WARNING: parameter 'sobel_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(186)
+HDL-5007 WARNING: parameter 'sobel_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(187)
+HDL-5007 WARNING: parameter 'custom1_bird_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(188)
+HDL-5007 WARNING: parameter 'custom1_bird_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(189)
+HDL-5007 WARNING: parameter 'custom2_bird_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(190)
+HDL-5007 WARNING: parameter 'custom2_bird_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(191)
+HDL-5007 WARNING: parameter 'Obstacle_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(192)
+HDL-5007 WARNING: parameter 'background_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(193)
+HDL-5007 WARNING: parameter 'background_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(194)
+HDL-5007 WARNING: parameter 'modebutton_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(195)
+HDL-5007 WARNING: parameter 'modebutton_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(196)
+HDL-5007 WARNING: identifier 'sigle_state' is used before its declaration in ../source/rtl/Display.v(260)
+HDL-5007 WARNING: identifier 'double_state' is used before its declaration in ../source/rtl/Display.v(261)
+HDL-5007 WARNING: identifier 'method_state' is used before its declaration in ../source/rtl/Display.v(262)
+HDL-5007 WARNING: identifier 'custom1_bird1dead_en' is used before its declaration in ../source/rtl/Display.v(282)
+HDL-5007 WARNING: identifier 'custom1_bird2dead_en' is used before its declaration in ../source/rtl/Display.v(289)
+HDL-5007 WARNING: identifier 'custom2_bird1dead' is used before its declaration in ../source/rtl/Display.v(296)
+HDL-5007 WARNING: identifier 'custom2_bird2dead' is used before its declaration in ../source/rtl/Display.v(303)
+HDL-5007 WARNING: parameter 'speed0' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(380)
+HDL-5007 WARNING: parameter 'speed1' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(381)
+HDL-5007 WARNING: parameter 'speed2' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(382)
+HDL-5007 WARNING: parameter 'speed3' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(383)
+HDL-5007 WARNING: parameter 'speed4' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(384)
+HDL-5007 WARNING: parameter 'speed5' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(385)
+HDL-5007 WARNING: parameter 'score0' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(387)
+HDL-5007 WARNING: parameter 'score1' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(388)
+HDL-5007 WARNING: parameter 'score2' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(389)
+HDL-5007 WARNING: parameter 'score3' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(390)
+HDL-5007 WARNING: parameter 'score4' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(391)
+HDL-5007 WARNING: parameter 'second_score' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(393)
+HDL-5007 WARNING: parameter 'Obstacle_width0' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(397)
+HDL-5007 WARNING: parameter 'Obstacle_width1' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(398)
+HDL-5007 WARNING: parameter 'Obstacle_width2' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(399)
+HDL-5007 WARNING: parameter 'Obstacle_width3' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(400)
+HDL-5007 WARNING: parameter 'Obstacle_width4' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(401)
+HDL-5007 WARNING: parameter 'Obstacle_width5' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(402)
+HDL-5007 WARNING: parameter 'custom1_y_min' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(660)
+HDL-5007 WARNING: parameter 'custom1_y_max' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(661)
+HDL-5007 WARNING: parameter 'custom2_y_min' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(663)
+HDL-5007 WARNING: parameter 'custom2_y_max' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(664)
+HDL-5007 WARNING: parameter 'custom2_x_min' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(665)
+HDL-5007 WARNING: parameter 'custom2_x_max' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(666)
+HDL-5007 WARNING: parameter 'DEAD_THRESHOLD' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(961)
+HDL-1007 : analyze verilog file ../source/rtl/Driver.v
+HDL-1007 : analyze verilog file ../source/rtl/I2C_init.v
+HDL-1007 : analyze verilog file ../source/rtl/ov2640_init.v
+HDL-1007 : analyze verilog file ../source/rtl/ov2640_read.v
+HDL-1007 : analyze verilog file ../source/rtl/process.v
+HDL-1007 : analyze verilog file ../source/rtl/top.v
+HDL-1007 : analyze verilog file ../source/rtl/Top_Logic.v
+HDL-1007 : analyze verilog file ../al_ip/PLL.v
+HDL-1007 : analyze verilog file ../al_ip/sdram.v
+HDL-1007 : analyze verilog file ../al_ip/fifo/ramfifo.v
+HDL-1007 : analyze verilog file ../source/rtl/bcd_8421.v
+HDL-1007 : analyze verilog file ../source/rtl/seg_dynamic.v
+HDL-1007 : analyze verilog file ../al_ip/bird1.v
+HDL-1007 : analyze verilog file ../al_ip/bird2.v
+HDL-1007 : analyze verilog file ../source/rtl/BGMPlayer.v
+HDL-5007 WARNING: identifier 'high' is used before its declaration in ../source/rtl/BGMPlayer.v(71)
+HDL-5007 WARNING: identifier 'med' is used before its declaration in ../source/rtl/BGMPlayer.v(71)
+HDL-5007 WARNING: identifier 'low' is used before its declaration in ../source/rtl/BGMPlayer.v(71)
+HDL-1007 : analyze verilog file ../al_ip/clk6Mhz.v
+HDL-1007 : analyze verilog file ../source/rtl/Sdram_Control_4Port/command.v
+HDL-1007 : analyze included file ../source/rtl/Sdram_Control_4Port/Sdram_Params.h in ../source/rtl/Sdram_Control_4Port/command.v(27)
+HDL-1007 : back to file '../source/rtl/Sdram_Control_4Port/command.v' in ../source/rtl/Sdram_Control_4Port/command.v(27)
+HDL-1007 : analyze verilog file ../source/rtl/Sdram_Control_4Port/control_interface.v
+HDL-1007 : analyze included file ../source/rtl/Sdram_Control_4Port/Sdram_Params.h in ../source/rtl/Sdram_Control_4Port/control_interface.v(21)
+HDL-1007 : back to file '../source/rtl/Sdram_Control_4Port/control_interface.v' in ../source/rtl/Sdram_Control_4Port/control_interface.v(21)
+HDL-1007 : analyze verilog file ../source/rtl/Sdram_Control_4Port/sdr_data_path.v
+HDL-1007 : analyze included file ../source/rtl/Sdram_Control_4Port/Sdram_Params.h in ../source/rtl/Sdram_Control_4Port/sdr_data_path.v(10)
+HDL-1007 : back to file '../source/rtl/Sdram_Control_4Port/sdr_data_path.v' in ../source/rtl/Sdram_Control_4Port/sdr_data_path.v(10)
+HDL-1007 : analyze verilog file ../source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v
+HDL-1007 : analyze included file ../source/rtl/Sdram_Control_4Port/Sdram_Params.h in ../source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v(49)
+HDL-1007 : back to file '../source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v' in ../source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v(49)
+HDL-1007 : analyze verilog file ../source/rtl/Sdram_Control_4Port/Sdram_RD_FIFO.v
+HDL-1007 : analyze verilog file ../source/rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v
+HDL-1007 : analyze verilog file ../al_ip/bram_256_1bit.v
+HDL-1007 : analyze verilog file ../al_ip/bram_256_8bit.v
+HDL-1007 : analyze verilog file ../al_ip/hdmi_pll.v
+HDL-1007 : analyze verilog file ../source/rtl/hdmi/asyn_rst_syn.v
+HDL-1007 : analyze verilog file ../source/rtl/hdmi/dvi_encoder.v
+HDL-1007 : analyze verilog file ../source/rtl/hdmi/dvi_transmitter_top.v
+HDL-1007 : analyze verilog file ../source/rtl/hdmi/hdmi_top.v
+HDL-5007 WARNING: redeclaration of ansi port 'hcnt' is not allowed in ../source/rtl/hdmi/hdmi_top.v(30)
+HDL-5007 WARNING: 'hcnt' was previously declared with a range in ../source/rtl/hdmi/hdmi_top.v(30)
+HDL-5007 WARNING: redeclaration of ansi port 'vcnt' is not allowed in ../source/rtl/hdmi/hdmi_top.v(31)
+HDL-5007 WARNING: 'vcnt' was previously declared with a range in ../source/rtl/hdmi/hdmi_top.v(31)
+HDL-1007 : analyze verilog file ../source/rtl/hdmi/serializer_10_to_1.v
+HDL-1007 : analyze verilog file ../al_ip/ddio_out.v
+HDL-1007 : analyze verilog file ../source/rtl/sd_ctrl_top/sd_init.v
+HDL-1007 : analyze verilog file ../source/rtl/sd_ctrl_top/sd_read.v
+HDL-1007 : analyze verilog file ../source/rtl/sd_ctrl_top/sd_write.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram_pingpang/fifo_ctrl.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram_pingpang/sdram_a_ref.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram_pingpang/sdram_arbit.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram_pingpang/sdram_ctrl.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram_pingpang/sdram_init.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram_pingpang/sdram_read.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram_pingpang/sdram_top.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram_pingpang/sdram_write.v
+HDL-1007 : analyze verilog file ../source/rtl/sd_read_photo.v
+HDL-1007 : analyze verilog file ../source/rtl/sd_ctrl_top/sd_ctrl.v
+HDL-1007 : analyze verilog file ../source/rtl/camera_init_control.v
+HDL-1007 : analyze verilog file ../source/rtl/camera_rd_synchro.v
+HDL-1007 : analyze verilog file ../source/rtl/sdcard_rd_synchro.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip_rgb_gray/vip_rgb_to_ycbcr_and_gary.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip_sobel_edge/line_shift_ram_1bit.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip_sobel_edge/line_shift_ram_8bit.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip_sobel_edge/vip.v
+HDL-5007 WARNING: redeclaration of ansi port 'sobel' is not allowed in ../source/rtl/Sobel_edge/vip_sobel_edge/vip.v(67)
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip_sobel_edge/VIP_Bit_Dilation_Detector.v
+HDL-5007 WARNING: identifier 'en' is used before its declaration in ../source/rtl/Sobel_edge/vip_sobel_edge/VIP_Bit_Dilation_Detector.v(117)
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip_sobel_edge/VIP_Bit_Erosion_Detector.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip_sobel_edge/vip_matrix_generate_3x3_1bit.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip_sobel_edge/vip_matrix_generate_3x3_8bit.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip_sobel_edge/VIP_RGB888_YCbCr444.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip_sobel_edge/vip_sobel_edge_detector.v
+HDL-1007 : analyze verilog file ../al_ip/Startbutton.v
+HDL-1007 : analyze verilog file ../al_ip/double_mode.v
+HDL-1007 : analyze verilog file ../al_ip/method_mode.v
+HDL-1007 : analyze verilog file ../al_ip/sigle_mode.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip_rgb_gray/threshold_binary.v
+RUN-1002 : start command "elaborate -top top"
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 :      infer_shifter      |    off     |       off        
+RUN-1001 :         map_dram        |    auto    |       auto       
+RUN-1001 : ------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      
+RUN-1001 :        elf_sload        |    off     |       off        
+RUN-1001 :       fix_undriven      |     0      |        0         
+RUN-1001 :         flatten         |    off     |       off        
+RUN-1001 :       gate_sharing      |     on     |        on        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        
+RUN-1001 :      impl_set_reset     |     on     |        on        
+RUN-1001 :        infer_gsr        |    off     |       off        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       
+RUN-1001 :        max_fanout       |    9999    |       9999       
+RUN-1001 :      max_oh2bin_len     |     10     |        10        
+RUN-1001 :       merge_equal       |     on     |        on        
+RUN-1001 :       merge_equiv       |     on     |        on        
+RUN-1001 :        merge_mux        |    off     |       off        
+RUN-1001 :      min_ce_fanout      |     16     |        16        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       
+RUN-1001 :     opt_adder_fanout    |     on     |        on        
+RUN-1001 :        opt_arith        |     on     |        on        
+RUN-1001 :       opt_big_gate      |    off     |       off        
+RUN-1001 :        opt_const        |     on     |        on        
+RUN-1001 :      opt_const_mult     |     on     |        on        
+RUN-1001 :       opt_lessthan      |     on     |        on        
+RUN-1001 :         opt_mux         |    off     |       off        
+RUN-1001 :         opt_ram         |    high    |       high       
+RUN-1001 :      rtl_sim_model      |    off     |       off        
+RUN-1001 :         seq_syn         |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        
+RUN-1001 :        syn_ip_flow       |    off     |       off        
+RUN-1001 :          thread          |    auto    |       auto       
+RUN-1001 : -------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 :      infer_shifter      |    off     |       off        
+RUN-1001 :         map_dram        |    auto    |       auto       
+RUN-1001 : ------------------------------------------------------
+HDL-5007 WARNING: port 'state_number' remains unconnected for this instance in ../source/rtl/top.v(65)
+HDL-1007 : elaborate module top in ../source/rtl/top.v(1)
+HDL-5007 WARNING: port 'rd_fifo_num' remains unconnected for this instance in ../source/rtl/AngryBird_Demo.v(253)
+HDL-1007 : elaborate module AngryBird_Demo in ../source/rtl/AngryBird_Demo.v(1)
+HDL-1007 : elaborate module pll in ../al_ip/PLL.v(25)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000",FBCLK_DIV=6,CLKC0_DIV=25,CLKC1_DIV=75,CLKC2_DIV=3,CLKC3_DIV=3,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",CLKC3_ENABLE="ENABLE",FEEDBK_MODE="NOCOMP",STDBY_ENABLE="DISABLE",CLKC3_FPHASE=3,CLKC0_CPHASE=24,CLKC1_CPHASE=74,CLKC2_CPHASE=2,GMC_GAIN=4,ICP_CURRENT=13,KVCO=4,LPF_CAPACITOR=1,LPF_RESISTOR=4,SYNC_ENABLE="DISABLE") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(930)
+HDL-1007 : elaborate module hdmi_pll in ../al_ip/hdmi_pll.v(25)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000",FBCLK_DIV=13,CLKC0_DIV=10,CLKC1_DIV=2,CLKC2_DIV=13,CLKC3_DIV=13,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",CLKC3_ENABLE="ENABLE",FEEDBK_MODE="NOCOMP",STDBY_ENABLE="DISABLE",CLKC3_FPHASE=4,CLKC0_CPHASE=9,CLKC2_CPHASE=12,CLKC3_CPHASE=5,GMC_GAIN=4,ICP_CURRENT=13,KVCO=4,LPF_CAPACITOR=1,LPF_RESISTOR=4,SYNC_ENABLE="DISABLE") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(930)
+HDL-1007 : elaborate module hdmi_top in ../source/rtl/hdmi/hdmi_top.v(1)
+HDL-1007 : elaborate module Driver in ../source/rtl/Driver.v(2)
+HDL-5007 WARNING: actual bit length 11 differs from formal bit length 12 for port 'lcd_xpos' in ../source/rtl/hdmi/hdmi_top.v(46)
+HDL-5007 WARNING: actual bit length 11 differs from formal bit length 12 for port 'lcd_ypos' in ../source/rtl/hdmi/hdmi_top.v(47)
+HDL-1007 : elaborate module dvi_transmitter_top in ../source/rtl/hdmi/dvi_transmitter_top.v(23)
+HDL-1007 : elaborate module asyn_rst_syn in ../source/rtl/hdmi/asyn_rst_syn.v(23)
+HDL-1007 : elaborate module dvi_encoder in ../source/rtl/hdmi/dvi_encoder.v(21)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(42)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(44)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(72)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(73)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(99)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(100)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(102)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(103)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(104)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(105)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(107)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(121)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(122)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(123)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(125)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(128)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(129)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(130)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(132)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(134)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(135)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(136)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(138)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(143)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(144)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(145)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(146)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(149)
+HDL-1007 : elaborate module serializer_10_to_1 in ../source/rtl/hdmi/serializer_10_to_1.v(25)
+HDL-1007 : elaborate module ddio_out in ../al_ip/ddio_out.v(14)
+HDL-1007 : elaborate module EG_LOGIC_ODDR(ASYNCRST="DISABLE") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(87)
+HDL-5007 WARNING: actual bit length 12 differs from formal bit length 11 for port 'lcd_xpos' in ../source/rtl/AngryBird_Demo.v(162)
+HDL-5007 WARNING: actual bit length 12 differs from formal bit length 11 for port 'lcd_ypos' in ../source/rtl/AngryBird_Demo.v(163)
+HDL-1007 : elaborate module sd_read_photo in ../source/rtl/sd_read_photo.v(1)
+HDL-5007 WARNING: actual bit length 23 differs from formal bit length 24 for port 'sdram_max_addr' in ../source/rtl/AngryBird_Demo.v(198)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 16 for port 'sd_sec_num' in ../source/rtl/AngryBird_Demo.v(199)
+HDL-1007 : elaborate module sd_ctrl in ../source/rtl/sd_ctrl_top/sd_ctrl.v(20)
+HDL-1007 : elaborate module sd_init in ../source/rtl/sd_ctrl_top/sd_init.v(20)
+HDL-1007 : elaborate module sd_write in ../source/rtl/sd_ctrl_top/sd_write.v(20)
+HDL-1007 : elaborate module sd_read in ../source/rtl/sd_ctrl_top/sd_read.v(20)
+HDL-1007 : elaborate module etr_sdram_top in ../source/rtl/sdram_pingpang/sdram_top.v(20)
+HDL-1007 : elaborate module etr_fifo_ctrl in ../source/rtl/sdram_pingpang/fifo_ctrl.v(20)
+HDL-1007 : elaborate module EG_LOGIC_RAMFIFO(DATA_WIDTH=16,ADDR_WIDTH=10,SHOWAHEAD=1) in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(792)
+HDL-5007 WARNING: actual bit length 10 differs from formal bit length 11 for port 'rdusedw' in ../source/rtl/sdram_pingpang/fifo_ctrl.v(223)
+HDL-5007 WARNING: actual bit length 10 differs from formal bit length 11 for port 'wrusedw' in ../source/rtl/sdram_pingpang/fifo_ctrl.v(244)
+HDL-1007 : elaborate module etr_sdram_ctrl in ../source/rtl/sdram_pingpang/sdram_ctrl.v(19)
+HDL-1007 : elaborate module etr_sdram_init in ../source/rtl/sdram_pingpang/sdram_init.v(20)
+HDL-1007 : elaborate module etr_sdram_arbit in ../source/rtl/sdram_pingpang/sdram_arbit.v(20)
+HDL-1007 : elaborate module etr_sdram_a_ref in ../source/rtl/sdram_pingpang/sdram_a_ref.v(20)
+HDL-1007 : elaborate module etr_sdram_write in ../source/rtl/sdram_pingpang/sdram_write.v(20)
+HDL-1007 : elaborate module etr_sdram_read in ../source/rtl/sdram_pingpang/sdram_read.v(20)
+HDL-1007 : elaborate module sdcard_rd_synchro in ../source/rtl/sdcard_rd_synchro.v(1)
+HDL-1007 : elaborate module Display in ../source/rtl/Display.v(26)
+HDL-5007 WARNING: using initial value of 'siglebutton_x0' since it is never assigned in ../source/rtl/Display.v(173)
+HDL-5007 WARNING: using initial value of 'siglebutton_y0' since it is never assigned in ../source/rtl/Display.v(173)
+HDL-5007 WARNING: using initial value of 'doublebutton_x0' since it is never assigned in ../source/rtl/Display.v(174)
+HDL-5007 WARNING: using initial value of 'doublebutton_y0' since it is never assigned in ../source/rtl/Display.v(174)
+HDL-5007 WARNING: using initial value of 'methodbutton_x0' since it is never assigned in ../source/rtl/Display.v(175)
+HDL-5007 WARNING: using initial value of 'methodbutton_y0' since it is never assigned in ../source/rtl/Display.v(175)
+HDL-5007 WARNING: using initial value of 'cam_x0' since it is never assigned in ../source/rtl/Display.v(176)
+HDL-5007 WARNING: using initial value of 'cam_y0' since it is never assigned in ../source/rtl/Display.v(176)
+HDL-5007 WARNING: using initial value of 'sobel_x0' since it is never assigned in ../source/rtl/Display.v(177)
+HDL-5007 WARNING: using initial value of 'sobel_y0' since it is never assigned in ../source/rtl/Display.v(177)
+HDL-5007 WARNING: using initial value of 'background_x0' since it is never assigned in ../source/rtl/Display.v(178)
+HDL-5007 WARNING: using initial value of 'background_y0' since it is never assigned in ../source/rtl/Display.v(178)
+HDL-1007 : elaborate module Bird1 in ../al_ip/bird1.v(3)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=16,DATA_WIDTH_B=16,ADDR_WIDTH_A=11,ADDR_WIDTH_B=11,DATA_DEPTH_A=2025,DATA_DEPTH_B=2025,MODE="SP",INIT_FILE="../mif/custom1_bird1.mif",IMPLEMENT="9K(FAST)") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(1032)
+HDL-5007 WARNING: actual bit length 12 differs from formal bit length 11 for port 'addra' in ../source/rtl/Display.v(216)
+HDL-1007 : elaborate module Bird2 in ../al_ip/bird2.v(3)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=16,DATA_WIDTH_B=16,ADDR_WIDTH_A=11,ADDR_WIDTH_B=11,DATA_DEPTH_A=2025,DATA_DEPTH_B=2025,MODE="SP",INIT_FILE="../mif/custom1_bird2.mif",IMPLEMENT="9K(FAST)") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(1032)
+HDL-5007 WARNING: actual bit length 12 differs from formal bit length 11 for port 'addra' in ../source/rtl/Display.v(224)
+HDL-1007 : elaborate module sigle_mode in ../al_ip/sigle_mode.v(2)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=16,DATA_WIDTH_B=16,ADDR_WIDTH_A=13,ADDR_WIDTH_B=13,DATA_DEPTH_A=8100,DATA_DEPTH_B=8100,MODE="SP",INIT_FILE="../mif/sigle.mif",IMPLEMENT="32K") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(1032)
+HDL-5007 WARNING: actual bit length 14 differs from formal bit length 13 for port 'addra' in ../source/rtl/Display.v(232)
+HDL-1007 : elaborate module double_mode in ../al_ip/double_mode.v(2)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=16,DATA_WIDTH_B=16,ADDR_WIDTH_A=13,ADDR_WIDTH_B=13,DATA_DEPTH_A=8100,DATA_DEPTH_B=8100,MODE="SP",INIT_FILE="../mif/double.mif",IMPLEMENT="32K") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(1032)
+HDL-5007 WARNING: actual bit length 14 differs from formal bit length 13 for port 'addra' in ../source/rtl/Display.v(240)
+HDL-1007 : elaborate module method_mode in ../al_ip/method_mode.v(2)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=16,DATA_WIDTH_B=16,ADDR_WIDTH_A=13,ADDR_WIDTH_B=13,DATA_DEPTH_A=8100,DATA_DEPTH_B=8100,MODE="SP",INIT_FILE="../mif/method.mif",IMPLEMENT="32K") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(1032)
+HDL-5007 WARNING: actual bit length 14 differs from formal bit length 13 for port 'addra' in ../source/rtl/Display.v(248)
+HDL-1007 : elaborate module process in ../source/rtl/process.v(2)
+HDL-5007 WARNING: actual bit length 12 differs from formal bit length 11 for port 'x_pos' in ../source/rtl/Display.v(653)
+HDL-5007 WARNING: actual bit length 12 differs from formal bit length 11 for port 'y_pos' in ../source/rtl/Display.v(654)
+HDL-5007 WARNING: 'state_number' should be on the sensitivity list in ../source/rtl/Display.v(1035)
+HDL-5007 WARNING: 'siglebutton_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1038)
+HDL-5007 WARNING: 'siglebutton_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1039)
+HDL-5007 WARNING: 'siglebutton_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1039)
+HDL-5007 WARNING: 'siglebutton_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1039)
+HDL-5007 WARNING: 'siglebutton_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1039)
+HDL-5007 WARNING: 'siglebutton_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1039)
+HDL-5007 WARNING: 'siglebutton_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1039)
+HDL-5007 WARNING: 'doublebutton_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1040)
+HDL-5007 WARNING: 'doublebutton_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1041)
+HDL-5007 WARNING: 'doublebutton_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1041)
+HDL-5007 WARNING: 'doublebutton_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1041)
+HDL-5007 WARNING: 'doublebutton_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1041)
+HDL-5007 WARNING: 'doublebutton_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1041)
+HDL-5007 WARNING: 'doublebutton_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1041)
+HDL-5007 WARNING: 'methodbutton_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1042)
+HDL-5007 WARNING: 'methodbutton_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1043)
+HDL-5007 WARNING: 'methodbutton_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1043)
+HDL-5007 WARNING: 'methodbutton_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1043)
+HDL-5007 WARNING: 'methodbutton_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1043)
+HDL-5007 WARNING: 'methodbutton_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1043)
+HDL-5007 WARNING: 'methodbutton_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1043)
+HDL-5007 WARNING: 'background_en' should be on the sensitivity list in ../source/rtl/Display.v(1044)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1045)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1045)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1045)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1045)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1045)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1045)
+HDL-5007 WARNING: 'background_en' should be on the sensitivity list in ../source/rtl/Display.v(1050)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1051)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1051)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1051)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1051)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1051)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1051)
+HDL-5007 WARNING: 'camera_en' should be on the sensitivity list in ../source/rtl/Display.v(1057)
+HDL-5007 WARNING: 'camera_data' should be on the sensitivity list in ../source/rtl/Display.v(1058)
+HDL-5007 WARNING: 'camera_data' should be on the sensitivity list in ../source/rtl/Display.v(1058)
+HDL-5007 WARNING: 'camera_data' should be on the sensitivity list in ../source/rtl/Display.v(1058)
+HDL-5007 WARNING: 'camera_data' should be on the sensitivity list in ../source/rtl/Display.v(1058)
+HDL-5007 WARNING: 'camera_data' should be on the sensitivity list in ../source/rtl/Display.v(1058)
+HDL-5007 WARNING: 'camera_data' should be on the sensitivity list in ../source/rtl/Display.v(1058)
+HDL-5007 WARNING: 'custom1_bird1_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1059)
+HDL-5007 WARNING: 'Bird1_Fly_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1060)
+HDL-5007 WARNING: 'Bird1_Fly_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1060)
+HDL-5007 WARNING: 'Bird1_Fly_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1060)
+HDL-5007 WARNING: 'Bird1_Fly_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1060)
+HDL-5007 WARNING: 'Bird1_Fly_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1060)
+HDL-5007 WARNING: 'Bird1_Fly_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1060)
+HDL-5007 WARNING: 'custom1_bird2_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1061)
+HDL-5007 WARNING: 'Bird2_Fly_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1062)
+HDL-5007 WARNING: 'Bird2_Fly_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1062)
+HDL-5007 WARNING: 'Bird2_Fly_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1062)
+HDL-5007 WARNING: 'Bird2_Fly_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1062)
+HDL-5007 WARNING: 'Bird2_Fly_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1062)
+HDL-5007 WARNING: 'Bird2_Fly_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1062)
+HDL-5007 WARNING: 'Obstacle_01_en' should be on the sensitivity list in ../source/rtl/Display.v(1063)
+HDL-5007 WARNING: 'Obstacle_02_en' should be on the sensitivity list in ../source/rtl/Display.v(1065)
+HDL-5007 WARNING: 'Obstacle_03_en' should be on the sensitivity list in ../source/rtl/Display.v(1067)
+HDL-5007 WARNING: 'background_en' should be on the sensitivity list in ../source/rtl/Display.v(1069)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1070)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1070)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1070)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1070)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1070)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1070)
+HDL-5007 WARNING: 'custom2_bird1_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1076)
+HDL-5007 WARNING: 'Bird1_Fly_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1077)
+HDL-5007 WARNING: 'Bird1_Fly_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1077)
+HDL-5007 WARNING: 'Bird1_Fly_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1077)
+HDL-5007 WARNING: 'Bird1_Fly_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1077)
+HDL-5007 WARNING: 'Bird1_Fly_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1077)
+HDL-5007 WARNING: 'Bird1_Fly_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1077)
+HDL-5007 WARNING: 'custom2_bird2_en_reg' should be on the sensitivity list in ../source/rtl/Display.v(1078)
+HDL-5007 WARNING: 'Bird2_Fly_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1079)
+HDL-5007 WARNING: 'Bird2_Fly_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1079)
+HDL-5007 WARNING: 'Bird2_Fly_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1079)
+HDL-5007 WARNING: 'Bird2_Fly_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1079)
+HDL-5007 WARNING: 'Bird2_Fly_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1079)
+HDL-5007 WARNING: 'Bird2_Fly_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1079)
+HDL-5007 WARNING: 'sobel_en' should be on the sensitivity list in ../source/rtl/Display.v(1080)
+HDL-5007 WARNING: 'camera_data' should be on the sensitivity list in ../source/rtl/Display.v(1081)
+HDL-5007 WARNING: 'camera_data' should be on the sensitivity list in ../source/rtl/Display.v(1081)
+HDL-5007 WARNING: 'camera_data' should be on the sensitivity list in ../source/rtl/Display.v(1081)
+HDL-5007 WARNING: 'camera_data' should be on the sensitivity list in ../source/rtl/Display.v(1081)
+HDL-5007 WARNING: 'camera_data' should be on the sensitivity list in ../source/rtl/Display.v(1081)
+HDL-5007 WARNING: 'camera_data' should be on the sensitivity list in ../source/rtl/Display.v(1081)
+HDL-5007 WARNING: 'background_en' should be on the sensitivity list in ../source/rtl/Display.v(1083)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1084)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1084)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1084)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1084)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1084)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1084)
+HDL-5007 WARNING: 'background_en' should be on the sensitivity list in ../source/rtl/Display.v(1090)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1091)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1091)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1091)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1091)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1091)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1091)
+HDL-5007 WARNING: 'background_en' should be on the sensitivity list in ../source/rtl/Display.v(1097)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1098)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1098)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1098)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1098)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1098)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1098)
+HDL-1007 : elaborate module Top_logic in ../source/rtl/Top_Logic.v(3)
+HDL-1007 : elaborate module camera_init in ../source/rtl/ov2640_init.v(2)
+HDL-1007 : elaborate module i2c_module in ../source/rtl/I2C_init.v(1)
+HDL-1007 : elaborate module camera_reader in ../source/rtl/ov2640_read.v(14)
+HDL-1007 : elaborate module vip in ../source/rtl/Sobel_edge/vip_sobel_edge/vip.v(1)
+HDL-1007 : elaborate module VIP_RGB888_YCbCr444 in ../source/rtl/Sobel_edge/vip_sobel_edge/VIP_RGB888_YCbCr444.v(2)
+HDL-1007 : elaborate module vip_sobel_edge_detector in ../source/rtl/Sobel_edge/vip_sobel_edge/vip_sobel_edge_detector.v(1)
+HDL-1007 : elaborate module vip_matrix_generate_3x3_8bit in ../source/rtl/Sobel_edge/vip_sobel_edge/vip_matrix_generate_3x3_8bit.v(1)
+HDL-1007 : elaborate module line_shift_ram_8bit in ../source/rtl/Sobel_edge/vip_sobel_edge/line_shift_ram_8bit.v(1)
+HDL-1007 : elaborate module bram_256_8bit in ../al_ip/bram_256_8bit.v(14)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=8,DATA_WIDTH_B=8,ADDR_WIDTH_B=10,DATA_DEPTH_A=1024,DATA_DEPTH_B=1024,MODE="PDPW") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(1032)
+HDL-1007 : elaborate module VIP_Bit_Erosion_Detector in ../source/rtl/Sobel_edge/vip_sobel_edge/VIP_Bit_Erosion_Detector.v(2)
+HDL-1007 : elaborate module vip_matrix_generate_3x3_1bit in ../source/rtl/Sobel_edge/vip_sobel_edge/vip_matrix_generate_3x3_1bit.v(1)
+HDL-1007 : elaborate module line_shift_ram_1bit in ../source/rtl/Sobel_edge/vip_sobel_edge/line_shift_ram_1bit.v(1)
+HDL-1007 : elaborate module bram_256_1bit in ../al_ip/bram_256_1bit.v(14)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=1,DATA_WIDTH_B=1,ADDR_WIDTH_B=10,DATA_DEPTH_A=1024,DATA_DEPTH_B=1024,MODE="PDPW") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(1032)
+HDL-1007 : elaborate module VIP_Bit_Dilation_Detector in ../source/rtl/Sobel_edge/vip_sobel_edge/VIP_Bit_Dilation_Detector.v(2)
+HDL-1007 : elaborate module camera_init_control in ../source/rtl/camera_init_control.v(1)
+HDL-5007 WARNING: port 'INIT_ACK' is not connected on this instance in ../source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v(163)
+HDL-1007 : elaborate module Sdram_Control_4Port in ../source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v(1)
+HDL-1007 : elaborate module control_interface in ../source/rtl/Sdram_Control_4Port/control_interface.v(1)
+HDL-5007 WARNING: actual bit length 2 differs from formal bit length 3 for port 'CMD' in ../source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v(166)
+HDL-1007 : elaborate module command in ../source/rtl/Sdram_Control_4Port/command.v(1)
+HDL-1007 : elaborate module sdr_data_path in ../source/rtl/Sdram_Control_4Port/sdr_data_path.v(1)
+HDL-1007 : elaborate module Sdram_WR_FIFO in ../source/rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v(39)
+HDL-1007 : elaborate module ramfifo in ../al_ip/fifo/ramfifo.v(14)
+HDL-1007 : elaborate module EG_LOGIC_RAMFIFO(DATA_WIDTH=16,ADDR_WIDTH=10) in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(792)
+HDL-5007 WARNING: actual bit length 16 differs from formal bit length 11 for port 'wrusedw' in ../source/rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v(90)
+HDL-5007 WARNING: actual bit length 16 differs from formal bit length 11 for port 'rdusedw' in ../source/rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v(95)
+HDL-1007 : elaborate module Sdram_RD_FIFO in ../source/rtl/Sdram_Control_4Port/Sdram_RD_FIFO.v(39)
+HDL-5007 WARNING: actual bit length 16 differs from formal bit length 11 for port 'wrusedw' in ../source/rtl/Sdram_Control_4Port/Sdram_RD_FIFO.v(90)
+HDL-5007 WARNING: actual bit length 16 differs from formal bit length 11 for port 'rdusedw' in ../source/rtl/Sdram_Control_4Port/Sdram_RD_FIFO.v(95)
+HDL-1007 : elaborate module sdram in ../al_ip/sdram.v(14)
+HDL-1007 : elaborate module EG_PHY_SDRAM_2M_32 in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(720)
+HDL-5007 WARNING: input port 'INIT_ACK' is not connected on this instance in ../source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v(163)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 21 for port 'WR1_ADDR' in ../source/rtl/AngryBird_Demo.v(513)
+HDL-5007 WARNING: actual bit length 23 differs from formal bit length 21 for port 'WR1_MAX_ADDR' in ../source/rtl/AngryBird_Demo.v(514)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 21 for port 'RD1_ADDR' in ../source/rtl/AngryBird_Demo.v(533)
+HDL-5007 WARNING: actual bit length 23 differs from formal bit length 21 for port 'RD1_MAX_ADDR' in ../source/rtl/AngryBird_Demo.v(534)
+HDL-1007 : elaborate module camera_rd_synchro in ../source/rtl/camera_rd_synchro.v(1)
+HDL-1007 : elaborate module vip_rgb_to_ycbcr_and_gray in ../source/rtl/Sobel_edge/vip_rgb_gray/vip_rgb_to_ycbcr_and_gary.v(2)
+HDL-1007 : elaborate module threshold_binary(CB_TH=240,CB_TL=16,CR_TL=16) in ../source/rtl/Sobel_edge/vip_rgb_gray/threshold_binary.v(2)
+HDL-5007 WARNING: input port 'i_hsync' remains unconnected for this instance in ../source/rtl/Sobel_edge/vip_rgb_gray/vip_rgb_to_ycbcr_and_gary.v(156)
+HDL-5007 WARNING: input port 'WR2_DATA[15]' remains unconnected for this instance in ../source/rtl/AngryBird_Demo.v(504)
+HDL-1200 : Current top model is top
+HDL-1100 : Inferred 0 RAMs.
+RUN-1002 : start command "read_adc pin.adc"
+RUN-1002 : start command "set_pin_assignment  cam_data[0]   LOCATION = T8; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  cam_data[1]   LOCATION = T9; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  cam_data[2]   LOCATION = R9; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  cam_data[3]   LOCATION = T12; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  cam_data[4]   LOCATION = R12; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  cam_data[5]   LOCATION = T13; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  cam_data[6]   LOCATION = N5; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  cam_data[7]   LOCATION = P5; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  cam_href   LOCATION = T5; "
+RUN-1002 : start command "set_pin_assignment  cam_pclk   LOCATION = M6; "
+RUN-1002 : start command "set_pin_assignment  cam_pwdn   LOCATION = P6; "
+RUN-1002 : start command "set_pin_assignment  cam_rst   LOCATION = T7; "
+RUN-1002 : start command "set_pin_assignment  cam_soic   LOCATION = R5; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  cam_soid   LOCATION = T6; "
+RUN-1002 : start command "set_pin_assignment  cam_vsync   LOCATION = T4; "
+RUN-1002 : start command "set_pin_assignment  cam_xclk   LOCATION = T14; "
+RUN-1002 : start command "set_pin_assignment  clk   LOCATION = R7; "
+RUN-1002 : start command "set_pin_assignment  continue_button   LOCATION = A14; "
+RUN-1002 : start command "set_pin_assignment  gamemode   LOCATION = A12; "
+RUN-1002 : start command "set_pin_assignment  method_button   LOCATION = A10; "
+RUN-1002 : start command "set_pin_assignment  move_button   LOCATION = A13; "
+RUN-1002 : start command "set_pin_assignment  pause_button   LOCATION = B12; "
+RUN-1002 : start command "set_pin_assignment  restart_button   LOCATION = A11; "
+RUN-1002 : start command "set_pin_assignment  rst_n   LOCATION = A9; "
+RUN-1002 : start command "set_pin_assignment  sd_clk   LOCATION = J1; "
+RUN-1002 : start command "set_pin_assignment  sd_cs   LOCATION = K2; "
+RUN-1002 : start command "set_pin_assignment  sd_miso   LOCATION = G1; "
+RUN-1002 : start command "set_pin_assignment  sd_mosi   LOCATION = H1; "
+RUN-1002 : start command "set_pin_assignment  sdram_addr[0]   LOCATION = K14; "
+RUN-1002 : start command "set_pin_assignment  sdram_addr[10]   LOCATION = J16; "
+RUN-1002 : start command "set_pin_assignment  sdram_addr[11]   LOCATION = M14; "
+RUN-1002 : start command "set_pin_assignment  sdram_addr[1]   LOCATION = J13; "
+RUN-1002 : start command "set_pin_assignment  sdram_addr[2]   LOCATION = L14; "
+RUN-1002 : start command "set_pin_assignment  sdram_addr[3]   LOCATION = J12; "
+RUN-1002 : start command "set_pin_assignment  sdram_addr[4]   LOCATION = M16; "
+RUN-1002 : start command "set_pin_assignment  sdram_addr[5]   LOCATION = P15; "
+RUN-1002 : start command "set_pin_assignment  sdram_addr[6]   LOCATION = L16; "
+RUN-1002 : start command "set_pin_assignment  sdram_addr[7]   LOCATION = P16; "
+RUN-1002 : start command "set_pin_assignment  sdram_addr[8]   LOCATION = P14; "
+RUN-1002 : start command "set_pin_assignment  sdram_addr[9]   LOCATION = N14; "
+RUN-1002 : start command "set_pin_assignment  sdram_ba[0]   LOCATION = K16; "
+RUN-1002 : start command "set_pin_assignment  sdram_ba[1]   LOCATION = J14; "
+RUN-1002 : start command "set_pin_assignment  sdram_cas_n   LOCATION = M13; "
+RUN-1002 : start command "set_pin_assignment  sdram_cke   LOCATION = N16; "
+RUN-1002 : start command "set_pin_assignment  sdram_clk   LOCATION = L13; "
+RUN-1002 : start command "set_pin_assignment  sdram_cs_n   LOCATION = K11; "
+RUN-1002 : start command "set_pin_assignment  sdram_data[0]   LOCATION = G11; "
+RUN-1002 : start command "set_pin_assignment  sdram_data[10]   LOCATION = F13; "
+RUN-1002 : start command "set_pin_assignment  sdram_data[11]   LOCATION = F14; "
+RUN-1002 : start command "set_pin_assignment  sdram_data[12]   LOCATION = F15; "
+RUN-1002 : start command "set_pin_assignment  sdram_data[13]   LOCATION = D14; "
+RUN-1002 : start command "set_pin_assignment  sdram_data[14]   LOCATION = D16; "
+RUN-1002 : start command "set_pin_assignment  sdram_data[15]   LOCATION = E15; "
+RUN-1002 : start command "set_pin_assignment  sdram_data[1]   LOCATION = K15; "
+RUN-1002 : start command "set_pin_assignment  sdram_data[2]   LOCATION = J11; "
+RUN-1002 : start command "set_pin_assignment  sdram_data[3]   LOCATION = G16; "
+RUN-1002 : start command "set_pin_assignment  sdram_data[4]   LOCATION = H15; "
+RUN-1002 : start command "set_pin_assignment  sdram_data[5]   LOCATION = H16; "
+RUN-1002 : start command "set_pin_assignment  sdram_data[6]   LOCATION = H13; "
+RUN-1002 : start command "set_pin_assignment  sdram_data[7]   LOCATION = H14; "
+RUN-1002 : start command "set_pin_assignment  sdram_data[8]   LOCATION = G12; "
+RUN-1002 : start command "set_pin_assignment  sdram_data[9]   LOCATION = G14; "
+RUN-1002 : start command "set_pin_assignment  sdram_ras_n   LOCATION = K12; "
+RUN-1002 : start command "set_pin_assignment  sdram_we_n   LOCATION = M15; "
+RUN-1002 : start command "set_pin_assignment  speaker   LOCATION = H11; "
+RUN-1002 : start command "set_pin_assignment  start_button   LOCATION = B10; "
+RUN-1002 : start command "set_pin_assignment  tmds_clk_p   LOCATION = P4; IOSTANDARD = LVDS33; "
+RUN-1002 : start command "set_pin_assignment  tmds_data_p[0]   LOCATION = J3; IOSTANDARD = LVDS33; "
+RUN-1002 : start command "set_pin_assignment  tmds_data_p[1]   LOCATION = N1; IOSTANDARD = LVDS33; "
+RUN-1002 : start command "set_pin_assignment  tmds_data_p[2]   LOCATION = P1; IOSTANDARD = LVDS33; "
+USR-6010 WARNING: ADC constraints: pin bird1down has no constraint.
+USR-6010 WARNING: ADC constraints: pin bird1left has no constraint.
+USR-6010 WARNING: ADC constraints: pin bird1right has no constraint.
+USR-6010 WARNING: ADC constraints: pin bird1up has no constraint.
+USR-6010 WARNING: ADC constraints: pin bird2down has no constraint.
+USR-6010 WARNING: ADC constraints: pin bird2left has no constraint.
+USR-6010 WARNING: ADC constraints: pin bird2right has no constraint.
+USR-6010 WARNING: ADC constraints: pin bird2up has no constraint.
+USR-6010 WARNING: ADC constraints: pin gamemode[1] has no constraint.
+USR-6010 WARNING: ADC constraints: pin gamemode[0] has no constraint.
+USR-6010 WARNING: ADC constraints: pin sdram_dqm[1] has no constraint.
+USR-6010 WARNING: ADC constraints: pin sdram_dqm[0] has no constraint.
+USR-6010 WARNING: ADC constraints: pin tmds_clk_n has no constraint.
+USR-6010 WARNING: ADC constraints: pin tmds_data_n[2] has no constraint.
+USR-6010 WARNING: ADC constraints: pin tmds_data_n[1] has no constraint.
+USR-6010 WARNING: ADC constraints: pin tmds_data_n[0] has no constraint.
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file E:/fpgadream/Anlogic_TD/license/Anlogic.lic
+RUN-1001 : Print Rtl Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      
+RUN-1001 :        elf_sload        |    off     |       off        
+RUN-1001 :       fix_undriven      |     0      |        0         
+RUN-1001 :         flatten         |    off     |       off        
+RUN-1001 :       gate_sharing      |     on     |        on        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        
+RUN-1001 :      impl_set_reset     |     on     |        on        
+RUN-1001 :        infer_gsr        |    off     |       off        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       
+RUN-1001 :        max_fanout       |    9999    |       9999       
+RUN-1001 :      max_oh2bin_len     |     10     |        10        
+RUN-1001 :       merge_equal       |     on     |        on        
+RUN-1001 :       merge_equiv       |     on     |        on        
+RUN-1001 :        merge_mux        |    off     |       off        
+RUN-1001 :      min_ce_fanout      |     16     |        16        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       
+RUN-1001 :     opt_adder_fanout    |     on     |        on        
+RUN-1001 :        opt_arith        |     on     |        on        
+RUN-1001 :       opt_big_gate      |    off     |       off        
+RUN-1001 :        opt_const        |     on     |        on        
+RUN-1001 :      opt_const_mult     |     on     |        on        
+RUN-1001 :       opt_lessthan      |     on     |        on        
+RUN-1001 :         opt_mux         |    off     |       off        
+RUN-1001 :         opt_ram         |    high    |       high       
+RUN-1001 :      rtl_sim_model      |    off     |       off        
+RUN-1001 :         seq_syn         |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+SYN-1012 : SanityCheck: Model "top"
+SYN-1012 : SanityCheck: Model "AngryBird_Demo"
+SYN-1012 : SanityCheck: Model "Sdram_Control_4Port"
+SYN-1012 : SanityCheck: Model "command"
+SYN-1012 : SanityCheck: Model "control_interface"
+SYN-1012 : SanityCheck: Model "sdr_data_path"
+SYN-1012 : SanityCheck: Model "Sdram_RD_FIFO"
+SYN-1012 : SanityCheck: Model "ramfifo"
+SYN-1012 : SanityCheck: Model "sdram"
+SYN-1012 : SanityCheck: Model "Sdram_WR_FIFO"
+SYN-1012 : SanityCheck: Model "camera_rd_synchro"
+SYN-1012 : SanityCheck: Model "sdcard_rd_synchro"
+SYN-1012 : SanityCheck: Model "vip"
+SYN-1012 : SanityCheck: Model "VIP_RGB888_YCbCr444"
+SYN-1012 : SanityCheck: Model "VIP_Bit_Dilation_Detector"
+SYN-1012 : SanityCheck: Model "vip_matrix_generate_3x3_1bit"
+SYN-1012 : SanityCheck: Model "line_shift_ram_1bit"
+SYN-1012 : SanityCheck: Model "bram_256_1bit"
+SYN-1012 : SanityCheck: Model "VIP_Bit_Erosion_Detector"
+SYN-1012 : SanityCheck: Model "vip_sobel_edge_detector"
+SYN-1012 : SanityCheck: Model "vip_matrix_generate_3x3_8bit"
+SYN-1012 : SanityCheck: Model "line_shift_ram_8bit"
+SYN-1012 : SanityCheck: Model "bram_256_8bit"
+SYN-1012 : SanityCheck: Model "Display"
+SYN-1012 : SanityCheck: Model "Bird1"
+SYN-1012 : SanityCheck: Model "Bird2"
+SYN-1012 : SanityCheck: Model "double_mode"
+SYN-1012 : SanityCheck: Model "method_mode"
+SYN-1012 : SanityCheck: Model "sigle_mode"
+SYN-1012 : SanityCheck: Model "process"
+SYN-1012 : SanityCheck: Model "Top_logic"
+SYN-1012 : SanityCheck: Model "camera_init"
+SYN-1012 : SanityCheck: Model "i2c_module"
+SYN-1012 : SanityCheck: Model "camera_init_control"
+SYN-1012 : SanityCheck: Model "camera_reader"
+SYN-1012 : SanityCheck: Model "hdmi_pll"
+SYN-1012 : SanityCheck: Model "hdmi_top"
+SYN-1012 : SanityCheck: Model "Driver"
+SYN-1012 : SanityCheck: Model "dvi_transmitter_top"
+SYN-1012 : SanityCheck: Model "dvi_encoder"
+SYN-1012 : SanityCheck: Model "asyn_rst_syn"
+SYN-1012 : SanityCheck: Model "serializer_10_to_1"
+SYN-1012 : SanityCheck: Model "ddio_out"
+SYN-1012 : SanityCheck: Model "pll"
+SYN-1012 : SanityCheck: Model "sd_ctrl"
+SYN-1012 : SanityCheck: Model "sd_init"
+SYN-1012 : SanityCheck: Model "sd_read"
+SYN-1012 : SanityCheck: Model "sd_write"
+SYN-1012 : SanityCheck: Model "sd_read_photo"
+SYN-1012 : SanityCheck: Model "etr_sdram_top"
+SYN-1012 : SanityCheck: Model "etr_fifo_ctrl"
+SYN-1012 : SanityCheck: Model "etr_sdram_ctrl"
+SYN-1012 : SanityCheck: Model "etr_sdram_a_ref"
+SYN-1012 : SanityCheck: Model "etr_sdram_arbit"
+SYN-1012 : SanityCheck: Model "etr_sdram_init"
+SYN-1012 : SanityCheck: Model "etr_sdram_read"
+SYN-1012 : SanityCheck: Model "etr_sdram_write"
+SYN-1012 : SanityCheck: Model "vip_rgb_to_ycbcr_and_gray"
+SYN-1012 : SanityCheck: Model "threshold_binary(CB_TH=240,CB_TL=16,CR_TL=16)"
+SYN-1043 : Mark etr_sdram_arbit as IO macro for instance u10
+SYN-1043 : Mark etr_sdram_ctrl as IO macro for instance sdram_arbit_inst
+SYN-1043 : Mark etr_sdram_top as IO macro for instance sdram_ctrl_inst
+SYN-1043 : Mark pll as IO macro for instance pll_inst
+SYN-1043 : Mark ddio_out as IO macro for instance oddr
+SYN-1043 : Mark serializer_10_to_1 as IO macro for instance u_ddio_out_n
+SYN-1043 : Mark dvi_transmitter_top as IO macro for instance serializer_b
+SYN-1043 : Mark hdmi_top as IO macro for instance u_rgb2dvi_0
+SYN-1043 : Mark hdmi_pll as IO macro for instance pll_inst
+SYN-1043 : Mark Sdram_Control_4Port as IO macro for instance u101
+SYN-1043 : Mark AngryBird_Demo as IO macro for instance Sdram_Control_4Port_inst
+SYN-1016 : Merged 38 instances.
+SYN-1016 : Merged 7 instances.
+SYN-1016 : Merged 37 instances.
+SYN-1016 : Merged 26 instances.
+SYN-1016 : Merged 174 instances.
+SYN-1016 : Merged 2 instances.
+SYN-1016 : Merged 12 instances.
+SYN-1016 : Merged 243 instances.
+SYN-1016 : Merged 15 instances.
+SYN-1016 : Merged 38 instances.
+SYN-1016 : Merged 7 instances.
+SYN-1016 : Merged 12 instances.
+SYN-1016 : Merged 50 instances.
+SYN-1016 : Merged 26 instances.
+SYN-1016 : Merged 2 instances.
+SYN-1016 : Merged 24 instances.
+SYN-1016 : Merged 1 instances.
+SYN-1016 : Merged 1 instances.
+SYN-1016 : Merged 65 instances.
+SYN-1016 : Merged 23 instances.
+SYN-1011 : Flatten model top
+SYN-1011 : Flatten model AngryBird_Demo
+SYN-1011 : Flatten model Sdram_Control_4Port
+SYN-1011 : Flatten model command
+SYN-1011 : Flatten model control_interface
+SYN-1011 : Flatten model sdr_data_path
+SYN-1011 : Flatten model Sdram_RD_FIFO
+SYN-1011 : Flatten model ramfifo
+SYN-1011 : Flatten model sdram
+SYN-1011 : Flatten model Sdram_WR_FIFO
+SYN-1016 : Merged 14 instances.
+SYN-1011 : Flatten model camera_rd_synchro
+SYN-1011 : Flatten model sdcard_rd_synchro
+SYN-1011 : Flatten model vip
+SYN-1011 : Flatten model VIP_RGB888_YCbCr444
+SYN-1011 : Flatten model VIP_Bit_Dilation_Detector
+SYN-1011 : Flatten model vip_matrix_generate_3x3_1bit
+SYN-1011 : Flatten model line_shift_ram_1bit
+SYN-1011 : Flatten model bram_256_1bit
+SYN-1016 : Merged 4 instances.
+SYN-1016 : Merged 2 instances.
+SYN-1016 : Merged 3 instances.
+SYN-1011 : Flatten model VIP_Bit_Erosion_Detector
+SYN-1016 : Merged 3 instances.
+SYN-1011 : Flatten model vip_sobel_edge_detector
+SYN-1011 : Flatten model vip_matrix_generate_3x3_8bit
+SYN-1011 : Flatten model line_shift_ram_8bit
+SYN-1011 : Flatten model bram_256_8bit
+SYN-1016 : Merged 4 instances.
+SYN-1016 : Merged 2 instances.
+SYN-1016 : Merged 3 instances.
+SYN-1016 : Merged 18 instances.
+SYN-1011 : Flatten model Display
+SYN-1011 : Flatten model Bird1
+SYN-1011 : Flatten model Bird2
+SYN-1011 : Flatten model double_mode
+SYN-1011 : Flatten model method_mode
+SYN-1011 : Flatten model sigle_mode
+SYN-1011 : Flatten model process
+SYN-1016 : Merged 13 instances.
+SYN-1011 : Flatten model Top_logic
+SYN-1011 : Flatten model camera_init
+SYN-1011 : Flatten model i2c_module
+SYN-1011 : Flatten model camera_init_control
+SYN-1011 : Flatten model camera_reader
+SYN-1011 : Flatten model hdmi_pll
+SYN-1011 : Flatten model hdmi_top
+SYN-1011 : Flatten model Driver
+SYN-1011 : Flatten model dvi_transmitter_top
+SYN-1011 : Flatten model dvi_encoder
+SYN-1011 : Flatten model asyn_rst_syn
+SYN-1011 : Flatten model serializer_10_to_1
+SYN-1011 : Flatten model ddio_out
+SYN-1016 : Merged 56 instances.
+SYN-1016 : Merged 3 instances.
+SYN-1011 : Flatten model pll
+SYN-1011 : Flatten model sd_ctrl
+SYN-1011 : Flatten model sd_init
+SYN-1011 : Flatten model sd_read
+SYN-1011 : Flatten model sd_write
+SYN-1016 : Merged 13 instances.
+SYN-1011 : Flatten model sd_read_photo
+SYN-1011 : Flatten model etr_sdram_top
+SYN-1011 : Flatten model etr_fifo_ctrl
+SYN-1011 : Flatten model etr_sdram_ctrl
+SYN-1011 : Flatten model etr_sdram_a_ref
+SYN-1011 : Flatten model etr_sdram_arbit
+SYN-1011 : Flatten model etr_sdram_init
+SYN-1011 : Flatten model etr_sdram_read
+SYN-1011 : Flatten model etr_sdram_write
+SYN-1016 : Merged 12 instances.
+SYN-1011 : Flatten model vip_rgb_to_ycbcr_and_gray
+SYN-1011 : Flatten model threshold_binary(CB_TH=240,CB_TL=16,CR_TL=16)
+SYN-1016 : Merged 4 instances.
+SYN-1016 : Merged 81 instances.
+SYN-5034 WARNING: Undriven pin: model "top" / pin "speaker" net"speaker"
+SYN-1014 : Optimize round 1
+SYN-1032 : 12674/4276 useful/useless nets, 9097/636 useful/useless insts
+SYN-1015 : Optimize round 1, 1521 better
+SYN-1014 : Optimize round 2
+SYN-1015 : Optimize round 2, 0 better
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_ADDR[20]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_ADDR[19]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_ADDR[18]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_ADDR[17]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_ADDR[16]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_ADDR[15]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_ADDR[14]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_ADDR[13]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_ADDR[12]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_ADDR[11]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_ADDR[10]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_ADDR[9]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_ADDR[8]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_ADDR[7]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_ADDR[6]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_ADDR[5]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_ADDR[4]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_ADDR[3]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_ADDR[2]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_ADDR[1]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_ADDR[0]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_CLK"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_LENGTH[8]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_LENGTH[7]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_LENGTH[6]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_LENGTH[5]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_LENGTH[4]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_LENGTH[3]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_LENGTH[2]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_LENGTH[1]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_LENGTH[0]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_LOAD"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_MAX_ADDR[20]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_MAX_ADDR[19]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_MAX_ADDR[18]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_MAX_ADDR[17]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_MAX_ADDR[16]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_MAX_ADDR[15]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_MAX_ADDR[14]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_MAX_ADDR[13]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_MAX_ADDR[12]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_MAX_ADDR[11]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_MAX_ADDR[10]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_MAX_ADDR[9]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_MAX_ADDR[8]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_MAX_ADDR[7]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_MAX_ADDR[6]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_MAX_ADDR[5]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_MAX_ADDR[4]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_MAX_ADDR[3]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_MAX_ADDR[2]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_MAX_ADDR[1]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "RD2_MAX_ADDR[0]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_ADDR[20]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_ADDR[19]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_ADDR[18]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_ADDR[17]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_ADDR[16]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_ADDR[15]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_ADDR[14]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_ADDR[13]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_ADDR[12]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_ADDR[11]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_ADDR[10]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_ADDR[9]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_ADDR[8]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_ADDR[7]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_ADDR[6]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_ADDR[5]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_ADDR[4]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_ADDR[3]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_ADDR[2]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_ADDR[1]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_ADDR[0]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_CLK"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_DATA[15]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_DATA[14]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_DATA[13]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_DATA[12]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_DATA[11]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_DATA[10]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_DATA[9]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_DATA[8]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_DATA[7]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_DATA[6]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_DATA[5]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_DATA[4]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_DATA[3]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_DATA[2]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_DATA[1]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_DATA[0]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_LENGTH[8]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_LENGTH[7]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_LENGTH[6]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_LENGTH[5]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_LENGTH[4]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_LENGTH[3]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_LENGTH[2]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_LENGTH[1]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_LENGTH[0]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_LOAD"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_MAX_ADDR[20]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_MAX_ADDR[19]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_MAX_ADDR[18]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_MAX_ADDR[17]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_MAX_ADDR[16]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_MAX_ADDR[15]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_MAX_ADDR[14]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_MAX_ADDR[13]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_MAX_ADDR[12]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_MAX_ADDR[11]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_MAX_ADDR[10]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_MAX_ADDR[9]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_MAX_ADDR[8]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_MAX_ADDR[7]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_MAX_ADDR[6]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_MAX_ADDR[5]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_MAX_ADDR[4]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_MAX_ADDR[3]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_MAX_ADDR[2]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_MAX_ADDR[1]"
+SYN-5011 WARNING: Undriven pin: model "AngryBird_Demo" / inst "Sdram_Control_4Port_inst" in ../source/rtl/AngryBird_Demo.v(504) / pin "WR2_MAX_ADDR[0]"
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+SYN-1014 : Optimize round 1
+SYN-1044 : Optimized 2 inv instances.
+SYN-1032 : 12367/2 useful/useless nets, 9092/1 useful/useless insts
+SYN-1017 : Remove 4 const input seq instances
+SYN-1002 :     sobel_edge/VIP_RGB888_YCbCr444_inst/reg0_b14
+SYN-1002 :     sobel_edge/VIP_RGB888_YCbCr444_inst/reg2_b0
+SYN-1002 :     u_vip_rgb_to_ycbcr_and_gray/reg0_b14
+SYN-1002 :     u_vip_rgb_to_ycbcr_and_gray/reg2_b0
+SYN-1019 : Optimized 6 mux instances.
+SYN-1021 : Optimized 81 onehot mux instances.
+SYN-1020 : Optimized 208 distributor mux.
+SYN-1016 : Merged 460 instances.
+SYN-1015 : Optimize round 1, 1783 better
+SYN-1014 : Optimize round 2
+SYN-1044 : Optimized 3 inv instances.
+SYN-1032 : 11919/74 useful/useless nets, 8699/283 useful/useless insts
+SYN-1017 : Remove 1 const input seq instances
+SYN-1002 :     u_sd_read_photo/reg0_b1
+SYN-1019 : Optimized 2 mux instances.
+SYN-1015 : Optimize round 2, 296 better
+SYN-1014 : Optimize round 3
+SYN-1032 : 11909/5 useful/useless nets, 8689/4 useful/useless insts
+SYN-1015 : Optimize round 3, 10 better
+SYN-1014 : Optimize round 4
+SYN-1015 : Optimize round 4, 0 better
+SYN-1014 : Optimize round 1
+SYN-1019 : Optimized 42 mux instances.
+SYN-1021 : Optimized 12 onehot mux instances.
+SYN-1020 : Optimized 121 distributor mux.
+SYN-1016 : Merged 418 instances.
+SYN-1015 : Optimize round 1, 1250 better
+SYN-1014 : Optimize round 2
+SYN-1044 : Optimized 1 inv instances.
+SYN-1032 : 1339/132 useful/useless nets, 1052/164 useful/useless insts
+SYN-1017 : Remove 1 const input seq instances
+SYN-1002 :     reg7_b0
+SYN-1019 : Optimized 24 mux instances.
+SYN-1020 : Optimized 2 distributor mux.
+SYN-1016 : Merged 6 instances.
+SYN-1015 : Optimize round 2, 231 better
+SYN-1014 : Optimize round 3
+SYN-1032 : 1212/128 useful/useless nets, 980/47 useful/useless insts
+SYN-1017 : Remove 1 const input seq instances
+SYN-1002 :     reg8_b1
+SYN-1015 : Optimize round 3, 118 better
+SYN-1014 : Optimize round 4
+SYN-1032 : 1198/12 useful/useless nets, 970/6 useful/useless insts
+SYN-1015 : Optimize round 4, 12 better
+SYN-1014 : Optimize round 5
+SYN-1015 : Optimize round 5, 0 better
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add10" in ../source/rtl/Display.v(315) / pin "i1[31]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add10" in ../source/rtl/Display.v(315) / pin "i1[30]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add10" in ../source/rtl/Display.v(315) / pin "i1[29]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add10" in ../source/rtl/Display.v(315) / pin "i1[28]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add10" in ../source/rtl/Display.v(315) / pin "i1[27]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add10" in ../source/rtl/Display.v(315) / pin "i1[26]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add10" in ../source/rtl/Display.v(315) / pin "i1[25]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add10" in ../source/rtl/Display.v(315) / pin "i1[24]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add10" in ../source/rtl/Display.v(315) / pin "i1[23]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add10" in ../source/rtl/Display.v(315) / pin "i1[22]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add10" in ../source/rtl/Display.v(315) / pin "i1[21]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add10" in ../source/rtl/Display.v(315) / pin "i1[20]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add10" in ../source/rtl/Display.v(315) / pin "i1[19]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add10" in ../source/rtl/Display.v(315) / pin "i1[18]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add10" in ../source/rtl/Display.v(315) / pin "i1[17]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add10" in ../source/rtl/Display.v(315) / pin "i1[16]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add10" in ../source/rtl/Display.v(315) / pin "i1[15]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add10" in ../source/rtl/Display.v(315) / pin "i1[14]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add10" in ../source/rtl/Display.v(315) / pin "i1[13]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add6" in ../source/rtl/Display.v(311) / pin "i0[11]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add6" in ../source/rtl/Display.v(311) / pin "i1[11]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add7" in ../source/rtl/Display.v(312) / pin "i0[11]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add7" in ../source/rtl/Display.v(312) / pin "i1[11]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add8" in ../source/rtl/Display.v(313) / pin "i1[31]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add8" in ../source/rtl/Display.v(313) / pin "i1[30]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add8" in ../source/rtl/Display.v(313) / pin "i1[29]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add8" in ../source/rtl/Display.v(313) / pin "i1[28]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add8" in ../source/rtl/Display.v(313) / pin "i1[27]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add8" in ../source/rtl/Display.v(313) / pin "i1[26]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add8" in ../source/rtl/Display.v(313) / pin "i1[25]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add8" in ../source/rtl/Display.v(313) / pin "i1[24]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add8" in ../source/rtl/Display.v(313) / pin "i1[23]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add8" in ../source/rtl/Display.v(313) / pin "i1[22]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add8" in ../source/rtl/Display.v(313) / pin "i1[21]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add8" in ../source/rtl/Display.v(313) / pin "i1[20]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add8" in ../source/rtl/Display.v(313) / pin "i1[19]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add8" in ../source/rtl/Display.v(313) / pin "i1[18]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add8" in ../source/rtl/Display.v(313) / pin "i1[17]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add8" in ../source/rtl/Display.v(313) / pin "i1[16]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add8" in ../source/rtl/Display.v(313) / pin "i1[15]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add8" in ../source/rtl/Display.v(313) / pin "i1[14]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add8" in ../source/rtl/Display.v(313) / pin "i1[13]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add9" in ../source/rtl/Display.v(314) / pin "i1[31]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add9" in ../source/rtl/Display.v(314) / pin "i1[30]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add9" in ../source/rtl/Display.v(314) / pin "i1[29]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add9" in ../source/rtl/Display.v(314) / pin "i1[28]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add9" in ../source/rtl/Display.v(314) / pin "i1[27]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add9" in ../source/rtl/Display.v(314) / pin "i1[26]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add9" in ../source/rtl/Display.v(314) / pin "i1[25]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add9" in ../source/rtl/Display.v(314) / pin "i1[24]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add9" in ../source/rtl/Display.v(314) / pin "i1[23]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add9" in ../source/rtl/Display.v(314) / pin "i1[22]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add9" in ../source/rtl/Display.v(314) / pin "i1[21]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add9" in ../source/rtl/Display.v(314) / pin "i1[20]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add9" in ../source/rtl/Display.v(314) / pin "i1[19]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add9" in ../source/rtl/Display.v(314) / pin "i1[18]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add9" in ../source/rtl/Display.v(314) / pin "i1[17]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add9" in ../source/rtl/Display.v(314) / pin "i1[16]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add9" in ../source/rtl/Display.v(314) / pin "i1[15]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add9" in ../source/rtl/Display.v(314) / pin "i1[14]"
+SYN-5011 WARNING: Undriven pin: model "Display" / inst "add9" in ../source/rtl/Display.v(314) / pin "i1[13]"
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+SYN-1014 : Optimize round 1
+SYN-1019 : Optimized 1 mux instances.
+SYN-1021 : Optimized 60 onehot mux instances.
+SYN-1020 : Optimized 432 distributor mux.
+SYN-1016 : Merged 1124 instances.
+SYN-1015 : Optimize round 1, 1984 better
+SYN-1014 : Optimize round 2
+SYN-1044 : Optimized 1 inv instances.
+SYN-1032 : 2934/19 useful/useless nets, 1873/597 useful/useless insts
+SYN-1017 : Remove 4 const input seq instances
+SYN-1002 :     custom2_bird1dead_reg
+SYN-1002 :     reg7_b10
+SYN-1002 :     reg8_b10
+SYN-1002 :     reg9_b10
+SYN-1019 : Optimized 1 mux instances.
+SYN-1015 : Optimize round 2, 619 better
+SYN-1014 : Optimize round 3
+SYN-1032 : 2916/11 useful/useless nets, 1858/7 useful/useless insts
+SYN-1017 : Remove 3 const input seq instances
+SYN-1002 :     reg7_b0
+SYN-1002 :     reg8_b0
+SYN-1002 :     reg9_b0
+SYN-1019 : Optimized 1 mux instances.
+SYN-1016 : Merged 3 instances.
+SYN-1015 : Optimize round 3, 30 better
+SYN-1014 : Optimize round 4
+SYN-1032 : 2873/10 useful/useless nets, 1851/0 useful/useless insts
+SYN-1015 : Optimize round 4, 6 better
+SYN-1014 : Optimize round 5
+SYN-1032 : 2870/3 useful/useless nets, 1851/0 useful/useless insts
+SYN-1015 : Optimize round 5, 0 better
+SYN-1014 : Optimize round 1
+SYN-1019 : Optimized 1 mux instances.
+SYN-1021 : Optimized 49 onehot mux instances.
+SYN-1020 : Optimized 17 distributor mux.
+SYN-1016 : Merged 63 instances.
+SYN-1015 : Optimize round 1, 180 better
+SYN-1014 : Optimize round 2
+SYN-1044 : Optimized 1 inv instances.
+SYN-1032 : 712/10 useful/useless nets, 659/42 useful/useless insts
+SYN-1017 : Remove 1 const input seq instances
+SYN-1002 :     reg0_b2
+SYN-1015 : Optimize round 2, 51 better
+SYN-1014 : Optimize round 3
+SYN-1015 : Optimize round 3, 0 better
+SYN-1014 : Optimize round 1
+SYN-1019 : Optimized 25 mux instances.
+SYN-1021 : Optimized 8 onehot mux instances.
+SYN-1020 : Optimized 1 distributor mux.
+SYN-1016 : Merged 62 instances.
+SYN-1015 : Optimize round 1, 216 better
+SYN-1014 : Optimize round 2
+SYN-1044 : Optimized 1 inv instances.
+SYN-1032 : 679/8 useful/useless nets, 657/52 useful/useless insts
+SYN-1015 : Optimize round 2, 59 better
+SYN-1014 : Optimize round 3
+SYN-1015 : Optimize round 3, 0 better
+SYN-1014 : Optimize round 1
+SYN-1017 : Remove 2 const input seq instances
+SYN-1002 :     u_rgb2dvi_0/encoder_g/c0_q_reg
+SYN-1002 :     u_rgb2dvi_0/encoder_g/c0_reg_reg
+SYN-1018 : Transformed 3 mux instances.
+SYN-1019 : Optimized 6 mux instances.
+SYN-1015 : Optimize round 1, 139 better
+SYN-1014 : Optimize round 2
+SYN-1032 : 1033/3 useful/useless nets, 724/3 useful/useless insts
+SYN-1015 : Optimize round 2, 3 better
+SYN-1014 : Optimize round 3
+SYN-1015 : Optimize round 3, 0 better
+SYN-1014 : Optimize round 1
+SYN-1019 : Optimized 5 mux instances.
+SYN-1020 : Optimized 57 distributor mux.
+SYN-1016 : Merged 53 instances.
+SYN-1015 : Optimize round 1, 403 better
+SYN-1014 : Optimize round 2
+SYN-1032 : 772/5 useful/useless nets, 635/56 useful/useless insts
+SYN-1017 : Remove 1 const input seq instances
+SYN-1002 :     sd_write_inst/cs_n_reg
+SYN-1020 : Optimized 1 distributor mux.
+SYN-1015 : Optimize round 2, 58 better
+SYN-1014 : Optimize round 3
+SYN-1032 : 772/0 useful/useless nets, 635/1 useful/useless insts
+SYN-1015 : Optimize round 3, 1 better
+SYN-1014 : Optimize round 4
+SYN-1015 : Optimize round 4, 0 better
+SYN-1014 : Optimize round 1
+SYN-1019 : Optimized 49 mux instances.
+SYN-1020 : Optimized 1 distributor mux.
+SYN-1016 : Merged 4 instances.
+SYN-1015 : Optimize round 1, 115 better
+SYN-1014 : Optimize round 2
+SYN-1032 : 1186/96 useful/useless nets, 839/28 useful/useless insts
+SYN-1017 : Remove 1 const input seq instances
+SYN-1002 :     fifo_ctrl_inst/bank_en_reg
+SYN-1019 : Optimized 23 mux instances.
+SYN-1015 : Optimize round 2, 59 better
+SYN-1014 : Optimize round 3
+SYN-1032 : 1161/23 useful/useless nets, 814/0 useful/useless insts
+SYN-1015 : Optimize round 3, 0 better
+SYN-1014 : Optimize round 1
+SYN-1019 : Optimized 6 mux instances.
+SYN-1021 : Optimized 63 onehot mux instances.
+SYN-1020 : Optimized 7 distributor mux.
+SYN-1016 : Merged 12 instances.
+SYN-1015 : Optimize round 1, 255 better
+SYN-1014 : Optimize round 2
+SYN-1032 : 702/106 useful/useless nets, 586/48 useful/useless insts
+SYN-1019 : Optimized 1 mux instances.
+SYN-1015 : Optimize round 2, 98 better
+SYN-1014 : Optimize round 3
+SYN-1032 : 701/1 useful/useless nets, 585/0 useful/useless insts
+SYN-1015 : Optimize round 3, 0 better
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.cam_soid.
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.sdram_data[0].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.sdram_data[10].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.sdram_data[11].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.sdram_data[12].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.sdram_data[13].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.sdram_data[14].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.sdram_data[15].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.sdram_data[1].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.sdram_data[2].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.sdram_data[3].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.sdram_data[4].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.sdram_data[5].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.sdram_data[6].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.sdram_data[7].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.sdram_data[8].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.sdram_data[9].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.u_sdram_top.sdram_dq[0].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.u_sdram_top.sdram_dq[10].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.u_sdram_top.sdram_dq[11].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.u_sdram_top.sdram_dq[12].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.u_sdram_top.sdram_dq[13].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.u_sdram_top.sdram_dq[14].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.u_sdram_top.sdram_dq[15].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.u_sdram_top.sdram_dq[1].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.u_sdram_top.sdram_dq[2].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.u_sdram_top.sdram_dq[3].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.u_sdram_top.sdram_dq[4].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.u_sdram_top.sdram_dq[5].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.u_sdram_top.sdram_dq[6].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.u_sdram_top.sdram_dq[7].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.u_sdram_top.sdram_dq[8].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.u_sdram_top.sdram_dq[9].
+SYN-5036 WARNING: Tri-buffer 'u6' can't be implemented by pad. Please flatten model 'AngryBird_Demo' by adding directive 'synthesis keep_hierarchy'.
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.u_sdram_top.sdram_ctrl_inst.sdram_dq[0].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.u_sdram_top.sdram_ctrl_inst.sdram_dq[10].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.u_sdram_top.sdram_ctrl_inst.sdram_dq[11].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.u_sdram_top.sdram_ctrl_inst.sdram_dq[12].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.u_sdram_top.sdram_ctrl_inst.sdram_dq[13].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.u_sdram_top.sdram_ctrl_inst.sdram_dq[14].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.u_sdram_top.sdram_ctrl_inst.sdram_dq[15].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.u_sdram_top.sdram_ctrl_inst.sdram_dq[1].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.u_sdram_top.sdram_ctrl_inst.sdram_dq[2].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.u_sdram_top.sdram_ctrl_inst.sdram_dq[3].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.u_sdram_top.sdram_ctrl_inst.sdram_dq[4].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.u_sdram_top.sdram_ctrl_inst.sdram_dq[5].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.u_sdram_top.sdram_ctrl_inst.sdram_dq[6].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.u_sdram_top.sdram_ctrl_inst.sdram_dq[7].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.u_sdram_top.sdram_ctrl_inst.sdram_dq[8].
+SYN-5045 WARNING: Netlist check -- multi-inout net has non-mpin inout pin AngryBird_Demo_inst.u_sdram_top.sdram_ctrl_inst.sdram_dq[9].
+SYN-5036 WARNING: Tri-buffer 'sdram_arbit_inst/u10' can't be implemented by pad. Please flatten model 'etr_sdram_ctrl' by adding directive 'synthesis keep_hierarchy'.
+SYN-5036 WARNING: Tri-buffer 'sdram_arbit_inst/u17' can't be implemented by pad. Please flatten model 'etr_sdram_ctrl' by adding directive 'synthesis keep_hierarchy'.
+SYN-5036 WARNING: Tri-buffer 'sdram_arbit_inst/u18' can't be implemented by pad. Please flatten model 'etr_sdram_ctrl' by adding directive 'synthesis keep_hierarchy'.
+SYN-5036 WARNING: Tri-buffer 'sdram_arbit_inst/u19' can't be implemented by pad. Please flatten model 'etr_sdram_ctrl' by adding directive 'synthesis keep_hierarchy'.
+SYN-5036 WARNING: Tri-buffer 'sdram_arbit_inst/u22' can't be implemented by pad. Please flatten model 'etr_sdram_ctrl' by adding directive 'synthesis keep_hierarchy'.
+SYN-5036 WARNING: Tri-buffer 'sdram_arbit_inst/u24' can't be implemented by pad. Please flatten model 'etr_sdram_ctrl' by adding directive 'synthesis keep_hierarchy'.
+SYN-5036 WARNING: Tri-buffer 'sdram_arbit_inst/u27' can't be implemented by pad. Please flatten model 'etr_sdram_ctrl' by adding directive 'synthesis keep_hierarchy'.
+SYN-5036 WARNING: Tri-buffer 'sdram_arbit_inst/u28' can't be implemented by pad. Please flatten model 'etr_sdram_ctrl' by adding directive 'synthesis keep_hierarchy'.
+SYN-5036 WARNING: Tri-buffer 'sdram_arbit_inst/u29' can't be implemented by pad. Please flatten model 'etr_sdram_ctrl' by adding directive 'synthesis keep_hierarchy'.
+SYN-5036 WARNING: Tri-buffer 'sdram_arbit_inst/u30' can't be implemented by pad. Please flatten model 'etr_sdram_ctrl' by adding directive 'synthesis keep_hierarchy'.
+SYN-5036 WARNING: Tri-buffer 'sdram_arbit_inst/u33' can't be implemented by pad. Please flatten model 'etr_sdram_ctrl' by adding directive 'synthesis keep_hierarchy'.
+SYN-5036 WARNING: Tri-buffer 'sdram_arbit_inst/u35' can't be implemented by pad. Please flatten model 'etr_sdram_ctrl' by adding directive 'synthesis keep_hierarchy'.
+SYN-5036 WARNING: Tri-buffer 'sdram_arbit_inst/u43' can't be implemented by pad. Please flatten model 'etr_sdram_ctrl' by adding directive 'synthesis keep_hierarchy'.
+SYN-5036 WARNING: Tri-buffer 'sdram_arbit_inst/u45' can't be implemented by pad. Please flatten model 'etr_sdram_ctrl' by adding directive 'synthesis keep_hierarchy'.
+SYN-5036 WARNING: Tri-buffer 'sdram_arbit_inst/u7' can't be implemented by pad. Please flatten model 'etr_sdram_ctrl' by adding directive 'synthesis keep_hierarchy'.
+SYN-5036 WARNING: Tri-buffer 'sdram_arbit_inst/u9' can't be implemented by pad. Please flatten model 'etr_sdram_ctrl' by adding directive 'synthesis keep_hierarchy'.
+RUN-1003 : finish command "optimize_rtl" in  9.862891s wall, 9.781250s user + 0.687500s system = 10.468750s CPU (106.1%)
+
+RUN-1004 : used memory is 367 MB, reserved memory is 304 MB, peak memory is 371 MB
+RUN-1002 : start command "report_area -file flybird_rtl.area"
+RUN-1001 : standard
+***Report Model: top***
+
+IO Statistics
+#IO                        85
+  #input                   30
+  #output                  38
+  #inout                   17
+
+Gate Statistics
+#Basic gates             4001
+  #and                    597
+  #nand                     0
+  #or                     348
+  #nor                      0
+  #xor                     23
+  #xnor                    21
+  #buf                      0
+  #not                    243
+  #bufif1                  50
+  #MX21                   653
+  #FADD                     0
+  #DFF                   2066
+  #LATCH                    0
+#MACRO_ADD                394
+#MACRO_EQ                 400
+#MACRO_MULT                15
+#MACRO_MUX               2792
+
+Report Hierarchy Area:
++--------------------------------------------------------------------------+
+|Instance                     |Module              |gates  |seq    |macros |
++--------------------------------------------------------------------------+
+|top                          |top                 |1935   |2066   |834    |
+|  AngryBird_Demo_inst        |AngryBird_Demo      |1934   |2066   |834    |
+|    Sdram_Control_4Port_inst |Sdram_Control_4Port |323    |258    |49     |
+|    u2_Display               |Display             |493    |222    |206    |
+|    u_camera_init            |camera_init         |553    |93     |224    |
+|      u_i2c_write            |i2c_module          |513    |51     |38     |
+|    u_hdmi_top               |hdmi_top            |105    |205    |124    |
+|    u_sd_ctrl                |sd_ctrl             |65     |224    |64     |
+|    u_sdram_top              |etr_sdram_top       |139    |188    |66     |
+|      sdram_ctrl_inst        |etr_sdram_ctrl      |128    |138    |57     |
++--------------------------------------------------------------------------+
+
+RUN-1002 : start command "export_db flybird_rtl.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+RUN-1003 : finish command "export_db flybird_rtl.db" in  2.085934s wall, 1.812500s user + 0.312500s system = 2.125000s CPU (101.9%)
+
+RUN-1004 : used memory is 479 MB, reserved memory is 420 MB, peak memory is 479 MB
+RUN-1002 : start command "optimize_gate -maparea flybird_gate.area"
+RUN-1001 : Open license file E:/fpgadream/Anlogic_TD/license/Anlogic.lic
+RUN-1001 : Print Gate Property
+RUN-1001 : ----------------------------------------------------------
+RUN-1001 :          Parameters         |  Settings  |  Default Values  
+RUN-1001 : ----------------------------------------------------------
+RUN-1001 :        auto_partition       |    fine    |       fine       
+RUN-1001 :         cascade_dsp         |    off     |       off        
+RUN-1001 :         cascade_eram        |     on     |        on        
+RUN-1001 :        gate_sim_model       |    off     |       off        
+RUN-1001 :        map_sim_model        |    off     |       off        
+RUN-1001 :           opt_area          |   medium   |      medium      
+RUN-1001 :          opt_timing         |    auto    |       auto       
+RUN-1001 :         pack_effort         |   medium   |      medium      
+RUN-1001 :      pack_lslice_ripple     |     on     |        on        
+RUN-1001 :   pack_lslice_ripple_ratio  |    0.5     |       0.5        
+RUN-1001 :        pack_seq_in_io       |     on     |        on        
+RUN-1001 :        ph1_mux_ratio        |    1.0     |       1.0        
+RUN-1001 :            report           |  standard  |     standard     
+RUN-1001 : ----------------------------------------------------------
+SYN-2002 : EG_PHY_SDRAM_2M_32 instance sdram1/sdram.
+SYN-1001 : Create LVDS PAD pair (u_rgb2dvi_0/serializer_clk/u_ddio_out_p/oddr_DO at P4, u_rgb2dvi_0/serializer_clk/u_ddio_out_p/oddr_DO_n at N4)
+SYN-1001 : Create LVDS PAD pair (u_rgb2dvi_0/serializer_r/u_ddio_out_p/oddr_DO at P1, u_rgb2dvi_0/serializer_r/u_ddio_out_p/oddr_DO_n at R1)
+SYN-1001 : Create LVDS PAD pair (u_rgb2dvi_0/serializer_g/u_ddio_out_p/oddr_DO at N1, u_rgb2dvi_0/serializer_g/u_ddio_out_p/oddr_DO_n at M1)
+SYN-1001 : Create LVDS PAD pair (u_rgb2dvi_0/serializer_b/u_ddio_out_p/oddr_DO at J3, u_rgb2dvi_0/serializer_b/u_ddio_out_p/oddr_DO_n at J4)
+SYN-2001 : Map 140 IOs to PADs
+SYN-2501 : Processed 0 LOGIC_BUF instances.
+SYN-2571 : Optimize after map_dsp, round 1
+SYN-2571 : Optimize after map_dsp, round 1, 0 better
+SYN-2501 : Optimize round 1
+SYN-2501 : Optimize round 1, 0 better
+SYN-2501 : Processed 0 LOGIC_BUF instances.
+SYN-2512 : LOGIC BRAM "sobel_edge/u_VIP_Bit_Dilation_Detector/u_VIP_Matrix_Generate_3X3_1Bit/u_line_shift_ram_1bit/bram_256_1bit_inst0/inst"
+SYN-2512 : LOGIC BRAM "sobel_edge/u_VIP_Bit_Dilation_Detector/u_VIP_Matrix_Generate_3X3_1Bit/u_line_shift_ram_1bit/bram_256_1bit_inst1/inst"
+SYN-2512 : LOGIC BRAM "sobel_edge/u_VIP_Bit_Erosion_Detector/u_VIP_Matrix_Generate_3X3_1Bit/u_line_shift_ram_1bit/bram_256_1bit_inst0/inst"
+SYN-2512 : LOGIC BRAM "sobel_edge/u_VIP_Bit_Erosion_Detector/u_VIP_Matrix_Generate_3X3_1Bit/u_line_shift_ram_1bit/bram_256_1bit_inst1/inst"
+SYN-2512 : LOGIC BRAM "sobel_edge/u_vip_sobel_edge_detector/u_vip_matrix_generate_3x3_8bit/u_line_shift_ram_8bit/bram_256_8bit_inst0/inst"
+SYN-2512 : LOGIC BRAM "sobel_edge/u_vip_sobel_edge_detector/u_vip_matrix_generate_3x3_8bit/u_line_shift_ram_8bit/bram_256_8bit_inst1/inst"
+SYN-2571 : Map 10 macro multiplier
+SYN-2571 : Optimize after map_dsp, round 1
+SYN-2571 : Optimize after map_dsp, round 1, 0 better
+SYN-2501 : Optimize round 1
+SYN-1032 : 10577/39 useful/useless nets, 7835/39 useful/useless insts
+SYN-1016 : Merged 27 instances.
+SYN-2501 : Optimize round 1, 312 better
+SYN-2501 : Optimize round 2
+SYN-2501 : Optimize round 2, 0 better
+SYN-2501 : Map 52 macro adder
+SYN-3001 : Mapper mapped 7 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 7 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 7 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 7 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 7 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 7 instances into 1 LUTs, name keeping = 100%.
+SYN-2501 : Inferred 6 ROM instances
+SYN-1019 : Optimized 497 mux instances.
+SYN-1016 : Merged 87 instances.
+SYN-1032 : 11222/536 useful/useless nets, 8480/2 useful/useless insts
+SYN-2501 : Processed 0 LOGIC_BUF instances.
+SYN-2541 : Logic Ram FIFO "read_fifo1/dcfifo_component/logic_ramfifo"
+SYN-2541 : Logic Ram FIFO "read_fifo2/dcfifo_component/logic_ramfifo"
+SYN-2541 : Logic Ram FIFO "write_fifo1/dcfifo_component/logic_ramfifo"
+SYN-2541 : Logic Ram FIFO "write_fifo2/dcfifo_component/logic_ramfifo"
+SYN-2512 : LOGIC BRAM "fifo_bram"
+SYN-2512 : LOGIC BRAM "fifo_bram_al_u420"
+SYN-2512 : LOGIC BRAM "fifo_bram_al_u554"
+SYN-2512 : LOGIC BRAM "fifo_bram_al_u688"
+SYN-2571 : Optimize after map_dsp, round 1
+SYN-1032 : 2197/1680 useful/useless nets, 1996/1463 useful/useless insts
+SYN-1016 : Merged 12 instances.
+SYN-2571 : Optimize after map_dsp, round 1, 3002 better
+SYN-2571 : Optimize after map_dsp, round 2
+SYN-2571 : Optimize after map_dsp, round 2, 0 better
+SYN-2501 : Optimize round 1
+SYN-1032 : 2480/122 useful/useless nets, 2326/125 useful/useless insts
+SYN-1016 : Merged 421 instances.
+SYN-2501 : Optimize round 1, 946 better
+SYN-2501 : Optimize round 2
+SYN-2501 : Optimize round 2, 0 better
+SYN-2501 : Map 19 macro adder
+SYN-1019 : Optimized 46 mux instances.
+SYN-1016 : Merged 81 instances.
+SYN-1032 : 2130/92 useful/useless nets, 1976/68 useful/useless insts
+SYN-2501 : Processed 0 LOGIC_BUF instances.
+SYN-2512 : LOGIC BRAM "Bird1_inst1/inst"
+SYN-2541 : Reading BRAM "Bird1_inst1/inst" init file "E:/_CM0_Soc\Cortex-M0\rtl\FlappyBird-main\mif\custom1_bird1.mif"
+SYN-2542 : Parsing MIF init file
+SYN-2512 : LOGIC BRAM "Bird2_inst2/inst"
+SYN-2541 : Reading BRAM "Bird2_inst2/inst" init file "E:/_CM0_Soc\Cortex-M0\rtl\FlappyBird-main\mif\custom1_bird2.mif"
+SYN-2542 : Parsing MIF init file
+SYN-2512 : LOGIC BRAM "doublebutton/inst"
+SYN-2541 : Reading BRAM "doublebutton/inst" init file "E:/_CM0_Soc\Cortex-M0\rtl\FlappyBird-main\mif\double.mif"
+SYN-2542 : Parsing MIF init file
+SYN-8418 ERROR: wrong init value size
+SYN-2501 : Optimize round 1
+SYN-1016 : Merged 76 instances.
+SYN-2501 : Optimize round 1, 362 better
+SYN-2501 : Optimize round 2
+SYN-2501 : Optimize round 2, 0 better
+SYN-2501 : Map 168 macro adder
+SYN-1019 : Optimized 1054 mux instances.
+SYN-1016 : Merged 151 instances.
+SYN-1032 : 3599/1054 useful/useless nets, 2586/0 useful/useless insts
+RUN-1003 : finish command "optimize_gate -maparea flybird_gate.area" in  5.431752s wall, 5.406250s user + 0.109375s system = 5.515625s CPU (101.5%)
+
+RUN-1004 : used memory is 487 MB, reserved memory is 425 MB, peak memory is 490 MB
+GUI-8003 ERROR: ../al_ip/Startbutton.v is missing!
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        
+RUN-1001 :        syn_ip_flow       |    off     |       off        
+RUN-1001 :          thread          |    auto    |       auto       
+RUN-1001 : -------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 :      infer_shifter      |    off     |       off        
+RUN-1001 :         map_dram        |    auto    |       auto       
+RUN-1001 : ------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      
+RUN-1001 :        elf_sload        |    off     |       off        
+RUN-1001 :       fix_undriven      |     0      |        0         
+RUN-1001 :         flatten         |    off     |       off        
+RUN-1001 :       gate_sharing      |     on     |        on        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        
+RUN-1001 :      impl_set_reset     |     on     |        on        
+RUN-1001 :        infer_gsr        |    off     |       off        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       
+RUN-1001 :        max_fanout       |    9999    |       9999       
+RUN-1001 :      max_oh2bin_len     |     10     |        10        
+RUN-1001 :       merge_equal       |     on     |        on        
+RUN-1001 :       merge_equiv       |     on     |        on        
+RUN-1001 :        merge_mux        |    off     |       off        
+RUN-1001 :      min_ce_fanout      |     16     |        16        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       
+RUN-1001 :     opt_adder_fanout    |     on     |        on        
+RUN-1001 :        opt_arith        |     on     |        on        
+RUN-1001 :       opt_big_gate      |    off     |       off        
+RUN-1001 :        opt_const        |     on     |        on        
+RUN-1001 :      opt_const_mult     |     on     |        on        
+RUN-1001 :       opt_lessthan      |     on     |        on        
+RUN-1001 :         opt_mux         |    off     |       off        
+RUN-1001 :         opt_ram         |    high    |       high       
+RUN-1001 :      rtl_sim_model      |    off     |       off        
+RUN-1001 :         seq_syn         |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+HDL-1007 : analyze verilog file ../source/rtl/AngryBird_Demo.v
+HDL-5007 WARNING: 'sdram_rd_b_addr' is already implicitly declared on line 272 in ../source/rtl/AngryBird_Demo.v(295)
+HDL-5007 WARNING: 'sdram_rd_e_addr' is already implicitly declared on line 273 in ../source/rtl/AngryBird_Demo.v(296)
+HDL-5007 WARNING: 'sdram_rden' is already implicitly declared on line 271 in ../source/rtl/AngryBird_Demo.v(297)
+HDL-5007 WARNING: 'camera_rstn' is already implicitly declared on line 389 in ../source/rtl/AngryBird_Demo.v(472)
+HDL-5007 WARNING: 'custom' is already implicitly declared on line 396 in ../source/rtl/AngryBird_Demo.v(473)
+HDL-5007 WARNING: 'camera_sdram_rd_data' is already implicitly declared on line 332 in ../source/rtl/AngryBird_Demo.v(502)
+HDL-5007 WARNING: 'int_sdram_rst_n' is already implicitly declared on line 536 in ../source/rtl/AngryBird_Demo.v(552)
+HDL-5007 WARNING: 'int_sdram_rden' is already implicitly declared on line 532 in ../source/rtl/AngryBird_Demo.v(553)
+HDL-5007 WARNING: 'color_binary_clken' is already implicitly declared on line 487 in ../source/rtl/AngryBird_Demo.v(580)
+HDL-5007 WARNING: identifier 'sys_rst_n' is used before its declaration in ../source/rtl/AngryBird_Demo.v(103)
+HDL-5007 WARNING: identifier 'camera_rstn' is used before its declaration in ../source/rtl/AngryBird_Demo.v(103)
+HDL-5007 WARNING: identifier 'locked' is used before its declaration in ../source/rtl/AngryBird_Demo.v(106)
+HDL-5007 WARNING: identifier 'hdmi_locked' is used before its declaration in ../source/rtl/AngryBird_Demo.v(106)
+HDL-5007 WARNING: identifier 'sdram_init_done' is used before its declaration in ../source/rtl/AngryBird_Demo.v(187)
+HDL-5007 WARNING: identifier 'sdram_rst_n' is used before its declaration in ../source/rtl/AngryBird_Demo.v(248)
+HDL-5007 WARNING: identifier 'sdram_rst_n' is used before its declaration in ../source/rtl/AngryBird_Demo.v(249)
+HDL-1007 : analyze verilog file ../source/rtl/Display.v
+HDL-5007 WARNING: parameter 'RED' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(66)
+HDL-5007 WARNING: parameter 'GREEN' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(67)
+HDL-5007 WARNING: parameter 'BLUE' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(68)
+HDL-5007 WARNING: parameter 'WHITE' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(69)
+HDL-5007 WARNING: parameter 'BLACK' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(70)
+HDL-5007 WARNING: parameter 'YELLOW' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(71)
+HDL-5007 WARNING: parameter 'CYAN' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(72)
+HDL-5007 WARNING: parameter 'ROYAL' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(73)
+HDL-5007 WARNING: parameter 'start_scene' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(76)
+HDL-5007 WARNING: parameter 'custom1_scene' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(77)
+HDL-5007 WARNING: parameter 'custom2_scene' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(78)
+HDL-5007 WARNING: parameter 'pause_scene' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(79)
+HDL-5007 WARNING: parameter 'gameover_scene' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(80)
+HDL-5007 WARNING: parameter 'method_scene' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(81)
+HDL-5007 WARNING: parameter 'siglebird' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(84)
+HDL-5007 WARNING: parameter 'doublebird' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(85)
+HDL-5007 WARNING: parameter 'method' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(86)
+HDL-5007 WARNING: parameter 'cam_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(184)
+HDL-5007 WARNING: parameter 'cam_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(185)
+HDL-5007 WARNING: parameter 'sobel_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(186)
+HDL-5007 WARNING: parameter 'sobel_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(187)
+HDL-5007 WARNING: parameter 'custom1_bird_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(188)
+HDL-5007 WARNING: parameter 'custom1_bird_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(189)
+HDL-5007 WARNING: parameter 'custom2_bird_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(190)
+HDL-5007 WARNING: parameter 'custom2_bird_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(191)
+HDL-5007 WARNING: parameter 'Obstacle_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(192)
+HDL-5007 WARNING: parameter 'background_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(193)
+HDL-5007 WARNING: parameter 'background_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(194)
+HDL-5007 WARNING: parameter 'modebutton_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(195)
+HDL-5007 WARNING: parameter 'modebutton_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(196)
+HDL-5007 WARNING: identifier 'sigle_state' is used before its declaration in ../source/rtl/Display.v(260)
+HDL-5007 WARNING: identifier 'double_state' is used before its declaration in ../source/rtl/Display.v(261)
+HDL-5007 WARNING: identifier 'method_state' is used before its declaration in ../source/rtl/Display.v(262)
+HDL-5007 WARNING: identifier 'custom1_bird1dead_en' is used before its declaration in ../source/rtl/Display.v(282)
+HDL-5007 WARNING: identifier 'custom1_bird2dead_en' is used before its declaration in ../source/rtl/Display.v(289)
+HDL-5007 WARNING: identifier 'custom2_bird1dead' is used before its declaration in ../source/rtl/Display.v(296)
+HDL-5007 WARNING: identifier 'custom2_bird2dead' is used before its declaration in ../source/rtl/Display.v(303)
+HDL-5007 WARNING: parameter 'speed0' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(380)
+HDL-5007 WARNING: parameter 'speed1' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(381)
+HDL-5007 WARNING: parameter 'speed2' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(382)
+HDL-5007 WARNING: parameter 'speed3' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(383)
+HDL-5007 WARNING: parameter 'speed4' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(384)
+HDL-5007 WARNING: parameter 'speed5' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(385)
+HDL-5007 WARNING: parameter 'score0' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(387)
+HDL-5007 WARNING: parameter 'score1' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(388)
+HDL-5007 WARNING: parameter 'score2' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(389)
+HDL-5007 WARNING: parameter 'score3' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(390)
+HDL-5007 WARNING: parameter 'score4' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(391)
+HDL-5007 WARNING: parameter 'second_score' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(393)
+HDL-5007 WARNING: parameter 'Obstacle_width0' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(397)
+HDL-5007 WARNING: parameter 'Obstacle_width1' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(398)
+HDL-5007 WARNING: parameter 'Obstacle_width2' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(399)
+HDL-5007 WARNING: parameter 'Obstacle_width3' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(400)
+HDL-5007 WARNING: parameter 'Obstacle_width4' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(401)
+HDL-5007 WARNING: parameter 'Obstacle_width5' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(402)
+HDL-5007 WARNING: parameter 'custom1_y_min' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(660)
+HDL-5007 WARNING: parameter 'custom1_y_max' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(661)
+HDL-5007 WARNING: parameter 'custom2_y_min' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(663)
+HDL-5007 WARNING: parameter 'custom2_y_max' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(664)
+HDL-5007 WARNING: parameter 'custom2_x_min' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(665)
+HDL-5007 WARNING: parameter 'custom2_x_max' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(666)
+HDL-5007 WARNING: parameter 'DEAD_THRESHOLD' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(961)
+HDL-1007 : analyze verilog file ../source/rtl/Driver.v
+HDL-1007 : analyze verilog file ../source/rtl/I2C_init.v
+HDL-1007 : analyze verilog file ../source/rtl/ov2640_init.v
+HDL-1007 : analyze verilog file ../source/rtl/ov2640_read.v
+HDL-1007 : analyze verilog file ../source/rtl/process.v
+HDL-1007 : analyze verilog file ../source/rtl/top.v
+HDL-1007 : analyze verilog file ../source/rtl/Top_Logic.v
+HDL-1007 : analyze verilog file ../al_ip/PLL.v
+HDL-1007 : analyze verilog file ../al_ip/sdram.v
+HDL-1007 : analyze verilog file ../al_ip/fifo/ramfifo.v
+HDL-1007 : analyze verilog file ../source/rtl/bcd_8421.v
+HDL-1007 : analyze verilog file ../source/rtl/seg_dynamic.v
+HDL-1007 : analyze verilog file ../al_ip/bird1.v
+HDL-1007 : analyze verilog file ../al_ip/bird2.v
+HDL-1007 : analyze verilog file ../source/rtl/BGMPlayer.v
+HDL-5007 WARNING: identifier 'high' is used before its declaration in ../source/rtl/BGMPlayer.v(71)
+HDL-5007 WARNING: identifier 'med' is used before its declaration in ../source/rtl/BGMPlayer.v(71)
+HDL-5007 WARNING: identifier 'low' is used before its declaration in ../source/rtl/BGMPlayer.v(71)
+HDL-1007 : analyze verilog file ../al_ip/clk6Mhz.v
+HDL-1007 : analyze verilog file ../source/rtl/Sdram_Control_4Port/command.v
+HDL-1007 : analyze included file ../source/rtl/Sdram_Control_4Port/Sdram_Params.h in ../source/rtl/Sdram_Control_4Port/command.v(27)
+HDL-1007 : back to file '../source/rtl/Sdram_Control_4Port/command.v' in ../source/rtl/Sdram_Control_4Port/command.v(27)
+HDL-1007 : analyze verilog file ../source/rtl/Sdram_Control_4Port/control_interface.v
+HDL-1007 : analyze included file ../source/rtl/Sdram_Control_4Port/Sdram_Params.h in ../source/rtl/Sdram_Control_4Port/control_interface.v(21)
+HDL-1007 : back to file '../source/rtl/Sdram_Control_4Port/control_interface.v' in ../source/rtl/Sdram_Control_4Port/control_interface.v(21)
+HDL-1007 : analyze verilog file ../source/rtl/Sdram_Control_4Port/sdr_data_path.v
+HDL-1007 : analyze included file ../source/rtl/Sdram_Control_4Port/Sdram_Params.h in ../source/rtl/Sdram_Control_4Port/sdr_data_path.v(10)
+HDL-1007 : back to file '../source/rtl/Sdram_Control_4Port/sdr_data_path.v' in ../source/rtl/Sdram_Control_4Port/sdr_data_path.v(10)
+HDL-1007 : analyze verilog file ../source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v
+HDL-1007 : analyze included file ../source/rtl/Sdram_Control_4Port/Sdram_Params.h in ../source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v(49)
+HDL-1007 : back to file '../source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v' in ../source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v(49)
+HDL-1007 : analyze verilog file ../source/rtl/Sdram_Control_4Port/Sdram_RD_FIFO.v
+HDL-1007 : analyze verilog file ../source/rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v
+HDL-1007 : analyze verilog file ../al_ip/bram_256_1bit.v
+HDL-1007 : analyze verilog file ../al_ip/bram_256_8bit.v
+HDL-1007 : analyze verilog file ../al_ip/hdmi_pll.v
+HDL-1007 : analyze verilog file ../source/rtl/hdmi/asyn_rst_syn.v
+HDL-1007 : analyze verilog file ../source/rtl/hdmi/dvi_encoder.v
+HDL-1007 : analyze verilog file ../source/rtl/hdmi/dvi_transmitter_top.v
+HDL-1007 : analyze verilog file ../source/rtl/hdmi/hdmi_top.v
+HDL-5007 WARNING: redeclaration of ansi port 'hcnt' is not allowed in ../source/rtl/hdmi/hdmi_top.v(30)
+HDL-5007 WARNING: 'hcnt' was previously declared with a range in ../source/rtl/hdmi/hdmi_top.v(30)
+HDL-5007 WARNING: redeclaration of ansi port 'vcnt' is not allowed in ../source/rtl/hdmi/hdmi_top.v(31)
+HDL-5007 WARNING: 'vcnt' was previously declared with a range in ../source/rtl/hdmi/hdmi_top.v(31)
+HDL-1007 : analyze verilog file ../source/rtl/hdmi/serializer_10_to_1.v
+HDL-1007 : analyze verilog file ../al_ip/ddio_out.v
+HDL-1007 : analyze verilog file ../source/rtl/sd_ctrl_top/sd_init.v
+HDL-1007 : analyze verilog file ../source/rtl/sd_ctrl_top/sd_read.v
+HDL-1007 : analyze verilog file ../source/rtl/sd_ctrl_top/sd_write.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram_pingpang/fifo_ctrl.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram_pingpang/sdram_a_ref.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram_pingpang/sdram_arbit.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram_pingpang/sdram_ctrl.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram_pingpang/sdram_init.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram_pingpang/sdram_read.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram_pingpang/sdram_top.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram_pingpang/sdram_write.v
+HDL-1007 : analyze verilog file ../source/rtl/sd_read_photo.v
+HDL-1007 : analyze verilog file ../source/rtl/sd_ctrl_top/sd_ctrl.v
+HDL-1007 : analyze verilog file ../source/rtl/camera_init_control.v
+HDL-1007 : analyze verilog file ../source/rtl/camera_rd_synchro.v
+HDL-1007 : analyze verilog file ../source/rtl/sdcard_rd_synchro.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip_rgb_gray/vip_rgb_to_ycbcr_and_gary.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip_sobel_edge/line_shift_ram_1bit.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip_sobel_edge/line_shift_ram_8bit.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip_sobel_edge/vip.v
+HDL-5007 WARNING: redeclaration of ansi port 'sobel' is not allowed in ../source/rtl/Sobel_edge/vip_sobel_edge/vip.v(67)
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip_sobel_edge/VIP_Bit_Dilation_Detector.v
+HDL-5007 WARNING: identifier 'en' is used before its declaration in ../source/rtl/Sobel_edge/vip_sobel_edge/VIP_Bit_Dilation_Detector.v(117)
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip_sobel_edge/VIP_Bit_Erosion_Detector.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip_sobel_edge/vip_matrix_generate_3x3_1bit.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip_sobel_edge/vip_matrix_generate_3x3_8bit.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip_sobel_edge/VIP_RGB888_YCbCr444.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip_sobel_edge/vip_sobel_edge_detector.v
+HDL-1007 : analyze verilog file ../al_ip/double_mode.v
+HDL-1007 : analyze verilog file ../al_ip/method_mode.v
+HDL-1007 : analyze verilog file ../al_ip/sigle_mode.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip_rgb_gray/threshold_binary.v
+Oops! 'Signal Segmentation Violation' raised. The backtrace:
+[bt] (4)_chkstk
+[bt] (5)RtlRestoreContext
+[bt] (6)KiUserExceptionDispatcher
+[bt] (7)QListData::size
+

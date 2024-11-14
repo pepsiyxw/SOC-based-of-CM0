@@ -1,0 +1,41 @@
+8:0		512byte 	一页
+20：9 		4096行		一个bank
+22：21  	四个bank
+
+set_pin_assignment	{ sdram_dq[14] }	{ LOCATION = D16; }
+set_pin_assignment	{ sdram_dq[12] }	{ LOCATION = F15; }
+set_pin_assignment	{ sdram_dq[10] }	{ LOCATION = F13; }
+set_pin_assignment	{ sdram_dq[8] }	    { LOCATION = G12; }
+set_pin_assignment	{ sdram_dq[6] }	    { LOCATION = H13; }
+set_pin_assignment	{ sdram_dq[4] }	    { LOCATION = H15; }
+set_pin_assignment	{ sdram_dq[2] }	    { LOCATION = J11; }
+set_pin_assignment	{ sdram_dq[1] }	    { LOCATION = K15; }
+set_pin_assignment	{ sdram_ba[1] }	    { LOCATION = J14; }
+set_pin_assignment	{ sdram_addr[0] }	{ LOCATION = K14; }
+set_pin_assignment	{ sdram_addr[2] }	{ LOCATION = L14; }
+set_pin_assignment	{ sdram_cs_n }	    { LOCATION = K11; }
+set_pin_assignment	{ sdram_cas_n }	    { LOCATION = M13; }
+set_pin_assignment	{ sdram_we_n }	    { LOCATION = M15; }
+set_pin_assignment	{ sdram_cke }	    { LOCATION = N16; }
+set_pin_assignment	{ sdram_addr[9] }	{ LOCATION = N14; }
+set_pin_assignment	{ sdram_addr[7] }	{ LOCATION = P16; }
+set_pin_assignment	{ sdram_addr[5] }	{ LOCATION = P15; }
+
+set_pin_assignment	{ sdram_dq[15] }	{ LOCATION = E15; }
+set_pin_assignment	{ sdram_dq[13] }	{ LOCATION = D14; }
+set_pin_assignment	{ sdram_dq[11] }	{ LOCATION = F14; }
+set_pin_assignment	{ sdram_dq[9] }	    { LOCATION = G14; }
+set_pin_assignment	{ sdram_dq[7] }	    { LOCATION = H14; }
+set_pin_assignment	{ sdram_dq[5] }	    { LOCATION = H16; }
+set_pin_assignment	{ sdram_dq[3] }	    { LOCATION = G16; }
+set_pin_assignment	{ sdram_dq[0] }	    { LOCATION = G11; }
+set_pin_assignment	{ sdram_ba[0] }	    { LOCATION = K16; }
+set_pin_assignment	{ sdram_addr[10] }	{ LOCATION = J16; }
+set_pin_assignment	{ sdram_addr[1] }	{ LOCATION = J13; }
+set_pin_assignment	{ sdram_addr[3] }	{ LOCATION = J12; }
+set_pin_assignment	{ sdram_ras_n }	    { LOCATION = K12; }
+set_pin_assignment	{ sdram_clk }	    { LOCATION = L13; }
+set_pin_assignment	{ sdram_addr[11] }	{ LOCATION = M14; }
+set_pin_assignment	{ sdram_addr[8] }	{ LOCATION = P14; }
+set_pin_assignment	{ sdram_addr[6] }	{ LOCATION = L16; }
+set_pin_assignment	{ sdram_addr[4] }	{ LOCATION = M16; }

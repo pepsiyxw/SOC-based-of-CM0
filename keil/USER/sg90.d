@@ -1,0 +1,17 @@
+.\sg90.o: ..\HARDWARE\SG90.c
+.\sg90.o: ..\HARDWARE\SG90.h
+.\sg90.o: ..\FWLIB\inc\CMSDK_CM0.h
+.\sg90.o: ..\CORE\core_cm0.h
+.\sg90.o: E:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\sg90.o: ..\CORE\core_cmInstr.h
+.\sg90.o: ..\CORE\core_cmFunc.h
+.\sg90.o: ..\FWLIB\inc\system_CMSDK_CM0.h
+.\sg90.o: ..\Games\flybird.h
+.\sg90.o: ..\System\Systick.h
+.\sg90.o: ..\HARDWARE\Handcontroller.h
+.\sg90.o: ..\FWLIB\cm0_gpio.h
+.\sg90.o: ..\HARDWARE\IMU.h
+.\sg90.o: ..\FWLIB\cm0_uart.h
+.\sg90.o: ..\Games\flybird.h
+.\sg90.o: ..\HARDWARE\microphone.h
+.\sg90.o: ..\HARDWARE\music.h

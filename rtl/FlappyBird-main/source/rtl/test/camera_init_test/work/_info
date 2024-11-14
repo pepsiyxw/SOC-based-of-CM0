@@ -1,0 +1,71 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/_CM0_Soc/Cortex-M0/rtl/FlappyBird-main/source/rtl/test/tongbu_test
+T_opt
+!s110 1686837579
+V7JLQk1<FI<J=5jHEzDc8j0
+Z1 04 4 4 work test fast 0
+=1-002b6774c35b-648b194b-94-246c
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+OL;O;10.5;63
+R0
+T_opt1
+!s110 1686916654
+Vo0:IB?49UdC24]Ed??Z?F3
+R1
+=1-002b6774c35b-648c4e2d-34f-5014
+R2
+R3
+n@_opt1
+OL;O;10.7;67
+vcamera_init_control
+Z4 !s110 1686916647
+!i10b 1
+!s100 LQdhDUg_JR11:67j>54o11
+I_m:YmOP;H?C6X@hP6;?Ao0
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dE:/_CM0_Soc/Cortex-M0/rtl/FlappyBird-main/source/rtl/test/camera_init_test
+w1686846378
+8E:/_CM0_Soc/Cortex-M0/rtl/FlappyBird-main/source/rtl/test/camera_init_test/camera_init_control.v
+FE:/_CM0_Soc/Cortex-M0/rtl/FlappyBird-main/source/rtl/test/camera_init_test/camera_init_control.v
+L0 1
+Z7 OL;L;10.7;67
+r1
+!s85 0
+31
+Z8 !s108 1686916647.000000
+!s107 E:/_CM0_Soc/Cortex-M0/rtl/FlappyBird-main/source/rtl/test/camera_init_test/camera_init_control.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/Cortex-M0/rtl/FlappyBird-main/source/rtl/test/camera_init_test/camera_init_control.v|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vtest
+R4
+!i10b 1
+!s100 nPJdnzAN3dj:fD]a4;9cP3
+Ig:KXke=@<mbH5nf_^1CDa3
+R5
+R6
+w1686916642
+8E:/_CM0_Soc/Cortex-M0/rtl/FlappyBird-main/source/rtl/test/camera_init_test/test.v
+FE:/_CM0_Soc/Cortex-M0/rtl/FlappyBird-main/source/rtl/test/camera_init_test/test.v
+L0 2
+R7
+r1
+!s85 0
+31
+R8
+!s107 E:/_CM0_Soc/Cortex-M0/rtl/FlappyBird-main/source/rtl/test/camera_init_test/test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/Cortex-M0/rtl/FlappyBird-main/source/rtl/test/camera_init_test/test.v|
+!i113 0
+R9
+R3

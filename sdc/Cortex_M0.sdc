@@ -1,0 +1,11 @@
+create_clock -name sys_clk -period 20 -waveform {0 10} [get_ports { sys_clk }]
+create_generated_clock  -name clk -source [get_ports { sys_clk }] -master_clock sys_clk -divide_by 1.33 [get_nets { clk }]
+create_generated_clock  -name sdram_clk -source [get_ports { sys_clk }] -master_clock sys_clk -multiply_by 2 -duty_cycle 0.5 [get_nets { clk_100m }]
+create_generated_clock  -name sdram_clk_n -source [get_ports { sys_clk }] -master_clock sys_clk -phase 285 -multiply_by 2 -duty_cycle 0.5 [get_nets { clk_100m_shift }]
+create_generated_clock  -name sdcard_clk -source [get_ports { sys_clk }] -master_clock sys_clk -divide_by 1 [get_nets { sd_card_clk }]
+create_generated_clock  -name sdcard_clk_n -source [get_ports { sys_clk }] -master_clock sys_clk -divide_by 1 -phase 180 [get_nets { sd_card_clk_n }]
+create_generated_clock  -name hdmi_clk -source [get_ports { sys_clk }] -master_clock sys_clk -multiply_by 1.2 -duty_cycle 0.5 [get_nets { hdmi_clk }]
+create_generated_clock  -name hdmi_clk_n -source [get_ports { sys_clk }] -multiply_by 6 -duty_cycle 0.5 [get_nets { hdmi_5clk }]
+set_clock_groups -asynchronous -group [get_clocks { hdmi_clk  hdmi_clk_n }] -group [get_clocks { sdcard_clk  sdcard_clk_n }] -group [get_clocks { sdram_clk  sdram_clk_n }] -group [get_clocks { clk }] -group [get_clocks { sys_clk }]
+set_false_path  -from [get_ports { RSTn }]
+

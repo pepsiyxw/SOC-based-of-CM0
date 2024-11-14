@@ -1,0 +1,122 @@
+standard
+***Report Model: top***
+
+IO Statistics
+#IO                        84
+  #input                   30
+  #output                  37
+  #inout                   17
+
+Utilization Statistics
+#lut                     6111   out of  19600   31.18%
+#reg                     2265   out of  19600   11.56%
+#le                      6351
+  #lut only              4086   out of   6351   64.34%
+  #reg only               240   out of   6351    3.78%
+  #lut&reg               2025   out of   6351   31.88%
+#dsp                       12   out of     29   41.38%
+#bram                      22   out of     64   34.38%
+  #bram9k                  22
+  #fifo9k                   0
+#bram32k                    5   out of     16   31.25%
+#pad                       88   out of    188   46.81%
+  #ireg                    29
+  #oreg                     8
+  #treg                     0
+#pll                        3   out of      4   75.00%
+
+
+Detailed IO Report
+
+       Name          Direction    Location    IOStandard    DriveStrength    PullType    PackReg  
+     bird1down         INPUT        A12        LVCMOS25          N/A          PULLUP      NONE    
+     bird1left         INPUT         F3        LVCMOS33          N/A           N/A        NONE    
+    bird1right         INPUT        B12        LVCMOS25          N/A          PULLUP      NONE    
+      bird1up          INPUT        A11        LVCMOS25          N/A          PULLUP      NONE    
+     bird2down         INPUT         A8        LVCMOS25          N/A           N/A        NONE    
+     bird2left         INPUT        F16        LVCMOS25          N/A           N/A        NONE    
+    bird2right         INPUT         F4        LVCMOS33          N/A           N/A        NONE    
+      bird2up          INPUT        T15        LVCMOS33          N/A           N/A        NONE    
+    cam_data[7]        INPUT         P5        LVCMOS33          N/A          PULLUP      IREG    
+    cam_data[6]        INPUT         N5        LVCMOS33          N/A          PULLUP      IREG    
+    cam_data[5]        INPUT        T13        LVCMOS33          N/A          PULLUP      IREG    
+    cam_data[4]        INPUT        R12        LVCMOS33          N/A          PULLUP      IREG    
+    cam_data[3]        INPUT        T12        LVCMOS33          N/A          PULLUP      IREG    
+    cam_data[2]        INPUT         R9        LVCMOS33          N/A          PULLUP      IREG    
+    cam_data[1]        INPUT         T9        LVCMOS33          N/A          PULLUP      IREG    
+    cam_data[0]        INPUT         T8        LVCMOS33          N/A          PULLUP      IREG    
+     cam_href          INPUT         T5        LVCMOS33          N/A          PULLUP      IREG    
+     cam_pclk          INPUT         M6        LVCMOS33          N/A          PULLUP      NONE    
+     cam_vsync         INPUT         T4        LVCMOS33          N/A          PULLUP      IREG    
+  continue_button      INPUT        C16        LVCMOS25          N/A           N/A        NONE    
+    gamemode[1]        INPUT        M12        LVCMOS33          N/A           N/A        NONE    
+    gamemode[0]        INPUT         M7        LVCMOS33          N/A           N/A        NONE    
+   method_button       INPUT        D11        LVCMOS25          N/A           N/A        NONE    
+    move_button        INPUT        A14        LVCMOS25          N/A          PULLUP      NONE    
+   pause_button        INPUT         A3        LVCMOS25          N/A           N/A        NONE    
+  restart_button       INPUT        A10        LVCMOS25          N/A          PULLUP      IREG    
+       rst_n           INPUT         A9        LVCMOS25          N/A          PULLUP      NONE    
+      sd_miso          INPUT         G1        LVCMOS33          N/A          PULLUP      IREG    
+   start_button        INPUT        B10        LVCMOS25          N/A          PULLUP      IREG    
+      sys_clk          INPUT         R7        LVCMOS33          N/A          PULLUP      NONE    
+     cam_pwdn         OUTPUT         P6        LVCMOS33           8            NONE       NONE    
+     cam_rst_n        OUTPUT         T7        LVCMOS33           8            NONE       NONE    
+      cam_scl         OUTPUT         R5        LVCMOS33           8            NONE       NONE    
+      sd_clk          OUTPUT         J1        LVCMOS33           8            NONE       NONE    
+       sd_cs          OUTPUT         K2        LVCMOS33           8            NONE       NONE    
+      sd_mosi         OUTPUT         H1        LVCMOS33           8            NONE       NONE    
+  sdram_addr[11]      OUTPUT        M14        LVCMOS25           8            NONE       NONE    
+  sdram_addr[10]      OUTPUT        J16        LVCMOS25           8            NONE       NONE    
+   sdram_addr[9]      OUTPUT        N14        LVCMOS25           8            NONE       NONE    
+   sdram_addr[8]      OUTPUT        P14        LVCMOS25           8            NONE       NONE    
+   sdram_addr[7]      OUTPUT        P16        LVCMOS25           8            NONE       NONE    
+   sdram_addr[6]      OUTPUT        L16        LVCMOS25           8            NONE       NONE    
+   sdram_addr[5]      OUTPUT        P15        LVCMOS25           8            NONE       NONE    
+   sdram_addr[4]      OUTPUT        M16        LVCMOS25           8            NONE       NONE    
+   sdram_addr[3]      OUTPUT        J12        LVCMOS25           8            NONE       NONE    
+   sdram_addr[2]      OUTPUT        L14        LVCMOS25           8            NONE       NONE    
+   sdram_addr[1]      OUTPUT        J13        LVCMOS25           8            NONE       NONE    
+   sdram_addr[0]      OUTPUT        K14        LVCMOS25           8            NONE       NONE    
+    sdram_ba[1]       OUTPUT        J14        LVCMOS25           8            NONE       NONE    
+    sdram_ba[0]       OUTPUT        K16        LVCMOS25           8            NONE       NONE    
+    sdram_cas_n       OUTPUT        M13        LVCMOS25           8            NONE       NONE    
+     sdram_cke        OUTPUT        N16        LVCMOS25           8            NONE       NONE    
+     sdram_clk        OUTPUT        L13        LVCMOS25           8            NONE       NONE    
+    sdram_cs_n        OUTPUT        K11        LVCMOS25           8            NONE       NONE    
+   sdram_dqm[1]       OUTPUT        M11        LVCMOS25           8            N/A        NONE    
+   sdram_dqm[0]       OUTPUT         R3        LVCMOS33           8            N/A        NONE    
+    sdram_ras_n       OUTPUT        K12        LVCMOS25           8            NONE       NONE    
+    sdram_we_n        OUTPUT        M15        LVCMOS25           8            NONE       NONE    
+      speaker         OUTPUT        R16        LVCMOS33           8            N/A        NONE    
+    tmds_clk_n        OUTPUT        P13        LVCMOS25           8            N/A       ODDRX1   
+    tmds_clk_p        OUTPUT         P4         LVDS33           NA            NONE      ODDRX1   
+  tmds_data_n[2]      OUTPUT         K3        LVCMOS33           8            N/A       ODDRX1   
+  tmds_data_n[1]      OUTPUT        H11        LVCMOS25           8            N/A       ODDRX1   
+  tmds_data_n[0]      OUTPUT        E16        LVCMOS25           8            N/A       ODDRX1   
+  tmds_data_p[2]      OUTPUT         P1         LVDS33           NA            NONE      ODDRX1   
+  tmds_data_p[1]      OUTPUT         N1         LVDS33           NA            NONE      ODDRX1   
+  tmds_data_p[0]      OUTPUT         J3         LVDS33           NA            NONE      ODDRX1   
+      cam_sda          INOUT         T6        LVCMOS33           8           PULLUP      NONE    
+  sdram_data[15]       INOUT        E15        LVCMOS25           8           PULLUP      IREG    
+  sdram_data[14]       INOUT        D16        LVCMOS25           8           PULLUP      IREG    
+  sdram_data[13]       INOUT        D14        LVCMOS25           8           PULLUP      IREG    
+  sdram_data[12]       INOUT        F15        LVCMOS25           8           PULLUP      IREG    
+  sdram_data[11]       INOUT        F14        LVCMOS25           8           PULLUP      IREG    
+  sdram_data[10]       INOUT        F13        LVCMOS25           8           PULLUP      IREG    
+   sdram_data[9]       INOUT        G14        LVCMOS25           8           PULLUP      IREG    
+   sdram_data[8]       INOUT        G12        LVCMOS25           8           PULLUP      IREG    
+   sdram_data[7]       INOUT        H14        LVCMOS25           8           PULLUP      IREG    
+   sdram_data[6]       INOUT        H13        LVCMOS25           8           PULLUP      IREG    
+   sdram_data[5]       INOUT        H16        LVCMOS25           8           PULLUP      IREG    
+   sdram_data[4]       INOUT        H15        LVCMOS25           8           PULLUP      IREG    
+   sdram_data[3]       INOUT        G16        LVCMOS25           8           PULLUP      IREG    
+   sdram_data[2]       INOUT        J11        LVCMOS25           8           PULLUP      IREG    
+   sdram_data[1]       INOUT        K15        LVCMOS25           8           PULLUP      IREG    
+   sdram_data[0]       INOUT        G11        LVCMOS25           8           PULLUP      IREG    
+
+Report Hierarchy Area:
++----------------------------------------------------------------+
+|Instance |Module |le    |lut    |ripple |seq    |bram   |dsp    |
++----------------------------------------------------------------+
+|top      |top    |6351  |4786   |1325   |2302   |27     |12     |
++----------------------------------------------------------------+

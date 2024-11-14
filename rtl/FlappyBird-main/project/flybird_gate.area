@@ -1,0 +1,45 @@
+standard
+***Report Model: top***
+
+IO Statistics
+#IO                        84
+  #input                   30
+  #output                  37
+  #inout                   17
+
+LUT Statistics
+#Total_luts              6606
+  #lut4                  2687
+  #lut5                   597
+  #lut6                    21
+  #lut5_mx41                0
+  #lut4_alu1b            3301
+
+Utilization Statistics
+#lut                     6627   out of  19600   33.81%
+#reg                     2283   out of  19600   11.65%
+#le                         0
+#dsp                       12   out of     29   41.38%
+#bram                      22   out of     64   34.38%
+  #bram9k                  22
+  #fifo9k                   0
+#bram32k                    5   out of     16   31.25%
+#pad                       88   out of    188   46.81%
+  #ireg                    29
+  #oreg                     8
+  #treg                     0
+#pll                        3   out of      4   75.00%
+
+Report Hierarchy Area:
++-----------------------------------------------------------------------------------------------------+
+|Instance                     |Module                         |lut    |ripple |seq    |bram   |dsp    |
++-----------------------------------------------------------------------------------------------------+
+|top                          |top                            |3326   |3301   |2320   |27     |12     |
+|  AngryBird_Demo_inst        |AngryBird_Demo                 |3325   |3301   |2320   |27     |12     |
+|    Sdram_Control_4Port_inst |Sdram_Control_4Port            |486    |242    |424    |6      |0      |
+|    u2_Display               |Display                        |816    |1679   |290    |11     |6      |
+|      shell_go_inst          |shell_go                       |64     |55     |58     |0      |0      |
+|    u_i2c_cfg                |i2c_ov5640_rgb565_cfg          |227    |48     |46     |0      |0      |
+|    u_i2c_dr                 |i2c_dri(SLAVE_ADDR=7'b0111100) |127    |19     |54     |0      |0      |
+|    u_sdram_top              |etr_sdram_top                  |720    |223    |484    |4      |0      |
++-----------------------------------------------------------------------------------------------------+

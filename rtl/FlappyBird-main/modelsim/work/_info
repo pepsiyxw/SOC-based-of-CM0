@@ -1,0 +1,675 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/fpgadream/ModelSim_10.5SE/examples
+T_opt
+!s110 1682230440
+VhLbnlF5V0LY]C;;?=6C0e2
+04 4 4 work test fast 0
+=1-002b6774c35b-6444cca4-239-3878
+o-quiet -auto_acc_if_foreign -work work -L E:/fpgadream/ModelSim_10.5SE/Anlogic/eg4
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.5;63
+R0
+vAngryBird_Demo
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 zhnzH`R7eB8khaKW:jnDD2
+IHYeT_6X7=M2l9Dih;AbFl1
+Z3 dE:/_CM0_Soc/bird_test/FlappyBird-main/modelsim
+w1682220735
+8E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/AngryBird_Demo.v
+FE:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/AngryBird_Demo.v
+L0 1
+Z4 OL;L;10.5;63
+Z5 !s108 1682249118.000000
+!s107 E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/AngryBird_Demo.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/AngryBird_Demo.v|
+!i113 0
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@angry@bird_@demo
+vBird_Fly
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 YE9[c>aCFQW4YhQ@h2ZQi2
+IR>1JL`Rh?B:W5O5I?ABTk2
+R3
+w1681720501
+8E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/birdfly.v
+FE:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/birdfly.v
+Z7 L0 14
+R4
+Z8 !s108 1682249121.000000
+!s107 E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/birdfly.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/birdfly.v|
+!i113 0
+R6
+R1
+n@bird_@fly
+vcamera_init
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 lJP]JXLZGhlK2OTV_cAkA2
+IZ3EOo4RGM77O38cUg0[FP3
+R3
+w1681909494
+8E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/ov2640_init.v
+FE:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/ov2640_init.v
+L0 2
+R4
+Z9 !s108 1682249119.000000
+!s107 E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/ov2640_init.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/ov2640_init.v|
+!i113 0
+R6
+R1
+vcamera_reader
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 YON[0MX3H7]cT@ZNQ:kTj2
+ICTG@azZNmEzXH0FDkK2[f1
+R3
+w1681998809
+8E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/ov2640_read.v
+FE:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/ov2640_read.v
+L0 3
+R4
+R9
+!s107 E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/ov2640_read.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/ov2640_read.v|
+!i113 0
+R6
+R1
+vcommand
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 Vj1R@Q_S5e7J<SCIk7nid3
+IDcI]cQNQT@U>zA`zC<hF[1
+R3
+Z10 w1586155236
+8E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/command.v
+FE:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/command.v
+Z11 FE:\_CM0_Soc\bird_test\FlappyBird-main\source\rtl\Sdram_Control_4Port\Sdram_Params.h
+L0 1
+R4
+Z12 !s108 1682249120.000000
+!s107 E:\_CM0_Soc\bird_test\FlappyBird-main\source\rtl\Sdram_Control_4Port\Sdram_Params.h|E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/command.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/command.v|
+!i113 0
+R6
+R1
+vcontrol_interface
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 ohbj2Y7?YlAF69EN`CBTH3
+I`X?W@YK=b3hIj;>knd8gZ0
+R3
+R10
+8E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/control_interface.v
+FE:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/control_interface.v
+R11
+L0 1
+R4
+R8
+!s107 E:\_CM0_Soc\bird_test\FlappyBird-main\source\rtl\Sdram_Control_4Port\Sdram_Params.h|E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/control_interface.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/control_interface.v|
+!i113 0
+R6
+R1
+vcount
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 ZBgm5AbYLPgod60BU>P762
+I]mh?O0nG4UmoHdYXNRU=f1
+R3
+Z13 w1605432102
+8E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/count.v
+FE:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/count.v
+L0 2
+R4
+R5
+!s107 E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/count.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/count.v|
+!i113 0
+R6
+R1
+vDisplay
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 ^S2^C>mJ<M6TFfe8XjUGT2
+IzBC0HJWCfKdoU0Sbb5:FY1
+R3
+w1682243917
+8E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Display.v
+FE:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Display.v
+Z14 L0 26
+R4
+R5
+!s107 E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Display.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Display.v|
+!i113 0
+R6
+R1
+n@display
+vDriver
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 9@9;_V9`RV;6U;JU4YBJA2
+IAOY3[c[i1XQK:7e6B<^L10
+R3
+w1682077377
+8E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Driver.v
+FE:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Driver.v
+L0 2
+R4
+R5
+!s107 E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Driver.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Driver.v|
+!i113 0
+R6
+R1
+n@driver
+vggbutton
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 _Y[J:?@=<<HfC:bCbX@;l1
+IaH7Y5Umg[E?cC@=2=GAXa0
+R3
+w1681650102
+8E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/ygyhu.v
+FE:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/ygyhu.v
+R7
+R4
+Z15 !s108 1682249123.000000
+!s107 E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/ygyhu.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/ygyhu.v|
+!i113 0
+R6
+R1
+vgrass
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 MUbi8:=LFS@KCNFT@]nSa1
+IB9gN9Rf5LV7S3]Ja6gnF31
+R3
+w1682246965
+8E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/star.v
+FE:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/star.v
+R7
+R4
+Z16 !s108 1682249122.000000
+!s107 E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/star.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/star.v|
+!i113 0
+R6
+R1
+vi2c_module
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 f`X106WzFDzJ=bIfzhQN=0
+Ioh1MlaThXGfNZ:hIlHi:z0
+R3
+R13
+8E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/I2C_init.v
+FE:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/I2C_init.v
+L0 2
+R4
+R9
+!s107 E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/I2C_init.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/I2C_init.v|
+!i113 0
+R6
+R1
+vimg_cache
+!s110 1682249119
+!i10b 1
+!s100 4o0iTzFa?=LLiDOfLc1N<2
+I4jaTVZk>Xad_];OKOhOig2
+R2
+R3
+R13
+8E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/img_chahe.v
+FE:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/img_chahe.v
+R7
+R4
+r1
+!s85 0
+31
+R9
+!s107 E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/img_chahe.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/img_chahe.v|
+!i113 0
+R6
+R1
+vmoon
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 WKQ=@jg8f0:^mLb5n>>Jn3
+Ia246LZ?8EgYPkXe^`_8E@2
+R3
+w1682233004
+8E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/moon.v
+FE:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/moon.v
+R7
+R4
+R16
+!s107 E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/moon.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/moon.v|
+!i113 0
+R6
+R1
+vpause
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 oJ`l5Q7_9o4kLC:gFW_Im3
+IN>UX:iB2LZYFPT3aXAZ<Y1
+R3
+w1681825394
+8E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/pause.v
+FE:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/pause.v
+R7
+R4
+R16
+!s107 E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/pause.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/pause.v|
+!i113 0
+R6
+R1
+vpll
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 ?EKd@1[c1z1WzKbl7bDbX2
+Ij66HRa`FNYY0S<aKjzCdb2
+R3
+w1681986169
+8E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/PLL.v
+FE:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/PLL.v
+R14
+R4
+R16
+!s107 E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/PLL.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/PLL.v|
+!i113 0
+R6
+R1
+vprocess
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 :lFWeM7iH4c;eUcQoKKaF0
+IYl[^gMAT2M`BZAmEckLMK2
+R3
+w1681715742
+8E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/process(1).v
+FE:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/process(1).v
+L0 2
+R4
+R9
+!s107 E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/process(1).v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/process(1).v|
+!i113 0
+R6
+R1
+vramfifo
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 [X=XX=H>CC]>c@V1KLiBe3
+I_YdX19lY=H`SQmYcLE^nN3
+R3
+w1681908733
+8E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/fifo/ramfifo.v
+FE:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/fifo/ramfifo.v
+R7
+R4
+R15
+!s107 E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/fifo/ramfifo.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/fifo/ramfifo.v|
+!i113 0
+R6
+R1
+vrgb2ycbcr
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 25FeChne_ROj>TML7Sz111
+I8DN_W[jf5]=Ub9OTozGcf0
+R3
+R13
+8E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/rgb2ycbcr.v
+FE:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/rgb2ycbcr.v
+L0 2
+R4
+R9
+!s107 E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/rgb2ycbcr.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/rgb2ycbcr.v|
+!i113 0
+R6
+R1
+vsdr_data_path
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 UJGaAKhiEP?Qo_K@KH6;J1
+Iz[jeY83;Oe2ZIC>j3mF1G2
+R3
+R10
+8E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/sdr_data_path.v
+FE:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/sdr_data_path.v
+R11
+L0 1
+R4
+R8
+!s107 E:\_CM0_Soc\bird_test\FlappyBird-main\source\rtl\Sdram_Control_4Port\Sdram_Params.h|E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/sdr_data_path.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/sdr_data_path.v|
+!i113 0
+R6
+R1
+vsdram
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 ?;L[[SZnN8IDIl0RZMNFG0
+IHVTC:cEz?6U^0g_`ihdoi2
+R3
+w1681908648
+8E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/sdram.v
+FE:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/sdram.v
+R7
+R4
+R16
+!s107 E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/sdram.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/sdram.v|
+!i113 0
+R6
+R1
+vSdram_Control_4Port
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 E><hfXEAKTed5;DEm3zKC3
+IMLF7jABiCVg8U1=G43g7d3
+R3
+R10
+8E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v
+FE:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v
+R11
+L0 1
+R4
+R8
+!s107 E:\_CM0_Soc\bird_test\FlappyBird-main\source\rtl\Sdram_Control_4Port\Sdram_Params.h|E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v|
+!i113 0
+R6
+R1
+n@sdram_@control_4@port
+vSdram_RD_FIFO
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 eM4d@cUf^U1co]=I24PWU1
+ITkA8`:hAod]W:>29ZQogG2
+R3
+R10
+8E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/Sdram_RD_FIFO.v
+FE:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/Sdram_RD_FIFO.v
+Z17 L0 39
+R4
+R8
+!s107 E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/Sdram_RD_FIFO.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/Sdram_RD_FIFO.v|
+!i113 0
+R6
+R1
+n@sdram_@r@d_@f@i@f@o
+vSdram_WR_FIFO
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 K``gi:?1m>WfcDDla9z050
+Io622N=Lz?4I]:ACBT6FQG1
+R3
+R10
+8E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v
+FE:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v
+R17
+R4
+R8
+!s107 E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v|
+!i113 0
+R6
+R1
+n@sdram_@w@r_@f@i@f@o
+vseg4
+!s110 1682249120
+!i10b 1
+!s100 [kbR=e6mn6iI>9QSeAl653
+I@6glHS[W?LFaKKFOH?_1b1
+R2
+R3
+R13
+8E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/seg_4.v
+FE:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/seg_4.v
+L0 3
+R4
+r1
+!s85 0
+31
+R12
+!s107 E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/seg_4.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/seg_4.v|
+!i113 0
+R6
+R1
+vseg_led
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 3f`=5Q?o]HedgcfBPUj2Q3
+ITke]iAGA]6_Cb7WK3U`=o0
+R3
+R13
+8E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/seg_led.v
+FE:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/seg_led.v
+L0 3
+R4
+R12
+!s107 E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/seg_led.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/seg_led.v|
+!i113 0
+R6
+R1
+vstar
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 H2on7?MVF7EZ`LV3_YW@30
+I]V5i]JMZem7:D6OE3LcP32
+R3
+w1681649778
+8E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/grass.v
+FE:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/grass.v
+R7
+R4
+R16
+!s107 E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/grass.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/grass.v|
+!i113 0
+R6
+R1
+vStartbutton
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 2<:8Yn7;ZzW82mALK8ezl1
+I`?eEf3Wid1[8OG[oCeI5`0
+R3
+w1682246232
+8E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/Startbutton.v
+FE:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/Startbutton.v
+R7
+R4
+R15
+!s107 E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/Startbutton.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/Startbutton.v|
+!i113 0
+R6
+R1
+n@startbutton
+vtest
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 a[hHP7bT0BX[F<1j[OV[g1
+I>UC^]94aKWVWUJ<MLSbRc1
+R3
+w1682219417
+8E:/_CM0_Soc/bird_test/FlappyBird-main/modelsim/test.v
+FE:/_CM0_Soc/bird_test/FlappyBird-main/modelsim/test.v
+L0 3
+R4
+R15
+!s107 E:/_CM0_Soc/bird_test/FlappyBird-main/modelsim/test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/bird_test/FlappyBird-main/modelsim/test.v|
+!i113 0
+R6
+R1
+vtop
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 GI?_Ud;To91hIEZ>lzJW61
+ICKaKL]SX4D[Z8O;k5RN>[3
+R3
+w1682219493
+8E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/top.v
+FE:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/top.v
+L0 1
+R4
+R12
+!s107 E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/top.v|
+!i113 0
+R6
+R1
+vTop_logic
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 Q6=fm=EzPHQTQJa^A7[>J0
+I]i^lfR2?@4PGNik<f=i1m2
+R3
+w1681825709
+8E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Top_Logic.v
+FE:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Top_Logic.v
+L0 2
+R4
+R12
+!s107 E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Top_Logic.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Top_Logic.v|
+!i113 0
+R6
+R1
+n@top_logic
+vycbcr2gray2binary
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 hjSmK8<jH9Y4LYDk<Egg?3
+IbH13aEfLRFz5?nSGJ7aTJ1
+R3
+w1681736361
+8E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/ycbcr2gray2gray.v
+FE:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/ycbcr2gray2gray.v
+L0 1
+R4
+R12
+!s107 E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/ycbcr2gray2gray.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/ycbcr2gray2gray.v|
+!i113 0
+R6
+R1

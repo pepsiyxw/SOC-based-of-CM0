@@ -1,0 +1,83 @@
+standard
+***Report Model: shell_go***
+
+IO Statistics
+#IO                        45
+  #input                   37
+  #output                   8
+  #inout                    0
+
+Utilization Statistics
+#lut                      438   out of  19600    2.23%
+#reg                      184   out of  19600    0.94%
+#le                       438
+  #lut only               254   out of    438   57.99%
+  #reg only                 0   out of    438    0.00%
+  #lut&reg                184   out of    438   42.01%
+#dsp                        0   out of     29    0.00%
+#bram                       0   out of     64    0.00%
+  #bram9k                   0
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#pad                       45   out of    188   23.94%
+  #ireg                     0
+  #oreg                     0
+  #treg                     0
+#pll                        0   out of      4    0.00%
+
+
+Detailed IO Report
+
+        Name          Direction    Location    IOStandard    DriveStrength    PullType    PackReg  
+      angle[3]          INPUT        H16        LVCMOS25          N/A           N/A        NONE    
+      angle[2]          INPUT        E15        LVCMOS25          N/A           N/A        NONE    
+      angle[1]          INPUT        F12        LVCMOS25          N/A           N/A        NONE    
+      angle[0]          INPUT        K16        LVCMOS25          N/A           N/A        NONE    
+     clk_125hz          INPUT         F9        LVCMOS25          N/A           N/A        NONE    
+    lcd_xpos[11]        INPUT        L14        LVCMOS25          N/A           N/A        NONE    
+    lcd_xpos[10]        INPUT        P15        LVCMOS25          N/A           N/A        NONE    
+    lcd_xpos[9]         INPUT         K1        LVCMOS25          N/A           N/A        NONE    
+    lcd_xpos[8]         INPUT         P9        LVCMOS25          N/A           N/A        NONE    
+    lcd_xpos[7]         INPUT         N5        LVCMOS25          N/A           N/A        NONE    
+    lcd_xpos[6]         INPUT        K14        LVCMOS25          N/A           N/A        NONE    
+    lcd_xpos[5]         INPUT        G16        LVCMOS25          N/A           N/A        NONE    
+    lcd_xpos[4]         INPUT        D11        LVCMOS25          N/A           N/A        NONE    
+    lcd_xpos[3]         INPUT        H13        LVCMOS25          N/A           N/A        NONE    
+    lcd_xpos[2]         INPUT         F6        LVCMOS25          N/A           N/A        NONE    
+    lcd_xpos[1]         INPUT         C1        LVCMOS25          N/A           N/A        NONE    
+    lcd_xpos[0]         INPUT        M13        LVCMOS25          N/A           N/A        NONE    
+    lcd_ypos[11]        INPUT        R14        LVCMOS25          N/A           N/A        NONE    
+    lcd_ypos[10]        INPUT         P2        LVCMOS25          N/A           N/A        NONE    
+    lcd_ypos[9]         INPUT        B10        LVCMOS25          N/A           N/A        NONE    
+    lcd_ypos[8]         INPUT        E16        LVCMOS25          N/A           N/A        NONE    
+    lcd_ypos[7]         INPUT        F14        LVCMOS25          N/A           N/A        NONE    
+    lcd_ypos[6]         INPUT         B6        LVCMOS25          N/A           N/A        NONE    
+    lcd_ypos[5]         INPUT         F2        LVCMOS25          N/A           N/A        NONE    
+    lcd_ypos[4]         INPUT        M11        LVCMOS25          N/A           N/A        NONE    
+    lcd_ypos[3]         INPUT        P10        LVCMOS25          N/A           N/A        NONE    
+    lcd_ypos[2]         INPUT         P4        LVCMOS25          N/A           N/A        NONE    
+    lcd_ypos[1]         INPUT        F16        LVCMOS25          N/A           N/A        NONE    
+    lcd_ypos[0]         INPUT        J13        LVCMOS25          N/A           N/A        NONE    
+       rst_n            INPUT         F4        LVCMOS25          N/A           N/A        NONE    
+      state[6]          INPUT        L13        LVCMOS25          N/A           N/A        NONE    
+      state[5]          INPUT         J6        LVCMOS25          N/A           N/A        NONE    
+      state[4]          INPUT         D9        LVCMOS25          N/A           N/A        NONE    
+      state[3]          INPUT        J16        LVCMOS25          N/A           N/A        NONE    
+      state[2]          INPUT        A12        LVCMOS25          N/A           N/A        NONE    
+      state[1]          INPUT         G5        LVCMOS25          N/A           N/A        NONE    
+      state[0]          INPUT        T11        LVCMOS25          N/A           N/A        NONE    
+  custom3_score[7]     OUTPUT        H11        LVCMOS25           8            N/A        NONE    
+  custom3_score[6]     OUTPUT        C11        LVCMOS25           8            N/A        NONE    
+  custom3_score[5]     OUTPUT        N16        LVCMOS25           8            N/A        NONE    
+  custom3_score[4]     OUTPUT        B14        LVCMOS25           8            N/A        NONE    
+  custom3_score[3]     OUTPUT         A5        LVCMOS25           8            N/A        NONE    
+  custom3_score[2]     OUTPUT         B5        LVCMOS25           8            N/A        NONE    
+  custom3_score[1]     OUTPUT         B1        LVCMOS25           8            N/A        NONE    
+  custom3_score[0]     OUTPUT         G6        LVCMOS25           8            N/A        NONE    
+
+Report Hierarchy Area:
++------------------------------------------------------------------+
+|Instance |Module   |le    |lut    |ripple |seq    |bram   |dsp    |
++------------------------------------------------------------------+
+|top      |shell_go |438   |364    |74     |184    |0      |0      |
++------------------------------------------------------------------+

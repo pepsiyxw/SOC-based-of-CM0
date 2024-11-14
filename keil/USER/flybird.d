@@ -1,0 +1,16 @@
+.\flybird.o: ..\Games\flybird.c
+.\flybird.o: ..\Games\flybird.h
+.\flybird.o: ..\FWLIB\inc\CMSDK_CM0.h
+.\flybird.o: ..\CORE\core_cm0.h
+.\flybird.o: E:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flybird.o: ..\CORE\core_cmInstr.h
+.\flybird.o: ..\CORE\core_cmFunc.h
+.\flybird.o: ..\FWLIB\inc\system_CMSDK_CM0.h
+.\flybird.o: ..\System\Systick.h
+.\flybird.o: ..\HARDWARE\Handcontroller.h
+.\flybird.o: ..\FWLIB\cm0_gpio.h
+.\flybird.o: ..\HARDWARE\IMU.h
+.\flybird.o: ..\FWLIB\cm0_uart.h
+.\flybird.o: ..\Games\flybird.h
+.\flybird.o: ..\HARDWARE\microphone.h
+.\flybird.o: ..\HARDWARE\music.h

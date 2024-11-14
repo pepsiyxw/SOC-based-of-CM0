@@ -1,0 +1,155 @@
+============================================================
+   Tang Dynasty, V5.0.30786
+   Copyright:   Shanghai Anlogic Infotech Co., Ltd.
+                2011 - 2021
+   Executable = E:/fpgadream/Anlogic_TD/bin/td.exe
+   Run by =     86132
+   Run Date =   Thu Jun 15 17:47:21 2023
+
+   Run on =     THE-END-OF-THE-
+============================================================
+RUN-1002 : start command "import_device eagle_s20.db -package BG256"
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+RUN-1002 : start command "download -bit flybird.bit -mode jtag -spd 6 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag -bit flybird.bit"
+PRG-3000 : BIT2VEC::JtagBitstream: completed! line_num = 1354, frame_num = 1259
+RUN-1003 : finish command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag -bit flybird.bit" in  1.240838s wall, 1.187500s user + 0.296875s system = 1.484375s CPU (119.6%)
+
+RUN-1004 : used memory is 305 MB, reserved memory is 263 MB, peak memory is 305 MB
+RUN-1002 : start command "program -cable 0 -spd 6 -p"
+RUN-1003 : finish command "program -cable 0 -spd 6 -p" in  7.460527s wall, 0.546875s user + 1.843750s system = 2.390625s CPU (32.0%)
+
+RUN-1004 : used memory is 332 MB, reserved memory is 291 MB, peak memory is 332 MB
+RUN-1003 : finish command "download -bit flybird.bit -mode jtag -spd 6 -sec 64 -cable 0" in  9.606584s wall, 1.859375s user + 2.437500s system = 4.296875s CPU (44.7%)
+
+RUN-1004 : used memory is 176 MB, reserved memory is 130 MB, peak memory is 332 MB
+GUI-1001 : Download success!
+RUN-1002 : start command "download -bit flybird.bit -mode jtag -spd 6 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag -bit flybird.bit"
+PRG-3000 : BIT2VEC::JtagBitstream: completed! line_num = 1354, frame_num = 1259
+RUN-1003 : finish command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag -bit flybird.bit" in  1.176743s wall, 1.171875s user + 0.265625s system = 1.437500s CPU (122.2%)
+
+RUN-1004 : used memory is 306 MB, reserved memory is 264 MB, peak memory is 332 MB
+RUN-1002 : start command "program -cable 0 -spd 6 -p"
+RUN-1003 : finish command "program -cable 0 -spd 6 -p" in  7.483224s wall, 0.484375s user + 1.656250s system = 2.140625s CPU (28.6%)
+
+RUN-1004 : used memory is 333 MB, reserved memory is 293 MB, peak memory is 333 MB
+RUN-1003 : finish command "download -bit flybird.bit -mode jtag -spd 6 -sec 64 -cable 0" in  9.568093s wall, 1.765625s user + 2.203125s system = 3.968750s CPU (41.5%)
+
+RUN-1004 : used memory is 177 MB, reserved memory is 131 MB, peak memory is 334 MB
+GUI-1001 : Download success!
+HDL-1007 : analyze verilog file ../source/rtl/AngryBird_Demo.v
+HDL-5007 WARNING: literal value 'd13145727 truncated to fit in 23 bits in ../source/rtl/AngryBird_Demo.v(253)
+HDL-5007 WARNING: 'sdram_rd_b_addr' is already implicitly declared on line 261 in ../source/rtl/AngryBird_Demo.v(284)
+HDL-5007 WARNING: 'sdram_rd_e_addr' is already implicitly declared on line 262 in ../source/rtl/AngryBird_Demo.v(285)
+HDL-5007 WARNING: 'sdram_rden' is already implicitly declared on line 260 in ../source/rtl/AngryBird_Demo.v(286)
+HDL-5007 WARNING: 'sobel_data' is already implicitly declared on line 323 in ../source/rtl/AngryBird_Demo.v(447)
+HDL-5007 WARNING: 'data_gray' is already implicitly declared on line 321 in ../source/rtl/AngryBird_Demo.v(501)
+HDL-5007 WARNING: identifier 'locked' is used before its declaration in ../source/rtl/AngryBird_Demo.v(97)
+HDL-5007 WARNING: identifier 'hdmi_locked' is used before its declaration in ../source/rtl/AngryBird_Demo.v(97)
+HDL-5007 WARNING: identifier 'sdram_init_done' is used before its declaration in ../source/rtl/AngryBird_Demo.v(176)
+HDL-5007 WARNING: identifier 'sdram_rst_n' is used before its declaration in ../source/rtl/AngryBird_Demo.v(237)
+HDL-5007 WARNING: identifier 'sdram_rst_n' is used before its declaration in ../source/rtl/AngryBird_Demo.v(238)
+HDL-1007 : analyze verilog file ../source/rtl/Display.v
+HDL-8007 ERROR: syntax error near 'else' in ../source/rtl/Display.v(1106)
+HDL-8007 ERROR: Verilog 2000 keyword else used in incorrect context in ../source/rtl/Display.v(1106)
+HDL-5007 WARNING: parameter 'RED' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(56)
+HDL-5007 WARNING: parameter 'GREEN' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(57)
+HDL-5007 WARNING: parameter 'BLUE' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(58)
+HDL-5007 WARNING: parameter 'WHITE' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(59)
+HDL-5007 WARNING: parameter 'BLACK' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(60)
+HDL-5007 WARNING: parameter 'YELLOW' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(61)
+HDL-5007 WARNING: parameter 'CYAN' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(62)
+HDL-5007 WARNING: parameter 'ROYAL' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(63)
+HDL-5007 WARNING: parameter 'start_scene' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(65)
+HDL-5007 WARNING: parameter 'gameplay_scene' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(66)
+HDL-5007 WARNING: parameter 'pause_scene' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(67)
+HDL-5007 WARNING: parameter 'gameover_scene' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(68)
+HDL-5007 WARNING: parameter 'second_scene' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(69)
+HDL-5007 WARNING: parameter 'start_button_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(183)
+HDL-5007 WARNING: parameter 'start_button_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(184)
+HDL-5007 WARNING: parameter 'cam_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(185)
+HDL-5007 WARNING: parameter 'cam_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(186)
+HDL-5007 WARNING: parameter 'sobel_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(187)
+HDL-5007 WARNING: parameter 'sobel_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(188)
+HDL-5007 WARNING: parameter 'grass_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(189)
+HDL-5007 WARNING: parameter 'grass_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(190)
+HDL-5007 WARNING: parameter 'star_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(191)
+HDL-5007 WARNING: parameter 'star_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(192)
+HDL-5007 WARNING: parameter 'moon_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(193)
+HDL-5007 WARNING: parameter 'moon_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(194)
+HDL-5007 WARNING: parameter 'Bird_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(195)
+HDL-5007 WARNING: parameter 'Bird_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(196)
+HDL-5007 WARNING: parameter 'Obstacle_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(197)
+HDL-5007 WARNING: parameter 'background_length' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(198)
+HDL-5007 WARNING: parameter 'background_width' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(199)
+HDL-5007 WARNING: parameter 'speed0' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(474)
+HDL-5007 WARNING: parameter 'speed1' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(475)
+HDL-5007 WARNING: parameter 'speed2' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(476)
+HDL-5007 WARNING: parameter 'speed3' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(477)
+HDL-5007 WARNING: parameter 'speed4' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(478)
+HDL-5007 WARNING: parameter 'speed5' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(479)
+HDL-5007 WARNING: parameter 'score0' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(481)
+HDL-5007 WARNING: parameter 'score1' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(482)
+HDL-5007 WARNING: parameter 'score2' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(483)
+HDL-5007 WARNING: parameter 'score3' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(484)
+HDL-5007 WARNING: parameter 'score4' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(485)
+HDL-5007 WARNING: parameter 'second_score' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(487)
+HDL-5007 WARNING: parameter 'Obstacle_width0' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(491)
+HDL-5007 WARNING: parameter 'Obstacle_width1' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(492)
+HDL-5007 WARNING: parameter 'Obstacle_width2' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(493)
+HDL-5007 WARNING: parameter 'Obstacle_width3' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(494)
+HDL-5007 WARNING: parameter 'Obstacle_width4' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(495)
+HDL-5007 WARNING: parameter 'Obstacle_width5' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(496)
+HDL-5007 WARNING: parameter 'DEAD_THRESHOLD' becomes localparam in 'Display' with formal parameter declaration list in ../source/rtl/Display.v(876)
+HDL-8007 ERROR: ignore module module due to previous errors in ../source/rtl/Display.v(26)
+HDL-1007 : Verilog file '../source/rtl/Display.v' ignored due to errors
+HDL-1007 : analyze verilog file ../source/rtl/rd_synchro.v
+HDL-5007 WARNING: data object 'three_flag' is already declared in ../source/rtl/rd_synchro.v(145)
+HDL-1007 : previous declaration of 'three_flag' is from here in ../source/rtl/rd_synchro.v(103)
+HDL-5007 WARNING: second declaration of 'three_flag' ignored in ../source/rtl/rd_synchro.v(145)
+HDL-5007 WARNING: data object 'three_state' is already declared in ../source/rtl/rd_synchro.v(154)
+HDL-1007 : previous declaration of 'three_state' is from here in ../source/rtl/rd_synchro.v(112)
+HDL-5007 WARNING: second declaration of 'three_state' ignored in ../source/rtl/rd_synchro.v(154)
+Oops! 'Signal Segmentation Violation' raised. The backtrace:
+[bt] (4)_chkstk
+[bt] (5)RtlRestoreContext
+[bt] (6)KiUserExceptionDispatcher
+[bt] (7)QTreeWidgetItem::icon
+[bt] (8)QTreeWidget::openPersistentEditor
+[bt] (9)QModelIndex::parent
+[bt] (10)QTreeView::isIndexHidden
+[bt] (11)QTreeView::visualRect
+[bt] (12)QAbstractItemView::update
+[bt] (13)QAbstractItemView::dataChanged
+[bt] (14)QTreeView::dataChanged
+[bt] (15)QObject::event
+[bt] (16)QWidget::event
+[bt] (17)QFrame::event
+[bt] (18)QAbstractScrollArea::event
+[bt] (19)QApplicationPrivate::notify_helper
+[bt] (20)QApplication::notify
+[bt] (21)QCoreApplication::notifyInternal2
+[bt] (22)QCoreApplicationPrivate::sendPostedEvents
+[bt] (23)qt_plugin_query_metadata
+[bt] (24)QEventDispatcherWin32::processEvents
+[bt] (25)CallWindowProcW
+[bt] (26)DispatchMessageW
+[bt] (27)QEventDispatcherWin32::processEvents
+[bt] (28)qt_plugin_query_metadata
+[bt] (29)QEventLoop::exec
+[bt] (30)QCoreApplication::exec
+[bt] (34)BaseThreadInitThunk
+[bt] (35)RtlUserThreadStart
+

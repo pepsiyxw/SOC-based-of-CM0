@@ -1,0 +1,11 @@
+.\oled.o: ..\HARDWARE\oled.c
+.\oled.o: ..\FWLIB\inc\CMSDK_CM0.h
+.\oled.o: ..\CORE\core_cm0.h
+.\oled.o: E:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\oled.o: ..\CORE\core_cmInstr.h
+.\oled.o: ..\CORE\core_cmFunc.h
+.\oled.o: ..\FWLIB\inc\system_CMSDK_CM0.h
+.\oled.o: ..\HARDWARE\oledfont.h
+.\oled.o: ..\FWLIB\cm0_gpio.h
+.\oled.o: ..\HARDWARE\oled.h
+.\oled.o: ..\System\Systick.h

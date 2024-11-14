@@ -1,0 +1,86 @@
+set_pin_assignment	{ bird1down }	{ LOCATION = A12; }
+set_pin_assignment	{ bird1right }	{ LOCATION = B12; }
+set_pin_assignment	{ bird1up }	{ LOCATION = A11; }
+set_pin_assignment	{ cam_data[0] }	{ LOCATION = T8; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_data[1] }	{ LOCATION = T9; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_data[2] }	{ LOCATION = R9; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_data[3] }	{ LOCATION = T12; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_data[4] }	{ LOCATION = R12; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_data[5] }	{ LOCATION = T13; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_data[6] }	{ LOCATION = N5; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_data[7] }	{ LOCATION = P5; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_href }	{ LOCATION = T5; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_pclk }	{ LOCATION = M6; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_pwdn }	{ LOCATION = P6; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_rst_n }	{ LOCATION = T7; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_scl }	{ LOCATION = R5; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_sda }	{ LOCATION = T6; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ cam_vsync }	{ LOCATION = T4; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ sys_clk }	{ LOCATION = R7; }
+set_pin_assignment	{ move_button }	{ LOCATION = A14; }
+set_pin_assignment	{ restart_button }	{ LOCATION = A10; }
+set_pin_assignment	{ rst_n }	{ LOCATION = A9; }
+set_pin_assignment	{ sd_clk }	{ LOCATION = J1; }
+set_pin_assignment	{ sd_cs }	{ LOCATION = K2; }
+set_pin_assignment	{ sd_miso }	{ LOCATION = G1; }
+set_pin_assignment	{ sd_mosi }	{ LOCATION = H1; }
+set_pin_assignment	{ sdram_addr[0] }	{ LOCATION = K14; }
+set_pin_assignment	{ sdram_addr[10] }	{ LOCATION = J16; }
+set_pin_assignment	{ sdram_addr[11] }	{ LOCATION = M14; }
+set_pin_assignment	{ sdram_addr[1] }	{ LOCATION = J13; }
+set_pin_assignment	{ sdram_addr[2] }	{ LOCATION = L14; }
+set_pin_assignment	{ sdram_addr[3] }	{ LOCATION = J12; }
+set_pin_assignment	{ sdram_addr[4] }	{ LOCATION = M16; }
+set_pin_assignment	{ sdram_addr[5] }	{ LOCATION = P15; }
+set_pin_assignment	{ sdram_addr[6] }	{ LOCATION = L16; }
+set_pin_assignment	{ sdram_addr[7] }	{ LOCATION = P16; }
+set_pin_assignment	{ sdram_addr[8] }	{ LOCATION = P14; }
+set_pin_assignment	{ sdram_addr[9] }	{ LOCATION = N14; }
+set_pin_assignment	{ sdram_ba[0] }	{ LOCATION = K16; }
+set_pin_assignment	{ sdram_ba[1] }	{ LOCATION = J14; }
+set_pin_assignment	{ sdram_cas_n }	{ LOCATION = M13; }
+set_pin_assignment	{ sdram_cke }	{ LOCATION = N16; }
+set_pin_assignment	{ sdram_clk }	{ LOCATION = L13; }
+set_pin_assignment	{ sdram_cs_n }	{ LOCATION = K11; }
+set_pin_assignment	{ sdram_data[0] }	{ LOCATION = G11; }
+set_pin_assignment	{ sdram_data[10] }	{ LOCATION = F13; }
+set_pin_assignment	{ sdram_data[11] }	{ LOCATION = F14; }
+set_pin_assignment	{ sdram_data[12] }	{ LOCATION = F15; }
+set_pin_assignment	{ sdram_data[13] }	{ LOCATION = D14; }
+set_pin_assignment	{ sdram_data[14] }	{ LOCATION = D16; }
+set_pin_assignment	{ sdram_data[15] }	{ LOCATION = E15; }
+set_pin_assignment	{ sdram_data[1] }	{ LOCATION = K15; }
+set_pin_assignment	{ sdram_data[2] }	{ LOCATION = J11; }
+set_pin_assignment	{ sdram_data[3] }	{ LOCATION = G16; }
+set_pin_assignment	{ sdram_data[4] }	{ LOCATION = H15; }
+set_pin_assignment	{ sdram_data[5] }	{ LOCATION = H16; }
+set_pin_assignment	{ sdram_data[6] }	{ LOCATION = H13; }
+set_pin_assignment	{ sdram_data[7] }	{ LOCATION = H14; }
+set_pin_assignment	{ sdram_data[8] }	{ LOCATION = G12; }
+set_pin_assignment	{ sdram_data[9] }	{ LOCATION = G14; }
+set_pin_assignment	{ sdram_ras_n }	{ LOCATION = K12; }
+set_pin_assignment	{ sdram_we_n }	{ LOCATION = M15; }
+set_pin_assignment	{ start_button }	{ LOCATION = B10; }
+set_pin_assignment	{ tmds_clk_p }	{ LOCATION = P4; IOSTANDARD = LVDS33; }
+set_pin_assignment	{ tmds_data_p[0] }	{ LOCATION = J3; IOSTANDARD = LVDS33; }
+set_pin_assignment	{ tmds_data_p[1] }	{ LOCATION = N1; IOSTANDARD = LVDS33; }
+set_pin_assignment	{ tmds_data_p[2] }	{ LOCATION = P1; IOSTANDARD = LVDS33; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

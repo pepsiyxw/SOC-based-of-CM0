@@ -1,0 +1,699 @@
+============================================================
+   Tang Dynasty, V5.0.30786
+   Copyright:   Shanghai Anlogic Infotech Co., Ltd.
+                2011 - 2021
+   Executable = E:/fpgadream/Anlogic_TD/bin/td.exe
+   Run by =     86132
+   Run Date =   Sat Jul  8 21:56:47 2023
+
+   Run on =     THE-END-OF-THE-
+============================================================
+RUN-1002 : start command "import_device eagle_s20.db -package BG256"
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        
+RUN-1001 :        syn_ip_flow       |    off     |       off        
+RUN-1001 :          thread          |    auto    |       auto       
+RUN-1001 : -------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 :      infer_shifter      |    off     |       off        
+RUN-1001 :         map_dram        |    auto    |       auto       
+RUN-1001 : ------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      
+RUN-1001 :        elf_sload        |    off     |       off        
+RUN-1001 :       fix_undriven      |     0      |        0         
+RUN-1001 :         flatten         |    off     |       off        
+RUN-1001 :       gate_sharing      |     on     |        on        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        
+RUN-1001 :      impl_set_reset     |     on     |        on        
+RUN-1001 :        infer_gsr        |    off     |       off        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       
+RUN-1001 :        max_fanout       |    9999    |       9999       
+RUN-1001 :      max_oh2bin_len     |     10     |        10        
+RUN-1001 :       merge_equal       |     on     |        on        
+RUN-1001 :       merge_equiv       |     on     |        on        
+RUN-1001 :        merge_mux        |    off     |       off        
+RUN-1001 :      min_ce_fanout      |     16     |        16        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       
+RUN-1001 :     opt_adder_fanout    |     on     |        on        
+RUN-1001 :        opt_arith        |     on     |        on        
+RUN-1001 :       opt_big_gate      |    off     |       off        
+RUN-1001 :        opt_const        |     on     |        on        
+RUN-1001 :      opt_const_mult     |     on     |        on        
+RUN-1001 :       opt_lessthan      |     on     |        on        
+RUN-1001 :         opt_mux         |    off     |       off        
+RUN-1001 :         opt_ram         |    high    |       high       
+RUN-1001 :      rtl_sim_model      |    off     |       off        
+RUN-1001 :         seq_syn         |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+HDL-1007 : analyze verilog file ../source/rtl/AngryBird_Demo.v
+HDL-5007 WARNING: 'sdram_rd_b_addr' is already implicitly declared on line 259 in ../source/rtl/AngryBird_Demo.v(282)
+HDL-5007 WARNING: 'sdram_rd_e_addr' is already implicitly declared on line 260 in ../source/rtl/AngryBird_Demo.v(283)
+HDL-5007 WARNING: 'sdram_rden' is already implicitly declared on line 258 in ../source/rtl/AngryBird_Demo.v(284)
+HDL-5007 WARNING: 'camera_rstn' is already implicitly declared on line 397 in ../source/rtl/AngryBird_Demo.v(503)
+HDL-5007 WARNING: 'custom' is already implicitly declared on line 405 in ../source/rtl/AngryBird_Demo.v(504)
+HDL-5007 WARNING: 'camera_sdram_rd_data' is already implicitly declared on line 319 in ../source/rtl/AngryBird_Demo.v(533)
+HDL-5007 WARNING: 'int_sdram_rst_n' is already implicitly declared on line 567 in ../source/rtl/AngryBird_Demo.v(583)
+HDL-5007 WARNING: 'int_sdram_rden' is already implicitly declared on line 563 in ../source/rtl/AngryBird_Demo.v(584)
+HDL-5007 WARNING: identifier 'locked' is used before its declaration in ../source/rtl/AngryBird_Demo.v(93)
+HDL-5007 WARNING: identifier 'hdmi_locked' is used before its declaration in ../source/rtl/AngryBird_Demo.v(93)
+HDL-5007 WARNING: identifier 'sdram_init_done' is used before its declaration in ../source/rtl/AngryBird_Demo.v(171)
+HDL-5007 WARNING: identifier 'sdram_rst_n' is used before its declaration in ../source/rtl/AngryBird_Demo.v(235)
+HDL-5007 WARNING: identifier 'sdram_rst_n' is used before its declaration in ../source/rtl/AngryBird_Demo.v(236)
+HDL-5007 WARNING: identifier 'camera_rstn' is used before its declaration in ../source/rtl/AngryBird_Demo.v(383)
+HDL-1007 : analyze verilog file ../source/rtl/Display.v
+HDL-5007 WARNING: 'custom1_3_bird1_rom_add' is already implicitly declared on line 293 in ../source/rtl/Display.v(305)
+HDL-5007 WARNING: 'custom1_3_bird1_rom_data' is already implicitly declared on line 294 in ../source/rtl/Display.v(306)
+HDL-5007 WARNING: 'custom1_3_bird2_rom_add' is already implicitly declared on line 301 in ../source/rtl/Display.v(307)
+HDL-5007 WARNING: 'custom1_3_bird2_rom_data' is already implicitly declared on line 302 in ../source/rtl/Display.v(308)
+HDL-5007 WARNING: 'all_shell_rom_add' is already implicitly declared on line 365 in ../source/rtl/Display.v(369)
+HDL-5007 WARNING: 'all_shell_rom_data' is already implicitly declared on line 366 in ../source/rtl/Display.v(378)
+HDL-5007 WARNING: identifier 'single_state' is used before its declaration in ../source/rtl/Display.v(387)
+HDL-5007 WARNING: identifier 'double_state' is used before its declaration in ../source/rtl/Display.v(388)
+HDL-5007 WARNING: identifier 'method_state' is used before its declaration in ../source/rtl/Display.v(389)
+HDL-5007 WARNING: identifier 'angle1_shell1_enable' is used before its declaration in ../source/rtl/Display.v(393)
+HDL-5007 WARNING: identifier 'angle1_shell1_x0' is used before its declaration in ../source/rtl/Display.v(393)
+HDL-5007 WARNING: identifier 'angle1_shell1_x0' is used before its declaration in ../source/rtl/Display.v(393)
+HDL-5007 WARNING: identifier 'angle1_shell1_y0' is used before its declaration in ../source/rtl/Display.v(393)
+HDL-5007 WARNING: identifier 'angle1_shell1_y0' is used before its declaration in ../source/rtl/Display.v(393)
+HDL-5007 WARNING: identifier 'angle1_shell2_enable' is used before its declaration in ../source/rtl/Display.v(394)
+HDL-5007 WARNING: identifier 'angle1_shell2_x0' is used before its declaration in ../source/rtl/Display.v(394)
+HDL-5007 WARNING: identifier 'angle1_shell2_x0' is used before its declaration in ../source/rtl/Display.v(394)
+HDL-5007 WARNING: identifier 'angle1_shell2_y0' is used before its declaration in ../source/rtl/Display.v(394)
+HDL-5007 WARNING: identifier 'angle1_shell2_y0' is used before its declaration in ../source/rtl/Display.v(394)
+HDL-5007 WARNING: identifier 'angle2_shell1_enable' is used before its declaration in ../source/rtl/Display.v(397)
+HDL-5007 WARNING: identifier 'angle2_shell1_x0' is used before its declaration in ../source/rtl/Display.v(397)
+HDL-5007 WARNING: identifier 'angle2_shell1_x0' is used before its declaration in ../source/rtl/Display.v(397)
+HDL-5007 WARNING: identifier 'angle2_shell1_y0' is used before its declaration in ../source/rtl/Display.v(397)
+HDL-5007 WARNING: identifier 'angle2_shell1_y0' is used before its declaration in ../source/rtl/Display.v(397)
+HDL-5007 WARNING: identifier 'angle2_shell2_enable' is used before its declaration in ../source/rtl/Display.v(398)
+HDL-5007 WARNING: identifier 'angle2_shell2_x0' is used before its declaration in ../source/rtl/Display.v(398)
+HDL-5007 WARNING: identifier 'angle2_shell2_x0' is used before its declaration in ../source/rtl/Display.v(398)
+HDL-5007 WARNING: identifier 'angle2_shell2_y0' is used before its declaration in ../source/rtl/Display.v(398)
+HDL-5007 WARNING: identifier 'angle2_shell2_y0' is used before its declaration in ../source/rtl/Display.v(398)
+HDL-5007 WARNING: identifier 'angle3_shell1_enable' is used before its declaration in ../source/rtl/Display.v(401)
+HDL-5007 WARNING: identifier 'angle3_shell1_x0' is used before its declaration in ../source/rtl/Display.v(401)
+HDL-5007 WARNING: identifier 'angle3_shell1_x0' is used before its declaration in ../source/rtl/Display.v(401)
+HDL-5007 WARNING: identifier 'angle3_shell1_y0' is used before its declaration in ../source/rtl/Display.v(401)
+HDL-5007 WARNING: identifier 'angle3_shell1_y0' is used before its declaration in ../source/rtl/Display.v(401)
+HDL-5007 WARNING: identifier 'angle3_shell2_enable' is used before its declaration in ../source/rtl/Display.v(402)
+HDL-5007 WARNING: identifier 'angle3_shell2_x0' is used before its declaration in ../source/rtl/Display.v(402)
+HDL-5007 WARNING: identifier 'angle3_shell2_x0' is used before its declaration in ../source/rtl/Display.v(402)
+HDL-5007 WARNING: identifier 'angle3_shell2_y0' is used before its declaration in ../source/rtl/Display.v(402)
+HDL-5007 WARNING: identifier 'angle3_shell2_y0' is used before its declaration in ../source/rtl/Display.v(402)
+HDL-5007 WARNING: identifier 'angle4_shell1_enable' is used before its declaration in ../source/rtl/Display.v(405)
+HDL-5007 WARNING: identifier 'angle4_shell1_x0' is used before its declaration in ../source/rtl/Display.v(405)
+HDL-5007 WARNING: identifier 'angle4_shell1_x0' is used before its declaration in ../source/rtl/Display.v(405)
+HDL-5007 WARNING: identifier 'angle4_shell1_y0' is used before its declaration in ../source/rtl/Display.v(405)
+HDL-5007 WARNING: identifier 'angle4_shell1_y0' is used before its declaration in ../source/rtl/Display.v(405)
+HDL-5007 WARNING: identifier 'angle4_shell2_enable' is used before its declaration in ../source/rtl/Display.v(406)
+HDL-5007 WARNING: identifier 'angle4_shell2_x0' is used before its declaration in ../source/rtl/Display.v(406)
+HDL-5007 WARNING: identifier 'angle4_shell2_x0' is used before its declaration in ../source/rtl/Display.v(406)
+HDL-5007 WARNING: identifier 'angle4_shell2_y0' is used before its declaration in ../source/rtl/Display.v(406)
+HDL-5007 WARNING: identifier 'angle4_shell2_y0' is used before its declaration in ../source/rtl/Display.v(406)
+HDL-5007 WARNING: identifier 'angle5_shell1_enable' is used before its declaration in ../source/rtl/Display.v(409)
+HDL-5007 WARNING: identifier 'angle5_shell1_x0' is used before its declaration in ../source/rtl/Display.v(409)
+HDL-5007 WARNING: identifier 'angle5_shell1_x0' is used before its declaration in ../source/rtl/Display.v(409)
+HDL-5007 WARNING: identifier 'angle5_shell1_y0' is used before its declaration in ../source/rtl/Display.v(409)
+HDL-5007 WARNING: identifier 'angle5_shell1_y0' is used before its declaration in ../source/rtl/Display.v(409)
+HDL-5007 WARNING: identifier 'angle5_shell2_enable' is used before its declaration in ../source/rtl/Display.v(410)
+HDL-5007 WARNING: identifier 'angle5_shell2_x0' is used before its declaration in ../source/rtl/Display.v(410)
+HDL-5007 WARNING: identifier 'angle5_shell2_x0' is used before its declaration in ../source/rtl/Display.v(410)
+HDL-5007 WARNING: identifier 'angle5_shell2_y0' is used before its declaration in ../source/rtl/Display.v(410)
+HDL-5007 WARNING: identifier 'angle5_shell2_y0' is used before its declaration in ../source/rtl/Display.v(410)
+HDL-5007 WARNING: identifier 'angle6_shell1_enable' is used before its declaration in ../source/rtl/Display.v(413)
+HDL-5007 WARNING: identifier 'angle6_shell1_x0' is used before its declaration in ../source/rtl/Display.v(413)
+HDL-5007 WARNING: identifier 'angle6_shell1_x0' is used before its declaration in ../source/rtl/Display.v(413)
+HDL-5007 WARNING: identifier 'angle6_shell1_y0' is used before its declaration in ../source/rtl/Display.v(413)
+HDL-5007 WARNING: identifier 'angle6_shell1_y0' is used before its declaration in ../source/rtl/Display.v(413)
+HDL-5007 WARNING: identifier 'angle6_shell2_enable' is used before its declaration in ../source/rtl/Display.v(414)
+HDL-5007 WARNING: identifier 'angle6_shell2_x0' is used before its declaration in ../source/rtl/Display.v(414)
+HDL-5007 WARNING: identifier 'angle6_shell2_x0' is used before its declaration in ../source/rtl/Display.v(414)
+HDL-5007 WARNING: identifier 'angle6_shell2_y0' is used before its declaration in ../source/rtl/Display.v(414)
+HDL-5007 WARNING: identifier 'angle6_shell2_y0' is used before its declaration in ../source/rtl/Display.v(414)
+HDL-5007 WARNING: identifier 'angle7_shell1_enable' is used before its declaration in ../source/rtl/Display.v(417)
+HDL-5007 WARNING: identifier 'angle7_shell1_x0' is used before its declaration in ../source/rtl/Display.v(417)
+HDL-5007 WARNING: identifier 'angle7_shell1_x0' is used before its declaration in ../source/rtl/Display.v(417)
+HDL-5007 WARNING: identifier 'angle7_shell1_y0' is used before its declaration in ../source/rtl/Display.v(417)
+HDL-5007 WARNING: identifier 'angle7_shell1_y0' is used before its declaration in ../source/rtl/Display.v(417)
+HDL-5007 WARNING: identifier 'angle7_shell2_enable' is used before its declaration in ../source/rtl/Display.v(418)
+HDL-5007 WARNING: identifier 'angle7_shell2_x0' is used before its declaration in ../source/rtl/Display.v(418)
+HDL-5007 WARNING: identifier 'angle7_shell2_x0' is used before its declaration in ../source/rtl/Display.v(418)
+HDL-5007 WARNING: identifier 'angle7_shell2_y0' is used before its declaration in ../source/rtl/Display.v(418)
+HDL-5007 WARNING: identifier 'angle7_shell2_y0' is used before its declaration in ../source/rtl/Display.v(418)
+HDL-5007 WARNING: identifier 'angle8_shell1_enable' is used before its declaration in ../source/rtl/Display.v(421)
+HDL-5007 WARNING: identifier 'angle8_shell1_x0' is used before its declaration in ../source/rtl/Display.v(421)
+HDL-5007 WARNING: identifier 'angle8_shell1_x0' is used before its declaration in ../source/rtl/Display.v(421)
+HDL-5007 WARNING: identifier 'angle8_shell1_y0' is used before its declaration in ../source/rtl/Display.v(421)
+HDL-5007 WARNING: identifier 'angle8_shell1_y0' is used before its declaration in ../source/rtl/Display.v(421)
+HDL-5007 WARNING: identifier 'angle8_shell2_enable' is used before its declaration in ../source/rtl/Display.v(422)
+HDL-5007 WARNING: identifier 'angle8_shell2_x0' is used before its declaration in ../source/rtl/Display.v(422)
+HDL-5007 WARNING: identifier 'angle8_shell2_x0' is used before its declaration in ../source/rtl/Display.v(422)
+HDL-5007 WARNING: identifier 'angle8_shell2_y0' is used before its declaration in ../source/rtl/Display.v(422)
+HDL-5007 WARNING: identifier 'angle8_shell2_y0' is used before its declaration in ../source/rtl/Display.v(422)
+HDL-5007 WARNING: identifier 'custom1_bird1dead' is used before its declaration in ../source/rtl/Display.v(426)
+HDL-5007 WARNING: identifier 'custom1_bird2dead' is used before its declaration in ../source/rtl/Display.v(427)
+HDL-5007 WARNING: identifier 'custom2_bird1dead' is used before its declaration in ../source/rtl/Display.v(430)
+HDL-5007 WARNING: identifier 'custom2_bird2dead' is used before its declaration in ../source/rtl/Display.v(431)
+HDL-5007 WARNING: identifier 'custom3_bird1dead' is used before its declaration in ../source/rtl/Display.v(434)
+HDL-5007 WARNING: identifier 'custom3_bird2dead' is used before its declaration in ../source/rtl/Display.v(435)
+HDL-5007 WARNING: identifier 'angle1_shell1_x0' is used before its declaration in ../source/rtl/Display.v(453)
+HDL-5007 WARNING: identifier 'angle1_shell1_y0' is used before its declaration in ../source/rtl/Display.v(453)
+HDL-5007 WARNING: identifier 'angle1_shell2_x0' is used before its declaration in ../source/rtl/Display.v(454)
+HDL-5007 WARNING: identifier 'angle1_shell2_y0' is used before its declaration in ../source/rtl/Display.v(454)
+HDL-5007 WARNING: identifier 'angle2_shell1_x0' is used before its declaration in ../source/rtl/Display.v(456)
+HDL-5007 WARNING: identifier 'angle2_shell1_y0' is used before its declaration in ../source/rtl/Display.v(456)
+HDL-5007 WARNING: identifier 'angle2_shell2_x0' is used before its declaration in ../source/rtl/Display.v(457)
+HDL-5007 WARNING: identifier 'angle2_shell2_y0' is used before its declaration in ../source/rtl/Display.v(457)
+HDL-5007 WARNING: identifier 'angle3_shell1_x0' is used before its declaration in ../source/rtl/Display.v(459)
+HDL-5007 WARNING: identifier 'angle3_shell1_y0' is used before its declaration in ../source/rtl/Display.v(459)
+HDL-5007 WARNING: identifier 'angle3_shell2_x0' is used before its declaration in ../source/rtl/Display.v(460)
+HDL-5007 WARNING: identifier 'angle3_shell2_y0' is used before its declaration in ../source/rtl/Display.v(460)
+HDL-5007 WARNING: identifier 'angle4_shell1_x0' is used before its declaration in ../source/rtl/Display.v(462)
+HDL-5007 WARNING: identifier 'angle4_shell1_y0' is used before its declaration in ../source/rtl/Display.v(462)
+HDL-5007 WARNING: identifier 'angle4_shell2_x0' is used before its declaration in ../source/rtl/Display.v(463)
+HDL-5007 WARNING: identifier 'angle4_shell2_y0' is used before its declaration in ../source/rtl/Display.v(463)
+HDL-5007 WARNING: identifier 'angle5_shell1_x0' is used before its declaration in ../source/rtl/Display.v(465)
+HDL-5007 WARNING: identifier 'angle5_shell1_y0' is used before its declaration in ../source/rtl/Display.v(465)
+HDL-5007 WARNING: identifier 'angle5_shell2_x0' is used before its declaration in ../source/rtl/Display.v(466)
+HDL-5007 WARNING: identifier 'angle5_shell2_y0' is used before its declaration in ../source/rtl/Display.v(466)
+HDL-5007 WARNING: identifier 'angle6_shell1_x0' is used before its declaration in ../source/rtl/Display.v(468)
+HDL-5007 WARNING: identifier 'angle6_shell1_y0' is used before its declaration in ../source/rtl/Display.v(468)
+HDL-5007 WARNING: identifier 'angle6_shell2_x0' is used before its declaration in ../source/rtl/Display.v(469)
+HDL-5007 WARNING: identifier 'angle6_shell2_y0' is used before its declaration in ../source/rtl/Display.v(469)
+HDL-5007 WARNING: identifier 'angle7_shell1_x0' is used before its declaration in ../source/rtl/Display.v(471)
+HDL-5007 WARNING: identifier 'angle7_shell1_y0' is used before its declaration in ../source/rtl/Display.v(471)
+HDL-5007 WARNING: identifier 'angle7_shell2_x0' is used before its declaration in ../source/rtl/Display.v(472)
+HDL-5007 WARNING: identifier 'angle7_shell2_y0' is used before its declaration in ../source/rtl/Display.v(472)
+HDL-5007 WARNING: identifier 'angle8_shell1_x0' is used before its declaration in ../source/rtl/Display.v(474)
+HDL-5007 WARNING: identifier 'angle8_shell1_y0' is used before its declaration in ../source/rtl/Display.v(474)
+HDL-5007 WARNING: identifier 'angle8_shell2_x0' is used before its declaration in ../source/rtl/Display.v(475)
+HDL-5007 WARNING: identifier 'angle8_shell2_y0' is used before its declaration in ../source/rtl/Display.v(475)
+HDL-5007 WARNING: identifier 'custom2_x_max' is used before its declaration in ../source/rtl/Display.v(901)
+HDL-5007 WARNING: identifier 'custom2_y_max' is used before its declaration in ../source/rtl/Display.v(901)
+HDL-5007 WARNING: identifier 'custom2_bird1dead' is used before its declaration in ../source/rtl/Display.v(901)
+HDL-5007 WARNING: identifier 'custom2_x_max' is used before its declaration in ../source/rtl/Display.v(914)
+HDL-5007 WARNING: identifier 'custom2_y_max' is used before its declaration in ../source/rtl/Display.v(914)
+HDL-5007 WARNING: identifier 'custom2_bird2dead' is used before its declaration in ../source/rtl/Display.v(914)
+HDL-5007 WARNING: identifier 'custom2_bird1dead' is used before its declaration in ../source/rtl/Display.v(923)
+HDL-5007 WARNING: identifier 'custom2_bird2dead' is used before its declaration in ../source/rtl/Display.v(923)
+HDL-1007 : analyze verilog file ../source/rtl/Driver.v
+HDL-1007 : analyze verilog file ../source/rtl/process.v
+HDL-1007 : analyze verilog file ../source/rtl/Top_Logic.v
+HDL-1007 : analyze verilog file ../al_ip/PLL.v
+HDL-1007 : analyze verilog file ../al_ip/sdram.v
+HDL-1007 : analyze verilog file ../al_ip/fifo/ramfifo.v
+HDL-1007 : analyze verilog file ../source/rtl/BGMPlayer.v
+HDL-5007 WARNING: identifier 'high' is used before its declaration in ../source/rtl/BGMPlayer.v(71)
+HDL-5007 WARNING: identifier 'med' is used before its declaration in ../source/rtl/BGMPlayer.v(71)
+HDL-5007 WARNING: identifier 'low' is used before its declaration in ../source/rtl/BGMPlayer.v(71)
+HDL-1007 : analyze verilog file ../al_ip/clk6Mhz.v
+HDL-1007 : analyze verilog file ../source/rtl/Sdram_Control_4Port/command.v
+HDL-1007 : analyze included file ../source/rtl/Sdram_Control_4Port/Sdram_Params.h in ../source/rtl/Sdram_Control_4Port/command.v(27)
+HDL-1007 : back to file '../source/rtl/Sdram_Control_4Port/command.v' in ../source/rtl/Sdram_Control_4Port/command.v(27)
+HDL-1007 : analyze verilog file ../source/rtl/Sdram_Control_4Port/control_interface.v
+HDL-1007 : analyze included file ../source/rtl/Sdram_Control_4Port/Sdram_Params.h in ../source/rtl/Sdram_Control_4Port/control_interface.v(21)
+HDL-1007 : back to file '../source/rtl/Sdram_Control_4Port/control_interface.v' in ../source/rtl/Sdram_Control_4Port/control_interface.v(21)
+HDL-1007 : analyze verilog file ../source/rtl/Sdram_Control_4Port/sdr_data_path.v
+HDL-1007 : analyze included file ../source/rtl/Sdram_Control_4Port/Sdram_Params.h in ../source/rtl/Sdram_Control_4Port/sdr_data_path.v(10)
+HDL-1007 : back to file '../source/rtl/Sdram_Control_4Port/sdr_data_path.v' in ../source/rtl/Sdram_Control_4Port/sdr_data_path.v(10)
+HDL-1007 : analyze verilog file ../source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v
+HDL-1007 : analyze included file ../source/rtl/Sdram_Control_4Port/Sdram_Params.h in ../source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v(49)
+HDL-1007 : back to file '../source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v' in ../source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v(49)
+HDL-1007 : analyze verilog file ../source/rtl/Sdram_Control_4Port/Sdram_RD_FIFO.v
+HDL-1007 : analyze verilog file ../source/rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v
+HDL-1007 : analyze verilog file ../al_ip/bram_256_1bit.v
+HDL-1007 : analyze verilog file ../al_ip/bram_256_8bit.v
+HDL-1007 : analyze verilog file ../al_ip/hdmi_pll.v
+HDL-1007 : analyze verilog file ../source/rtl/hdmi/asyn_rst_syn.v
+HDL-1007 : analyze verilog file ../source/rtl/hdmi/dvi_encoder.v
+HDL-1007 : analyze verilog file ../source/rtl/hdmi/dvi_transmitter_top.v
+HDL-1007 : analyze verilog file ../source/rtl/hdmi/hdmi_top.v
+HDL-5007 WARNING: redeclaration of ansi port 'hcnt' is not allowed in ../source/rtl/hdmi/hdmi_top.v(30)
+HDL-5007 WARNING: 'hcnt' was previously declared with a range in ../source/rtl/hdmi/hdmi_top.v(30)
+HDL-5007 WARNING: redeclaration of ansi port 'vcnt' is not allowed in ../source/rtl/hdmi/hdmi_top.v(31)
+HDL-5007 WARNING: 'vcnt' was previously declared with a range in ../source/rtl/hdmi/hdmi_top.v(31)
+HDL-1007 : analyze verilog file ../source/rtl/hdmi/serializer_10_to_1.v
+HDL-1007 : analyze verilog file ../al_ip/ddio_out.v
+HDL-1007 : analyze verilog file ../source/rtl/sd_ctrl_top/sd_init.v
+HDL-1007 : analyze verilog file ../source/rtl/sd_ctrl_top/sd_read.v
+HDL-1007 : analyze verilog file ../source/rtl/sd_ctrl_top/sd_write.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram_pingpang/fifo_ctrl.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram_pingpang/sdram_a_ref.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram_pingpang/sdram_arbit.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram_pingpang/sdram_ctrl.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram_pingpang/sdram_init.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram_pingpang/sdram_read.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram_pingpang/sdram_top.v
+HDL-1007 : analyze verilog file ../source/rtl/sdram_pingpang/sdram_write.v
+HDL-1007 : analyze verilog file ../source/rtl/sd_read_photo.v
+HDL-1007 : analyze verilog file ../source/rtl/sd_ctrl_top/sd_ctrl.v
+HDL-1007 : analyze verilog file ../source/rtl/camera_init_control.v
+HDL-1007 : analyze verilog file ../source/rtl/camera_rd_synchro.v
+HDL-1007 : analyze verilog file ../source/rtl/sdcard_rd_synchro.v
+HDL-1007 : analyze verilog file ../al_ip/double_mode.v
+HDL-1007 : analyze verilog file ../al_ip/method_mode.v
+HDL-1007 : analyze verilog file ../al_ip/custom1_bird1.v
+HDL-1007 : analyze verilog file ../al_ip/custom1_bird2.v
+HDL-1007 : analyze verilog file ../al_ip/custom2_bird1.v
+HDL-1007 : analyze verilog file ../al_ip/custom2_bird2.v
+HDL-1007 : analyze verilog file ../al_ip/single_mode.v
+HDL-1007 : analyze verilog file ../source/rtl/OV5640/cmos_capture_data.v
+HDL-1007 : analyze verilog file ../source/rtl/OV5640/i2c_dri.v
+HDL-1007 : analyze verilog file ../source/rtl/OV5640/i2c_ov5640_rgb565_cfg.v
+HDL-1007 : analyze verilog file ../al_ip/triangle.v
+HDL-1007 : analyze verilog file ../al_ip/shell.v
+HDL-1007 : analyze verilog file ../source/rtl/shell/shell_go.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/line_shift_ram_1bit.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/line_shift_ram_8bit.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/SQRT_CSDN.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/threshold_binary.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip.v
+HDL-5007 WARNING: redeclaration of ansi port 'sobel' is not allowed in ../source/rtl/Sobel_edge/vip.v(97)
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/VIP_Bit_Dilation_Detector.v
+HDL-5007 WARNING: identifier 'en' is used before its declaration in ../source/rtl/Sobel_edge/VIP_Bit_Dilation_Detector.v(117)
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/VIP_Bit_Erosion_Detector.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip_matrix_generate_3x3_1bit.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip_matrix_generate_3x3_8bit.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/VIP_RGB888_YCbCr444.v
+HDL-1007 : analyze verilog file ../source/rtl/Sobel_edge/vip_sobel_edge_detector.v
+HDL-1007 : analyze verilog file ../source/rtl/top_test/top.v
+RUN-1002 : start command "elaborate -top top"
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 :      infer_shifter      |    off     |       off        
+RUN-1001 :         map_dram        |    auto    |       auto       
+RUN-1001 : ------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      
+RUN-1001 :        elf_sload        |    off     |       off        
+RUN-1001 :       fix_undriven      |     0      |        0         
+RUN-1001 :         flatten         |    off     |       off        
+RUN-1001 :       gate_sharing      |     on     |        on        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        
+RUN-1001 :      impl_set_reset     |     on     |        on        
+RUN-1001 :        infer_gsr        |    off     |       off        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       
+RUN-1001 :        max_fanout       |    9999    |       9999       
+RUN-1001 :      max_oh2bin_len     |     10     |        10        
+RUN-1001 :       merge_equal       |     on     |        on        
+RUN-1001 :       merge_equiv       |     on     |        on        
+RUN-1001 :        merge_mux        |    off     |       off        
+RUN-1001 :      min_ce_fanout      |     16     |        16        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       
+RUN-1001 :     opt_adder_fanout    |     on     |        on        
+RUN-1001 :        opt_arith        |     on     |        on        
+RUN-1001 :       opt_big_gate      |    off     |       off        
+RUN-1001 :        opt_const        |     on     |        on        
+RUN-1001 :      opt_const_mult     |     on     |        on        
+RUN-1001 :       opt_lessthan      |     on     |        on        
+RUN-1001 :         opt_mux         |    off     |       off        
+RUN-1001 :         opt_ram         |    high    |       high       
+RUN-1001 :      rtl_sim_model      |    off     |       off        
+RUN-1001 :         seq_syn         |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        
+RUN-1001 :        syn_ip_flow       |    off     |       off        
+RUN-1001 :          thread          |    auto    |       auto       
+RUN-1001 : -------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 :      infer_shifter      |    off     |       off        
+RUN-1001 :         map_dram        |    auto    |       auto       
+RUN-1001 : ------------------------------------------------------
+HDL-5007 WARNING: port 'cancle_button' is not connected on this instance in ../source/rtl/top_test/top.v(62)
+HDL-5007 WARNING: port 'state_number' remains unconnected for this instance in ../source/rtl/top_test/top.v(62)
+HDL-1007 : elaborate module top in ../source/rtl/top_test/top.v(1)
+HDL-5007 WARNING: port 'rd_fifo_num' remains unconnected for this instance in ../source/rtl/AngryBird_Demo.v(240)
+HDL-1007 : elaborate module AngryBird_Demo in ../source/rtl/AngryBird_Demo.v(1)
+HDL-1007 : elaborate module pll in ../al_ip/PLL.v(24)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="40.000",FBCLK_DIV=25,CLKC0_DIV=20,CLKC1_DIV=10,CLKC2_DIV=10,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",FEEDBK_MODE="NOCOMP",STDBY_ENABLE="DISABLE",CLKC2_FPHASE=7,CLKC0_CPHASE=19,CLKC1_CPHASE=9,CLKC2_CPHASE=6,GMC_GAIN=4,ICP_CURRENT=13,KVCO=4,LPF_CAPACITOR=1,LPF_RESISTOR=4,SYNC_ENABLE="DISABLE") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(930)
+HDL-1007 : elaborate module hdmi_pll in ../al_ip/hdmi_pll.v(25)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="40.000",REFCLK_DIV=4,FBCLK_DIV=65,CLKC0_DIV=10,CLKC1_DIV=2,CLKC2_DIV=13,CLKC3_DIV=13,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",CLKC3_ENABLE="ENABLE",FEEDBK_MODE="NOCOMP",STDBY_ENABLE="DISABLE",CLKC3_FPHASE=4,CLKC0_CPHASE=9,CLKC2_CPHASE=12,CLKC3_CPHASE=5,GMC_GAIN=0,ICP_CURRENT=9,KVCO=2,LPF_CAPACITOR=2,LPF_RESISTOR=8,SYNC_ENABLE="DISABLE") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(930)
+HDL-1007 : elaborate module hdmi_top in ../source/rtl/hdmi/hdmi_top.v(1)
+HDL-1007 : elaborate module Driver in ../source/rtl/Driver.v(2)
+HDL-5007 WARNING: actual bit length 11 differs from formal bit length 12 for port 'lcd_xpos' in ../source/rtl/hdmi/hdmi_top.v(47)
+HDL-5007 WARNING: actual bit length 11 differs from formal bit length 12 for port 'lcd_ypos' in ../source/rtl/hdmi/hdmi_top.v(48)
+HDL-1007 : elaborate module dvi_transmitter_top in ../source/rtl/hdmi/dvi_transmitter_top.v(23)
+HDL-1007 : elaborate module asyn_rst_syn in ../source/rtl/hdmi/asyn_rst_syn.v(23)
+HDL-1007 : elaborate module dvi_encoder in ../source/rtl/hdmi/dvi_encoder.v(21)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(42)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(44)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(72)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(73)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(99)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(100)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(102)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(103)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(104)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(105)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(107)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(121)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(122)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(123)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(125)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(128)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(129)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(130)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(132)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(134)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(135)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(136)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(138)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(143)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(144)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(145)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(146)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../source/rtl/hdmi/dvi_encoder.v(149)
+HDL-1007 : elaborate module serializer_10_to_1 in ../source/rtl/hdmi/serializer_10_to_1.v(25)
+HDL-1007 : elaborate module ddio_out in ../al_ip/ddio_out.v(14)
+HDL-1007 : elaborate module EG_LOGIC_ODDR(ASYNCRST="DISABLE") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(87)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 16 for port 'lcd_data' in ../source/rtl/AngryBird_Demo.v(143)
+HDL-5007 WARNING: actual bit length 12 differs from formal bit length 11 for port 'lcd_xpos' in ../source/rtl/AngryBird_Demo.v(146)
+HDL-5007 WARNING: actual bit length 12 differs from formal bit length 11 for port 'lcd_ypos' in ../source/rtl/AngryBird_Demo.v(147)
+HDL-1007 : elaborate module sd_read_photo in ../source/rtl/sd_read_photo.v(1)
+HDL-5007 WARNING: actual bit length 23 differs from formal bit length 24 for port 'sdram_max_addr' in ../source/rtl/AngryBird_Demo.v(182)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 16 for port 'sd_sec_num' in ../source/rtl/AngryBird_Demo.v(183)
+HDL-1007 : elaborate module sd_ctrl in ../source/rtl/sd_ctrl_top/sd_ctrl.v(2)
+HDL-1007 : elaborate module sd_init in ../source/rtl/sd_ctrl_top/sd_init.v(20)
+HDL-1007 : elaborate module sd_write in ../source/rtl/sd_ctrl_top/sd_write.v(20)
+HDL-1007 : elaborate module sd_read in ../source/rtl/sd_ctrl_top/sd_read.v(20)
+HDL-1007 : elaborate module etr_sdram_top in ../source/rtl/sdram_pingpang/sdram_top.v(20)
+HDL-1007 : elaborate module etr_fifo_ctrl in ../source/rtl/sdram_pingpang/fifo_ctrl.v(20)
+HDL-1007 : elaborate module EG_LOGIC_RAMFIFO(DATA_WIDTH=16,ADDR_WIDTH=10,SHOWAHEAD=1) in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(792)
+HDL-5007 WARNING: actual bit length 10 differs from formal bit length 11 for port 'rdusedw' in ../source/rtl/sdram_pingpang/fifo_ctrl.v(223)
+HDL-5007 WARNING: actual bit length 10 differs from formal bit length 11 for port 'wrusedw' in ../source/rtl/sdram_pingpang/fifo_ctrl.v(244)
+HDL-1007 : elaborate module etr_sdram_ctrl in ../source/rtl/sdram_pingpang/sdram_ctrl.v(19)
+HDL-1007 : elaborate module etr_sdram_init in ../source/rtl/sdram_pingpang/sdram_init.v(20)
+HDL-1007 : elaborate module etr_sdram_arbit in ../source/rtl/sdram_pingpang/sdram_arbit.v(20)
+HDL-1007 : elaborate module etr_sdram_a_ref in ../source/rtl/sdram_pingpang/sdram_a_ref.v(20)
+HDL-1007 : elaborate module etr_sdram_write in ../source/rtl/sdram_pingpang/sdram_write.v(20)
+HDL-1007 : elaborate module etr_sdram_read in ../source/rtl/sdram_pingpang/sdram_read.v(20)
+HDL-1007 : elaborate module sdcard_rd_synchro in ../source/rtl/sdcard_rd_synchro.v(1)
+HDL-1007 : elaborate module Display in ../source/rtl/Display.v(2)
+HDL-5007 WARNING: using initial value of 'custom2_right_edge' since it is never assigned in ../source/rtl/Display.v(1612)
+HDL-1007 : elaborate module custom1_bird1 in ../al_ip/custom1_bird1.v(3)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=16,DATA_WIDTH_B=16,ADDR_WIDTH_A=11,ADDR_WIDTH_B=11,DATA_DEPTH_A=2025,DATA_DEPTH_B=2025,MODE="SP",INIT_FILE="../mif/custom1_bird1.mif",IMPLEMENT="9K(FAST)") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(1032)
+HDL-1007 : elaborate module custom1_bird2 in ../al_ip/custom1_bird2.v(3)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=16,DATA_WIDTH_B=16,ADDR_WIDTH_A=11,ADDR_WIDTH_B=11,DATA_DEPTH_A=2025,DATA_DEPTH_B=2025,MODE="SP",INIT_FILE="../mif/custom1_bird2.mif",IMPLEMENT="9K(FAST)") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(1032)
+HDL-1007 : elaborate module custom2_bird1 in ../al_ip/custom2_bird1.v(3)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=16,DATA_WIDTH_B=16,ADDR_WIDTH_B=10,DATA_DEPTH_A=900,DATA_DEPTH_B=900,MODE="SP",INIT_FILE="../mif/custom2_bird1.mif",IMPLEMENT="9K(FAST)") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(1032)
+HDL-1007 : elaborate module custom2_bird2 in ../al_ip/custom2_bird2.v(3)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=16,DATA_WIDTH_B=16,ADDR_WIDTH_B=10,DATA_DEPTH_A=900,DATA_DEPTH_B=900,MODE="SP",INIT_FILE="../mif/custom2_bird2.mif",IMPLEMENT="9K(FAST)") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(1032)
+HDL-1007 : elaborate module single_mode in ../al_ip/single_mode.v(2)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=16,DATA_WIDTH_B=16,ADDR_WIDTH_A=13,ADDR_WIDTH_B=13,DATA_DEPTH_A=8100,DATA_DEPTH_B=8100,MODE="SP",INIT_FILE="../mif/single.mif",IMPLEMENT="32K") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(1032)
+HDL-1007 : elaborate module double_mode in ../al_ip/double_mode.v(2)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=16,DATA_WIDTH_B=16,ADDR_WIDTH_A=13,ADDR_WIDTH_B=13,DATA_DEPTH_A=8100,DATA_DEPTH_B=8100,MODE="SP",INIT_FILE="../mif/double.mif",IMPLEMENT="32K") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(1032)
+HDL-1007 : elaborate module method_mode in ../al_ip/method_mode.v(2)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=16,DATA_WIDTH_B=16,ADDR_WIDTH_A=13,ADDR_WIDTH_B=13,DATA_DEPTH_A=8100,DATA_DEPTH_B=8100,MODE="SP",INIT_FILE="../mif/method.mif",IMPLEMENT="32K") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(1032)
+HDL-1007 : elaborate module triangle in ../al_ip/triangle.v(3)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=16,DATA_WIDTH_B=16,ADDR_WIDTH_B=10,DATA_DEPTH_A=990,DATA_DEPTH_B=990,MODE="SP",INIT_FILE="../mif/triangle.mif",IMPLEMENT="9K(FAST)") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(1032)
+HDL-1007 : elaborate module custom3_shell in ../al_ip/shell.v(3)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=16,DATA_WIDTH_B=16,ADDR_WIDTH_A=11,ADDR_WIDTH_B=11,DATA_DEPTH_A=1600,DATA_DEPTH_B=1600,MODE="SP",INIT_FILE="../mif/shell.mif",IMPLEMENT="32K") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(1032)
+HDL-1007 : elaborate module process in ../source/rtl/process.v(2)
+HDL-5007 WARNING: actual bit length 12 differs from formal bit length 11 for port 'x_pos' in ../source/rtl/Display.v(995)
+HDL-5007 WARNING: actual bit length 12 differs from formal bit length 11 for port 'y_pos' in ../source/rtl/Display.v(996)
+HDL-5007 WARNING: 'state_number' should be on the sensitivity list in ../source/rtl/Display.v(1633)
+HDL-5007 WARNING: 'singlebutton_en' should be on the sensitivity list in ../source/rtl/Display.v(1636)
+HDL-5007 WARNING: 'singlebutton_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1637)
+HDL-5007 WARNING: 'doublebutton_en' should be on the sensitivity list in ../source/rtl/Display.v(1638)
+HDL-5007 WARNING: 'doublebutton_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1639)
+HDL-5007 WARNING: 'methodbutton_en' should be on the sensitivity list in ../source/rtl/Display.v(1640)
+HDL-5007 WARNING: 'methodbutton_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1641)
+HDL-5007 WARNING: 'background_en' should be on the sensitivity list in ../source/rtl/Display.v(1642)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1643)
+HDL-5007 WARNING: 'background_en' should be on the sensitivity list in ../source/rtl/Display.v(1648)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1649)
+HDL-5007 WARNING: 'camera_en' should be on the sensitivity list in ../source/rtl/Display.v(1655)
+HDL-5007 WARNING: 'camera_data' should be on the sensitivity list in ../source/rtl/Display.v(1656)
+HDL-5007 WARNING: 'custom1_bird1_en' should be on the sensitivity list in ../source/rtl/Display.v(1657)
+HDL-5007 WARNING: 'custom1_3_bird1_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1657)
+HDL-5007 WARNING: 'custom1_3_bird1_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1658)
+HDL-5007 WARNING: 'custom1_bird2_en' should be on the sensitivity list in ../source/rtl/Display.v(1659)
+HDL-5007 WARNING: 'custom1_3_bird2_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1659)
+HDL-5007 WARNING: 'custom1_3_bird2_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1660)
+HDL-5007 WARNING: 'Obstacle_01_en' should be on the sensitivity list in ../source/rtl/Display.v(1661)
+HDL-5007 WARNING: 'Obstacle_02_en' should be on the sensitivity list in ../source/rtl/Display.v(1663)
+HDL-5007 WARNING: 'Obstacle_03_en' should be on the sensitivity list in ../source/rtl/Display.v(1665)
+HDL-5007 WARNING: 'background_en' should be on the sensitivity list in ../source/rtl/Display.v(1667)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1668)
+HDL-5007 WARNING: 'custom2_bird1_en' should be on the sensitivity list in ../source/rtl/Display.v(1674)
+HDL-5007 WARNING: 'custom2_bird1_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1674)
+HDL-5007 WARNING: 'custom2_bird1_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1675)
+HDL-5007 WARNING: 'custom2_bird2_en' should be on the sensitivity list in ../source/rtl/Display.v(1676)
+HDL-5007 WARNING: 'custom2_bird2_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1676)
+HDL-5007 WARNING: 'custom2_bird2_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1677)
+HDL-5007 WARNING: 'sobel_en' should be on the sensitivity list in ../source/rtl/Display.v(1678)
+HDL-5007 WARNING: 'camera_data' should be on the sensitivity list in ../source/rtl/Display.v(1679)
+HDL-5007 WARNING: 'background_en' should be on the sensitivity list in ../source/rtl/Display.v(1681)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1682)
+HDL-5007 WARNING: 'custom3_bird1_en' should be on the sensitivity list in ../source/rtl/Display.v(1688)
+HDL-5007 WARNING: 'custom1_3_bird1_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1688)
+HDL-5007 WARNING: 'custom1_3_bird1_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1689)
+HDL-5007 WARNING: 'custom3_bird2_en' should be on the sensitivity list in ../source/rtl/Display.v(1690)
+HDL-5007 WARNING: 'custom1_3_bird2_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1690)
+HDL-5007 WARNING: 'custom1_3_bird2_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1691)
+HDL-5007 WARNING: 'angle1_shell1_en' should be on the sensitivity list in ../source/rtl/Display.v(1692)
+HDL-5007 WARNING: 'all_shell_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1692)
+HDL-5007 WARNING: 'all_shell_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1693)
+HDL-5007 WARNING: 'angle1_shell2_en' should be on the sensitivity list in ../source/rtl/Display.v(1694)
+HDL-5007 WARNING: 'all_shell_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1694)
+HDL-5007 WARNING: 'all_shell_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1695)
+HDL-5007 WARNING: 'angle2_shell1_en' should be on the sensitivity list in ../source/rtl/Display.v(1696)
+HDL-5007 WARNING: 'all_shell_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1696)
+HDL-5007 WARNING: 'all_shell_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1697)
+HDL-5007 WARNING: 'angle2_shell2_en' should be on the sensitivity list in ../source/rtl/Display.v(1698)
+HDL-5007 WARNING: 'all_shell_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1698)
+HDL-5007 WARNING: 'all_shell_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1699)
+HDL-5007 WARNING: 'angle3_shell1_en' should be on the sensitivity list in ../source/rtl/Display.v(1700)
+HDL-5007 WARNING: 'all_shell_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1700)
+HDL-5007 WARNING: 'all_shell_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1701)
+HDL-5007 WARNING: 'angle3_shell2_en' should be on the sensitivity list in ../source/rtl/Display.v(1702)
+HDL-5007 WARNING: 'all_shell_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1702)
+HDL-5007 WARNING: 'all_shell_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1703)
+HDL-5007 WARNING: 'angle4_shell1_en' should be on the sensitivity list in ../source/rtl/Display.v(1704)
+HDL-5007 WARNING: 'all_shell_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1704)
+HDL-5007 WARNING: 'all_shell_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1705)
+HDL-5007 WARNING: 'angle4_shell2_en' should be on the sensitivity list in ../source/rtl/Display.v(1706)
+HDL-5007 WARNING: 'all_shell_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1706)
+HDL-5007 WARNING: 'all_shell_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1707)
+HDL-5007 WARNING: 'angle5_shell1_en' should be on the sensitivity list in ../source/rtl/Display.v(1708)
+HDL-5007 WARNING: 'all_shell_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1708)
+HDL-5007 WARNING: 'all_shell_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1709)
+HDL-5007 WARNING: 'angle5_shell2_en' should be on the sensitivity list in ../source/rtl/Display.v(1710)
+HDL-5007 WARNING: 'all_shell_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1710)
+HDL-5007 WARNING: 'all_shell_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1711)
+HDL-5007 WARNING: 'angle6_shell1_en' should be on the sensitivity list in ../source/rtl/Display.v(1712)
+HDL-5007 WARNING: 'all_shell_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1712)
+HDL-5007 WARNING: 'all_shell_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1713)
+HDL-5007 WARNING: 'angle6_shell2_en' should be on the sensitivity list in ../source/rtl/Display.v(1714)
+HDL-5007 WARNING: 'all_shell_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1714)
+HDL-5007 WARNING: 'all_shell_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1715)
+HDL-5007 WARNING: 'angle7_shell1_en' should be on the sensitivity list in ../source/rtl/Display.v(1716)
+HDL-5007 WARNING: 'all_shell_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1716)
+HDL-5007 WARNING: 'all_shell_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1717)
+HDL-5007 WARNING: 'angle7_shell2_en' should be on the sensitivity list in ../source/rtl/Display.v(1718)
+HDL-5007 WARNING: 'all_shell_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1718)
+HDL-5007 WARNING: 'all_shell_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1719)
+HDL-5007 WARNING: 'angle8_shell1_en' should be on the sensitivity list in ../source/rtl/Display.v(1720)
+HDL-5007 WARNING: 'all_shell_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1720)
+HDL-5007 WARNING: 'all_shell_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1721)
+HDL-5007 WARNING: 'angle8_shell2_en' should be on the sensitivity list in ../source/rtl/Display.v(1722)
+HDL-5007 WARNING: 'all_shell_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1722)
+HDL-5007 WARNING: 'all_shell_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1723)
+HDL-5007 WARNING: 'background_en' should be on the sensitivity list in ../source/rtl/Display.v(1724)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1725)
+HDL-5007 WARNING: 'background_en' should be on the sensitivity list in ../source/rtl/Display.v(1730)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1731)
+HDL-5007 WARNING: 'trianglebutton_en' should be on the sensitivity list in ../source/rtl/Display.v(1737)
+HDL-5007 WARNING: 'trianglebutton_rom_data' should be on the sensitivity list in ../source/rtl/Display.v(1738)
+HDL-5007 WARNING: 'background_en' should be on the sensitivity list in ../source/rtl/Display.v(1739)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1740)
+HDL-5007 WARNING: 'background_en' should be on the sensitivity list in ../source/rtl/Display.v(1746)
+HDL-5007 WARNING: 'background_data' should be on the sensitivity list in ../source/rtl/Display.v(1747)
+HDL-5007 WARNING: net 'custom1_bird1_rom_data[15]' does not have a driver in ../source/rtl/Display.v(129)
+HDL-5007 WARNING: net 'custom1_bird2_rom_data[15]' does not have a driver in ../source/rtl/Display.v(130)
+HDL-5007 WARNING: net 'custom3_bird1_rom_data[15]' does not have a driver in ../source/rtl/Display.v(133)
+HDL-5007 WARNING: net 'custom3_bird2_rom_data[15]' does not have a driver in ../source/rtl/Display.v(134)
+HDL-5007 WARNING: net 'angle1_shell1_enable' does not have a driver in ../source/rtl/Display.v(591)
+HDL-5007 WARNING: net 'angle1_shell2_enable' does not have a driver in ../source/rtl/Display.v(592)
+HDL-5007 WARNING: net 'angle1_shell1_x0[10]' does not have a driver in ../source/rtl/Display.v(593)
+HDL-5007 WARNING: net 'angle1_shell1_y0[10]' does not have a driver in ../source/rtl/Display.v(594)
+HDL-5007 WARNING: net 'angle1_shell2_x0[10]' does not have a driver in ../source/rtl/Display.v(595)
+HDL-5007 WARNING: net 'angle1_shell2_y0[10]' does not have a driver in ../source/rtl/Display.v(596)
+HDL-5007 WARNING: net 'angle2_shell1_enable' does not have a driver in ../source/rtl/Display.v(598)
+HDL-5007 WARNING: net 'angle2_shell2_enable' does not have a driver in ../source/rtl/Display.v(599)
+HDL-5007 WARNING: net 'angle2_shell1_x0[10]' does not have a driver in ../source/rtl/Display.v(600)
+HDL-5007 WARNING: net 'angle2_shell1_y0[10]' does not have a driver in ../source/rtl/Display.v(601)
+HDL-5007 WARNING: net 'angle2_shell2_x0[10]' does not have a driver in ../source/rtl/Display.v(602)
+HDL-5007 WARNING: net 'angle2_shell2_y0[10]' does not have a driver in ../source/rtl/Display.v(603)
+HDL-5007 WARNING: net 'angle3_shell1_enable' does not have a driver in ../source/rtl/Display.v(605)
+HDL-5007 WARNING: net 'angle3_shell2_enable' does not have a driver in ../source/rtl/Display.v(606)
+HDL-5007 WARNING: net 'angle3_shell1_x0[10]' does not have a driver in ../source/rtl/Display.v(607)
+HDL-5007 WARNING: net 'angle3_shell1_y0[10]' does not have a driver in ../source/rtl/Display.v(608)
+HDL-5007 WARNING: net 'angle3_shell2_x0[10]' does not have a driver in ../source/rtl/Display.v(609)
+HDL-5007 WARNING: net 'angle3_shell2_y0[10]' does not have a driver in ../source/rtl/Display.v(610)
+HDL-5007 WARNING: net 'angle4_shell1_enable' does not have a driver in ../source/rtl/Display.v(612)
+HDL-5007 WARNING: net 'angle4_shell2_enable' does not have a driver in ../source/rtl/Display.v(613)
+HDL-5007 WARNING: net 'angle4_shell1_x0[10]' does not have a driver in ../source/rtl/Display.v(614)
+HDL-5007 WARNING: net 'angle4_shell1_y0[10]' does not have a driver in ../source/rtl/Display.v(615)
+HDL-5007 WARNING: net 'angle4_shell2_x0[10]' does not have a driver in ../source/rtl/Display.v(616)
+HDL-5007 WARNING: net 'angle4_shell2_y0[10]' does not have a driver in ../source/rtl/Display.v(617)
+HDL-5007 WARNING: net 'angle5_shell1_enable' does not have a driver in ../source/rtl/Display.v(619)
+HDL-5007 WARNING: net 'angle5_shell2_enable' does not have a driver in ../source/rtl/Display.v(620)
+HDL-5007 WARNING: net 'angle5_shell1_x0[10]' does not have a driver in ../source/rtl/Display.v(621)
+HDL-5007 WARNING: net 'angle5_shell1_y0[10]' does not have a driver in ../source/rtl/Display.v(622)
+HDL-5007 WARNING: net 'angle5_shell2_x0[10]' does not have a driver in ../source/rtl/Display.v(623)
+HDL-5007 WARNING: net 'angle5_shell2_y0[10]' does not have a driver in ../source/rtl/Display.v(624)
+HDL-5007 WARNING: net 'angle6_shell1_enable' does not have a driver in ../source/rtl/Display.v(626)
+HDL-5007 WARNING: net 'angle6_shell2_enable' does not have a driver in ../source/rtl/Display.v(627)
+HDL-5007 WARNING: net 'angle6_shell1_x0[10]' does not have a driver in ../source/rtl/Display.v(628)
+HDL-5007 WARNING: net 'angle6_shell1_y0[10]' does not have a driver in ../source/rtl/Display.v(629)
+HDL-5007 WARNING: net 'angle6_shell2_x0[10]' does not have a driver in ../source/rtl/Display.v(630)
+HDL-5007 WARNING: net 'angle6_shell2_y0[10]' does not have a driver in ../source/rtl/Display.v(631)
+HDL-5007 WARNING: net 'angle7_shell1_enable' does not have a driver in ../source/rtl/Display.v(633)
+HDL-5007 WARNING: net 'angle7_shell2_enable' does not have a driver in ../source/rtl/Display.v(634)
+HDL-5007 WARNING: net 'angle7_shell1_x0[10]' does not have a driver in ../source/rtl/Display.v(635)
+HDL-5007 WARNING: net 'angle7_shell1_y0[10]' does not have a driver in ../source/rtl/Display.v(636)
+HDL-5007 WARNING: net 'angle7_shell2_x0[10]' does not have a driver in ../source/rtl/Display.v(637)
+HDL-5007 WARNING: net 'angle7_shell2_y0[10]' does not have a driver in ../source/rtl/Display.v(638)
+HDL-5007 WARNING: net 'angle8_shell1_enable' does not have a driver in ../source/rtl/Display.v(640)
+HDL-5007 WARNING: net 'angle8_shell2_enable' does not have a driver in ../source/rtl/Display.v(641)
+HDL-5007 WARNING: net 'angle8_shell1_x0[10]' does not have a driver in ../source/rtl/Display.v(642)
+HDL-5007 WARNING: net 'angle8_shell1_y0[10]' does not have a driver in ../source/rtl/Display.v(643)
+HDL-5007 WARNING: net 'angle8_shell2_x0[10]' does not have a driver in ../source/rtl/Display.v(644)
+HDL-5007 WARNING: net 'angle8_shell2_y0[10]' does not have a driver in ../source/rtl/Display.v(645)
+HDL-5007 WARNING: net 'custom3_score[7]' does not have a driver in ../source/rtl/Display.v(647)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 16 for port 'lcd_data' in ../source/rtl/AngryBird_Demo.v(340)
+HDL-1007 : elaborate module Top_logic in ../source/rtl/Top_Logic.v(3)
+HDL-1007 : elaborate module i2c_ov5640_rgb565_cfg in ../source/rtl/OV5640/i2c_ov5640_rgb565_cfg.v(22)
+HDL-1007 : elaborate module i2c_dri(SLAVE_ADDR=7'b0111100) in ../source/rtl/OV5640/i2c_dri.v(22)
+HDL-1007 : elaborate module cmos_capture_data in ../source/rtl/OV5640/cmos_capture_data.v(23)
+HDL-1007 : elaborate module vip in ../source/rtl/Sobel_edge/vip.v(1)
+HDL-1007 : elaborate module VIP_RGB888_YCbCr444 in ../source/rtl/Sobel_edge/VIP_RGB888_YCbCr444.v(2)
+HDL-1007 : elaborate module threshold_binary(CB_TH=240,CB_TL=16,CR_TL=16) in ../source/rtl/Sobel_edge/threshold_binary.v(2)
+HDL-1007 : elaborate module vip_sobel_edge_detector in ../source/rtl/Sobel_edge/vip_sobel_edge_detector.v(1)
+HDL-1007 : elaborate module vip_matrix_generate_3x3_8bit in ../source/rtl/Sobel_edge/vip_matrix_generate_3x3_8bit.v(1)
+HDL-1007 : elaborate module line_shift_ram_8bit in ../source/rtl/Sobel_edge/line_shift_ram_8bit.v(1)
+HDL-1007 : elaborate module bram_256_8bit in ../al_ip/bram_256_8bit.v(14)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=8,DATA_WIDTH_B=8,ADDR_WIDTH_B=10,DATA_DEPTH_A=1024,DATA_DEPTH_B=1024,MODE="PDPW") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(1032)
+HDL-1007 : elaborate module VIP_Bit_Erosion_Detector in ../source/rtl/Sobel_edge/VIP_Bit_Erosion_Detector.v(2)
+HDL-1007 : elaborate module vip_matrix_generate_3x3_1bit in ../source/rtl/Sobel_edge/vip_matrix_generate_3x3_1bit.v(1)
+HDL-1007 : elaborate module line_shift_ram_1bit in ../source/rtl/Sobel_edge/line_shift_ram_1bit.v(1)
+HDL-1007 : elaborate module bram_256_1bit in ../al_ip/bram_256_1bit.v(14)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=1,DATA_WIDTH_B=1,ADDR_WIDTH_B=10,DATA_DEPTH_A=1024,DATA_DEPTH_B=1024,MODE="PDPW") in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(1032)
+HDL-1007 : elaborate module VIP_Bit_Dilation_Detector in ../source/rtl/Sobel_edge/VIP_Bit_Dilation_Detector.v(2)
+HDL-1007 : elaborate module camera_init_control in ../source/rtl/camera_init_control.v(1)
+HDL-5007 WARNING: port 'INIT_ACK' is not connected on this instance in ../source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v(163)
+HDL-1007 : elaborate module Sdram_Control_4Port in ../source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v(1)
+HDL-1007 : elaborate module control_interface in ../source/rtl/Sdram_Control_4Port/control_interface.v(1)
+HDL-5007 WARNING: actual bit length 2 differs from formal bit length 3 for port 'CMD' in ../source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v(166)
+HDL-1007 : elaborate module command in ../source/rtl/Sdram_Control_4Port/command.v(1)
+HDL-1007 : elaborate module sdr_data_path in ../source/rtl/Sdram_Control_4Port/sdr_data_path.v(1)
+HDL-1007 : elaborate module Sdram_WR_FIFO in ../source/rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v(39)
+HDL-1007 : elaborate module ramfifo in ../al_ip/fifo/ramfifo.v(14)
+HDL-1007 : elaborate module EG_LOGIC_RAMFIFO(DATA_WIDTH=16,ADDR_WIDTH=10) in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(792)
+HDL-5007 WARNING: actual bit length 16 differs from formal bit length 11 for port 'wrusedw' in ../source/rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v(90)
+HDL-5007 WARNING: actual bit length 16 differs from formal bit length 11 for port 'rdusedw' in ../source/rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v(95)
+HDL-1007 : elaborate module Sdram_RD_FIFO in ../source/rtl/Sdram_Control_4Port/Sdram_RD_FIFO.v(39)
+HDL-5007 WARNING: actual bit length 16 differs from formal bit length 11 for port 'wrusedw' in ../source/rtl/Sdram_Control_4Port/Sdram_RD_FIFO.v(90)
+HDL-5007 WARNING: actual bit length 16 differs from formal bit length 11 for port 'rdusedw' in ../source/rtl/Sdram_Control_4Port/Sdram_RD_FIFO.v(95)
+HDL-1007 : elaborate module sdram in ../al_ip/sdram.v(14)
+HDL-1007 : elaborate module EG_PHY_SDRAM_2M_32 in E:/fpgadream/Anlogic_TD/arch/eagle_macro.v(720)
+HDL-5007 WARNING: input port 'INIT_ACK' is not connected on this instance in ../source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v(163)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 21 for port 'WR1_ADDR' in ../source/rtl/AngryBird_Demo.v(544)
+HDL-5007 WARNING: actual bit length 23 differs from formal bit length 21 for port 'WR1_MAX_ADDR' in ../source/rtl/AngryBird_Demo.v(545)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 21 for port 'RD1_ADDR' in ../source/rtl/AngryBird_Demo.v(564)
+HDL-5007 WARNING: actual bit length 23 differs from formal bit length 21 for port 'RD1_MAX_ADDR' in ../source/rtl/AngryBird_Demo.v(565)
+HDL-1007 : elaborate module camera_rd_synchro in ../source/rtl/camera_rd_synchro.v(1)
+HDL-5007 WARNING: input port 'WR2_DATA[15]' remains unconnected for this instance in ../source/rtl/AngryBird_Demo.v(535)
+HDL-5007 WARNING: input port 'cancle_button' remains unconnected for this instance in ../source/rtl/top_test/top.v(62)
+HDL-1200 : Current top model is top
+HDL-1100 : Inferred 0 RAMs.
+RUN-1002 : start command "download -bit flybird.bit -mode jtag -spd 6 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag -bit flybird.bit"
+PRG-3000 : BIT2VEC::JtagBitstream: completed! line_num = 1312, frame_num = 1259
+RUN-1003 : finish command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag -bit flybird.bit" in  1.205615s wall, 1.171875s user + 0.312500s system = 1.484375s CPU (123.1%)
+
+RUN-1004 : used memory is 741 MB, reserved memory is 1306 MB, peak memory is 2326 MB
+RUN-1002 : start command "program -cable 0 -spd 6 -p"
+RUN-1003 : finish command "program -cable 0 -spd 6 -p" in  6.885362s wall, 0.671875s user + 1.953125s system = 2.625000s CPU (38.1%)
+
+RUN-1004 : used memory is 769 MB, reserved memory is 1314 MB, peak memory is 2326 MB
+RUN-1003 : finish command "download -bit flybird.bit -mode jtag -spd 6 -sec 64 -cable 0" in  9.002140s wall, 1.984375s user + 2.546875s system = 4.531250s CPU (50.3%)
+
+RUN-1004 : used memory is 727 MB, reserved memory is 1272 MB, peak memory is 2326 MB
+GUI-1001 : Download success!
+RUN-1002 : start command "download -bit flybird.bit -mode jtag -spd 6 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag -bit flybird.bit"
+PRG-3000 : BIT2VEC::JtagBitstream: completed! line_num = 1312, frame_num = 1259
+RUN-1003 : finish command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag -bit flybird.bit" in  1.192507s wall, 1.187500s user + 0.281250s system = 1.468750s CPU (123.2%)
+
+RUN-1004 : used memory is 758 MB, reserved memory is 1302 MB, peak memory is 2326 MB
+RUN-1002 : start command "program -cable 0 -spd 6 -p"
+RUN-1003 : finish command "program -cable 0 -spd 6 -p" in  6.947775s wall, 0.578125s user + 1.828125s system = 2.406250s CPU (34.6%)
+
+RUN-1004 : used memory is 767 MB, reserved memory is 1311 MB, peak memory is 2326 MB
+RUN-1003 : finish command "download -bit flybird.bit -mode jtag -spd 6 -sec 64 -cable 0" in  9.047541s wall, 1.906250s user + 2.343750s system = 4.250000s CPU (47.0%)
+
+RUN-1004 : used memory is 725 MB, reserved memory is 1269 MB, peak memory is 2326 MB
+GUI-1001 : Download success!

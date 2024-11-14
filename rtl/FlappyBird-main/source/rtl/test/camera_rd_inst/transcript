@@ -1,0 +1,43 @@
+# Reading E:/fpgadream/ModelSim_SE/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# OpenFile E:/_CM0_Soc/Cortex-M0/rtl/FlappyBird-main/source/rtl/test/camera_rd_inst/test.mpf
+# Loading project test
+# Compile of camera_rd_test.v was successful.
+# Compile of camera_rd_synchro.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.synchro_test
+# vsim -voptargs="+acc" work.synchro_test 
+# Start time: 20:07:32 on Jun 16,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.synchro_test(fast)
+# Loading work.camera_rd_synchro(fast)
+add wave -position insertpoint sim:/synchro_test/camera_rd_synchro_inst/*
+run
+# Compile of camera_rd_test.v was successful.
+# Compile of camera_rd_synchro.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.synchro_test
+# End time: 20:19:55 on Jun 16,2023, Elapsed time: 0:12:23
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.synchro_test 
+# Start time: 20:19:55 on Jun 16,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.synchro_test(fast)
+# Loading work.camera_rd_synchro(fast)
+add wave -position insertpoint sim:/synchro_test/camera_rd_synchro_inst/*
+run
+run
+# End time: 22:33:24 on Jun 16,2023, Elapsed time: 2:13:29
+# Errors: 0, Warnings: 0

@@ -1,0 +1,15 @@
+E:/_CM0_Soc/Cortex-M0/rtl/FlappyBird-main/source/rtl/test/camera_init_test/test.v {1 {vlog -work work -vopt -stats=none E:/_CM0_Soc/Cortex-M0/rtl/FlappyBird-main/source/rtl/test/camera_init_test/test.v
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}} E:/_CM0_Soc/Cortex-M0/rtl/FlappyBird-main/source/rtl/test/camera_init_test/camera_init_control.v {1 {vlog -work work -vopt -stats=none E:/_CM0_Soc/Cortex-M0/rtl/FlappyBird-main/source/rtl/test/camera_init_test/camera_init_control.v
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module camera_init_control
+
+Top level modules:
+	camera_init_control
+
+} {} {}}

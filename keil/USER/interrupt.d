@@ -1,0 +1,9 @@
+.\interrupt.o: ..\HARDWARE\interrupt.c
+.\interrupt.o: ..\HARDWARE\interrupt.h
+.\interrupt.o: ..\FWLIB\inc\CMSDK_CM0.h
+.\interrupt.o: ..\CORE\core_cm0.h
+.\interrupt.o: E:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\interrupt.o: ..\CORE\core_cmInstr.h
+.\interrupt.o: ..\CORE\core_cmFunc.h
+.\interrupt.o: ..\FWLIB\inc\system_CMSDK_CM0.h
+.\interrupt.o: ..\FWLIB\cm0_gpio.h

@@ -1,0 +1,9 @@
+.\voice.o: ..\HARDWARE\voice.c
+.\voice.o: ..\HARDWARE\voice.h
+.\voice.o: ..\FWLIB\simple_timer.h
+.\voice.o: ..\FWLIB\inc\CMSDK_CM0.h
+.\voice.o: ..\CORE\core_cm0.h
+.\voice.o: E:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\voice.o: ..\CORE\core_cmInstr.h
+.\voice.o: ..\CORE\core_cmFunc.h
+.\voice.o: ..\FWLIB\inc\system_CMSDK_CM0.h

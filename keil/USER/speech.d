@@ -1,0 +1,17 @@
+.\speech.o: ..\HARDWARE\speech.c
+.\speech.o: ..\HARDWARE\speech.h
+.\speech.o: ..\FWLIB\inc\CMSDK_CM0.h
+.\speech.o: ..\CORE\core_cm0.h
+.\speech.o: E:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\speech.o: ..\CORE\core_cmInstr.h
+.\speech.o: ..\CORE\core_cmFunc.h
+.\speech.o: ..\FWLIB\inc\system_CMSDK_CM0.h
+.\speech.o: ..\Games\flybird.h
+.\speech.o: ..\System\Systick.h
+.\speech.o: ..\HARDWARE\Handcontroller.h
+.\speech.o: ..\FWLIB\cm0_gpio.h
+.\speech.o: ..\HARDWARE\IMU.h
+.\speech.o: ..\FWLIB\cm0_uart.h
+.\speech.o: ..\Games\flybird.h
+.\speech.o: ..\HARDWARE\microphone.h
+.\speech.o: ..\HARDWARE\music.h

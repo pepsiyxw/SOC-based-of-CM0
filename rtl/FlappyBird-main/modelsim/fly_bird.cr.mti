@@ -1,0 +1,204 @@
+E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/birdfly.v {1 {vlog -work work -vopt -stats=none E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/birdfly.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module Bird_Fly
+
+Top level modules:
+	Bird_Fly
+
+} {} {}} E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/control_interface.v {1 {vlog -work work -vopt -stats=none E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/control_interface.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module control_interface
+
+Top level modules:
+	control_interface
+
+} {} {}} E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/rgb2ycbcr.v {1 {vlog -work work -vopt -stats=none E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/rgb2ycbcr.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module rgb2ycbcr
+
+Top level modules:
+	rgb2ycbcr
+
+} {} {}} E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/top.v {1 {vlog -work work -vopt -stats=none E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/top.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/PLL.v {1 {vlog -work work -vopt -stats=none E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/PLL.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module pll
+
+Top level modules:
+	pll
+
+} {} {}} E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/grass.v {1 {vlog -work work -vopt -stats=none E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/grass.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module star
+
+Top level modules:
+	star
+
+} {} {}} E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/seg_led.v {1 {vlog -work work -vopt -stats=none E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/seg_led.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module seg_led
+
+Top level modules:
+	seg_led
+
+} {} {}} E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/Sdram_RD_FIFO.v {1 {vlog -work work -vopt -stats=none E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/Sdram_RD_FIFO.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module Sdram_RD_FIFO
+
+Top level modules:
+	Sdram_RD_FIFO
+
+} {} {}} E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/command.v {1 {vlog -work work -vopt -stats=none E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/command.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module command
+
+Top level modules:
+	command
+
+} {} {}} E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/AngryBird_Demo.v {1 {vlog -work work -vopt -stats=none E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/AngryBird_Demo.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module AngryBird_Demo
+
+Top level modules:
+	AngryBird_Demo
+
+} {} {}} E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Top_Logic.v {1 {vlog -work work -vopt -stats=none E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Top_Logic.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module Top_logic
+
+Top level modules:
+	Top_logic
+
+} {} {}} E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v {1 {vlog -work work -vopt -stats=none E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/Sdram_WR_FIFO.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module Sdram_WR_FIFO
+
+Top level modules:
+	Sdram_WR_FIFO
+
+} {} {}} E:/_CM0_Soc/bird_test/FlappyBird-main/modelsim/test.v {1 {vlog -work work -vopt -stats=none E:/_CM0_Soc/bird_test/FlappyBird-main/modelsim/test.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}} E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/process(1).v {1 {vlog -work work -vopt -stats=none E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/process(1).v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module process
+
+Top level modules:
+	process
+
+} {} {}} E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/I2C_init.v {1 {vlog -work work -vopt -stats=none E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/I2C_init.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module i2c_module
+
+Top level modules:
+	i2c_module
+
+} {} {}} E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/count.v {1 {vlog -work work -vopt -stats=none E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/count.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module count
+
+Top level modules:
+	count
+
+} {} {}} E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/pause.v {1 {vlog -work work -vopt -stats=none E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/pause.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module pause
+
+Top level modules:
+	pause
+
+} {} {}} E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/ygyhu.v {1 {vlog -work work -vopt -stats=none E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/ygyhu.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module ggbutton
+
+Top level modules:
+	ggbutton
+
+} {} {}} E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/seg_4.v {1 {vlog -work work -vopt -stats=none E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/seg_4.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module seg4
+
+Top level modules:
+	seg4
+
+} {} {}} E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/sdram.v {1 {vlog -work work -vopt -stats=none E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/sdram.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module sdram
+
+Top level modules:
+	sdram
+
+} {} {}} E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/fifo/ramfifo.v {1 {vlog -work work -vopt -stats=none E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/fifo/ramfifo.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module ramfifo
+
+Top level modules:
+	ramfifo
+
+} {} {}} E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/moon.v {1 {vlog -work work -vopt -stats=none E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/moon.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module moon
+
+Top level modules:
+	moon
+
+} {} {}} E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/ov2640_read.v {1 {vlog -work work -vopt -stats=none E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/ov2640_read.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module camera_reader
+
+Top level modules:
+	camera_reader
+
+} {} {}} E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/ov2640_init.v {1 {vlog -work work -vopt -stats=none E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/ov2640_init.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module camera_init
+
+Top level modules:
+	camera_init
+
+} {} {}} E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/sdr_data_path.v {1 {vlog -work work -vopt -stats=none E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/sdr_data_path.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module sdr_data_path
+
+Top level modules:
+	sdr_data_path
+
+} {} {}} E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/star.v {1 {vlog -work work -vopt -stats=none E:/_CM0_Soc/bird_test/FlappyBird-main/al_ip/star.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module grass
+
+Top level modules:
+	grass
+
+} {} {}} E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/img_chahe.v {1 {vlog -work work -vopt -stats=none E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/img_chahe.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module img_cache
+
+Top level modules:
+	img_cache
+
+} {} {}} E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/ycbcr2gray2gray.v {1 {vlog -work work -vopt -stats=none E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/ycbcr2gray2gray.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module ycbcr2gray2binary
+
+Top level modules:
+	ycbcr2gray2binary
+
+} {} {}} E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v {1 {vlog -work work -vopt -stats=none E:/_CM0_Soc/bird_test/FlappyBird-main/source/rtl/Sdram_Control_4Port/Sdram_Control_4Port.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module Sdram_Control_4Port
+
+Top level modules:
+	Sdram_Control_4Port
+
+} {} {}}

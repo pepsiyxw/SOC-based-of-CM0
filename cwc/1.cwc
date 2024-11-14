@@ -1,0 +1,50 @@
+<chipwatcher project_name="Cortex_M0" bit_file="Cortex_M0.bit" bid_file="Cortex_M0_inst.bid" chip_name="EG4S20BG256">
+	<instance name="auto_chipwatcher_0" id="0" enabled="yes">
+		<clock clk_name="fourth_clk" polarity="posedge"/>
+		<config bram_name="auto_chipwatcher_0_logicbram" sample_depth="1024"/>
+		<signal_vec>
+			<trigger_nets>
+				<net name="fourth_data[0]"/>
+				<net name="fourth_data[1]"/>
+				<net name="fourth_data[2]"/>
+				<net name="fourth_data[3]"/>
+				<net name="fourth_data[4]"/>
+				<net name="fourth_data[5]"/>
+				<net name="fourth_data[6]"/>
+				<net name="fourth_data[7]"/>
+				<net name="fourth_rden"/>
+			</trigger_nets>
+			<data_nets>
+				<net name="fourth_data[0]"/>
+				<net name="fourth_data[1]"/>
+				<net name="fourth_data[2]"/>
+				<net name="fourth_data[3]"/>
+				<net name="fourth_data[4]"/>
+				<net name="fourth_data[5]"/>
+				<net name="fourth_data[6]"/>
+				<net name="fourth_data[7]"/>
+				<net name="fourth_rden"/>
+			</data_nets>
+			<watcher_nodes>
+				<bus name="fourth_data" radix="bin" state="collapse" op="dont_care">
+					<net name="fourth_data[7]"/>
+					<net name="fourth_data[6]"/>
+					<net name="fourth_data[5]"/>
+					<net name="fourth_data[4]"/>
+					<net name="fourth_data[3]"/>
+					<net name="fourth_data[2]"/>
+					<net name="fourth_data[1]"/>
+					<net name="fourth_data[0]"/>
+				</bus>
+				<net name="fourth_rden" op="equal"/>
+			</watcher_nodes>
+		</signal_vec>
+		<trigger name="auto_chipwatcher_0_trigger" position="pre">
+			<condition level="1" enabled="yes" type="basic_and">
+				fourth_data[0] == low && fourth_data[1] == low && fourth_data[2] == low && fourth_data[3] == low && fourth_data[4] == low && fourth_data[5] == low && fourth_data[6] == low && fourth_data[7] == low && fourth_rden == any
+			</condition>
+			<log>
+			</log>
+		</trigger>
+	</instance>
+</chipwatcher>

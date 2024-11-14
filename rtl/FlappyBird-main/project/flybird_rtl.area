@@ -1,0 +1,42 @@
+standard
+***Report Model: top***
+
+IO Statistics
+#IO                        84
+  #input                   30
+  #output                  37
+  #inout                   17
+
+Gate Statistics
+#Basic gates             4553
+  #and                    716
+  #nand                     0
+  #or                     643
+  #nor                      0
+  #xor                     23
+  #xnor                    21
+  #buf                      0
+  #not                    228
+  #bufif1                  50
+  #MX21                   682
+  #FADD                     0
+  #DFF                   2190
+  #LATCH                    0
+#MACRO_ADD                511
+#MACRO_EQ                 262
+#MACRO_MULT                31
+#MACRO_MUX               2897
+
+Report Hierarchy Area:
++----------------------------------------------------------------------------+
+|Instance                     |Module                |gates  |seq    |macros |
++----------------------------------------------------------------------------+
+|top                          |top                   |2363   |2190   |832    |
+|  AngryBird_Demo_inst        |AngryBird_Demo        |2361   |2190   |831    |
+|    Sdram_Control_4Port_inst |Sdram_Control_4Port   |321    |258    |47     |
+|    u2_Display               |Display               |862    |448    |369    |
+|      shell_go_inst          |shell_go              |242    |211    |31     |
+|    u_i2c_cfg                |i2c_ov5640_rgb565_cfg |3      |46     |7      |
+|    u_i2c_dr                 |i2c_dri               |532    |54     |44     |
+|    u_sdram_top              |etr_sdram_top         |139    |187    |66     |
++----------------------------------------------------------------------------+
